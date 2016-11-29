@@ -1,0 +1,503 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
+		<script type="text/javascript">Loader.load(null, {poi: true});</script>
+		<style type="text/css">
+			#m {z-index: 0;}
+			.dropdown {}
+			.tabulkabtn {position: relative; background-color: #4CAF50; color: white; padding: 10px; font-size: 16px; border: none; cursor: pointer;}
+			//.right {float: right;}
+			.dropdown-content {display: none; position: absolute; overflow-y: auto; background-color: #f9f9f9; z-index: 1;
+													clear: left; float: left; max-width: 50%;
+													max-height: calc(100% - 55px);}
+			.show {display:block;}
+			.spani {position: absolute; top: 10px; left: 70px; padding: 5px;}
+			.veta {position: absolute; top: 10px; left: 210px; padding: 5px;}
+			thead {font-weight: bold; background-color: #A9A9A9;}
+			.selected {background-color: #4CAF50;}
+			tr:hover {background-color: #A9A9A9;}
+		</style>
+	</head>
+	<body>
+		<div class="dropdown">
+			<input type="button" onclick="zobrazMenu('tabulka')" class="tabulkabtn" value="Trasy">
+			<table id="tabulka" class="dropdown-content">
+				<thead><tr><td>Vylet</td><td>km</td><td>P</td><td>Z/S</td></tr></thead>
+				<tbody></tbody>
+			</table>
+		</div>
+		<div class="spani">Mista na spani:
+				<input type="checkbox" id="spani">
+		</div>
+		<div class="veta">Mame za sebou uz <span id="vylety">0</span> vyletu a celkem jsme usli <span id="km">0</span> kilometru</div>
+		<div class="right">
+			<div class="dropdown">
+				<input type="button" onclick="zobrazMenu('statistikyTab')" class="tabulkabtn" value="Statistiky">
+				<table id="statistikyTab" class="dropdown-content">
+					<thead><tr><td>Rok:</td><td>km</td></tr></thead>
+					<tbody></tbody>
+				</table>
+			</div>
+		</div>
+		<div id="m"></div>
+
+		<script type="text/javascript">
+			function zobrazMenu(el) {
+				document.getElementById(el).classList.toggle("show");
+			}
+
+			var MujCluster = JAK.ClassMaker.makeClass({
+				NAME: "MujCluster",
+				VERSION: "1.0",
+				EXTEND: SMap.Marker.Cluster
+			});
+
+			MujCluster.prototype.click = function(e, elm) {
+				var max_zoom = 18;
+				var map = this.getMap();
+
+				if(map.getZoom() >= max_zoom){
+					var card = new SMap.Card();
+					var hlavicky = "";
+					var popisky = "";
+					for (i = 0; i < this._markers.length; i++) { 
+						hlavicky += this._markers[i]._card.getHeader().innerHTML + "<br>";
+						popisky += this._markers[i]._card.getFooter().innerHTML + "<br>";
+					}
+					card.getHeader().innerHTML = hlavicky;
+					card.getBody().innerHTML = "<hr>";
+					card.getFooter().innerHTML = popisky;
+					card.getBody().style.margin = "5px 0px";
+					map.addCard(card, this.getCoords());
+				} else {
+					this.$super(e, elm);
+				}
+			}
+
+			var center = SMap.Coords.fromWGS84(15.41790, 49.82655);
+			var m = new SMap(JAK.gel("m"), center, 7);
+
+			m.addControl(new SMap.Control.Sync()); /* Aby mapa reagovala na změnu velikosti průhledu */
+			m.addDefaultLayer(SMap.DEF_SMART_BASE);
+			m.addDefaultLayer(SMap.DEF_SMART_TURIST).setBike(true).setTrail(true).enable(); /* Turistický podklad */
+			m.addDefaultControls();
+			var mouse = new SMap.Control.Mouse(SMap.MOUSE_PAN | SMap.MOUSE_WHEEL | SMap.MOUSE_ZOOM); /* Ovládání myší */
+			m.addControl(mouse);
+			var sync = new SMap.Control.Sync({bottomSpace:10});
+			m.addControl(sync);
+
+			var layerSwitch = new SMap.Control.Layer({items: 2}); /* kvuli prepinani mezi turistickou a zakladni mapou*/
+			layerSwitch.addDefaultLayer(SMap.DEF_SMART_BASE);
+			layerSwitch.addDefaultLayer(SMap.DEF_SMART_TURIST);
+			m.addControl(layerSwitch, {left: "8px", top: "9px"});
+
+			var znacky = new SMap.Layer.Marker(); /* Vrstva pro značky */
+			var znackyBackup = new SMap.Layer.Marker(); /* Vrstva pro značky */
+			var shlukovac = new SMap.Marker.Clusterer(m, 50, MujCluster);/*shlukovac znacek*/
+			znacky.setClusterer(shlukovac);
+			m.addLayer(znacky);
+			m.addLayer(znackyBackup);
+			znacky.enable();
+
+			var popisky = new SMap.Layer.Marker(); /* Vrstva pro popisky v mapach */
+			m.addLayer(popisky);
+			popisky.enable();
+
+			var multi = new SMap.Layer.Multi("multiId");
+			m.addLayer(multi);
+			multi.enable();
+
+			/* dataProvider zastiti komunikaci se servery */
+			var dataProvider = m.createDefaultDataProvider();
+			dataProvider.setOwner(m);
+			dataProvider.addLayer(popisky);
+			dataProvider.setMapSet(SMap.MAPSET_BASE);
+			dataProvider.setMapSet(SMap.MAPSET_TURIST);
+			dataProvider.enable();
+
+			/* pocet vykreslenych bodu v jednotlivych vyletech */
+			var podrobnostMalo = 50;
+			var podrobnostHodne = 1000;
+
+			var roky = {};
+
+			var barvy = {modra: "#004c8c", oranzova: "#ff9b11", zluta: "#ffd625", fialova: "#840026", svetlemodra: "#89cdff", fialova2: "#522476", cervena: "#ff0000", cervena2: "#c9000e", svetlemodra2:"#008ad4", seda: "#303030", ruzova: "#bb6060", zelena: "#44f144"};
+			var barvyDefault = [barvy.modra, barvy.zluta, barvy.cervena, barvy.svetlemodra, barvy.fialova, barvy.oranzova, barvy.fialova2, barvy.cervena2, barvy.svetlemodra2, barvy.seda, barvy.ruzova];
+			var petBarev = [barvy.fialova, barvy.zelena, barvy.seda, barvy.cervena2, barvy.ruzova];
+			var triBarvy = [barvy.oranzova, barvy.svetlemodra2, barvy.fialova2];
+
+			var seznamTras = [
+				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20090801-04%20-%20Sumava%20%28Antygl%20-%20Zaton%29.xml", barva: petBarev},
+				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20110719-26%20-%20Rumunsko%2C%20Fagaras.xml"},
+				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20120616-18%20-%20Sazava%20%28Sobesin%20-%20Pikovice%29.xml"},
+				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20120812-14%20-%20Beskydy%20%28Frenstat%20-%20Bila%29.xml", barva: triBarvy},
+				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20130523-26%20-%20Nova%20Pec%2C%20Plechy%2C%20Vltava.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20130608-09%20-%20Bozi%20Dar%2C%20Horni%20Blatna%2C%20Klasterec.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20130719-21%20-%20Berounka%20%28Liblin%20-%20Krivoklat%29.xml", barva: triBarvy},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20130816-18%20-%20Blatno%20-%20Plasy.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20131025-28%20-%20Cesky%20les%20%28Primda%20-%20Trhanov%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20131123%20-%20Krusne%20hory%2C%20Prisecnice.xml", barva: [barvy.seda]},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20140124-26%20-%20Cesky%20les%20%28Rozvadov%20-%20Marianske%20Lazne%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20140221-23%20-%20Novohradske%20hory.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20140307-09%20-%20Cesky%20Kras%20%28Zdice%20-%20Srbsko%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20140418-21%20-%20Cesky%20Raj%20%28Mnichovo%20Hradiste%20-%20Jicin%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20140509-11%20-%20Touzim%20-%20Konst.%20Lazne%20%28Uterak%2BHadovka%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20140614-21%20-%20Vysoke%20Tatry%20%28Zdiar%20-%20Rohace%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20140704-06%20-%20Sumava%20%2B%20Ostry%20%28Susice%20-%20Spicak%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20140813-17%20-%20Beskydy%20%28Ostravice%20-%20Horni%20Lidec%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20140926-28%20-%20Berounka%20%28Roztoky%20-%20Beroun%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20141024-28%20-%20Saske%20Svycarsko%20%28Decin%20-%20Decin%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20141114-16%20-%20Krusne%20hory%20%28Kraslice%20-%20Bozi%20Dar%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150213-15%20-%20Mze%20%28Stribro%20-%20Plana%20u%20ML%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150403-5%20-%20Luzicke%20Hory%28C.%20Kamenice%20-%20Jablonne%20v%20Podjestedi%29.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150501-03%20-%20Sazava%20%2B%20Brdy.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150509%20-%20Svycarsko.xml", barva: [barvy.fialova2]},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150516%20-%20Karlstejn%20-%20Beroun.xml", barva: [barvy.svetlemodra]},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150522-26%20-%20Kralicky%20Sneznik%20%2B%20Jeseniky.xml", barva: petBarev},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150605-06%20-%20Myto%20-%20Radnice.xml", barva: petBarev},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150619-21%20-%20Myto%20-%20Roztoky.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150626-28%20%20-%20Touzim%20-%20Mladotice.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150710-12%20-%20Podmokly%20-%20Mladotice.xml", barva: petBarev},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150718-19%20-%20Beroun%20-%20Karlstejn.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150725%20-%20rozhledna%20Sedlo%20%28Janovicky%29.xml", barva: [barvy.cervena2]},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150726%20-%20Cenkova%20Pila%2C%20Vydra.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150727%20-%20Prasily%2C%20Polednik.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150808-13%20-%20Jizerky%20%2B%20Krkonose.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150821-22%20-%20Plasy%20-%20Radnice.xml", barva: triBarvy},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150912%20-%20Herm.%20Hut%20-%20Stribro.xml", barva: [barvy.fialova]},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150915%20-%20Ejpovice%20-%20Chrast.xml", barvy: [barvy.cervena2]},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20150926-29%20-%20Hronov%20-%20Zdar%20nad%20Metuji.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20151016-18%20-%20Pisek%20-%20Cimelice.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20151024%20-%20Noutonicky%20podzimnik.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20151028%20-%20Holoubkov%20-%20Rokycany.xml", barva: [barvy.oranzova]},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20151107%20-%20Vsenice%20-%20Berounka%20-%20Vsenice.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20151228%20-%20Uhost%20%28u%20Kadane%29.xml", barva: [barvy.ruzova]},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20151231%20-%20Vizina%20-%20Hostomice.xml", barva: [barvy.svetlemodra2]},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20160108-10%20-%20C.%20Krumlov%20-%20Borsov.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20160227-28%20-%20Rozmital%20p.%20Tremsinem%20-%20Mirosov.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20160305%20-%20Praha%20-%20Prokopske%20udoli.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20160325-28%20-%20Jindr.%20Hradec%20-%20Kunzak.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20160429%20-%20Radnice%20-%20Trimany.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20160513-16%20-%20Rajecke%20Teplice%20-%20Vrutky.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20160520-21%20-%20Lany%20-%20Olesna.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20160806-07%20-%20Zihle%20-%20Mladotice.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20160903%20-%20Noutonicky%20podzimnik.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20160924-28%20-%20Machuv%20kraj.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20161014-16%20-%20Manetinsko.xml"},
+// 				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20161106%20-%20Zdice%20-%20Nizbor.xml"},
+				{url: "https://dl.dropboxusercontent.com/u/102705372/trips/20161126%20-%20Stahlavice%20-%20Nezvestice.xml"}
+			];
+
+			document.getElementById("vylety").innerHTML = seznamTras.length;
+			var tabulka = document.getElementById("tabulka");
+			var statistikyTab = document.getElementById("statistikyTab");
+			
+			function radekTabulky(jmeno, id, delka) {
+				var pocetRadku = tabulka.tBodies[0].rows.length;
+				for(var i = 0; i < pocetRadku; i++) {
+					var jmenoVRadku = tabulka.tBodies[0].rows[i].cells[0].textContent;
+					jmenoVRadku = jmenoVRadku.substr(0,8);
+					if (id < jmenoVRadku) {
+						break;
+					}
+				}
+				var radek = tabulka.tBodies[0].insertRow(i);
+				radek.id = id;
+				var bunka1 = radek.insertCell(0);
+				bunka1.setAttribute("onclick", "posun(parentNode.id)");
+				var bunka2 = radek.insertCell(1);
+				var bunka3 = radek.insertCell(2);
+				var bunka4 = radek.insertCell(3);
+				bunka1.innerHTML = jmeno;
+				bunka2.innerHTML = delka;
+				bunka3.innerHTML = '<input type="checkbox" class="podrobnost">';
+				bunka4.innerHTML = '<input type="checkbox" class="zobrazeni" checked>';
+				var zobrazeni = JAK.gel(id).getElementsByClassName("zobrazeni")[0];
+				var podrobnost = JAK.gel(id).getElementsByClassName("podrobnost")[0];
+				//zobrazeni/skryti
+				JAK.Events.addListener(zobrazeni, "click", window, function() {
+					var layer = getLayerWithId(id);
+					if (zobrazeni.checked) {
+						layer.enable();
+						var marker = getMarkerWithId(id, znackyBackup);
+						znackyBackup.removeMarker(marker);
+						znacky.addMarker(marker);
+						podrobnost.disabled = false;
+					} else {
+						layer.disable();
+						var marker = getMarkerWithId(id, znacky);
+						znacky.removeMarker(marker);
+						znackyBackup.addMarker(marker);
+						podrobnost.disabled = true;
+					}
+				});
+				//podrobnost
+				JAK.Events.addListener(podrobnost, "click", window, function() {
+					var layer = getLayerWithId(id);
+					//nalezeni souboru s urcenym id
+					for(var i = 0; i < seznamTras.length; i++) {
+						if (seznamTras[i].url.indexOf(id) !== -1) {
+							var vylet = seznamTras[i];
+							break;
+						}
+					}
+					if (podrobnost.checked) {
+						pocetBodu = podrobnostHodne;
+						multi.removeLayer(layer);
+						trasa(vylet.url, vylet.barva);
+					} else {
+						pocetBodu = podrobnostMalo;
+						multi.removeLayer(layer);
+						trasa(vylet.url, vylet.barva);
+					}
+				});
+			}
+
+			//nalezne marker s danym id
+			function getMarkerWithId(id, markerLayer) {
+				var markers = markerLayer.getMarkers();
+				for(var i = 0; i < markers.length; i++) {
+					if (markers[i]._id === id) {
+						var marker = markers[i];
+						break;
+					}
+				}
+				return marker;
+			}
+			//nalezne vrstvu s danym id
+			function getLayerWithId(id) {
+				var layers = multi.getLayers();
+				for(var i = 0; i < layers.length; i++) {
+					if (layers[i]._id === id) {
+						var layer = layers[i];
+						break;
+					}
+				}
+				return layer;
+			}
+
+			function posun(id) {
+				var layer = getLayerWithId(id);
+				layer.fit();
+        //TODO: pridelat taky zvyrazneni zelene a otevreni markeru
+			}
+
+			//obarvuje radky v tabulce po otevreni markeru a smaze drive obarvene
+			var otevreneId = null;
+			m.getSignals().addListener(window, "marker-click", function(e) {
+				var selected = document.getElementsByClassName("selected");
+				while (selected.length){
+					selected[0].classList.remove("selected");
+				}
+				otevreneId = e.target._id;
+				var el =document.getElementById(otevreneId);
+				if (el!==null) {
+					el.classList.add("selected");
+				}
+			});
+
+			//maze obarveni radky v tabulce pri zavreni
+			m.getSignals().addListener(window, "card-close-click", function() {
+				var el = document.getElementById(otevreneId);
+				el.classList.remove("selected");
+			});
+
+			function vykresleni() {
+				for (i = 0; i < seznamTras.length; i++) {
+					trasa(seznamTras[i].url, seznamTras[i].barva, true);
+				}
+			}
+
+			var pocetBodu = podrobnostMalo;
+			vykresleni();
+			
+
+			function trasa(gpxSoubor, barva, first = false) {
+				var xhr = new JAK.Request(JAK.Request.XML);
+				xhr.setCallback(window, function(xmlDoc) {
+					response(xmlDoc, barva, first);
+				});
+				xhr.send(gpxSoubor);
+			}
+			
+
+			var response = function(xmlDoc, barva = barvyDefault, first) {
+				var lat = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lat");
+				var lon = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lon");
+				var jmeno = xmlDoc.getElementsByTagName("name")[0].textContent;
+				var id = jmeno.substr(0, 8);
+				jmeno = jmeno.substr(0, jmeno.length-4);
+				var bod = SMap.Coords.fromWGS84(lon, lat);
+				var delka = 0;
+				var tracks = xmlDoc.getElementsByTagName("trk"); //pocet dni
+				var amountOfTracks = tracks.length;
+				var vysky = new Array();
+				for(var i = 0; i < amountOfTracks; i++) {
+					var body = new Array();
+					var nodes = tracks[i].getElementsByTagName("trkpt");
+					var amountOfNodes = nodes.length;
+					for(var j = 0; j < amountOfNodes; j++) {
+						var lat1 = nodes[j].getAttribute("lat");
+						var lon1 = nodes[j].getAttribute("lon");
+						var ele = nodes[j].getElementsByTagName("ele")[0].textContent;
+						vysky.push(ele);
+						var node = SMap.Coords.fromWGS84(lon1, lat1);
+						body.push(node);
+					}
+					for(var k = 1; k < amountOfNodes; k++) {
+						delka += body[k-1].distance(body[k]);
+					}
+				}
+				var stkl = prevyseni(vysky);
+				delka = Math.round(delka/1000);
+				//souhrny za jednotlive roky
+				var rok = jmeno.substr(0, 4);
+				if (roky.hasOwnProperty(rok) === false) {
+					roky[rok] = 0;
+					var pocetRadkuStat = statistikyTab.tBodies[0].rows.length;
+					for(var i = 0; i < pocetRadkuStat; i++) {
+						var jmenoVRadkuStat = statistikyTab.tBodies[0].rows[i].cells[0].textContent;
+						if (rok < jmenoVRadkuStat) {
+							break;
+						}
+					}
+					var radek = statistikyTab.tBodies[0].insertRow(i);
+					var bunka1 = radek.insertCell(0);
+					bunka1.innerHTML = rok + " :";
+					var bunka2 = radek.insertCell(1);
+					bunka2.id = rok;
+				}
+				roky[rok] += delka;
+				document.getElementById(rok).innerHTML = roky[rok] + " km";
+				//vytvoreni markeru, radku v tabulce atd pouze napoprve, ne pri prekreslovani podrobnosti
+				if (first === true) {
+					radekTabulky(jmeno, id, delka);
+					znacka(bod, jmeno, delka, stkl, id);
+					var kmTemp = document.getElementById("km").textContent;
+					kmTemp = Number(kmTemp);
+					document.getElementById("km").innerHTML = kmTemp + delka;
+				}
+				//TODO: blabla = Math.min(podrobnost, xmlDoc.getElementsByTagName("trkpt").length);
+				//tohle vymyslet, aby slo pro kazdy segment jiny pocet bodu
+				//udelat aby pocet bodu byl nejaky nasobek celkovych
+				var gpx = new SMap.Layer.GPX(xmlDoc, id, {maxPoints: pocetBodu, colors: barva});
+				multi.addLayer(gpx);
+				gpx.enable();
+			}
+
+			function prevyseni(pole) {
+				var stoupani = 0;
+				var klesani = 0;
+				for(i = 0; i < pole.length-1; i++) {
+					rozdil = pole[i+1] - pole[i];
+					if(rozdil > 0) {
+						stoupani += rozdil;
+					} else {
+						klesani += rozdil;
+					}
+				}
+				return [Math.round(stoupani), Math.round(klesani)];
+			}
+
+			function znacka(center, name, delka, stkl, id) {
+				var c = new SMap.Card();
+				c.getHeader().innerHTML = name;
+				c.getBody().innerHTML = "<hr>";
+				c.getFooter().style.margin = "5px 0px";
+				var obsah = "Usli jsme: " + delka + " km<br>Stoupani: " + stkl[0] + " m<br>Klesani: " + stkl[1] + " m";
+				c.getFooter().innerHTML = obsah;
+				var marker = new SMap.Marker(center, id);/* Znacka s danym umistenim*/
+				marker.decorate(SMap.Marker.Feature.Card, c);
+				znacky.addMarker(marker);
+			}
+
+			//zapina a vypina mista na spani
+			var mista = new SMap.Layer.Marker("spaniVrstva");
+			m.addLayer(mista);
+			mista.enable();
+			var checkboxSpani = document.getElementById("spani");
+			JAK.Events.addListener(checkboxSpani, "click", window, function() {
+				if (checkboxSpani.checked) {
+					var xhr = new JAK.Request(JAK.Request.XML);
+					xhr.setCallback(window, "kempy");
+					xhr.send("https://dl.dropboxusercontent.com/u/102705372/spani.xml");
+				} else {
+					m.getLayer("spaniVrstva").removeAll();
+				}
+			});
+
+			var kempy = function(xmlDoc) {
+				var pocet = xmlDoc.getElementsByTagName("wpt").length;
+				var body = new Array();
+				for (var i = 0; i < pocet; i++) {
+					var div = document.createElement("div");
+					div.innerHTML = '<div style="font-size: 35px; float: bottom">&#94</div>';
+					var lat = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lat");
+					var lon = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lon");
+					var bod = SMap.Coords.fromWGS84(lon, lat);
+					var bod = new SMap.Marker(bod, null, {url: div, anchor: {left: 5, top: 15}});
+					body.push(bod);
+				}
+				mista.addMarker(body);
+			}
+
+//nahledova minimapka
+//       var mini = new SMap.Control.Overview();
+//       m.addControl(mini, {right:"3px", bottom:"15px"});
+//       
+//       var signals = m.getSignals();
+//       m.getSignals().addListener(window, 'map-redraw', 'showHideMinimap');
+//       
+//       /** Získání souřadnic horního levého a
+//        *  dolního pravého rohu okna mapy
+//        */
+//       function getMapBorder() {
+//           var size = m.getSize();
+//           var w = Math.round(size.x/2);
+//           var h = Math.round(size.y/2);
+//           var leftTop = new SMap.Pixel(-w, -h);
+//           var leftTopCoords = leftTop.toCoords(m);
+//           var leftTopWGS = leftTopCoords.toWGS84().reverse().join(", ");
+//           var botRight = new SMap.Pixel(w, h);
+//           var botRightCoords = botRight.toCoords(m);
+//           var botRightWGS = botRightCoords.toWGS84().reverse().join(", ");
+//           return leftTopCoords+","+botRightCoords;
+//       }
+//       
+//       /** Přepínání zobrazení minimapy
+//        *  v závislosti na přítomnosti
+//        *  části ČR v průhledu mapy
+//        */                    
+//       function showHideMinimap() {
+//           var left_CZ = Number("12.090365");
+//           var top_CZ = Number("51.055937");
+//           var right_CZ = Number("18.859252");
+//           var bottom_CZ = Number("48.551928");
+//           
+//           var mapka = mini.getContainer();
+//           
+//           var lTbR = getMapBorder().split("),("); // fce
+//           var lT = lTbR[0].substring(1);
+//           var bR = lTbR[1].substring(0, lTbR[1].length-1);
+//           var arrlT = lT.split(",");
+//           var arrbR = bR.split(",");
+//           var left = Number(arrlT[0]).toFixed(6);
+//           var top = Number(arrlT[1]).toFixed(6);
+//           var right = Number(arrbR[0]).toFixed(6);
+//           var bottom = Number(arrbR[1]).toFixed(6);
+//          
+//           if(left>right_CZ || right<left_CZ || top<bottom_CZ || bottom>top_CZ) {
+//             mapka.style.display = "none";
+//           } else {
+//             mapka.style.display = "block";
+//           }
+//           
+//       }
+//       
+//       // fce po načtení
+//       showHideMinimap();
+		</script>
+	</body>
+</html>

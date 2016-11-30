@@ -5,35 +5,43 @@
 		<script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
 		<script type="text/javascript">Loader.load(null, {poi: true});</script>
 		<style type="text/css">
+			body {position: relative;}
 			#m {z-index: 0;}
-			.dropdown {}
-			.tabulkabtn {position: relative; background-color: #4CAF50; color: white; padding: 10px; font-size: 16px; border: none; cursor: pointer;}
-			//.right {float: right;}
+			//.dropdown {}
+			.left {float: left;}
+			.right {float: right;}
+			.right .dropdown-content {right: 0;}
 			.dropdown-content {display: none; position: absolute; overflow-y: auto; background-color: #f9f9f9; z-index: 1;
 													clear: left; float: left; max-width: 50%;
-													max-height: calc(100% - 55px);}
+													max-height: calc(100% - 55px);
+													border: 0; border-collapse: collapse;}
+			.dropdown-content td {white-space: nowrap;}
+			.tabulkabtn {position: relative; background-color: #4CAF50; color: white; padding: 10px; font-size: 16px; border: none; cursor: pointer;}
 			.show {display:block;}
 			.spani {position: absolute; top: 10px; left: 70px; padding: 5px;}
 			.veta {position: absolute; top: 10px; left: 210px; padding: 5px;}
-			thead {font-weight: bold; background-color: #A9A9A9;}
 			.selected {background-color: #4CAF50;}
+			thead {font-weight: bold; background-color: #A9A9A9;}
 			tr:hover {background-color: #A9A9A9;}
+			.clearfix:before,
+			.clearfix:after {content: " "; display: table;}
+			.clearfix:after {clear: both;}
 		</style>
 	</head>
 	<body>
-		<div class="dropdown">
-			<input type="button" onclick="zobrazMenu('tabulka')" class="tabulkabtn" value="Trasy">
-			<table id="tabulka" class="dropdown-content">
-				<thead><tr><td>Vylet</td><td>km</td><td>P</td><td>Z/S</td></tr></thead>
-				<tbody></tbody>
-			</table>
-		</div>
-		<div class="spani">Mista na spani:
-				<input type="checkbox" id="spani">
-		</div>
-		<div class="veta">Mame za sebou uz <span id="vylety">0</span> vyletu a celkem jsme usli <span id="km">0</span> kilometru</div>
-		<div class="right">
-			<div class="dropdown">
+		<div class="clearfix">
+			<div class="left">
+				<input type="button" onclick="zobrazMenu('tabulka')" class="tabulkabtn" value="Trasy">
+				<table id="tabulka" class="dropdown-content">
+					<thead><tr><td>Vylet</td><td>km</td><td>P</td><td>Z/S</td></tr></thead>
+					<tbody></tbody>
+				</table>
+				<div class="spani">Mista na spani:
+					<input type="checkbox" id="spani">
+				</div>
+				<div class="veta">Mame za sebou uz <span id="vylety">0</span> vyletu a celkem jsme usli <span id="km">0</span> kilometru</div>
+			</div>
+			<div class="right">
 				<input type="button" onclick="zobrazMenu('statistikyTab')" class="tabulkabtn" value="Statistiky">
 				<table id="statistikyTab" class="dropdown-content">
 					<thead><tr><td>Rok:</td><td>km</td></tr></thead>
@@ -134,59 +142,59 @@
 				{url: "https://jfharper.github.io/mapa/trips/20120616-18%20-%20Sazava%20%28Sobesin%20-%20Pikovice%29.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20120812-14%20-%20Beskydy%20%28Frenstat%20-%20Bila%29.xml", barva: triBarvy},
 				{url: "https://jfharper.github.io/mapa/trips/20130523-26%20-%20Nova%20Pec%2C%20Plechy%2C%20Vltava.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20130608-09%20-%20Bozi%20Dar%2C%20Horni%20Blatna%2C%20Klasterec.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20130719-21%20-%20Berounka%20%28Liblin%20-%20Krivoklat%29.xml", barva: triBarvy},
-// 				{url: "https://jfharper.github.io/mapa/trips/20130816-18%20-%20Blatno%20-%20Plasy.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20131025-28%20-%20Cesky%20les%20%28Primda%20-%20Trhanov%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20131123%20-%20Krusne%20hory%2C%20Prisecnice.xml", barva: [barvy.seda]},
-// 				{url: "https://jfharper.github.io/mapa/trips/20140124-26%20-%20Cesky%20les%20%28Rozvadov%20-%20Marianske%20Lazne%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20140221-23%20-%20Novohradske%20hory.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20140307-09%20-%20Cesky%20Kras%20%28Zdice%20-%20Srbsko%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20140418-21%20-%20Cesky%20Raj%20%28Mnichovo%20Hradiste%20-%20Jicin%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20140509-11%20-%20Touzim%20-%20Konst.%20Lazne%20%28Uterak%2BHadovka%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20140614-21%20-%20Vysoke%20Tatry%20%28Zdiar%20-%20Rohace%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20140704-06%20-%20Sumava%20%2B%20Ostry%20%28Susice%20-%20Spicak%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20140813-17%20-%20Beskydy%20%28Ostravice%20-%20Horni%20Lidec%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20140926-28%20-%20Berounka%20%28Roztoky%20-%20Beroun%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20141024-28%20-%20Saske%20Svycarsko%20%28Decin%20-%20Decin%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20141114-16%20-%20Krusne%20hory%20%28Kraslice%20-%20Bozi%20Dar%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150213-15%20-%20Mze%20%28Stribro%20-%20Plana%20u%20ML%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150403-5%20-%20Luzicke%20Hory%28C.%20Kamenice%20-%20Jablonne%20v%20Podjestedi%29.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150501-03%20-%20Sazava%20%2B%20Brdy.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150509%20-%20Svycarsko.xml", barva: [barvy.fialova2]},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150516%20-%20Karlstejn%20-%20Beroun.xml", barva: [barvy.svetlemodra]},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150522-26%20-%20Kralicky%20Sneznik%20%2B%20Jeseniky.xml", barva: petBarev},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150605-06%20-%20Myto%20-%20Radnice.xml", barva: petBarev},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150619-21%20-%20Myto%20-%20Roztoky.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150626-28%20%20-%20Touzim%20-%20Mladotice.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150710-12%20-%20Podmokly%20-%20Mladotice.xml", barva: petBarev},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150718-19%20-%20Beroun%20-%20Karlstejn.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150725%20-%20rozhledna%20Sedlo%20%28Janovicky%29.xml", barva: [barvy.cervena2]},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150726%20-%20Cenkova%20Pila%2C%20Vydra.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150727%20-%20Prasily%2C%20Polednik.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150808-13%20-%20Jizerky%20%2B%20Krkonose.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150821-22%20-%20Plasy%20-%20Radnice.xml", barva: triBarvy},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150912%20-%20Herm.%20Hut%20-%20Stribro.xml", barva: [barvy.fialova]},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150915%20-%20Ejpovice%20-%20Chrast.xml", barvy: [barvy.cervena2]},
-// 				{url: "https://jfharper.github.io/mapa/trips/20150926-29%20-%20Hronov%20-%20Zdar%20nad%20Metuji.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20151016-18%20-%20Pisek%20-%20Cimelice.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20151024%20-%20Noutonicky%20podzimnik.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20151028%20-%20Holoubkov%20-%20Rokycany.xml", barva: [barvy.oranzova]},
-// 				{url: "https://jfharper.github.io/mapa/trips/20151107%20-%20Vsenice%20-%20Berounka%20-%20Vsenice.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20151228%20-%20Uhost%20%28u%20Kadane%29.xml", barva: [barvy.ruzova]},
-// 				{url: "https://jfharper.github.io/mapa/trips/20151231%20-%20Vizina%20-%20Hostomice.xml", barva: [barvy.svetlemodra2]},
-// 				{url: "https://jfharper.github.io/mapa/trips/20160108-10%20-%20C.%20Krumlov%20-%20Borsov.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20160227-28%20-%20Rozmital%20p.%20Tremsinem%20-%20Mirosov.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20160305%20-%20Praha%20-%20Prokopske%20udoli.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20160325-28%20-%20Jindr.%20Hradec%20-%20Kunzak.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20160429%20-%20Radnice%20-%20Trimany.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20160513-16%20-%20Rajecke%20Teplice%20-%20Vrutky.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20160520-21%20-%20Lany%20-%20Olesna.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20160806-07%20-%20Zihle%20-%20Mladotice.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20160903%20-%20Noutonicky%20podzimnik.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20160924-28%20-%20Machuv%20kraj.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20161014-16%20-%20Manetinsko.xml"},
-// 				{url: "https://jfharper.github.io/mapa/trips/20161106%20-%20Zdice%20-%20Nizbor.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20130608-09%20-%20Bozi%20Dar%2C%20Horni%20Blatna%2C%20Klasterec.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20130719-21%20-%20Berounka%20%28Liblin%20-%20Krivoklat%29.xml", barva: triBarvy},
+				{url: "https://jfharper.github.io/mapa/trips/20130816-18%20-%20Blatno%20-%20Plasy.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20131025-28%20-%20Cesky%20les%20%28Primda%20-%20Trhanov%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20131123%20-%20Krusne%20hory%2C%20Prisecnice.xml", barva: [barvy.seda]},
+				{url: "https://jfharper.github.io/mapa/trips/20140124-26%20-%20Cesky%20les%20%28Rozvadov%20-%20Marianske%20Lazne%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20140221-23%20-%20Novohradske%20hory.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20140307-09%20-%20Cesky%20Kras%20%28Zdice%20-%20Srbsko%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20140418-21%20-%20Cesky%20Raj%20%28Mnichovo%20Hradiste%20-%20Jicin%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20140509-11%20-%20Touzim%20-%20Konst.%20Lazne%20%28Uterak%2BHadovka%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20140614-21%20-%20Vysoke%20Tatry%20%28Zdiar%20-%20Rohace%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20140704-06%20-%20Sumava%20%2B%20Ostry%20%28Susice%20-%20Spicak%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20140813-17%20-%20Beskydy%20%28Ostravice%20-%20Horni%20Lidec%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20140926-28%20-%20Berounka%20%28Roztoky%20-%20Beroun%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20141024-28%20-%20Saske%20Svycarsko%20%28Decin%20-%20Decin%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20141114-16%20-%20Krusne%20hory%20%28Kraslice%20-%20Bozi%20Dar%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20150213-15%20-%20Mze%20%28Stribro%20-%20Plana%20u%20ML%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20150403-5%20-%20Luzicke%20Hory%28C.%20Kamenice%20-%20Jablonne%20v%20Podjestedi%29.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20150501-03%20-%20Sazava%20%2B%20Brdy.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20150509%20-%20Svycarsko.xml", barva: [barvy.fialova2]},
+				{url: "https://jfharper.github.io/mapa/trips/20150516%20-%20Karlstejn%20-%20Beroun.xml", barva: [barvy.svetlemodra]},
+				{url: "https://jfharper.github.io/mapa/trips/20150522-26%20-%20Kralicky%20Sneznik%20%2B%20Jeseniky.xml", barva: petBarev},
+				{url: "https://jfharper.github.io/mapa/trips/20150605-06%20-%20Myto%20-%20Radnice.xml", barva: petBarev},
+				{url: "https://jfharper.github.io/mapa/trips/20150619-21%20-%20Myto%20-%20Roztoky.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20150626-28%20%20-%20Touzim%20-%20Mladotice.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20150710-12%20-%20Podmokly%20-%20Mladotice.xml", barva: petBarev},
+				{url: "https://jfharper.github.io/mapa/trips/20150718-19%20-%20Beroun%20-%20Karlstejn.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20150725%20-%20rozhledna%20Sedlo%20%28Janovicky%29.xml", barva: [barvy.cervena2]},
+				{url: "https://jfharper.github.io/mapa/trips/20150726%20-%20Cenkova%20Pila%2C%20Vydra.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20150727%20-%20Prasily%2C%20Polednik.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20150808-13%20-%20Jizerky%20%2B%20Krkonose.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20150821-22%20-%20Plasy%20-%20Radnice.xml", barva: triBarvy},
+				{url: "https://jfharper.github.io/mapa/trips/20150912%20-%20Herm.%20Hut%20-%20Stribro.xml", barva: [barvy.fialova]},
+				{url: "https://jfharper.github.io/mapa/trips/20150915%20-%20Ejpovice%20-%20Chrast.xml", barvy: [barvy.cervena2]},
+				{url: "https://jfharper.github.io/mapa/trips/20150926-29%20-%20Hronov%20-%20Zdar%20nad%20Metuji.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20151016-18%20-%20Pisek%20-%20Cimelice.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20151024%20-%20Noutonicky%20podzimnik.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20151028%20-%20Holoubkov%20-%20Rokycany.xml", barva: [barvy.oranzova]},
+				{url: "https://jfharper.github.io/mapa/trips/20151107%20-%20Vsenice%20-%20Berounka%20-%20Vsenice.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20151228%20-%20Uhost%20%28u%20Kadane%29.xml", barva: [barvy.ruzova]},
+				{url: "https://jfharper.github.io/mapa/trips/20151231%20-%20Vizina%20-%20Hostomice.xml", barva: [barvy.svetlemodra2]},
+				{url: "https://jfharper.github.io/mapa/trips/20160108-10%20-%20C.%20Krumlov%20-%20Borsov.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20160227-28%20-%20Rozmital%20p.%20Tremsinem%20-%20Mirosov.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20160305%20-%20Praha%20-%20Prokopske%20udoli.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20160325-28%20-%20Jindr.%20Hradec%20-%20Kunzak.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20160429%20-%20Radnice%20-%20Trimany.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20160513-16%20-%20Rajecke%20Teplice%20-%20Vrutky.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20160520-21%20-%20Lany%20-%20Olesna.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20160806-07%20-%20Zihle%20-%20Mladotice.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20160903%20-%20Noutonicky%20podzimnik.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20160924-28%20-%20Machuv%20kraj.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20161014-16%20-%20Manetinsko.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20161106%20-%20Zdice%20-%20Nizbor.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20161126%20-%20Stahlavice%20-%20Nezvestice.xml"}
 			];
 

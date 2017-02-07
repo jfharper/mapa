@@ -197,7 +197,8 @@
 				{url: "https://jfharper.github.io/mapa/trips/20161014-16%20-%20Manetinsko.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20161106%20-%20Zdice%20-%20Nizbor.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20161126%20-%20Stahlavice%20-%20Nezvestice.xml"},
-				{url: "https://jfharper.github.io/mapa/trips/20161231%20-%20Stary%20Plzenec%20-%20Plzen.xml"}
+				{url: "https://jfharper.github.io/mapa/trips/20161231%20-%20Stary%20Plzenec%20-%20Plzen.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20170203-05%20-%20Dobris%20-%20Stechovice.xml"}
 			];
 
 			document.getElementById("vylety").innerHTML = seznamTras.length;
@@ -331,7 +332,6 @@
 				});
 				xhr.send(gpxSoubor);
 			}
-			
 
 			var response = function(xmlDoc, barva = barvyDefault, first) {
 				var lat = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lat");
@@ -430,7 +430,7 @@
 				c.getHeader().innerHTML = name;
 				c.getBody().innerHTML = "<hr>";
 				c.getFooter().style.margin = "5px 0px"; 	
-				var obsah = "Clenove vypravy: <b>" + clenove + "</b><br>Usli jsme: <b>" + delka + " km</b><br>Stoupani: <b>" + stkl[0] + " m</b><br>Klesani: <b>" + stkl[1] + " m</b>";
+				var obsah = "Vyprava: <b>" + clenove + "</b><br>Usli jsme: <b>" + delka + " km</b><br>Stoupani: <b>" + stkl[0] + " m</b> a klesani: <b>" + stkl[1] + " m</b>";
 				c.getFooter().innerHTML = obsah;
 				var marker = new SMap.Marker(center, id);/* Znacka s danym umistenim*/
 				marker.decorate(SMap.Marker.Feature.Card, c);

@@ -376,27 +376,27 @@
 				}
 				var stkl = prevyseni(vysky);
 				delka = Math.round(delka/1000);
-				//souhrny za jednotlive roky
-				var rok = jmeno.substr(0, 4);
-				if (roky.hasOwnProperty(rok) === false) {
-					roky[rok] = 0;
-					var pocetRadkuStat = statistikyTab.tBodies[0].rows.length;
-					for(var i = 0; i < pocetRadkuStat; i++) {
-						var jmenoVRadkuStat = statistikyTab.tBodies[0].rows[i].cells[0].textContent;
-						if (rok < jmenoVRadkuStat) {
-							break;
+				if (first === true) {//pouze napoprve, ne pri prekreslovani podrobnosti
+					//souhrny za jednotlive roky
+					var rok = jmeno.substr(0, 4);
+					if (roky.hasOwnProperty(rok) === false) {
+						roky[rok] = 0;
+						var pocetRadkuStat = statistikyTab.tBodies[0].rows.length;
+						for(var i = 0; i < pocetRadkuStat; i++) {
+							var jmenoVRadkuStat = statistikyTab.tBodies[0].rows[i].cells[0].textContent;
+							if (rok < jmenoVRadkuStat) {
+								break;
+							}
 						}
+						var radek = statistikyTab.tBodies[0].insertRow(i);
+						var bunka1 = radek.insertCell(0);
+						bunka1.innerHTML = rok + " :";
+						var bunka2 = radek.insertCell(1);
+						bunka2.id = rok;
 					}
-					var radek = statistikyTab.tBodies[0].insertRow(i);
-					var bunka1 = radek.insertCell(0);
-					bunka1.innerHTML = rok + " :";
-					var bunka2 = radek.insertCell(1);
-					bunka2.id = rok;
-				}
-				roky[rok] += delka;
-				document.getElementById(rok).innerHTML = roky[rok] + " km";
-				//vytvoreni markeru, radku v tabulce atd pouze napoprve, ne pri prekreslovani podrobnosti
-				if (first === true) {
+					roky[rok] += delka;
+					document.getElementById(rok).innerHTML = roky[rok] + " km";
+					//vytvoreni markeru, radku v tabulce atd 
 					radekTabulky(jmeno, id, delka);
 					znacka(bod, jmeno, clenove, delka, stkl, id);
 					var kmTemp = document.getElementById("km").textContent;

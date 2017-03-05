@@ -198,7 +198,8 @@
 				{url: "https://jfharper.github.io/mapa/trips/20161106%20-%20Zdice%20-%20Nizbor.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20161126%20-%20Stahlavice%20-%20Nezvestice.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20161231%20-%20Stary%20Plzenec%20-%20Plzen.xml"},
-				{url: "https://jfharper.github.io/mapa/trips/20170203-05%20-%20Dobris%20-%20Stechovice.xml"}
+				{url: "https://jfharper.github.io/mapa/trips/20170203-05%20-%20Dobris%20-%20Stechovice.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20170304%20-%20Myto%20-%20Mirosov.xml"}
 			];
 
 			document.getElementById("vylety").innerHTML = seznamTras.length;
@@ -326,6 +327,7 @@
 			
 
 			function trasa(gpxSoubor, barva, first = false) {
+				//var xmlDoc = JAK.XML.createDocument(value); ale nejdriv to musim dostat ze souboru
 				var xhr = new JAK.Request(JAK.Request.XML);
 				xhr.setCallback(window, function(xmlDoc) {
 					response(xmlDoc, barva, first);
@@ -334,9 +336,11 @@
 			}
 
 			var response = function(xmlDoc, barva = barvyDefault, first) {
+				var jmeno = xmlDoc.getElementsByTagName("name")[0].textContent;
+				var id = jmeno.substr(0, 8);
+				if (first === true) {//pouze napoprve, ne pri prekreslovani podrobnosti
 				var lat = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lat");
 				var lon = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lon");
-				var jmeno = xmlDoc.getElementsByTagName("name")[0].textContent;
 				var keywords = xmlDoc.getElementsByTagName("keywords")[0];
 				if (keywords !== undefined) {
 					var clenove = xmlDoc.getElementsByTagName("keywords")[0].textContent;
@@ -350,8 +354,7 @@
 						people.push(val);
 					}
 				}
-				console.log(people);
-				var id = jmeno.substr(0, 8);
+				//console.log(people);
 				jmeno = jmeno.substr(0, jmeno.length-4);
 				var bod = SMap.Coords.fromWGS84(lon, lat);
 				var delka = 0;
@@ -376,7 +379,7 @@
 				}
 				var stkl = prevyseni(vysky);
 				delka = Math.round(delka/1000);
-				if (first === true) {//pouze napoprve, ne pri prekreslovani podrobnosti
+				//asi cely krome poslednich par radku muze byt v ifu
 					//souhrny za jednotlive roky
 					var rok = jmeno.substr(0, 4);
 					if (roky.hasOwnProperty(rok) === false) {

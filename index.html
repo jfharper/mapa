@@ -211,7 +211,7 @@
 				for(var i = 0; i < pocetRadku; i++) {
 					var jmenoVRadku = tabulka.tBodies[0].rows[i].cells[0].textContent;
 					jmenoVRadku = jmenoVRadku.substr(0,8);
-					if (id < jmenoVRadku) {
+					if (id > jmenoVRadku) {
 						break;
 					}
 				}

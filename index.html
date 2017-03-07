@@ -202,6 +202,8 @@
 				{url: "https://jfharper.github.io/mapa/trips/20170304%20-%20Myto%20-%20Mirosov.xml"}
 			];
 
+			var seznamTrasTemp = seznamTras.slice();
+
 			document.getElementById("vylety").innerHTML = seznamTras.length;
 			var tabulka = document.getElementById("tabulka");
 			var statistikyTab = document.getElementById("statistikyTab");
@@ -317,14 +319,13 @@
 			});
 
 			function vykresleni() {
-				for (i = 0; i < seznamTras.length; i++) {
-					trasa(seznamTras[i].url, seznamTras[i].barva, true);
-				}
+				if (seznamTrasTemp.length == 0) return;
+				var actTrasa = seznamTrasTemp.pop();
+				trasa(actTrasa.url, actTrasa.barva, true);
 			}
 
 			var pocetBodu = podrobnostMalo;
 			vykresleni();
-			
 
 			function trasa(gpxSoubor, barva, first = false) {
 				//var xmlDoc = JAK.XML.createDocument(value); ale nejdriv to musim dostat ze souboru
@@ -339,47 +340,45 @@
 				var jmeno = xmlDoc.getElementsByTagName("name")[0].textContent;
 				var id = jmeno.substr(0, 8);
 				if (first === true) {//pouze napoprve, ne pri prekreslovani podrobnosti
-				var lat = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lat");
-				var lon = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lon");
-				var keywords = xmlDoc.getElementsByTagName("keywords")[0];
-				if (keywords !== undefined) {
-					var clenove = xmlDoc.getElementsByTagName("keywords")[0].textContent;
-				} else {
-					console.log("Doplnit lidi: " + jmeno);
-				}
-				var tmp = clenove.split(", ");
-				var val;
-				for (val of tmp) {
-					if (people.includes(val) === false) {
-						people.push(val);
+					var lat = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lat");
+					var lon = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lon");
+					var keywords = xmlDoc.getElementsByTagName("keywords")[0];
+					if (keywords !== undefined) {
+						var clenove = xmlDoc.getElementsByTagName("keywords")[0].textContent;
+					} else {
+						console.log("Doplnit lidi: " + jmeno);
 					}
-				}
-				//console.log(people);
-				jmeno = jmeno.substr(0, jmeno.length-4);
-				var bod = SMap.Coords.fromWGS84(lon, lat);
-				var delka = 0;
-				var tracks = xmlDoc.getElementsByTagName("trk"); //pocet dni
-				var amountOfTracks = tracks.length;
-				var vysky = new Array();
-				for(var i = 0; i < amountOfTracks; i++) {
-					var body = new Array();
-					var nodes = tracks[i].getElementsByTagName("trkpt");
-					var amountOfNodes = nodes.length;
-					for(var j = 0; j < amountOfNodes; j++) {
-						var lat1 = nodes[j].getAttribute("lat");
-						var lon1 = nodes[j].getAttribute("lon");
-						var ele = nodes[j].getElementsByTagName("ele")[0].textContent;
-						vysky.push(ele);
-						var node = SMap.Coords.fromWGS84(lon1, lat1);
-						body.push(node);
+					var tmp = clenove.split(", ");
+					var val;
+					for (val of tmp) {
+						if (people.includes(val) === false) {
+							people.push(val);
+						}
 					}
-					for(var k = 1; k < amountOfNodes; k++) {
-						delka += body[k-1].distance(body[k]);
+					jmeno = jmeno.substr(0, jmeno.length-4);
+					var bod = SMap.Coords.fromWGS84(lon, lat);
+					var delka = 0;
+					var tracks = xmlDoc.getElementsByTagName("trk"); //pocet dni
+					var amountOfTracks = tracks.length;
+					var vysky = new Array();
+					for(var i = 0; i < amountOfTracks; i++) {
+						var body = new Array();
+						var nodes = tracks[i].getElementsByTagName("trkpt");
+						var amountOfNodes = nodes.length;
+						for(var j = 0; j < amountOfNodes; j++) {
+							var lat1 = nodes[j].getAttribute("lat");
+							var lon1 = nodes[j].getAttribute("lon");
+							var ele = nodes[j].getElementsByTagName("ele")[0].textContent;
+							vysky.push(ele);
+							var node = SMap.Coords.fromWGS84(lon1, lat1);
+							body.push(node);
+						}
+						for(var k = 1; k < amountOfNodes; k++) {
+							delka += body[k-1].distance(body[k]);
+						}
 					}
-				}
-				var stkl = prevyseni(vysky);
-				delka = Math.round(delka/1000);
-				//asi cely krome poslednich par radku muze byt v ifu
+					var stkl = prevyseni(vysky);
+					delka = Math.round(delka/1000);
 					//souhrny za jednotlive roky
 					var rok = jmeno.substr(0, 4);
 					if (roky.hasOwnProperty(rok) === false) {
@@ -412,6 +411,9 @@
 				var gpx = new SMap.Layer.GPX(xmlDoc, id, {maxPoints: pocetBodu, colors: barva});
 				multi.addLayer(gpx);
 				gpx.enable();
+				if (first === true) {
+					setTimeout(vykresleni, 100);
+				}
 			}
 
 			function prevyseni(pole) {

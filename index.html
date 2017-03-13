@@ -21,6 +21,7 @@
 			.spani {position: absolute; top: 5px; left: 70px; padding: 5px;}
 			.veta {position: absolute; top: 5px; left: 210px; padding: 5px;}
 			.selected {background-color: #4CAF50;}
+			.grey {background-color: #A9A9A9;}
 			thead {font-weight: bold; background-color: #A9A9A9;}
 			tr:hover {background-color: #A9A9A9;}
 			.clearfix:before,
@@ -194,7 +195,7 @@
 				{url: "https://jfharper.github.io/mapa/trips/20160806-07%20-%20Zihle%20-%20Mladotice.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20160903%20-%20Noutonicky%20podzimnik.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20160924-28%20-%20Machuv%20kraj.xml"},
-				{url: "https://jfharper.github.io/mapa/trips/20161014-16%20-%20Manetinsko.xml"},
+ 				{url: "https://jfharper.github.io/mapa/trips/20161014-16%20-%20Manetinsko.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20161106%20-%20Zdice%20-%20Nizbor.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20161126%20-%20Stahlavice%20-%20Nezvestice.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20161231%20-%20Stary%20Plzenec%20-%20Plzen.xml"},
@@ -292,10 +293,18 @@
 				return layer;
 			}
 
+			//centruje na zvolenou trasu a obarvi radek sede
 			function posun(id) {
 				var layer = getLayerWithId(id);
 				layer.fit();
-        //TODO: pridelat taky zvyrazneni zelene a otevreni markeru
+				var grey = document.getElementsByClassName("grey");
+				while (grey.length){
+					grey[0].classList.remove("grey");
+				}
+				var el =document.getElementById(id);
+				if (!el.classList.contains("selected")) {
+					el.classList.add("grey");
+				}
 			}
 
 			//obarvuje radky v tabulce po otevreni markeru a smaze drive obarvene
@@ -308,6 +317,9 @@
 				otevreneId = e.target._id;
 				var el =document.getElementById(otevreneId);
 				if (el!==null) {
+					if (el.classList.contains("grey")) {
+						el.classList.remove("grey");
+					}
 					el.classList.add("selected");
 				}
 			});
@@ -409,10 +421,11 @@
 				//tohle vymyslet, aby slo pro kazdy segment jiny pocet bodu
 				//udelat aby pocet bodu byl nejaky nasobek celkovych
 				var gpx = new SMap.Layer.GPX(xmlDoc, id, {maxPoints: pocetBodu, colors: barva});
+				console.log(gpx);
 				multi.addLayer(gpx);
 				gpx.enable();
 				if (first === true) {
-					setTimeout(vykresleni, 100);
+					setTimeout(vykresleni, 50);
 				}
 			}
 

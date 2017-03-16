@@ -4,6 +4,7 @@
 		<title>Denicek cest</title>
 		<meta charset="utf-8" />
 		<script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/async/2.1.5/async.min.js"></script>
 		<script type="text/javascript">Loader.load(null, {poi: true});</script>
 		<style type="text/css">
 			body {position: relative;}
@@ -203,8 +204,6 @@
 				{url: "https://jfharper.github.io/mapa/trips/20170304%20-%20Myto%20-%20Mirosov.xml"}
 			];
 
-			var seznamTrasTemp = seznamTras.slice();
-
 			document.getElementById("vylety").innerHTML = seznamTras.length;
 			var tabulka = document.getElementById("tabulka");
 			var statistikyTab = document.getElementById("statistikyTab");
@@ -331,27 +330,31 @@
 			});
 
 			function vykresleni() {
-				if (seznamTrasTemp.length == 0) return;
-				var actTrasa = seznamTrasTemp.pop();
-				trasa(actTrasa.url, actTrasa.barva, true);
+				async.eachSeries(seznamTras, function(actTrasa, cb) {
+					trasa(actTrasa.url, actTrasa.barva, cb);
+				}, function(err) {
+					if (err) {
+						alert("Došlo k chybě při načítání tras:\n" + JSON.stringify(err));
+					}
+				});
 			}
 
 			var pocetBodu = podrobnostMalo;
 			vykresleni();
 
-			function trasa(gpxSoubor, barva, first = false) {
+			function trasa(gpxSoubor, barva, done = null) {
 				//var xmlDoc = JAK.XML.createDocument(value); ale nejdriv to musim dostat ze souboru
 				var xhr = new JAK.Request(JAK.Request.XML);
 				xhr.setCallback(window, function(xmlDoc) {
-					response(xmlDoc, barva, first);
+					response(xmlDoc, barva, done);
 				});
 				xhr.send(gpxSoubor);
 			}
 
-			var response = function(xmlDoc, barva = barvyDefault, first) {
+			var response = function(xmlDoc, barva = barvyDefault, done) {
 				var jmeno = xmlDoc.getElementsByTagName("name")[0].textContent;
 				var id = jmeno.substr(0, 8);
-				if (first === true) {//pouze napoprve, ne pri prekreslovani podrobnosti
+				if (done) {//pouze napoprve, ne pri prekreslovani podrobnosti
 					var lat = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lat");
 					var lon = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lon");
 					var keywords = xmlDoc.getElementsByTagName("keywords")[0];
@@ -424,8 +427,8 @@
 				console.log(gpx);
 				multi.addLayer(gpx);
 				gpx.enable();
-				if (first === true) {
-					setTimeout(vykresleni, 50);
+				if (done) {
+					done();
 				}
 			}
 

@@ -196,12 +196,13 @@
 				{url: "https://jfharper.github.io/mapa/trips/20160806-07%20-%20Zihle%20-%20Mladotice.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20160903%20-%20Noutonicky%20podzimnik.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20160924-28%20-%20Machuv%20kraj.xml"},
- 				{url: "https://jfharper.github.io/mapa/trips/20161014-16%20-%20Manetinsko.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20161014-16%20-%20Manetinsko.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20161106%20-%20Zdice%20-%20Nizbor.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20161126%20-%20Stahlavice%20-%20Nezvestice.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20161231%20-%20Stary%20Plzenec%20-%20Plzen.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20170203-05%20-%20Dobris%20-%20Stechovice.xml"},
-				{url: "https://jfharper.github.io/mapa/trips/20170304%20-%20Myto%20-%20Mirosov.xml"}
+				{url: "https://jfharper.github.io/mapa/trips/20170304%20-%20Myto%20-%20Mirosov.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20170324-26%20-%20Potvorov%20-%20Plasy.xml"}
 			];
 
 			document.getElementById("vylety").innerHTML = seznamTras.length;
@@ -421,10 +422,12 @@
 					document.getElementById("km").innerHTML = kmTemp + delka;
 				}
 				//TODO: blabla = Math.min(podrobnost, xmlDoc.getElementsByTagName("trkpt").length);
-				//tohle vymyslet, aby slo pro kazdy segment jiny pocet bodu
+				//tohle vymyslet, aby slo pro kazdy trk jiny pocet bodu
 				//udelat aby pocet bodu byl nejaky nasobek celkovych
+				//vezmu celkovy pocet, vydelim konstantou (malo, hodne) a tento pocet pak prerozdelim do pole
+				//limitu podle pomeru jednotlivych trk vuci celku
 				var gpx = new SMap.Layer.GPX(xmlDoc, id, {maxPoints: pocetBodu, colors: barva});
-				console.log(gpx);
+				//console.log(gpx);
 				multi.addLayer(gpx);
 				gpx.enable();
 				if (done) {

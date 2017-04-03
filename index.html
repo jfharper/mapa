@@ -12,7 +12,7 @@
 			.left {float: left;}
 			.right {float: right;}
 			.right .dropdown-content {right: 0;}
-			.dropdown-content {display: none; position: absolute; overflow-y: auto; background-color: #f9f9f9; z-index: 1;
+			.dropdown-content {display: none; position: absolute; overflow-y: auto; background-color: #f9f9f9; z-index: 3;
 													clear: left; float: left; max-width: 50%;
 													max-height: calc(100% - 38px);
 													border: 0; border-collapse: collapse;}
@@ -103,17 +103,17 @@
 			layerSwitch.addDefaultLayer(SMap.DEF_SMART_TURIST);
 			m.addControl(layerSwitch, {left: "8px", top: "9px"});
 
-			var znacky = new SMap.Layer.Marker(); /* Vrstva pro značky */
-			var znackyBackup = new SMap.Layer.Marker(); /* Vrstva pro značky */
+			var znacky = new SMap.Layer.Marker("znackyId"); /* Vrstva pro značky */
+			var znackyBackup = new SMap.Layer.Marker("znackyBackupId"); /* Vrstva pro značky */
 			var shlukovac = new SMap.Marker.Clusterer(m, 50, MujCluster);/*shlukovac znacek*/
 			znacky.setClusterer(shlukovac);
 			m.addLayer(znacky);
 			m.addLayer(znackyBackup);
 			znacky.enable();
 
-			var popisky = new SMap.Layer.Marker(); /* Vrstva pro popisky v mapach */
-			m.addLayer(popisky);
-			popisky.enable();
+			var poiBody = new SMap.Layer.Marker("poiBodyId"); /* Vrstva pro popisky v mapach */
+			m.addLayer(poiBody);
+			poiBody.enable();
 
 			var multi = new SMap.Layer.Multi("multiId");
 			m.addLayer(multi);
@@ -122,7 +122,7 @@
 			/* dataProvider zastiti komunikaci se servery */
 			var dataProvider = m.createDefaultDataProvider();
 			dataProvider.setOwner(m);
-			dataProvider.addLayer(popisky);
+			dataProvider.addLayer(poiBody);
 			dataProvider.setMapSet(SMap.MAPSET_BASE);
 			dataProvider.setMapSet(SMap.MAPSET_TURIST);
 			dataProvider.enable();
@@ -331,6 +331,7 @@
 			});
 
 			function vykresleni() {
+				seznamTras.reverse();
 				async.eachSeries(seznamTras, function(actTrasa, cb) {
 					trasa(actTrasa.url, actTrasa.barva, cb);
 				}, function(err) {

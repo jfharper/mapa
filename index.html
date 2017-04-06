@@ -211,14 +211,7 @@
 			
 			function radekTabulky(jmeno, id, delka) {
 				var pocetRadku = tabulka.tBodies[0].rows.length;
-				for(var i = 0; i < pocetRadku; i++) {
-					var jmenoVRadku = tabulka.tBodies[0].rows[i].cells[0].textContent;
-					jmenoVRadku = jmenoVRadku.substr(0,8);
-					if (id > jmenoVRadku) {
-						break;
-					}
-				}
-				var radek = tabulka.tBodies[0].insertRow(i);
+				var radek = tabulka.tBodies[0].insertRow(pocetRadku);
 				radek.id = id;
 				var bunka1 = radek.insertCell(0);
 				bunka1.setAttribute("onclick", "posun(parentNode.id)");

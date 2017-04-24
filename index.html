@@ -19,6 +19,7 @@
 			.dropdown-content td {white-space: nowrap;}
 			.tabulkabtn {position: relative; background-color: #4CAF50; color: white; padding: 10px; font-size: 16px; border: none; cursor: pointer;}
 			.show {display:block;}
+			#rokyTab {width: 77px;}
 			.spani {position: absolute; top: 5px; left: 70px; padding: 5px;}
 			.veta {position: absolute; top: 5px; left: 210px; padding: 5px;}
 			.selected {background-color: #4CAF50;}
@@ -44,10 +45,14 @@
 				<div class="veta">Mame za sebou uz <span id="vylety">0</span> vyletu a celkem jsme usli <span id="km">0</span> kilometru</div>
 			</div>
 			<div class="right">
-				<input type="button" onclick="zobrazMenu('statistikyTab')" class="tabulkabtn" value="Statistiky">
-				<table id="statistikyTab" class="dropdown-content">
-					<thead><tr><td>Rok:</td><td>km</td></tr></thead>
-					<tbody></tbody>
+				<input type="button" onclick="resetTrips()" class="tabulkabtn" value="Zobrazit vse(reset)">
+				<input type="button" onclick="createTable('lidiTab', people)" class="tabulkabtn" value="Vyletnici">
+				<table id="lidiTab" class="dropdown-content">
+					<thead><tr><td>clovek</td><td>vyletu</td></tr></thead>
+				</table>
+				<input type="button" onclick="createTable('rokyTab', roky)" class="tabulkabtn" value="Rocniky">
+				<table id="rokyTab" class="dropdown-content">
+					<thead><tr><td style="width:50%">Rok:</td><td style="width:50%">km</td></tr></thead>
 				</table>
 			</div>
 		</div>
@@ -131,7 +136,7 @@
 			var podrobnostMalo = 50;
 			var podrobnostHodne = 1000;
 
-			var roky = {};
+			var roky = [];
 			var people = [];
 
 			var barvy = {modra: "#004c8c", oranzova: "#ff9b11", zluta: "#ffd625", fialova: "#840026", svetlemodra: "#89cdff", fialova2: "#522476", cervena: "#ff0000", cervena2: "#c9000e", svetlemodra2:"#008ad4", seda: "#303030", ruzova: "#bb6060", zelena: "#44f144"};
@@ -206,9 +211,72 @@
 				{url: "https://jfharper.github.io/mapa/trips/20170414-16%20-%20Krasna%20Lipa%20-%20Vysoka%20Lipa.xml"}
 			];
 
+
+			function createTable(table, obj) {
+				if (table === "lidiTab") {
+					obj.sort(function (a, b) {
+						return b.trips - a.trips;
+					});
+				}
+				let tableCreated = document.getElementById(table).getElementsByTagName("tr");
+				let tableLidi = document.getElementById(table);
+				if (tableCreated.length === 1) {
+					var k = '<tbody>';
+					for(i = 0;i < obj.length; i++){
+						//if (table !== "lidiTab" || obj[i].trips > 1) {//nezobrazuju lidi pouze s jednim vyletem
+							k+= '<tr onclick="hideTrips([' + obj[i].ids + '])">';
+							k+= '<td>' + obj[i].osoba + ':</td>';
+							k+= '<td>' + obj[i].trips + '</td>';
+							k+= '</tr>';
+						//}
+					}
+					k+='</tbody>';
+					tableLidi.innerHTML += k;
+				}
+				tableLidi.classList.toggle("show");
+			}
+
+			function hideTrips(except) {
+				event.srcElement.classList.add("grey");
+				var multiLayers = multi.getLayers();
+				except = except.toString().split(',');
+				for(i = 0; i < multiLayers.length; i++) {
+					if (!except.includes(multiLayers[i]._id) && multiLayers[i]._active === true) {
+						JAK.gel(multiLayers[i]._id).getElementsByClassName("zobrazeni")[0].checked = false;
+						JAK.gel(multiLayers[i]._id).getElementsByClassName("podrobnost")[0].disabled = true;
+						multiLayers[i].disable();
+						var marker = getMarkerWithId(multiLayers[i]._id, znacky);
+						znacky.removeMarker(marker);
+						znackyBackup.addMarker(marker);
+					}
+				}
+			}
+
+			function resetTrips() {
+				let greyRowsLidi = document.getElementById("lidiTab").getElementsByClassName("grey");
+				let greyRowsRoky = document.getElementById("rokyTab").getElementsByClassName("grey");
+				while (greyRowsLidi.length){
+					greyRowsLidi[0].classList.remove("grey");
+				}
+				while (greyRowsRoky.length){
+					greyRowsRoky[0].classList.remove("grey");
+				}
+				var multiLayers = multi.getLayers();
+				for(i = 0; i < multiLayers.length; i++) {
+					if (multiLayers[i]._active === false) {
+						JAK.gel(multiLayers[i]._id).getElementsByClassName("zobrazeni")[0].checked = true;
+						JAK.gel(multiLayers[i]._id).getElementsByClassName("podrobnost")[0].disabled = false;
+						multiLayers[i].enable();
+						var marker = getMarkerWithId(multiLayers[i]._id, znackyBackup);
+						znackyBackup.removeMarker(marker);
+						znacky.addMarker(marker);
+					}
+				}
+			}
+
 			document.getElementById("vylety").innerHTML = seznamTras.length;
 			var tabulka = document.getElementById("tabulka");
-			var statistikyTab = document.getElementById("statistikyTab");
+			var statistikyTab = document.getElementById("rokyTab");
 			
 			function radekTabulky(jmeno, id, delka) {
 				var pocetRadku = tabulka.tBodies[0].rows.length;
@@ -333,6 +401,7 @@
 						alert("Došlo k chybě při načítání tras:\n" + JSON.stringify(err));
 					}
 				});
+				
 			}
 
 			var pocetBodu = podrobnostMalo;
@@ -362,8 +431,12 @@
 					var tmp = clenove.split(", ");
 					var val;
 					for (val of tmp) {
-						if (people.includes(val) === false) {
-							people.push(val);
+						var peopleIndex = people.findIndex(person => person.osoba === val);
+						if (peopleIndex === -1) {
+							people.push({osoba: val, trips:1, ids: [id]});
+						} else {
+							people[peopleIndex].trips += 1;
+							people[peopleIndex].ids.push(id);
 						}
 					}
 					jmeno = jmeno.substr(0, jmeno.length-4);
@@ -391,24 +464,14 @@
 					var stkl = prevyseni(vysky);
 					delka = Math.round(delka/1000);
 					//souhrny za jednotlive roky
-					var rok = jmeno.substr(0, 4);
-					if (roky.hasOwnProperty(rok) === false) {
-						roky[rok] = 0;
-						var pocetRadkuStat = statistikyTab.tBodies[0].rows.length;
-						for(var i = 0; i < pocetRadkuStat; i++) {
-							var jmenoVRadkuStat = statistikyTab.tBodies[0].rows[i].cells[0].textContent;
-							if (rok < jmenoVRadkuStat) {
-								break;
-							}
-						}
-						var radek = statistikyTab.tBodies[0].insertRow(i);
-						var bunka1 = radek.insertCell(0);
-						bunka1.innerHTML = rok + " :";
-						var bunka2 = radek.insertCell(1);
-						bunka2.id = rok;
+					var rocnik = jmeno.substr(0, 4);
+					var rokyIndex = roky.findIndex(a => a.osoba === rocnik);
+					if (rokyIndex === -1) {
+							roky.push({osoba: rocnik, trips: delka, ids: [id]});
+					} else {
+						roky[rokyIndex].trips += delka;
+						roky[rokyIndex].ids.push(id);
 					}
-					roky[rok] += delka;
-					document.getElementById(rok).innerHTML = roky[rok] + " km";
 					//vytvoreni markeru, radku v tabulce atd 
 					radekTabulky(jmeno, id, delka);
 					znacka(bod, jmeno, clenove, delka, stkl, id);

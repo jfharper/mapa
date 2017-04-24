@@ -18,6 +18,7 @@
 													border: 0; border-collapse: collapse;}
 			.dropdown-content td {white-space: nowrap;}
 			.tabulkabtn {position: relative; background-color: #4CAF50; color: white; padding: 10px; font-size: 16px; border: none; cursor: pointer;}
+			.tabulkabtn:disabled {background-color: grey; cursor: wait;}
 			.show {display:block;}
 			#rokyTab {width: 77px;}
 			.spani {position: absolute; top: 5px; left: 70px; padding: 5px;}
@@ -46,11 +47,11 @@
 			</div>
 			<div class="right">
 				<input type="button" onclick="resetTrips()" class="tabulkabtn" value="Zobrazit vse(reset)">
-				<input type="button" onclick="createTable('lidiTab', people)" class="tabulkabtn" value="Vyletnici">
+				<input type="button" onclick="createTable('lidiTab', people)" class="tabulkabtn disableable" value="Vyletnici" disabled>
 				<table id="lidiTab" class="dropdown-content">
 					<thead><tr><td>clovek</td><td>vyletu</td></tr></thead>
 				</table>
-				<input type="button" onclick="createTable('rokyTab', roky)" class="tabulkabtn" value="Rocniky">
+				<input type="button" onclick="createTable('rokyTab', roky)" class="tabulkabtn disableable" value="Rocniky" disabled>
 				<table id="rokyTab" class="dropdown-content">
 					<thead><tr><td style="width:50%">Rok:</td><td style="width:50%">km</td></tr></thead>
 				</table>
@@ -138,6 +139,7 @@
 
 			var roky = [];
 			var people = [];
+			var tripsCounter = 0;
 
 			var barvy = {modra: "#004c8c", oranzova: "#ff9b11", zluta: "#ffd625", fialova: "#840026", svetlemodra: "#89cdff", fialova2: "#522476", cervena: "#ff0000", cervena2: "#c9000e", svetlemodra2:"#008ad4", seda: "#303030", ruzova: "#bb6060", zelena: "#44f144"};
 			var barvyDefault = [barvy.modra, barvy.zluta, barvy.cervena, barvy.svetlemodra, barvy.fialova, barvy.oranzova, barvy.fialova2, barvy.cervena2, barvy.svetlemodra2, barvy.seda, barvy.ruzova];
@@ -398,7 +400,7 @@
 					trasa(actTrasa.url, actTrasa.barva, cb);
 				}, function(err) {
 					if (err) {
-						alert("Došlo k chybě při načítání tras:\n" + JSON.stringify(err));
+						alert("Doslo k chybe pri nacitani tras:\n" + JSON.stringify(err));
 					}
 				});
 				
@@ -420,6 +422,13 @@
 				var jmeno = xmlDoc.getElementsByTagName("name")[0].textContent;
 				var id = jmeno.substr(0, 8);
 				if (done) {//pouze napoprve, ne pri prekreslovani podrobnosti
+					tripsCounter += 1;
+					if (tripsCounter === seznamTras.length) {
+						let disabled = document.getElementsByClassName("disableable");//.getElementsByTagName("disabled");
+						for (let i = 0; i< disabled.length; i++) {
+							disabled[i].disabled = false;
+						}
+					}
 					var lat = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lat");
 					var lon = xmlDoc.getElementsByTagName("trkpt")[0].getAttribute("lon");
 					var keywords = xmlDoc.getElementsByTagName("keywords")[0];

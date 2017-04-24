@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <script type="text/javascript" src="http://api.mapy.cz/loader.js"></script>
+        <script type="text/javascript">Loader.load();</script>
+        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.js"></script>
+        <script src="vkbeautify.js"></script>
+    </head>
+    <body>
+        <script>
+			function processFile(xml, fileName, done) {
+				var xmlDoc = $.parseXML(xml);
+				var trkpts = xmlDoc.getElementsByTagName('trkpt');
+				var points = [];
+				for (i = 0; i < trkpts.length; i++) {
+					var ele = trkpts[i].getElementsByTagName('ele');
+					if (ele.length) {
+						trkpts[i].removeChild(ele[0]);
+					}
+					points.push(SMap.Coords.fromWGS84(trkpts[i].getAttribute('lon'), trkpts[i].getAttribute('lat')).getAltitude());
+				}
+				console.log(points);
+				Promise.all(points).then(function (values) {
+					for (i = 0; i < values.length; i++) {
+						var node = xmlDoc.createElement('ele');
+						node.appendChild(xmlDoc.createTextNode(values[i]));
+						trkpts[i].appendChild(node);
+					}
+					var xmlStr = vkbeautify.xml((new XMLSerializer()).serializeToString(xmlDoc));
+					var blob = new Blob([xmlStr], {type: "text/xml;charset=utf-8"});
+					saveAs(blob, fileName);
+					done();
+				});
+			}
+			function processList(files, i) {
+				if (i < files.length) {
+					var reader = new FileReader();
+					reader.onload = function (e) {
+						processFile(e.target.result, files[i].name, function () {
+							processList(files, i + 1);
+						});
+					};
+					reader.readAsBinaryString(files[i]);
+				}
+			}
+			function sendData() {
+				processList(document.getElementById("file").files, 0);
+			}
+        </script>
+		<form method="post">
+			<input id="file" type="file" multiple /><br><br>
+			<input type="button" value="Odeslat" onclick="sendData()">
+		</form>
+    </body>
+</html>

@@ -20,6 +20,8 @@
 			.tabulkabtn {position: relative; background-color: #4CAF50; color: white; padding: 10px; font-size: 16px; border: none; cursor: pointer;}
 			.tabulkabtn:disabled {background-color: grey; cursor: wait;}
 			.show {display:block;}
+			.hidden {display: none;}
+			#showMoreButton {background-color: grey;}
 			#rokyTab {width: 77px;}
 			.spani {position: absolute; top: 5px; left: 70px; padding: 5px;}
 			.veta {position: absolute; top: 5px; left: 210px; padding: 5px;}
@@ -225,21 +227,44 @@
 				if (tableCreated.length === 1) {
 					var k = '<tbody>';
 					for(i = 0;i < obj.length; i++){
-						//if (table !== "lidiTab" || obj[i].trips > 1) {//nezobrazuju lidi pouze s jednim vyletem
-							k+= '<tr onclick="hideTrips([' + obj[i].ids + '])">';
-							k+= '<td>' + obj[i].osoba + ':</td>';
-							k+= '<td>' + obj[i].trips + '</td>';
-							k+= '</tr>';
-						//}
+						if (table !== "lidiTab" || obj[i].trips > 2) {//nezobrazuju lidi pouze s jednim vyletem
+							k += '<tr onclick="hideTrips([' + obj[i].ids + '])">';
+						} else {
+							k += '<tr onclick="hideTrips([' + obj[i].ids + '])" class="hideable hidden">';
+						}
+						k += '<td>' + obj[i].osoba + ':</td>';
+						k += '<td>' + obj[i].trips + '</td>';
+						k += '</tr>';
 					}
-					k+='</tbody>';
+					if (table === "lidiTab") {
+						k += '<tr onclick="loadMore()">';
+						k += '<td colspan=2 id = "showMoreButton">Zobraz vsechny</td>';
+						k += '</tr>';
+					}
+					k += '</tbody>';
 					tableLidi.innerHTML += k;
 				}
 				tableLidi.classList.toggle("show");
 			}
 
+
+			function loadMore() {
+				let tableLidi = document.getElementById("lidiTab");
+				let hideableRows = tableLidi.getElementsByClassName("hideable");
+				for (let i=0; i < hideableRows.length; i++) {
+					hideableRows[i].classList.toggle("hidden");
+				}
+				let hiddenRows = tableLidi.getElementsByClassName("hidden");
+				let showMoreButton = document.getElementById("showMoreButton")
+				if (hiddenRows.length > 0) {
+					showMoreButton.innerHTML = "Zobraz vsechny";
+				} else {
+					showMoreButton.innerHTML = "Skryj lidi se 2 vylety";
+				}
+			}
+
 			function hideTrips(except) {
-				event.srcElement.classList.add("grey");
+				event.srcElement.parentElement.classList.add("grey");
 				var multiLayers = multi.getLayers();
 				except = except.toString().split(',');
 				for(i = 0; i < multiLayers.length; i++) {
@@ -361,7 +386,8 @@
 			function posun(id) {
 				var layer = getLayerWithId(id);
 				layer.fit();
-				var grey = document.getElementsByClassName("grey");
+				let grey = document.getElementById("tabulka");
+				grey = grey.getElementsByClassName("grey");
 				while (grey.length){
 					grey[0].classList.remove("grey");
 				}

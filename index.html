@@ -12,12 +12,21 @@
 			.left {float: left;}
 			.right {float: right;}
 			.right .dropdown-content {right: 0;}
-			.dropdown-content {display: none; position: absolute; overflow-y: auto; background-color: #f9f9f9; z-index: 3;
-													clear: left; float: left; max-width: 50%;
-													max-height: calc(100% - 38px);
-													border: 0; border-collapse: collapse;}
+			.dropdown-content {
+				display: none; position: absolute; overflow-y: auto; background-color: #f9f9f9; z-index: 3;
+				clear: left; float: left; max-width: 50%;
+				max-height: calc(100% - 38px);
+				border: 0; border-collapse: collapse;
+			}
 			.dropdown-content td {white-space: nowrap;}
-			.tabulkabtn {position: relative; background-color: #4CAF50; color: white; padding: 10px; font-size: 16px; border: none; cursor: pointer;}
+			.tabulkabtn {
+				position: relative;
+				background-color: #4CAF50;
+				color: white; padding: 10px;
+				font-size: 16px;
+				border: none;
+				cursor: pointer;
+			}
 			.tabulkabtn:disabled {background-color: grey; cursor: wait;}
 			.show {display:block;}
 			.hidden {display: none;}
@@ -212,7 +221,8 @@
 				{url: "https://jfharper.github.io/mapa/trips/20170203-05%20-%20Dobris%20-%20Stechovice.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20170304%20-%20Myto%20-%20Mirosov.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20170324-26%20-%20Potvorov%20-%20Plasy.xml"},
-				{url: "https://jfharper.github.io/mapa/trips/20170414-16%20-%20Krasna%20Lipa%20-%20Vysoka%20Lipa.xml"}
+				{url: "https://jfharper.github.io/mapa/trips/20170414-16%20-%20Krasna%20Lipa%20-%20Vysoka%20Lipa.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20170505-07%20-%20Oselin%20-%20Lazne%20Kynzvart.xml"}
 			];
 
 
@@ -281,10 +291,10 @@
 
 			function resetTrips() {
 				let greyRowsLidi = document.getElementById("lidiTab").getElementsByClassName("grey");
-				let greyRowsRoky = document.getElementById("rokyTab").getElementsByClassName("grey");
 				while (greyRowsLidi.length){
 					greyRowsLidi[0].classList.remove("grey");
 				}
+				let greyRowsRoky = document.getElementById("rokyTab").getElementsByClassName("grey");
 				while (greyRowsRoky.length){
 					greyRowsRoky[0].classList.remove("grey");
 				}

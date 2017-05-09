@@ -36,6 +36,7 @@
 			.veta {position: absolute; top: 5px; left: 210px; padding: 5px;}
 			.selected {background-color: #4CAF50;}
 			.grey {background-color: #A9A9A9;}
+			.red {background-color: #bb6060;}
 			thead {font-weight: bold; background-color: #A9A9A9;}
 			tr:hover {background-color: #A9A9A9;}
 			.clearfix:before,
@@ -44,7 +45,7 @@
 		</style>
 	</head>
 	<body>
-		<div class="clearfix">
+		<div class="clearfix multiView">
 			<div class="left">
 				<input type="button" onclick="zobrazMenu('tabulka')" class="tabulkabtn" value="Trasy">
 				<table id="tabulka" class="dropdown-content">
@@ -67,6 +68,9 @@
 					<thead><tr><td style="width:50%">Rok:</td><td style="width:50%">km</td></tr></thead>
 				</table>
 			</div>
+		</div>
+		<div class="singleView hidden">
+			<input type="button" onclick="singleViewReset()" class="tabulkabtn red" value="Zobrazit vsechny trasy">
 		</div>
 		<div id="m"></div>
 
@@ -313,8 +317,7 @@
 
 			document.getElementById("vylety").innerHTML = seznamTras.length;
 			var tabulka = document.getElementById("tabulka");
-			var statistikyTab = document.getElementById("rokyTab");
-			
+
 			function radekTabulky(jmeno, id, delka) {
 				var pocetRadku = tabulka.tBodies[0].rows.length;
 				var radek = tabulka.tBodies[0].insertRow(pocetRadku);
@@ -350,13 +353,7 @@
 				//podrobnost
 				JAK.Events.addListener(podrobnost, "click", window, function() {
 					var layer = getLayerWithId(id);
-					//nalezeni souboru s urcenym id
-					for(var i = 0; i < seznamTras.length; i++) {
-						if (seznamTras[i].url.indexOf(id) !== -1) {
-							var vylet = seznamTras[i];
-							break;
-						}
-					}
+					var vylet = getFileWithId(id);
 					if (podrobnost.checked) {
 						pocetBodu = podrobnostHodne;
 						multi.removeLayer(layer);
@@ -367,6 +364,17 @@
 						trasa(vylet.url, vylet.barva);
 					}
 				});
+			}
+
+			//nalezne soubor s danym id
+			function getFileWithId(id) {
+				for(var i = 0; i < seznamTras.length; i++) {
+					if (seznamTras[i].url.indexOf(id) !== -1) {
+						var file = seznamTras[i];
+						break;
+					}
+				}
+				return file;
 			}
 
 			//nalezne marker s danym id
@@ -392,12 +400,15 @@
 				return layer;
 			}
 
+			function singleViewReset() {
+				document.location.href = document.location.href.substr(0, document.location.href.indexOf('#'));
+			}
+
 			//centruje na zvolenou trasu a obarvi radek sede
 			function posun(id) {
 				var layer = getLayerWithId(id);
 				layer.fit();
-				let grey = document.getElementById("tabulka");
-				grey = grey.getElementsByClassName("grey");
+				grey = tabulka.getElementsByClassName("grey");
 				while (grey.length){
 					grey[0].classList.remove("grey");
 				}
@@ -405,6 +416,7 @@
 				if (!el.classList.contains("selected")) {
 					el.classList.add("grey");
 				}
+				document.location.hash = "id=" + id;
 			}
 
 			//obarvuje radky v tabulce po otevreni markeru a smaze drive obarvene
@@ -431,12 +443,24 @@
 			});
 
 			function vykresleni() {
-				seznamTras.reverse();
+				var id = document.location.hash;
+				if(id !== "") {
+					var id = id.substr(id.length-8,8);
+					seznamTras = [getFileWithId(id)];
+					pocetBodu = podrobnostHodne;
+					document.getElementsByClassName("singleView")[0].classList.toggle("hidden");
+					document.getElementsByClassName("multiView")[0].classList.toggle("hidden");
+				} else {
+					seznamTras.reverse();
+				}
 				async.eachSeries(seznamTras, function(actTrasa, cb) {
 					trasa(actTrasa.url, actTrasa.barva, cb);
 				}, function(err) {
 					if (err) {
 						alert("Doslo k chybe pri nacitani tras:\n" + JSON.stringify(err));
+					}
+					if(id !== "") {
+						posun(id);
 					}
 				});
 				
@@ -460,7 +484,7 @@
 				if (done) {//pouze napoprve, ne pri prekreslovani podrobnosti
 					tripsCounter += 1;
 					if (tripsCounter === seznamTras.length) {
-						let disabled = document.getElementsByClassName("disableable");//.getElementsByTagName("disabled");
+						let disabled = document.getElementsByClassName("disableable");
 						for (let i = 0; i< disabled.length; i++) {
 							disabled[i].disabled = false;
 						}

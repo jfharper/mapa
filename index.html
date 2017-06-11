@@ -10,12 +10,12 @@
 			body {position: relative;}
 			#m {z-index: 0;}
 			.left {float: left;}
-			.right {float: right;}
-			.right .dropdown-content {right: 0;}
+			.right {float: right; display: flex;}
+			.right > * {margin-left: 6px;}
+			.right .dropdown-content {right: 0; top: 38px;}
 			.dropdown-content {
 				display: none; position: absolute; overflow-y: auto; background-color: #f9f9f9; z-index: 3;
-				clear: left; float: left; max-width: 50%;
-				max-height: calc(100% - 38px);
+				clear: left; float: left;
 				border: 0; border-collapse: collapse;
 			}
 			.dropdown-content td {white-space: nowrap;}
@@ -26,6 +26,9 @@
 				font-size: 16px;
 				border: none;
 				cursor: pointer;
+			}
+			.tabulkaLidi {
+				width: 137px;
 			}
 			.tabulkabtn:disabled {background-color: grey; cursor: wait;}
 			.show {display:block;}
@@ -42,6 +45,7 @@
 			.clearfix:before,
 			.clearfix:after {content: " "; display: table;}
 			.clearfix:after {clear: both;}
+			.wrapper {display: flex; flex-direction: column; position: relative;}
 		</style>
 	</head>
 	<body>
@@ -59,14 +63,18 @@
 			</div>
 			<div class="right">
 				<input type="button" onclick="resetTrips()" class="tabulkabtn" value="Zobrazit vse(reset)">
-				<input type="button" onclick="createTable('lidiTab', people)" class="tabulkabtn disableable" value="Vyletnici" disabled>
-				<table id="lidiTab" class="dropdown-content">
-					<thead><tr><td>clovek</td><td>vyletu</td></tr></thead>
-				</table>
-				<input type="button" onclick="createTable('rokyTab', roky)" class="tabulkabtn disableable" value="Rocniky" disabled>
-				<table id="rokyTab" class="dropdown-content">
-					<thead><tr><td style="width:50%">Rok:</td><td style="width:50%">km</td></tr></thead>
-				</table>
+				<div class="wrapper">
+					<input type="button" onclick="createTable('lidiTab', people)" class="tabulkabtn tabulkaLidi disableable" value="Vyletnici" disabled>
+					<table id="lidiTab" class="dropdown-content">
+						<thead><tr><td>clovek</td><td>vyletu</td></tr></thead>
+					</table>
+				</div>
+				<div class="wrapper">
+					<input type="button" onclick="createTable('rokyTab', roky)" class="tabulkabtn disableable" value="Rocniky" disabled>
+					<table id="rokyTab" class="dropdown-content">
+						<thead><tr><td style="width:50%">Rok:</td><td style="width:50%">km</td></tr></thead>
+					</table>
+				</div>
 			</div>
 		</div>
 		<div class="singleView hidden">

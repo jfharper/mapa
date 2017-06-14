@@ -17,6 +17,7 @@
 				display: none; position: absolute; overflow-y: auto; background-color: #f9f9f9; z-index: 3;
 				clear: left; float: left;
 				border: 0; border-collapse: collapse;
+				max-height: 582px;
 			}
 			.dropdown-content td {white-space: nowrap;}
 			.tabulkabtn {
@@ -236,6 +237,7 @@
 				{url: "https://jfharper.github.io/mapa/trips/20170414-16%20-%20Krasna%20Lipa%20-%20Vysoka%20Lipa.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20170505-07%20-%20Oselin%20-%20Lazne%20Kynzvart.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20170521%20-%20Stupno%20-%20Holoubkov.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20170527%20-%20Jested.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20170603-04%20-%20Kralovice%20-%20Stupno.xml"}
 			];
 
@@ -304,6 +306,7 @@
 			}
 
 			function resetTrips() {
+				document.location.hash = "";
 				let greyRowsLidi = document.getElementById("lidiTab").getElementsByClassName("grey");
 				while (greyRowsLidi.length){
 					greyRowsLidi[0].classList.remove("grey");

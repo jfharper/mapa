@@ -235,7 +235,8 @@
 				{url: "https://jfharper.github.io/mapa/trips/20170324-26%20-%20Potvorov%20-%20Plasy.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20170414-16%20-%20Krasna%20Lipa%20-%20Vysoka%20Lipa.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20170505-07%20-%20Oselin%20-%20Lazne%20Kynzvart.xml"},
-				{url: "https://jfharper.github.io/mapa/trips/20170521%20-%20Stupno%20-%20Holoubkov.xml"}
+				{url: "https://jfharper.github.io/mapa/trips/20170521%20-%20Stupno%20-%20Holoubkov.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20170603-04%20-%20Kralovice%20-%20Stupno.xml"}
 			];
 
 
@@ -557,13 +558,7 @@
 					kmTemp = Number(kmTemp);
 					document.getElementById("km").innerHTML = kmTemp + delka;
 				}
-				//TODO: blabla = Math.min(podrobnost, xmlDoc.getElementsByTagName("trkpt").length);
-				//tohle vymyslet, aby slo pro kazdy trk jiny pocet bodu
-				//udelat aby pocet bodu byl nejaky nasobek celkovych
-				//vezmu celkovy pocet, vydelim konstantou (malo, hodne) a tento pocet pak prerozdelim do pole
-				//limitu podle pomeru jednotlivych trk vuci celku
 				var gpx = new SMap.Layer.GPX(xmlDoc, id, {maxPoints: pocetBodu, colors: barva});
-				//console.log(gpx);
 				multi.addLayer(gpx);
 				gpx.enable();
 				if (done) {

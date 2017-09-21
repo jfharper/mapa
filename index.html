@@ -245,7 +245,8 @@
 				{url: "https://jfharper.github.io/mapa/trips/20170702%20-%20Plesivec.xml", barva: [barvy.cervena2]},
 				{url: "https://jfharper.github.io/mapa/trips/20170730-31%20-%20Tabor%20-%20Zidova%20strouha.xml"},
 				{url: "https://jfharper.github.io/mapa/trips/20170806%20-%20Horina%20z%20Hradce.xml"},
-				{url: "https://jfharper.github.io/mapa/trips/20170811-13%20-%20Straz%20-%20Kladruby.xml"}
+				{url: "https://jfharper.github.io/mapa/trips/20170811-13%20-%20Straz%20-%20Kladruby.xml"},
+				{url: "https://jfharper.github.io/mapa/trips/20170907-10%20-%20Moravsky%20kras.xml"}
 			];
 
 
@@ -424,19 +425,20 @@
 				document.location.href = document.location.href.substr(0, document.location.href.indexOf('#'));
 			}
 
-			//centruje na zvolenou trasu a obarvi radek sede
+			//centruje na zvolenou trasu a otevre jeji vizitku
 			function posun(id) {
 				var layer = getLayerWithId(id);
 				layer.fit();
-				grey = tabulka.getElementsByClassName("grey");
-				while (grey.length){
-					grey[0].classList.remove("grey");
+				green = tabulka.getElementsByClassName("selected");
+				while (green.length){
+					green[0].classList.remove("selected");
 				}
 				var el =document.getElementById(id);
-				if (!el.classList.contains("selected")) {
-					el.classList.add("grey");
-				}
+				el.classList.add("selected");
 				document.location.hash = "id=" + id;
+				var a = getMarkerWithId(id, znacky);
+				m.addCard(a._card, a._coords, false);
+				otevreneId = id;
 			}
 
 			//obarvuje radky v tabulce po otevreni markeru a smaze drive obarvene
@@ -483,7 +485,6 @@
 						posun(id);
 					}
 				});
-				
 			}
 
 			var pocetBodu = podrobnostMalo;

@@ -437,31 +437,45 @@
 				var el =document.getElementById(id);
 				el.classList.add("selected");
 				document.location.hash = "id=" + id;
-				var a = getMarkerWithId(id, znacky);
-				m.addCard(a._card, a._coords, false);
 				otevreneId = id;
+				if (layer.isActive()) {
+					var a = getMarkerWithId(id, znacky);
+					m.addCard(a._card, a._coords, false);
+				}
 			}
 
 			//obarvuje radky v tabulce po otevreni markeru a smaze drive obarvene
 			var otevreneId = null;
 			m.getSignals().addListener(window, "marker-click", function(e) {
-				var selected = document.getElementsByClassName("selected");
-				while (selected.length){
-					selected[0].classList.remove("selected");
-				}
 				otevreneId = e.target._id;
 				var el =document.getElementById(otevreneId);
 				if (el!==null) {
-					if (el.classList.contains("grey")) {
-						el.classList.remove("grey");
-					}
 					el.classList.add("selected");
 				}
 			});
 
-			//maze obarveni radky v tabulce pri zavreni
-			m.getSignals().addListener(window, "card-close-click", function() {
-				var el = document.getElementById(otevreneId);
+			//zvyraznuje trasu (vetsi tloustka cary)
+			m.getSignals().addListener(window, "card-open", function() {
+				let layer = getLayerWithId(otevreneId);
+				let geometries = layer._layers[0]._geometries;
+				let geometriesArray = Object.values(geometries);
+				for (let k = 0; k < geometriesArray.length; k++) {
+					geometriesArray[k]._options.width=8;
+				}
+				m.redraw();
+			});
+
+			//rusi zvyrazneni po zavreni vizitky
+			m.getSignals().addListener(window, "card-close", function(e) {
+				let id = e.target._dom.header.textContent.substr(0,8);
+				let layer = getLayerWithId(id);
+				let geometries = layer._layers[0]._geometries;
+				let geometriesArray = Object.values(geometries);
+				for (let k = 0; k < geometriesArray.length; k++) {
+					geometriesArray[k]._options.width=4;
+				}
+				m.redraw();
+				let el = document.getElementById(id);
 				el.classList.remove("selected");
 			});
 

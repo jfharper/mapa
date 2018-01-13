@@ -23,6 +23,7 @@
 				}
 				console.log(points);
 				Promise.all(points).then(function (values) {
+					prevyseni(xmlDoc, values);
 					for (i = 0; i < values.length; i++) {
 						var node = xmlDoc.createElement('ele');
 						node.appendChild(xmlDoc.createTextNode(values[i]));
@@ -47,6 +48,23 @@
 			}
 			function sendData() {
 				processList(document.getElementById("file").files, 0);
+			}
+			function prevyseni(xmlDoc, pole) {
+				var stoupani = 0;
+				var klesani = 0;
+				for(i = 0; i < pole.length-1; i++) {
+					rozdil = pole[i+1] - pole[i];
+					if(rozdil > 0) {
+						stoupani += rozdil;
+					} else {
+						klesani += rozdil;
+					}
+				}
+				var str = "Stoupani: <b>" + Math.round(stoupani) + " m</b> a klesani: <b>" + Math.round(klesani) + " m</b>";
+				var desc = xmlDoc.createElement('desc');
+				desc.appendChild(xmlDoc.createTextNode(str));
+				var metadata = xmlDoc.getElementsByTagName('metadata');
+				metadata[0].appendChild(desc);
 			}
         </script>
 		<form method="post">

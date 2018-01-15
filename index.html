@@ -573,27 +573,9 @@
 					}
 					jmeno = jmeno.substr(0, jmeno.length-4);
 					var bod = SMap.Coords.fromWGS84(lon, lat);
-					var delka = 0;
-					var tracks = xmlDoc.getElementsByTagName("trk"); //pocet dni
-					var amountOfTracks = tracks.length;
-					var vysky = new Array();
-					for(var i = 0; i < amountOfTracks; i++) {
-						var body = new Array();
-						var nodes = tracks[i].getElementsByTagName("trkpt");
-						var amountOfNodes = nodes.length;
-						console.log(amountOfNodes);
-						for(var j = 0; j < amountOfNodes; j++) {
-							var lat1 = nodes[j].getAttribute("lat");
-							var lon1 = nodes[j].getAttribute("lon");
-							var node = SMap.Coords.fromWGS84(lon1, lat1);
-							body.push(node);
-						}
-						for(var k = 1; k < amountOfNodes; k++) {
-							delka += body[k-1].distance(body[k]);
-						}
-					}
-					var stkl = xmlDoc.getElementsByTagName("metadata")[0].getElementsByTagName("desc")[0].textContent;
-					delka = Math.round(delka/1000);
+					var st = xmlDoc.getElementsByTagName("metadata")[0].getElementsByTagName("desc")[0].getAttribute("stoupani");
+					var kl = xmlDoc.getElementsByTagName("metadata")[0].getElementsByTagName("desc")[0].getAttribute("klesani");
+					var delka = xmlDoc.getElementsByTagName("metadata")[0].getElementsByTagName("desc")[0].getAttribute("delka");
 					//souhrny za jednotlive roky
 					var rocnik = jmeno.substr(0, 4);
 					var rokyIndex = roky.findIndex(a => a.osoba === rocnik);
@@ -605,11 +587,12 @@
 					}
 					//vytvoreni markeru, radku v tabulce atd 
 					radekTabulky(jmeno, id, delka);
-					znacka(bod, jmeno, clenove, delka, stkl, id);
+					znacka(bod, jmeno, clenove, delka, st, kl, id);
 					var kmTemp = document.getElementById("km").textContent;
 					kmTemp = Number(kmTemp);
 					document.getElementById("km").innerHTML = kmTemp + delka;
 				}
+				//pocet bodu predelat aby se bral podle dir
 				var gpx = new SMap.Layer.GPX(xmlDoc, id, {maxPoints: pocetBodu, colors: barva});
 				multi.addLayer(gpx);
 				gpx.enable();
@@ -618,12 +601,12 @@
 				}
 			}
 
-			function znacka(center, name, clenove, delka, stkl, id) {
+			function znacka(center, name, clenove, delka, st, kl, id) {
 				var c = new SMap.Card();
 				c.getHeader().innerHTML = name;
 				c.getBody().innerHTML = "<hr>";
 				c.getFooter().style.margin = "5px 0px"; 	
-				var obsah = "Vyprava: <b>" + clenove + "</b><br>Usli jsme: <b>" + delka + " km</b><br>" + stkl;
+				var obsah = "Vyprava: <b>" + clenove + "</b><br>Usli jsme: <b>" + delka + " km</b><br>Stoupani: <b>" + st + " m</b> a klesani <b>" + kl + " m</b>";
 				c.getFooter().innerHTML = obsah;
 				var marker = new SMap.Marker(center, id);/* Znacka s danym umistenim*/
 				marker.decorate(SMap.Marker.Feature.Card, c);

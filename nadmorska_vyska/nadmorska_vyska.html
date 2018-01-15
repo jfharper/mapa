@@ -12,22 +12,39 @@
         <script>
 			function processFile(xml, fileName, done) {
 				var xmlDoc = $.parseXML(xml);
-				var trkpts = xmlDoc.getElementsByTagName('trkpt');
-				var points = [];
-				for (i = 0; i < trkpts.length; i++) {
-					var ele = trkpts[i].getElementsByTagName('ele');
-					if (ele.length) {
-						trkpts[i].removeChild(ele[0]);
+				var delka = 0;
+				var tracks = xmlDoc.getElementsByTagName("trk"); //pocet dni
+				var amountOfTracks = tracks.length;
+				var vysky = [];
+				for(var i = 0; i < amountOfTracks; i++) {
+					var body = new Array();
+					var nodes = tracks[i].getElementsByTagName('trkpt');
+					var amountOfNodes = nodes.length;//pocet bodu v jednom dnu
+					for (var j = 0; j < amountOfNodes; j++) {
+						var ele = nodes[j].getElementsByTagName('ele');
+						if (ele.length) {
+							nodes[j].removeChild(ele[0]);
+						}
+						var lat = nodes[j].getAttribute("lat");
+						var lon = nodes[j].getAttribute("lon");
+						var node = SMap.Coords.fromWGS84(lon, lat);
+						body.push(node);
+						vysky.push(node.getAltitude());
 					}
-					points.push(SMap.Coords.fromWGS84(trkpts[i].getAttribute('lon'), trkpts[i].getAttribute('lat')).getAltitude());
+					for(var k = 1; k < amountOfNodes; k++) {
+						delka += body[k-1].distance(body[k]);
+					}
+					
 				}
-				console.log(points);
-				Promise.all(points).then(function (values) {
-					prevyseni(xmlDoc, values);
-					for (i = 0; i < values.length; i++) {
-						var node = xmlDoc.createElement('ele');
-						node.appendChild(xmlDoc.createTextNode(values[i]));
-						trkpts[i].appendChild(node);
+				delka = Math.round(delka/1000);
+				
+				Promise.all(vysky).then(function (values) {
+					prevyseni(xmlDoc, values, delka);
+					var allNodes = xmlDoc.getElementsByTagName('trkpt');
+					for (var l = 0; l < allNodes.length; l++) {
+						var bla = xmlDoc.createElement('ele');
+						bla.appendChild(xmlDoc.createTextNode(values[l]));
+						allNodes[l].appendChild(bla);
 					}
 					var xmlStr = vkbeautify.xml((new XMLSerializer()).serializeToString(xmlDoc));
 					var blob = new Blob([xmlStr], {type: "text/xml;charset=utf-8"});
@@ -49,7 +66,7 @@
 			function sendData() {
 				processList(document.getElementById("file").files, 0);
 			}
-			function prevyseni(xmlDoc, pole) {
+			function prevyseni(xmlDoc, pole, delka) {
 				var stoupani = 0;
 				var klesani = 0;
 				for(i = 0; i < pole.length-1; i++) {
@@ -60,9 +77,10 @@
 						klesani += rozdil;
 					}
 				}
-				var str = "Stoupani: <b>" + Math.round(stoupani) + " m</b> a klesani: <b>" + Math.round(klesani) + " m</b>";
 				var desc = xmlDoc.createElement('desc');
-				desc.appendChild(xmlDoc.createTextNode(str));
+				desc.setAttribute("delka", delka);
+				desc.setAttribute("stoupani", Math.round(stoupani));
+				desc.setAttribute("klesani", Math.round(klesani));
 				var metadata = xmlDoc.getElementsByTagName('metadata');
 				metadata[0].appendChild(desc);
 			}

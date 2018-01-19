@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+	<name>20170528 - Mala Skala.xml</name>
+	<desc>9,516,-516
+        </desc>
+	<keywords>Adel a Martin, Monca, ja</keywords>
+</metadata>
+<trk>
+	<name>20170528 - nedele</name>
+	<desc>Color:004000ff</desc>
+	<trkseg>
+		<trkpt lat="50.643406" lon="15.194749">
+			<ele>266.56</ele>
+			<time>2017-05-28T08:52:26Z</time>
+			<extensions>
+				<gte:gps speed="1.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.642605" lon="15.187602">
+			<ele>342.49</ele>
+			<time>2017-05-28T09:32:35Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.645204" lon="15.181746">
+			<ele>400.87</ele>
+			<time>2017-05-28T09:47:08Z</time>
+			<extensions>
+				<gte:gps speed="0.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.647316" lon="15.175440">
+			<ele>450.18</ele>
+			<time>2017-05-28T10:15:37Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.649006" lon="15.168502">
+			<ele>477.59</ele>
+			<time>2017-05-28T10:53:46Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.645630" lon="15.163632">
+			<ele>452.78</ele>
+			<time>2017-05-28T11:24:51Z</time>
+			<extensions>
+				<gte:gps speed="4.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.641071" lon="15.164005">
+			<ele>421.00</ele>
+			<time>2017-05-28T11:30:55Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.640201" lon="15.171088">
+			<ele>425.87</ele>
+			<time>2017-05-28T11:39:58Z</time>
+			<extensions>
+				<gte:gps speed="3.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.636112" lon="15.174097">
+			<ele>445.00</ele>
+			<time>2017-05-28T11:54:58Z</time>
+			<extensions>
+				<gte:gps speed="2.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.631718" lon="15.176510">
+			<ele>424.53</ele>
+			<time>2017-05-28T12:03:48Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.634537" lon="15.182637">
+			<ele>355.70</ele>
+			<time>2017-05-28T12:32:53Z</time>
+			<extensions>
+				<gte:gps speed="2.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.637371" lon="15.189015">
+			<ele>270.53</ele>
+			<time>2017-05-28T12:41:49Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.641514" lon="15.192588">
+			<ele>264.49</ele>
+			<time>2017-05-28T12:48:32Z</time>
+			<extensions>
+				<gte:gps speed="2.9"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#fbaf00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+</gpx>

@@ -78,9 +78,7 @@
 					}
 				}
 				var desc = xmlDoc.createElement('desc');
-				desc.setAttribute("delka", delka);
-				desc.setAttribute("stoupani", Math.round(stoupani));
-				desc.setAttribute("klesani", Math.round(klesani));
+				desc.appendChild(xmlDoc.createTextNode(delka + "," + Math.round(stoupani) + "," + Math.round(klesani)));
 				var metadata = xmlDoc.getElementsByTagName('metadata');
 				metadata[0].appendChild(desc);
 			}

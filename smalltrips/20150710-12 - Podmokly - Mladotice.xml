@@ -1,0 +1,550 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+	<name>20150710-12 - Podmokly - Mladotice.xml</name>
+	<desc>47,957,-985
+        </desc>
+	<keywords>Monca, Kuthy, Lucka, Heky, Kabi, ja</keywords>
+</metadata>
+<trk>
+	<name>20150710 - patek</name>
+	<trkseg>
+		<trkpt lat="49.943503" lon="13.704868">
+			<ele>388.30</ele>
+			<time>2015-07-10T16:04:18Z</time>
+		</trkpt>
+		<trkpt lat="49.948045" lon="13.705703">
+			<ele>364.58</ele>
+			<time>2015-07-10T16:12:45Z</time>
+		</trkpt>
+		<trkpt lat="49.952564" lon="13.705731">
+			<ele>339.63</ele>
+			<time>2015-07-10T16:40:55Z</time>
+			<extensions>
+				<gte:gps speed="0.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.956200" lon="13.701609">
+			<ele>315.00</ele>
+			<time>2015-07-10T17:02:40Z</time>
+			<extensions>
+				<gte:gps speed="0.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.959000" lon="13.696017">
+			<ele>257.39</ele>
+			<time>2015-07-10T17:31:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.963364" lon="13.698188">
+			<ele>260.09</ele>
+			<time>2015-07-10T18:41:06Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.967598" lon="13.695499">
+			<ele>265.52</ele>
+			<time>2015-07-10T18:49:40Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.971897" lon="13.693274">
+			<ele>268.00</ele>
+			<time>2015-07-10T18:57:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.976219" lon="13.691260">
+			<ele>276.06</ele>
+			<time>2015-07-10T19:06:14Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.974777" lon="13.684446">
+			<ele>277.00</ele>
+			<time>2015-07-10T19:16:14Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#fbaf00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+<trk>
+	<name>20150711 - sobota</name>
+	<desc>Color:004000ff</desc>
+	<trkseg>
+		<trkpt lat="49.975498" lon="13.677629">
+			<ele>280.21</ele>
+			<time>2015-07-11T07:20:31Z</time>
+			<extensions>
+				<gte:gps speed="0.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.979591" lon="13.674600">
+			<ele>285.00</ele>
+			<time>2015-07-11T07:29:58Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.982571" lon="13.669342">
+			<ele>288.00</ele>
+			<time>2015-07-11T07:38:29Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.987020" lon="13.667340">
+			<ele>292.00</ele>
+			<time>2015-07-11T07:46:35Z</time>
+			<extensions>
+				<gte:gps speed="2.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.991318" lon="13.665030">
+			<ele>299.00</ele>
+			<time>2015-07-11T08:00:12Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.994537" lon="13.659976">
+			<ele>303.00</ele>
+			<time>2015-07-11T08:09:36Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.997189" lon="13.653989">
+			<ele>309.90</ele>
+			<time>2015-07-11T08:18:53Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.001087" lon="13.650392">
+			<ele>314.00</ele>
+			<time>2015-07-11T08:28:15Z</time>
+			<extensions>
+				<gte:gps speed="2.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.000755" lon="13.643400">
+			<ele>317.00</ele>
+			<time>2015-07-11T08:37:53Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.998768" lon="13.637106">
+			<ele>323.96</ele>
+			<time>2015-07-11T09:36:13Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.999840" lon="13.629992">
+			<ele>328.00</ele>
+			<time>2015-07-11T09:45:00Z</time>
+			<extensions>
+				<gte:gps speed="2.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.995777" lon="13.626601">
+			<ele>336.00</ele>
+			<time>2015-07-11T09:57:08Z</time>
+			<extensions>
+				<gte:gps speed="6.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.993042" lon="13.621008">
+			<ele>341.06</ele>
+			<time>2015-07-11T10:03:37Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.992619" lon="13.613886">
+			<ele>354.38</ele>
+			<time>2015-07-11T10:13:00Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.993145" lon="13.606826">
+			<ele>350.00</ele>
+			<time>2015-07-11T10:20:23Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.993389" lon="13.599671">
+			<ele>351.95</ele>
+			<time>2015-07-11T10:27:11Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.993607" lon="13.592638">
+			<ele>358.51</ele>
+			<time>2015-07-11T10:33:21Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.992306" lon="13.585901">
+			<ele>359.00</ele>
+			<time>2015-07-11T10:58:57Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.993019" lon="13.578701">
+			<ele>375.91</ele>
+			<time>2015-07-11T11:08:39Z</time>
+			<extensions>
+				<gte:gps speed="2.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.993908" lon="13.571771">
+			<ele>368.94</ele>
+			<time>2015-07-11T11:17:36Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.996185" lon="13.565721">
+			<ele>368.26</ele>
+			<time>2015-07-11T11:25:35Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.999897" lon="13.561745">
+			<ele>380.35</ele>
+			<time>2015-07-11T12:13:59Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.001896" lon="13.555372">
+			<ele>419.65</ele>
+			<time>2015-07-11T13:59:58Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.004524" lon="13.549674">
+			<ele>436.00</ele>
+			<time>2015-07-11T14:06:23Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.007568" lon="13.544515">
+			<ele>441.49</ele>
+			<time>2015-07-11T14:12:48Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.010094" lon="13.538601">
+			<ele>450.74</ele>
+			<time>2015-07-11T14:24:32Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.011032" lon="13.531705">
+			<ele>462.49</ele>
+			<time>2015-07-11T14:30:43Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.011528" lon="13.524680">
+			<ele>469.95</ele>
+			<time>2015-07-11T14:37:31Z</time>
+			<extensions>
+				<gte:gps speed="2.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.011909" lon="13.517542">
+			<ele>480.00</ele>
+			<time>2015-07-11T14:47:04Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.010292" lon="13.510839">
+			<ele>467.36</ele>
+			<time>2015-07-11T14:53:21Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.010159" lon="13.503819">
+			<ele>471.39</ele>
+			<time>2015-07-11T16:46:09Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.011734" lon="13.497103">
+			<ele>484.98</ele>
+			<time>2015-07-11T16:53:37Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.013214" lon="13.490294">
+			<ele>494.31</ele>
+			<time>2015-07-11T17:01:17Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.011658" lon="13.483592">
+			<ele>507.65</ele>
+			<time>2015-07-11T17:12:05Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.011021" lon="13.476630">
+			<ele>522.82</ele>
+			<time>2015-07-11T17:21:29Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.008072" lon="13.471143">
+			<ele>550.76</ele>
+			<time>2015-07-11T17:30:44Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.007034" lon="13.463511">
+			<ele>563.00</ele>
+			<time>2015-07-11T17:41:33Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.003864" lon="13.458488">
+			<ele>541.35</ele>
+			<time>2015-07-11T18:19:36Z</time>
+			<extensions>
+				<gte:gps speed="0.6"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#2</gte:name>
+			<gte:color>#00ce00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+<trk>
+	<name>20150712 - nedele</name>
+	<desc>Color:004000ff</desc>
+	<trkseg>
+		<trkpt lat="50.003792" lon="13.458646">
+			<ele>539.11</ele>
+			<time>2015-07-12T07:18:40Z</time>
+			<extensions>
+				<gte:gps speed="0.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.000694" lon="13.463771">
+			<ele>525.00</ele>
+			<time>2015-07-12T07:37:35Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.996819" lon="13.467587">
+			<ele>505.12</ele>
+			<time>2015-07-12T07:43:59Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.994026" lon="13.461889">
+			<ele>490.54</ele>
+			<time>2015-07-12T07:53:37Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.989697" lon="13.463878">
+			<ele>481.00</ele>
+			<time>2015-07-12T08:01:35Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.985115" lon="13.463397">
+			<ele>471.00</ele>
+			<time>2015-07-12T08:10:07Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.985535" lon="13.456399">
+			<ele>481.00</ele>
+			<time>2015-07-12T08:57:42Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.985840" lon="13.449277">
+			<ele>491.00</ele>
+			<time>2015-07-12T09:03:45Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.985970" lon="13.442094">
+			<ele>505.95</ele>
+			<time>2015-07-12T09:09:48Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.986691" lon="13.435084">
+			<ele>525.00</ele>
+			<time>2015-07-12T09:15:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.984104" lon="13.429340">
+			<ele>517.29</ele>
+			<time>2015-07-12T09:27:59Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.979824" lon="13.426618">
+			<ele>504.00</ele>
+			<time>2015-07-12T09:35:50Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.976646" lon="13.421167">
+			<ele>500.00</ele>
+			<time>2015-07-12T09:47:40Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.973133" lon="13.416780">
+			<ele>493.81</ele>
+			<time>2015-07-12T10:04:00Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.972195" lon="13.409887">
+			<ele>469.57</ele>
+			<time>2015-07-12T10:13:02Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.969730" lon="13.403938">
+			<ele>422.00</ele>
+			<time>2015-07-12T11:05:18Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.971201" lon="13.397047">
+			<ele>414.06</ele>
+			<time>2015-07-12T11:15:49Z</time>
+			<extensions>
+				<gte:gps speed="0.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.973118" lon="13.390712">
+			<ele>396.00</ele>
+			<time>2015-07-12T11:23:50Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.973068" lon="13.383603">
+			<ele>385.15</ele>
+			<time>2015-07-12T11:29:31Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.972385" lon="13.376686">
+			<ele>382.66</ele>
+			<time>2015-07-12T11:37:23Z</time>
+			<extensions>
+				<gte:gps speed="6.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.973122" lon="13.369512">
+			<ele>376.92</ele>
+			<time>2015-07-12T11:43:26Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.973618" lon="13.362039">
+			<ele>364.33</ele>
+			<time>2015-07-12T11:49:57Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.970646" lon="13.356297">
+			<ele>376.00</ele>
+			<time>2015-07-12T11:57:02Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.967898" lon="13.350591">
+			<ele>350.47</ele>
+			<time>2015-07-12T12:04:43Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.970173" lon="13.344108">
+			<ele>346.00</ele>
+			<time>2015-07-12T12:17:59Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.974499" lon="13.341675">
+			<ele>353.84</ele>
+			<time>2015-07-12T12:32:55Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#3</gte:name>
+			<gte:color>#ffb0ff</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+</gpx>

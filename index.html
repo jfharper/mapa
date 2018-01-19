@@ -159,10 +159,6 @@
 			dataProvider.setMapSet(SMap.MAPSET_TURIST);
 			dataProvider.enable();
 
-// 			m.getSignals().addListener(window, "zoom-stop", function(e) {
-// 				console.log(dataProvider);
-// 			});
-
 			/* pocet vykreslenych bodu v jednotlivych vyletech */
 			var podrobnostMalo = 50;
 			var podrobnostHodne = 1000;
@@ -177,88 +173,98 @@
 			var barvyDefault = [barvy.modra, barvy.zluta, barvy.cervena, barvy.svetlemodra, barvy.fialova, barvy.oranzova, barvy.fialova2, barvy.cervena2, barvy.svetlemodra2, barvy.seda, barvy.ruzova];
 			var petBarev = [barvy.fialova, barvy.zelena, barvy.seda, barvy.cervena2, barvy.ruzova];
 			var triBarvy = [barvy.oranzova, barvy.svetlemodra2, barvy.fialova2];
-			//var path = "https://jfharper.github.io/mapa";
-			var path = ".";
+			var path = "https://jfharper.github.io/mapa";
+			//var path = ".";
+
+			function setGranularity(granularity = "small") {
+				if (granularity === "small") {
+					pocetBodu = podrobnostMalo;
+					dir = smallDir;
+				} else {
+					pocetBodu = podrobnostHodne;
+					dir = bigDir;
+				}
+			}
 
 			var seznamTras = [
-// 				{url: "/trips/20090801-04%20-%20Sumava%20%28Antygl%20-%20Zaton%29.xml", barva: petBarev},
-// 				{url: "/trips/20110719-26%20-%20Rumunsko%2C%20Fagaras.xml"},
-// 				{url: "/trips/20120616-18%20-%20Sazava%20%28Sobesin%20-%20Pikovice%29.xml"},
-// 				{url: "/trips/20120812-14%20-%20Beskydy%20%28Frenstat%20-%20Bila%29.xml", barva: triBarvy},
-// 				{url: "/trips/20130523-26%20-%20Nova%20Pec%2C%20Plechy%2C%20Vltava.xml"},
-// 				{url: "/trips/20130608-09%20-%20Bozi%20Dar%2C%20Horni%20Blatna%2C%20Klasterec.xml"},
-// 				{url: "/trips/20130719-21%20-%20Berounka%20%28Liblin%20-%20Krivoklat%29.xml", barva: triBarvy},
-// 				{url: "/trips/20130816-18%20-%20Blatno%20-%20Plasy.xml"},
-// 				{url: "/trips/20131025-28%20-%20Cesky%20les%20%28Primda%20-%20Trhanov%29.xml"},
-// 				{url: "/trips/20131123%20-%20Krusne%20hory%2C%20Prisecnice.xml", barva: [barvy.seda]},
-// 				{url: "/trips/20140124-26%20-%20Cesky%20les%20%28Rozvadov%20-%20Marianske%20Lazne%29.xml"},
-// 				{url: "/trips/20140221-23%20-%20Novohradske%20hory.xml"},
-// 				{url: "/trips/20140307-09%20-%20Cesky%20Kras%20%28Zdice%20-%20Srbsko%29.xml"},
-// 				{url: "/trips/20140418-21%20-%20Cesky%20Raj%20%28Mnichovo%20Hradiste%20-%20Jicin%29.xml"},
+				{url: "/20090801-04%20-%20Sumava%20%28Antygl%20-%20Zaton%29.xml", barva: petBarev},
+				{url: "/20110719-26%20-%20Rumunsko%2C%20Fagaras.xml"},
+				{url: "/20120616-18%20-%20Sazava%20%28Sobesin%20-%20Pikovice%29.xml"},
+				{url: "/20120812-14%20-%20Beskydy%20%28Frenstat%20-%20Bila%29.xml", barva: triBarvy},
+				{url: "/20130523-26%20-%20Nova%20Pec%2C%20Plechy%2C%20Vltava.xml"},
+				{url: "/20130608-09%20-%20Bozi%20Dar%2C%20Horni%20Blatna%2C%20Klasterec.xml"},
+				{url: "/20130719-21%20-%20Berounka%20%28Liblin%20-%20Krivoklat%29.xml", barva: triBarvy},
+				{url: "/20130816-18%20-%20Blatno%20-%20Plasy.xml"},
+				{url: "/20131025-28%20-%20Cesky%20les%20%28Primda%20-%20Trhanov%29.xml"},
+				{url: "/20131123%20-%20Krusne%20hory%2C%20Prisecnice.xml", barva: [barvy.seda]},
+				{url: "/20140124-26%20-%20Cesky%20les%20%28Rozvadov%20-%20Marianske%20Lazne%29.xml"},
+				{url: "/20140221-23%20-%20Novohradske%20hory.xml"},
+				{url: "/20140307-09%20-%20Cesky%20Kras%20%28Zdice%20-%20Srbsko%29.xml"},
+				{url: "/20140418-21%20-%20Cesky%20Raj%20%28Mnichovo%20Hradiste%20-%20Jicin%29.xml"},
 				{url: "/20140509-11%20-%20Touzim%20-%20Konst.%20Lazne%20%28Uterak%2BHadovka%29.xml"},
-// 				{url: "/trips/20140614-21%20-%20Vysoke%20Tatry%20%28Zdiar%20-%20Rohace%29.xml"},
-// 				{url: "/trips/20140704-06%20-%20Sumava%20%2B%20Ostry%20%28Susice%20-%20Spicak%29.xml"},
-// 				{url: "/trips/20140813-17%20-%20Beskydy%20%28Ostravice%20-%20Horni%20Lidec%29.xml"},
-// 				{url: "/trips/20140926-28%20-%20Berounka%20%28Roztoky%20-%20Beroun%29.xml"},
-// 				{url: "/trips/20141024-28%20-%20Saske%20Svycarsko%20%28Decin%20-%20Decin%29.xml"},
-// 				{url: "/trips/20141114-16%20-%20Krusne%20hory%20%28Kraslice%20-%20Bozi%20Dar%29.xml"},
-// 				{url: "/trips/20150213-15%20-%20Mze%20%28Stribro%20-%20Plana%20u%20ML%29.xml"},
-// 				{url: "/trips/20150403-5%20-%20Luzicke%20Hory%28C.%20Kamenice%20-%20Jablonne%20v%20Podjestedi%29.xml"},
-// 				{url: "/trips/20150501-03%20-%20Sazava%20%2B%20Brdy.xml"},
-// 				{url: "/trips/20150509%20-%20Svycarsko.xml", barva: [barvy.fialova2]},
-// 				{url: "/trips/20150516%20-%20Karlstejn%20-%20Beroun.xml", barva: [barvy.svetlemodra]},
-// 				{url: "/trips/20150522-26%20-%20Kralicky%20Sneznik%20%2B%20Jeseniky.xml", barva: petBarev},
-// 				{url: "/trips/20150605-06%20-%20Myto%20-%20Radnice.xml", barva: petBarev},
-// 				{url: "/trips/20150619-21%20-%20Myto%20-%20Roztoky.xml"},
-// 				{url: "/trips/20150626-28%20%20-%20Touzim%20-%20Mladotice.xml"},
-// 				{url: "/trips/20150710-12%20-%20Podmokly%20-%20Mladotice.xml", barva: petBarev},
-// 				{url: "/trips/20150718-19%20-%20Beroun%20-%20Karlstejn.xml"},
-// 				{url: "/trips/20150725%20-%20rozhledna%20Sedlo%20%28Janovicky%29.xml", barva: [barvy.cervena2]},
-// 				{url: "/trips/20150726%20-%20Cenkova%20Pila%2C%20Vydra.xml"},
-// 				{url: "/trips/20150727%20-%20Prasily%2C%20Polednik.xml"},
-// 				{url: "/trips/20150808-13%20-%20Jizerky%20%2B%20Krkonose.xml"},
-// 				{url: "/trips/20150821-22%20-%20Plasy%20-%20Radnice.xml", barva: triBarvy},
-// 				{url: "/trips/20150912%20-%20Herm.%20Hut%20-%20Stribro.xml", barva: [barvy.fialova]},
-// 				{url: "/trips/20150915%20-%20Ejpovice%20-%20Chrast.xml", barva: [barvy.cervena2]},
-// 				{url: "/trips/20150926-29%20-%20Hronov%20-%20Zdar%20nad%20Metuji.xml"},
-// 				{url: "/trips/20151016-18%20-%20Pisek%20-%20Cimelice.xml"},
-// 				{url: "/trips/20151024%20-%20Noutonicky%20podzimnik.xml"},
-// 				{url: "/trips/20151028%20-%20Holoubkov%20-%20Rokycany.xml", barva: [barvy.oranzova]},
-// 				{url: "/trips/20151107%20-%20Vsenice%20-%20Berounka%20-%20Vsenice.xml"},
-// 				{url: "/trips/20151228%20-%20Uhost%20%28u%20Kadane%29.xml", barva: [barvy.ruzova]},
-// 				{url: "/trips/20151231%20-%20Vizina%20-%20Hostomice.xml", barva: [barvy.svetlemodra2]},
-// 				{url: "/trips/20160108-10%20-%20C.%20Krumlov%20-%20Borsov.xml"},
-// 				{url: "/trips/20160227-28%20-%20Rozmital%20p.%20Tremsinem%20-%20Mirosov.xml"},
-// 				{url: "/trips/20160305%20-%20Praha%20-%20Prokopske%20udoli.xml"},
-// 				{url: "/trips/20160325-28%20-%20Jindr.%20Hradec%20-%20Kunzak.xml"},
-// 				{url: "/trips/20160429%20-%20Radnice%20-%20Trimany.xml"},
-// 				{url: "/trips/20160513-16%20-%20Rajecke%20Teplice%20-%20Vrutky.xml"},
-// 				{url: "/trips/20160520-21%20-%20Lany%20-%20Olesna.xml"},
-// 				{url: "/trips/20160806-07%20-%20Zihle%20-%20Mladotice.xml"},
-// 				{url: "/trips/20160903%20-%20Noutonicky%20podzimnik.xml"},
-// 				{url: "/trips/20160924-28%20-%20Machuv%20kraj.xml"},
-// 				{url: "/trips/20161014-16%20-%20Manetinsko.xml"},
-// 				{url: "/trips/20161106%20-%20Zdice%20-%20Nizbor.xml"},
-// 				{url: "/trips/20161126%20-%20Stahlavice%20-%20Nezvestice.xml"},
-// 				{url: "/trips/20161231%20-%20Stary%20Plzenec%20-%20Plzen.xml"},
-// 				{url: "/trips/20170203-05%20-%20Dobris%20-%20Stechovice.xml"},
-// 				{url: "/trips/20170304%20-%20Myto%20-%20Mirosov.xml"},
-// 				{url: "/trips/20170324-26%20-%20Potvorov%20-%20Plasy.xml"},
-// 				{url: "/trips/20170414-16%20-%20Krasna%20Lipa%20-%20Vysoka%20Lipa.xml"},
-// 				{url: "/trips/20170505-07%20-%20Oselin%20-%20Lazne%20Kynzvart.xml"},
-// 				{url: "/trips/20170521%20-%20Stupno%20-%20Holoubkov.xml"},
-// 				{url: "/trips/20170527%20-%20Jested.xml"},
-// 				{url: "/trips/20170528%20-%20Mala%20Skala.xml"},
-// 				{url: "/trips/20170603-04%20-%20Kralovice%20-%20Stupno.xml"},
-// 				{url: "/trips/20170609-13%20-%20Vysoka%20Pec%20-%20Krupka.xml"},
-// 				{url: "/trips/20170623-25%20-%20Touzim%20-%20Konstantinovy%20Lazne.xml", barva: triBarvy},
-// 				{url: "/trips/20170702%20-%20Plesivec.xml", barva: [barvy.cervena2]},
-// 				{url: "/trips/20170730-31%20-%20Tabor%20-%20Zidova%20strouha.xml"},
-// 				{url: "/trips/20170806%20-%20Horina%20z%20Hradce.xml"},
-// 				{url: "/trips/20170811-13%20-%20Straz%20-%20Kladruby.xml"},
-// 				{url: "/trips/20170907-10%20-%20Moravsky%20kras.xml"},
-// 				{url: "/trips/20170927-1001%20-%20Krasna%20Lipa%20-%20Lvova.xml", barva: petBarev},
-// 				{url: "/trips/20171006-08%20-%20Destna%20%28Kokorinsko%29.xml", barva: petBarev}
+				{url: "/20140614-21%20-%20Vysoke%20Tatry%20%28Zdiar%20-%20Rohace%29.xml"},
+				{url: "/20140704-06%20-%20Sumava%20%2B%20Ostry%20%28Susice%20-%20Spicak%29.xml"},
+				{url: "/20140813-17%20-%20Beskydy%20%28Ostravice%20-%20Horni%20Lidec%29.xml"},
+				{url: "/20140926-28%20-%20Berounka%20%28Roztoky%20-%20Beroun%29.xml"},
+				{url: "/20141024-28%20-%20Saske%20Svycarsko%20%28Decin%20-%20Decin%29.xml"},
+				{url: "/20141114-16%20-%20Krusne%20hory%20%28Kraslice%20-%20Bozi%20Dar%29.xml"},
+				{url: "/20150213-15%20-%20Mze%20%28Stribro%20-%20Plana%20u%20ML%29.xml"},
+				{url: "/20150403-5%20-%20Luzicke%20Hory%28C.%20Kamenice%20-%20Jablonne%20v%20Podjestedi%29.xml"},
+				{url: "/20150501-03%20-%20Sazava%20%2B%20Brdy.xml"},
+				{url: "/20150509%20-%20Svycarsko.xml", barva: [barvy.fialova2]},
+				{url: "/20150516%20-%20Karlstejn%20-%20Beroun.xml", barva: [barvy.svetlemodra]},
+				{url: "/20150522-26%20-%20Kralicky%20Sneznik%20%2B%20Jeseniky.xml", barva: petBarev},
+				{url: "/20150605-06%20-%20Myto%20-%20Radnice.xml", barva: petBarev},
+				{url: "/20150619-21%20-%20Myto%20-%20Roztoky.xml"},
+				{url: "/20150626-28%20%20-%20Touzim%20-%20Mladotice.xml"},
+				{url: "/20150710-12%20-%20Podmokly%20-%20Mladotice.xml", barva: petBarev},
+				{url: "/20150718-19%20-%20Beroun%20-%20Karlstejn.xml"},
+				{url: "/20150725%20-%20rozhledna%20Sedlo%20%28Janovicky%29.xml", barva: [barvy.cervena2]},
+				{url: "/20150726%20-%20Cenkova%20Pila%2C%20Vydra.xml"},
+				{url: "/20150727%20-%20Prasily%2C%20Polednik.xml"},
+				{url: "/20150808-13%20-%20Jizerky%20%2B%20Krkonose.xml"},
+				{url: "/20150821-22%20-%20Plasy%20-%20Radnice.xml", barva: triBarvy},
+				{url: "/20150912%20-%20Herm.%20Hut%20-%20Stribro.xml", barva: [barvy.fialova]},
+				{url: "/20150915%20-%20Ejpovice%20-%20Chrast.xml", barva: [barvy.cervena2]},
+				{url: "/20150926-29%20-%20Hronov%20-%20Zdar%20nad%20Metuji.xml"},
+				{url: "/20151016-18%20-%20Pisek%20-%20Cimelice.xml"},
+				{url: "/20151024%20-%20Noutonicky%20podzimnik.xml"},
+				{url: "/20151028%20-%20Holoubkov%20-%20Rokycany.xml", barva: [barvy.oranzova]},
+				{url: "/20151107%20-%20Vsenice%20-%20Berounka%20-%20Vsenice.xml"},
+				{url: "/20151228%20-%20Uhost%20%28u%20Kadane%29.xml", barva: [barvy.ruzova]},
+				{url: "/20151231%20-%20Vizina%20-%20Hostomice.xml", barva: [barvy.svetlemodra2]},
+				{url: "/20160108-10%20-%20C.%20Krumlov%20-%20Borsov.xml"},
+				{url: "/20160227-28%20-%20Rozmital%20p.%20Tremsinem%20-%20Mirosov.xml"},
+				{url: "/20160305%20-%20Praha%20-%20Prokopske%20udoli.xml"},
+				{url: "/20160325-28%20-%20Jindr.%20Hradec%20-%20Kunzak.xml"},
+				{url: "/20160429%20-%20Radnice%20-%20Trimany.xml"},
+				{url: "/20160513-16%20-%20Rajecke%20Teplice%20-%20Vrutky.xml"},
+				{url: "/20160520-21%20-%20Lany%20-%20Olesna.xml"},
+				{url: "/20160806-07%20-%20Zihle%20-%20Mladotice.xml"},
+				{url: "/20160903%20-%20Noutonicky%20podzimnik.xml"},
+				{url: "/20160924-28%20-%20Machuv%20kraj.xml"},
+				{url: "/20161014-16%20-%20Manetinsko.xml"},
+				{url: "/20161106%20-%20Zdice%20-%20Nizbor.xml"},
+				{url: "/20161126%20-%20Stahlavice%20-%20Nezvestice.xml"},
+				{url: "/20161231%20-%20Stary%20Plzenec%20-%20Plzen.xml"},
+				{url: "/20170203-05%20-%20Dobris%20-%20Stechovice.xml"},
+				{url: "/20170304%20-%20Myto%20-%20Mirosov.xml"},
+				{url: "/20170324-26%20-%20Potvorov%20-%20Plasy.xml"},
+				{url: "/20170414-16%20-%20Krasna%20Lipa%20-%20Vysoka%20Lipa.xml"},
+				{url: "/20170505-07%20-%20Oselin%20-%20Lazne%20Kynzvart.xml"},
+				{url: "/20170521%20-%20Stupno%20-%20Holoubkov.xml"},
+				{url: "/20170527%20-%20Jested.xml"},
+				{url: "/20170528%20-%20Mala%20Skala.xml"},
+				{url: "/20170603-04%20-%20Kralovice%20-%20Stupno.xml"},
+				{url: "/20170609-13%20-%20Vysoka%20Pec%20-%20Krupka.xml"},
+				{url: "/20170623-25%20-%20Touzim%20-%20Konstantinovy%20Lazne.xml", barva: triBarvy},
+				{url: "/20170702%20-%20Plesivec.xml", barva: [barvy.cervena2]},
+				{url: "/20170730-31%20-%20Tabor%20-%20Zidova%20strouha.xml"},
+				{url: "/20170806%20-%20Horina%20z%20Hradce.xml"},
+				{url: "/20170811-13%20-%20Straz%20-%20Kladruby.xml"},
+				{url: "/20170907-10%20-%20Moravsky%20kras.xml"},
+				{url: "/20170927-1001%20-%20Krasna%20Lipa%20-%20Lvova.xml", barva: petBarev},
+				{url: "/20171006-08%20-%20Destna%20%28Kokorinsko%29.xml", barva: petBarev}
 			];
 
 
@@ -388,13 +394,11 @@
 					var layer = getLayerWithId(id);
 					var vylet = getFileWithId(id);
 					if (podrobnost.checked) {
-						pocetBodu = podrobnostHodne;
-						dir = bigDir;
+						setGranularity("big");
 						multi.removeLayer(layer);
 						trasa(vylet.url, vylet.barva);
 					} else {
-						pocetBodu = podrobnostMalo;
-						dir = smallDir;
+						setGranularity("small");
 						multi.removeLayer(layer);
 						trasa(vylet.url, vylet.barva);
 					}
@@ -497,8 +501,7 @@
 				if(id !== "") {
 					var id = id.substr(id.length-8,8);
 					seznamTras = [getFileWithId(id)];
-					pocetBodu = podrobnostHodne;
-					dir = bigDir;
+					setGranularity("big");
 					document.getElementsByClassName("singleView")[0].classList.toggle("hidden");
 					document.getElementsByClassName("multiView")[0].classList.toggle("hidden");
 				} else {
@@ -516,8 +519,7 @@
 				});
 			}
 
-			var pocetBodu = podrobnostMalo;
-			var dir = smallDir;
+			setGranularity("small");
 			vykresleni();
 
 			function trasa(gpxSoubor, barva, done = null) {
@@ -528,13 +530,11 @@
 				});
 				
 				var promise = new Promise(function(resolve) {
-					if (dir == "/smalltrips") {
+					if (dir == smallDir) {
 						let url = path + dir + gpxSoubor;
-						console.log(url);
 						resolve(url);
 					} else {
 						let url = path + dir + gpxSoubor;
-						console.log(url);
 						resolve(url);
 					}
 				});
@@ -573,9 +573,10 @@
 					}
 					jmeno = jmeno.substr(0, jmeno.length-4);
 					var bod = SMap.Coords.fromWGS84(lon, lat);
-					var st = xmlDoc.getElementsByTagName("metadata")[0].getElementsByTagName("desc")[0].getAttribute("stoupani");
-					var kl = xmlDoc.getElementsByTagName("metadata")[0].getElementsByTagName("desc")[0].getAttribute("klesani");
-					var delka = xmlDoc.getElementsByTagName("metadata")[0].getElementsByTagName("desc")[0].getAttribute("delka");
+					var info = xmlDoc.getElementsByTagName("metadata")[0].getElementsByTagName("desc")[0].textContent;
+					var delka = Number(info.split(",")[0]);
+					var st = Number(info.split(",")[1]);
+					var kl = Number(info.split(",")[2]);
 					//souhrny za jednotlive roky
 					var rocnik = jmeno.substr(0, 4);
 					var rokyIndex = roky.findIndex(a => a.osoba === rocnik);
@@ -592,7 +593,6 @@
 					kmTemp = Number(kmTemp);
 					document.getElementById("km").innerHTML = kmTemp + delka;
 				}
-				//pocet bodu predelat aby se bral podle dir
 				var gpx = new SMap.Layer.GPX(xmlDoc, id, {maxPoints: pocetBodu, colors: barva});
 				multi.addLayer(gpx);
 				gpx.enable();

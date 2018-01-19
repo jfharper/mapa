@@ -2,6 +2,8 @@
 <gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata>
 	<name>20151231 - Vizina - Hostomice.xml</name>
+	<desc>22,660,-643
+        </desc>
 	<keywords>Monca, Kata, Rob a Janca, ja</keywords>
 </metadata>
 <trk>
@@ -15,32 +17,11 @@
 				<gte:gps speed="1.4"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.857548" lon="14.102417">
-			<ele>348.00</ele>
-			<time>2015-12-31T08:38:37Z</time>
-			<extensions>
-				<gte:gps speed="0.3"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.857521" lon="14.102470">
-			<ele>348.00</ele>
-			<time>2015-12-31T08:38:58Z</time>
-			<extensions>
-				<gte:gps speed="1.7"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.857408" lon="14.102498">
 			<ele>348.00</ele>
 			<time>2015-12-31T08:39:18Z</time>
 			<extensions>
 				<gte:gps speed="2.1"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.857281" lon="14.102596">
-			<ele>348.00</ele>
-			<time>2015-12-31T08:39:40Z</time>
-			<extensions>
-				<gte:gps speed="5.3"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.857074" lon="14.102749">
@@ -50,25 +31,11 @@
 				<gte:gps speed="3.2"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.856935" lon="14.102844">
-			<ele>349.00</ele>
-			<time>2015-12-31T08:40:14Z</time>
-			<extensions>
-				<gte:gps speed="5.4"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.856720" lon="14.102979">
 			<ele>349.01</ele>
 			<time>2015-12-31T08:40:31Z</time>
 			<extensions>
 				<gte:gps speed="4.9"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.856583" lon="14.103163">
-			<ele>350.00</ele>
-			<time>2015-12-31T08:40:52Z</time>
-			<extensions>
-				<gte:gps speed="1.8"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.856266" lon="14.103443">
@@ -141,25 +108,11 @@
 				<gte:gps speed="5.7"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.854404" lon="14.106456">
-			<ele>358.00</ele>
-			<time>2015-12-31T08:44:43Z</time>
-			<extensions>
-				<gte:gps speed="6.4"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.854336" lon="14.106771">
 			<ele>359.00</ele>
 			<time>2015-12-31T08:45:05Z</time>
 			<extensions>
 				<gte:gps speed="2.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.854416" lon="14.106977">
-			<ele>359.01</ele>
-			<time>2015-12-31T08:45:23Z</time>
-			<extensions>
-				<gte:gps speed="3.6"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.854557" lon="14.107341">
@@ -204,13 +157,6 @@
 				<gte:gps speed="5.6"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.855080" lon="14.109482">
-			<ele>361.00</ele>
-			<time>2015-12-31T08:47:34Z</time>
-			<extensions>
-				<gte:gps speed="5.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.855244" lon="14.109897">
 			<ele>361.00</ele>
 			<time>2015-12-31T08:47:56Z</time>
@@ -244,20 +190,6 @@
 			<time>2015-12-31T08:49:19Z</time>
 			<extensions>
 				<gte:gps speed="1.9"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.855648" lon="14.111535">
-			<ele>361.00</ele>
-			<time>2015-12-31T08:49:40Z</time>
-			<extensions>
-				<gte:gps speed="3.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.855740" lon="14.111682">
-			<ele>361.00</ele>
-			<time>2015-12-31T08:50:02Z</time>
-			<extensions>
-				<gte:gps speed="4.1"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.855801" lon="14.112023">
@@ -316,13 +248,6 @@
 				<gte:gps speed="3.6"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.856911" lon="14.115713">
-			<ele>360.00</ele>
-			<time>2015-12-31T08:53:49Z</time>
-			<extensions>
-				<gte:gps speed="4.2"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.857033" lon="14.116215">
 			<ele>360.00</ele>
 			<time>2015-12-31T08:54:13Z</time>
@@ -337,39 +262,11 @@
 				<gte:gps speed="5.7"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.857269" lon="14.116570">
-			<ele>360.00</ele>
-			<time>2015-12-31T08:54:43Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.857129" lon="14.116667">
-			<ele>361.00</ele>
-			<time>2015-12-31T08:54:57Z</time>
-			<extensions>
-				<gte:gps speed="1.2"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.856937" lon="14.116763">
 			<ele>362.00</ele>
 			<time>2015-12-31T08:55:11Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.856876" lon="14.116620">
-			<ele>361.95</ele>
-			<time>2015-12-31T08:55:26Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.856865" lon="14.116560">
-			<ele>361.79</ele>
-			<time>2015-12-31T08:55:40Z</time>
-			<extensions>
-				<gte:gps speed="1.2"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.856697" lon="14.116502">
@@ -400,23 +297,9 @@
 				<gte:gps speed="1.5"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.855637" lon="14.116882">
-			<ele>367.99</ele>
-			<time>2015-12-31T08:56:52Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.855507" lon="14.116809">
 			<ele>368.00</ele>
 			<time>2015-12-31T08:57:06Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.855293" lon="14.116802">
-			<ele>369.00</ele>
-			<time>2015-12-31T08:57:22Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -449,23 +332,9 @@
 				<gte:gps speed="6.1"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.853977" lon="14.117508">
-			<ele>377.91</ele>
-			<time>2015-12-31T08:58:59Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.853817" lon="14.117637">
 			<ele>379.00</ele>
 			<time>2015-12-31T08:59:14Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.853718" lon="14.117701">
-			<ele>379.93</ele>
-			<time>2015-12-31T08:59:27Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -477,23 +346,9 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.853477" lon="14.117898">
-			<ele>381.23</ele>
-			<time>2015-12-31T08:59:54Z</time>
-			<extensions>
-				<gte:gps speed="3.5"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.853317" lon="14.117972">
 			<ele>382.93</ele>
 			<time>2015-12-31T09:00:08Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.853163" lon="14.118050">
-			<ele>383.65</ele>
-			<time>2015-12-31T09:00:22Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -505,25 +360,11 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.852913" lon="14.118458">
-			<ele>386.00</ele>
-			<time>2015-12-31T09:00:50Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.852779" lon="14.118656">
 			<ele>387.15</ele>
 			<time>2015-12-31T09:01:04Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.852707" lon="14.118871">
-			<ele>388.00</ele>
-			<time>2015-12-31T09:01:18Z</time>
-			<extensions>
-				<gte:gps speed="1.9"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.852448" lon="14.119031">
@@ -533,23 +374,9 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.852310" lon="14.119267">
-			<ele>391.38</ele>
-			<time>2015-12-31T09:01:46Z</time>
-			<extensions>
-				<gte:gps speed="4.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.852177" lon="14.119380">
 			<ele>392.67</ele>
 			<time>2015-12-31T09:01:59Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.852093" lon="14.119554">
-			<ele>393.07</ele>
-			<time>2015-12-31T09:02:12Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -561,13 +388,6 @@
 				<gte:gps speed="2.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.851948" lon="14.119991">
-			<ele>396.00</ele>
-			<time>2015-12-31T09:02:40Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.851776" lon="14.120132">
 			<ele>397.00</ele>
 			<time>2015-12-31T09:02:54Z</time>
@@ -575,25 +395,11 @@
 				<gte:gps speed="4.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.851696" lon="14.120374">
-			<ele>398.00</ele>
-			<time>2015-12-31T09:03:09Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.851570" lon="14.120638">
 			<ele>399.67</ele>
 			<time>2015-12-31T09:03:24Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.851402" lon="14.120799">
-			<ele>401.02</ele>
-			<time>2015-12-31T09:03:38Z</time>
-			<extensions>
-				<gte:gps speed="5.5"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.851387" lon="14.120975">
@@ -610,25 +416,11 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.851089" lon="14.121319">
-			<ele>405.65</ele>
-			<time>2015-12-31T09:04:21Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.850868" lon="14.121494">
 			<ele>408.04</ele>
 			<time>2015-12-31T09:04:36Z</time>
 			<extensions>
 				<gte:gps speed="1.6"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.850822" lon="14.121695">
-			<ele>409.03</ele>
-			<time>2015-12-31T09:04:51Z</time>
-			<extensions>
-				<gte:gps speed="3.8"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.850719" lon="14.121894">
@@ -645,13 +437,6 @@
 				<gte:gps speed="4.4"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.850437" lon="14.122355">
-			<ele>414.00</ele>
-			<time>2015-12-31T09:05:34Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.850433" lon="14.122611">
 			<ele>415.00</ele>
 			<time>2015-12-31T09:05:51Z</time>
@@ -666,30 +451,9 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.850140" lon="14.123036">
-			<ele>418.00</ele>
-			<time>2015-12-31T09:06:22Z</time>
-			<extensions>
-				<gte:gps speed="5.7"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.849998" lon="14.123268">
 			<ele>420.26</ele>
 			<time>2015-12-31T09:06:36Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.849884" lon="14.123369">
-			<ele>421.02</ele>
-			<time>2015-12-31T09:06:50Z</time>
-			<extensions>
-				<gte:gps speed="3.3"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.849838" lon="14.123458">
-			<ele>422.06</ele>
-			<time>2015-12-31T09:07:04Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -701,32 +465,11 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.849650" lon="14.123857">
-			<ele>425.14</ele>
-			<time>2015-12-31T09:07:35Z</time>
-			<extensions>
-				<gte:gps speed="4.8"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.849552" lon="14.123867">
-			<ele>426.00</ele>
-			<time>2015-12-31T09:07:49Z</time>
-			<extensions>
-				<gte:gps speed="4.7"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.849327" lon="14.124117">
 			<ele>428.30</ele>
 			<time>2015-12-31T09:08:03Z</time>
 			<extensions>
 				<gte:gps speed="4.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.849258" lon="14.124308">
-			<ele>429.51</ele>
-			<time>2015-12-31T09:08:19Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.849079" lon="14.124494">
@@ -736,25 +479,11 @@
 				<gte:gps speed="4.3"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.848934" lon="14.124584">
-			<ele>433.36</ele>
-			<time>2015-12-31T09:08:49Z</time>
-			<extensions>
-				<gte:gps speed="4.9"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.848831" lon="14.124766">
 			<ele>434.76</ele>
 			<time>2015-12-31T09:09:03Z</time>
 			<extensions>
 				<gte:gps speed="6.5"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.848679" lon="14.124943">
-			<ele>436.57</ele>
-			<time>2015-12-31T09:09:19Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.848488" lon="14.125131">
@@ -764,25 +493,11 @@
 				<gte:gps speed="5.7"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.848541" lon="14.125352">
-			<ele>439.04</ele>
-			<time>2015-12-31T09:09:48Z</time>
-			<extensions>
-				<gte:gps speed="4.3"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.848320" lon="14.125565">
 			<ele>441.26</ele>
 			<time>2015-12-31T09:10:02Z</time>
 			<extensions>
 				<gte:gps speed="5.1"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.848248" lon="14.125765">
-			<ele>443.00</ele>
-			<time>2015-12-31T09:10:17Z</time>
-			<extensions>
-				<gte:gps speed="2.2"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.847996" lon="14.126001">
@@ -792,25 +507,11 @@
 				<gte:gps speed="6.3"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.847900" lon="14.126249">
-			<ele>447.04</ele>
-			<time>2015-12-31T09:11:57Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.847771" lon="14.126397">
 			<ele>449.47</ele>
 			<time>2015-12-31T09:12:11Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.847717" lon="14.126593">
-			<ele>450.61</ele>
-			<time>2015-12-31T09:12:27Z</time>
-			<extensions>
-				<gte:gps speed="4.6"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.847561" lon="14.126799">
@@ -820,32 +521,11 @@
 				<gte:gps speed="5.5"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.847492" lon="14.126988">
-			<ele>454.69</ele>
-			<time>2015-12-31T09:12:55Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.847488" lon="14.127126">
-			<ele>455.53</ele>
-			<time>2015-12-31T09:13:09Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.847256" lon="14.127379">
 			<ele>458.87</ele>
 			<time>2015-12-31T09:13:25Z</time>
 			<extensions>
 				<gte:gps speed="3.6"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.847187" lon="14.127497">
-			<ele>460.79</ele>
-			<time>2015-12-31T09:13:39Z</time>
-			<extensions>
-				<gte:gps speed="2.7"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.847099" lon="14.127665">
@@ -855,25 +535,11 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.847061" lon="14.128007">
-			<ele>463.65</ele>
-			<time>2015-12-31T09:14:09Z</time>
-			<extensions>
-				<gte:gps speed="4.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.846981" lon="14.128083">
 			<ele>465.00</ele>
 			<time>2015-12-31T09:14:23Z</time>
 			<extensions>
 				<gte:gps speed="5.8"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.846901" lon="14.128315">
-			<ele>466.00</ele>
-			<time>2015-12-31T09:14:37Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.846802" lon="14.128606">
@@ -883,23 +549,9 @@
 				<gte:gps speed="2.6"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.846626" lon="14.128772">
-			<ele>471.08</ele>
-			<time>2015-12-31T09:15:20Z</time>
-			<extensions>
-				<gte:gps speed="4.1"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.846611" lon="14.128973">
 			<ele>472.86</ele>
 			<time>2015-12-31T09:15:35Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.846508" lon="14.129198">
-			<ele>474.55</ele>
-			<time>2015-12-31T09:15:49Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -911,13 +563,6 @@
 				<gte:gps speed="4.1"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.846291" lon="14.129624">
-			<ele>479.94</ele>
-			<time>2015-12-31T09:16:19Z</time>
-			<extensions>
-				<gte:gps speed="4.9"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.846252" lon="14.129845">
 			<ele>481.10</ele>
 			<time>2015-12-31T09:16:34Z</time>
@@ -925,30 +570,9 @@
 				<gte:gps speed="3.3"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.846191" lon="14.129941">
-			<ele>482.19</ele>
-			<time>2015-12-31T09:16:49Z</time>
-			<extensions>
-				<gte:gps speed="1.7"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.846111" lon="14.130076">
-			<ele>484.00</ele>
-			<time>2015-12-31T09:18:00Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.845985" lon="14.130132">
 			<ele>484.88</ele>
 			<time>2015-12-31T09:18:31Z</time>
-			<extensions>
-				<gte:gps speed="4.5"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.845879" lon="14.130296">
-			<ele>487.00</ele>
-			<time>2015-12-31T09:18:45Z</time>
 			<extensions>
 				<gte:gps speed="4.5"/>
 			</extensions>
@@ -960,25 +584,11 @@
 				<gte:gps speed="3.9"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.845730" lon="14.130726">
-			<ele>490.00</ele>
-			<time>2015-12-31T09:19:15Z</time>
-			<extensions>
-				<gte:gps speed="4.9"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.845573" lon="14.130972">
 			<ele>493.00</ele>
 			<time>2015-12-31T09:19:30Z</time>
 			<extensions>
 				<gte:gps speed="4.4"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.845463" lon="14.131148">
-			<ele>495.20</ele>
-			<time>2015-12-31T09:19:48Z</time>
-			<extensions>
-				<gte:gps speed="3.3"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.845394" lon="14.131391">
@@ -995,25 +605,11 @@
 				<gte:gps speed="3.3"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.845192" lon="14.131904">
-			<ele>501.03</ele>
-			<time>2015-12-31T09:20:34Z</time>
-			<extensions>
-				<gte:gps speed="5.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.845104" lon="14.132115">
 			<ele>503.16</ele>
 			<time>2015-12-31T09:20:49Z</time>
 			<extensions>
 				<gte:gps speed="5.7"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.844982" lon="14.132256">
-			<ele>504.84</ele>
-			<time>2015-12-31T09:21:04Z</time>
-			<extensions>
-				<gte:gps speed="3.6"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.844910" lon="14.132504">
@@ -1023,25 +619,11 @@
 				<gte:gps speed="4.6"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.844810" lon="14.132737">
-			<ele>508.90</ele>
-			<time>2015-12-31T09:21:33Z</time>
-			<extensions>
-				<gte:gps speed="4.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.844723" lon="14.132937">
 			<ele>511.19</ele>
 			<time>2015-12-31T09:21:48Z</time>
 			<extensions>
 				<gte:gps speed="5.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.844658" lon="14.133196">
-			<ele>513.20</ele>
-			<time>2015-12-31T09:22:02Z</time>
-			<extensions>
-				<gte:gps speed="5.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.844624" lon="14.133471">
@@ -1051,13 +633,6 @@
 				<gte:gps speed="5.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.844437" lon="14.133618">
-			<ele>517.37</ele>
-			<time>2015-12-31T09:22:34Z</time>
-			<extensions>
-				<gte:gps speed="2.7"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.844181" lon="14.133813">
 			<ele>521.72</ele>
 			<time>2015-12-31T09:23:08Z</time>
@@ -1065,25 +640,11 @@
 				<gte:gps speed="3.3"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.844273" lon="14.134125">
-			<ele>521.88</ele>
-			<time>2015-12-31T09:23:25Z</time>
-			<extensions>
-				<gte:gps speed="5.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.844212" lon="14.134381">
 			<ele>524.67</ele>
 			<time>2015-12-31T09:23:42Z</time>
 			<extensions>
 				<gte:gps speed="4.6"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.844120" lon="14.134571">
-			<ele>525.93</ele>
-			<time>2015-12-31T09:23:59Z</time>
-			<extensions>
-				<gte:gps speed="4.5"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.843975" lon="14.134822">
@@ -1098,13 +659,6 @@
 			<time>2015-12-31T09:24:40Z</time>
 			<extensions>
 				<gte:gps speed="4.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.843651" lon="14.135262">
-			<ele>535.86</ele>
-			<time>2015-12-31T09:25:00Z</time>
-			<extensions>
-				<gte:gps speed="3.8"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.843434" lon="14.135469">
@@ -1128,25 +682,11 @@
 				<gte:gps speed="2.1"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.842854" lon="14.135819">
-			<ele>549.62</ele>
-			<time>2015-12-31T09:26:36Z</time>
-			<extensions>
-				<gte:gps speed="3.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.842728" lon="14.135868">
 			<ele>551.80</ele>
 			<time>2015-12-31T09:26:50Z</time>
 			<extensions>
 				<gte:gps speed="3.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.842598" lon="14.136057">
-			<ele>554.03</ele>
-			<time>2015-12-31T09:27:04Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.842476" lon="14.136154">
@@ -1156,30 +696,9 @@
 				<gte:gps speed="3.5"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.842373" lon="14.136267">
-			<ele>556.37</ele>
-			<time>2015-12-31T09:27:35Z</time>
-			<extensions>
-				<gte:gps speed="5.1"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.842224" lon="14.136266">
 			<ele>558.71</ele>
 			<time>2015-12-31T09:27:49Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.842125" lon="14.136205">
-			<ele>560.21</ele>
-			<time>2015-12-31T09:28:03Z</time>
-			<extensions>
-				<gte:gps speed="3.8"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.842026" lon="14.136334">
-			<ele>561.00</ele>
-			<time>2015-12-31T09:28:17Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -1191,23 +710,9 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.841724" lon="14.136370">
-			<ele>565.39</ele>
-			<time>2015-12-31T09:28:45Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.841595" lon="14.136359">
 			<ele>567.13</ele>
 			<time>2015-12-31T09:28:59Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.841499" lon="14.136310">
-			<ele>568.93</ele>
-			<time>2015-12-31T09:29:14Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -1219,23 +724,9 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.841225" lon="14.136330">
-			<ele>572.52</ele>
-			<time>2015-12-31T09:29:42Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.841053" lon="14.136422">
 			<ele>574.71</ele>
 			<time>2015-12-31T09:29:58Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.840866" lon="14.136481">
-			<ele>576.94</ele>
-			<time>2015-12-31T09:30:12Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -1247,25 +738,11 @@
 				<gte:gps speed="4.4"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.840637" lon="14.136454">
-			<ele>579.29</ele>
-			<time>2015-12-31T09:30:42Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.840431" lon="14.136440">
 			<ele>581.00</ele>
 			<time>2015-12-31T09:30:56Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.840229" lon="14.136548">
-			<ele>582.21</ele>
-			<time>2015-12-31T09:31:13Z</time>
-			<extensions>
-				<gte:gps speed="4.9"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.840084" lon="14.136663">
@@ -1275,25 +752,11 @@
 				<gte:gps speed="5.8"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.839943" lon="14.136622">
-			<ele>583.93</ele>
-			<time>2015-12-31T09:31:42Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.839783" lon="14.136735">
 			<ele>584.12</ele>
 			<time>2015-12-31T09:31:56Z</time>
 			<extensions>
 				<gte:gps speed="4.4"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.839642" lon="14.136818">
-			<ele>585.02</ele>
-			<time>2015-12-31T09:32:11Z</time>
-			<extensions>
-				<gte:gps speed="4.1"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.839504" lon="14.136909">
@@ -1310,23 +773,9 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.839081" lon="14.136975">
-			<ele>589.39</ele>
-			<time>2015-12-31T09:32:54Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.838745" lon="14.137169">
 			<ele>591.00</ele>
 			<time>2015-12-31T09:33:48Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.838638" lon="14.137181">
-			<ele>592.00</ele>
-			<time>2015-12-31T09:34:02Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -1338,25 +787,11 @@
 				<gte:gps speed="4.1"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.838306" lon="14.137284">
-			<ele>593.00</ele>
-			<time>2015-12-31T09:34:31Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.838154" lon="14.137363">
 			<ele>593.00</ele>
 			<time>2015-12-31T09:34:45Z</time>
 			<extensions>
 				<gte:gps speed="5.5"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.837975" lon="14.137426">
-			<ele>594.00</ele>
-			<time>2015-12-31T09:35:00Z</time>
-			<extensions>
-				<gte:gps speed="5.6"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.837784" lon="14.137465">
@@ -1366,25 +801,11 @@
 				<gte:gps speed="5.3"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.837627" lon="14.137598">
-			<ele>596.00</ele>
-			<time>2015-12-31T09:35:28Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.837414" lon="14.137645">
 			<ele>597.00</ele>
 			<time>2015-12-31T09:35:41Z</time>
 			<extensions>
 				<gte:gps speed="4.8"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.837269" lon="14.137763">
-			<ele>597.02</ele>
-			<time>2015-12-31T09:35:56Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.837181" lon="14.137621">
@@ -1401,25 +822,11 @@
 				<gte:gps speed="5.5"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.836945" lon="14.137082">
-			<ele>598.62</ele>
-			<time>2015-12-31T09:36:43Z</time>
-			<extensions>
-				<gte:gps speed="4.4"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.836811" lon="14.136864">
 			<ele>599.00</ele>
 			<time>2015-12-31T09:36:58Z</time>
 			<extensions>
 				<gte:gps speed="6.3"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.836723" lon="14.136613">
-			<ele>599.00</ele>
-			<time>2015-12-31T09:37:12Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.836590" lon="14.136295">
@@ -1429,46 +836,11 @@
 				<gte:gps speed="5.8"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.836464" lon="14.136024">
-			<ele>599.00</ele>
-			<time>2015-12-31T09:37:45Z</time>
-			<extensions>
-				<gte:gps speed="5.7"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.836304" lon="14.135739">
 			<ele>599.00</ele>
 			<time>2015-12-31T09:38:02Z</time>
 			<extensions>
 				<gte:gps speed="4.4"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.836143" lon="14.135641">
-			<ele>599.00</ele>
-			<time>2015-12-31T09:38:19Z</time>
-			<extensions>
-				<gte:gps speed="3.6"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.836086" lon="14.135779">
-			<ele>599.00</ele>
-			<time>2015-12-31T09:38:36Z</time>
-			<extensions>
-				<gte:gps speed="0.5"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.836090" lon="14.135826">
-			<ele>599.00</ele>
-			<time>2015-12-31T09:39:12Z</time>
-			<extensions>
-				<gte:gps speed="0.3"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.836185" lon="14.135646">
-			<ele>599.00</ele>
-			<time>2015-12-31T09:39:29Z</time>
-			<extensions>
-				<gte:gps speed="0.8"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.836185" lon="14.135387">
@@ -1478,32 +850,11 @@
 				<gte:gps speed="6.6"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.836010" lon="14.135189">
-			<ele>598.55</ele>
-			<time>2015-12-31T09:40:03Z</time>
-			<extensions>
-				<gte:gps speed="4.4"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.835903" lon="14.135307">
 			<ele>598.00</ele>
 			<time>2015-12-31T09:40:37Z</time>
 			<extensions>
 				<gte:gps speed="1.3"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.835896" lon="14.135325">
-			<ele>597.89</ele>
-			<time>2015-12-31T09:41:48Z</time>
-			<extensions>
-				<gte:gps speed="3.4"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.835789" lon="14.135427">
-			<ele>596.43</ele>
-			<time>2015-12-31T09:45:46Z</time>
-			<extensions>
-				<gte:gps speed="0.6"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.835629" lon="14.135529">
@@ -1520,13 +871,6 @@
 				<gte:gps speed="3.5"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.835235" lon="14.135559">
-			<ele>592.25</ele>
-			<time>2015-12-31T09:52:19Z</time>
-			<extensions>
-				<gte:gps speed="6.2"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.835087" lon="14.135292">
 			<ele>592.32</ele>
 			<time>2015-12-31T09:52:39Z</time>
@@ -1534,25 +878,11 @@
 				<gte:gps speed="4.8"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.834980" lon="14.134996">
-			<ele>591.47</ele>
-			<time>2015-12-31T09:52:58Z</time>
-			<extensions>
-				<gte:gps speed="5.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.834892" lon="14.134624">
 			<ele>590.95</ele>
 			<time>2015-12-31T09:53:16Z</time>
 			<extensions>
 				<gte:gps speed="4.4"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.834740" lon="14.134413">
-			<ele>590.37</ele>
-			<time>2015-12-31T09:53:35Z</time>
-			<extensions>
-				<gte:gps speed="5.1"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.834553" lon="14.134131">
@@ -1625,13 +955,6 @@
 				<gte:gps speed="5.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.832584" lon="14.131626">
-			<ele>583.30</ele>
-			<time>2015-12-31T09:57:16Z</time>
-			<extensions>
-				<gte:gps speed="4.4"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.832371" lon="14.131385">
 			<ele>578.88</ele>
 			<time>2015-12-31T09:57:35Z</time>
@@ -1681,13 +1004,6 @@
 				<gte:gps speed="4.5"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.831520" lon="14.129061">
-			<ele>578.37</ele>
-			<time>2015-12-31T09:59:47Z</time>
-			<extensions>
-				<gte:gps speed="4.5"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.831352" lon="14.128803">
 			<ele>578.35</ele>
 			<time>2015-12-31T10:00:05Z</time>
@@ -1716,13 +1032,6 @@
 				<gte:gps speed="4.4"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.830791" lon="14.127542">
-			<ele>582.70</ele>
-			<time>2015-12-31T10:01:27Z</time>
-			<extensions>
-				<gte:gps speed="5.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.830631" lon="14.127420">
 			<ele>581.23</ele>
 			<time>2015-12-31T10:01:46Z</time>
@@ -1735,13 +1044,6 @@
 			<time>2015-12-31T10:02:08Z</time>
 			<extensions>
 				<gte:gps speed="5.3"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.830326" lon="14.126735">
-			<ele>584.25</ele>
-			<time>2015-12-31T10:02:28Z</time>
-			<extensions>
-				<gte:gps speed="4.2"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.830025" lon="14.126632">
@@ -1758,13 +1060,6 @@
 				<gte:gps speed="4.2"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.829533" lon="14.126274">
-			<ele>575.65</ele>
-			<time>2015-12-31T10:03:36Z</time>
-			<extensions>
-				<gte:gps speed="4.5"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.829357" lon="14.126002">
 			<ele>575.96</ele>
 			<time>2015-12-31T10:03:58Z</time>
@@ -1777,13 +1072,6 @@
 			<time>2015-12-31T10:04:17Z</time>
 			<extensions>
 				<gte:gps speed="7.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.828934" lon="14.125514">
-			<ele>575.23</ele>
-			<time>2015-12-31T10:04:36Z</time>
-			<extensions>
-				<gte:gps speed="4.8"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.828789" lon="14.125277">
@@ -1805,13 +1093,6 @@
 			<time>2015-12-31T10:05:33Z</time>
 			<extensions>
 				<gte:gps speed="6.3"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.828285" lon="14.124440">
-			<ele>579.05</ele>
-			<time>2015-12-31T10:05:56Z</time>
-			<extensions>
-				<gte:gps speed="4.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.828072" lon="14.124371">
@@ -1870,25 +1151,11 @@
 				<gte:gps speed="3.7"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.826168" lon="14.122939">
-			<ele>572.30</ele>
-			<time>2015-12-31T10:09:16Z</time>
-			<extensions>
-				<gte:gps speed="1.8"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.826031" lon="14.122807">
 			<ele>572.27</ele>
 			<time>2015-12-31T10:09:38Z</time>
 			<extensions>
 				<gte:gps speed="3.5"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.825867" lon="14.122626">
-			<ele>571.46</ele>
-			<time>2015-12-31T10:09:59Z</time>
-			<extensions>
-				<gte:gps speed="4.5"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.825665" lon="14.122352">
@@ -1952,13 +1219,6 @@
 			<time>2015-12-31T10:13:18Z</time>
 			<extensions>
 				<gte:gps speed="4.4"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.823700" lon="14.120229">
-			<ele>575.99</ele>
-			<time>2015-12-31T10:13:39Z</time>
-			<extensions>
-				<gte:gps speed="4.1"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.823589" lon="14.119882">
@@ -2122,13 +1382,6 @@
 				<gte:gps speed="3.7"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.818115" lon="14.114880">
-			<ele>577.70</ele>
-			<time>2015-12-31T10:22:51Z</time>
-			<extensions>
-				<gte:gps speed="2.8"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.817852" lon="14.114740">
 			<ele>576.04</ele>
 			<time>2015-12-31T10:23:19Z</time>
@@ -2155,20 +1408,6 @@
 			<time>2015-12-31T10:24:28Z</time>
 			<extensions>
 				<gte:gps speed="4.9"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.817181" lon="14.113477">
-			<ele>584.43</ele>
-			<time>2015-12-31T10:24:52Z</time>
-			<extensions>
-				<gte:gps speed="4.5"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.817112" lon="14.113481">
-			<ele>584.06</ele>
-			<time>2015-12-31T10:25:21Z</time>
-			<extensions>
-				<gte:gps speed="0.1"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.816982" lon="14.113561">
@@ -2360,13 +1599,6 @@
 				<gte:gps speed="4.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.810005" lon="14.105784">
-			<ele>554.53</ele>
-			<time>2015-12-31T10:39:32Z</time>
-			<extensions>
-				<gte:gps speed="3.1"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.809780" lon="14.105870">
 			<ele>552.00</ele>
 			<time>2015-12-31T10:40:09Z</time>
@@ -2458,13 +1690,6 @@
 				<gte:gps speed="4.2"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.806049" lon="14.101114">
-			<ele>560.94</ele>
-			<time>2015-12-31T10:48:07Z</time>
-			<extensions>
-				<gte:gps speed="3.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805995" lon="14.100712">
 			<ele>564.56</ele>
 			<time>2015-12-31T10:48:40Z</time>
@@ -2514,23 +1739,9 @@
 				<gte:gps speed="0.4"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.804901" lon="14.097579">
-			<ele>571.57</ele>
-			<time>2015-12-31T10:53:01Z</time>
-			<extensions>
-				<gte:gps speed="0.3"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.804844" lon="14.097297">
 			<ele>574.84</ele>
 			<time>2015-12-31T10:54:14Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.804882" lon="14.096971">
-			<ele>582.02</ele>
-			<time>2015-12-31T10:54:54Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -2542,37 +1753,9 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.804951" lon="14.096773">
-			<ele>588.79</ele>
-			<time>2015-12-31T10:55:20Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.804958" lon="14.096741">
-			<ele>589.57</ele>
-			<time>2015-12-31T10:55:33Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.804989" lon="14.096683">
-			<ele>591.11</ele>
-			<time>2015-12-31T10:55:46Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805122" lon="14.096618">
 			<ele>593.77</ele>
 			<time>2015-12-31T10:55:59Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805202" lon="14.096840">
-			<ele>592.30</ele>
-			<time>2015-12-31T10:56:12Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -2584,25 +1767,11 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.805325" lon="14.097147">
-			<ele>591.41</ele>
-			<time>2015-12-31T10:56:39Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805416" lon="14.097478">
 			<ele>587.78</ele>
 			<time>2015-12-31T10:56:52Z</time>
 			<extensions>
 				<gte:gps speed="1.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805538" lon="14.097545">
-			<ele>589.20</ele>
-			<time>2015-12-31T10:57:05Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.805679" lon="14.097564">
@@ -2612,25 +1781,11 @@
 				<gte:gps speed="1.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.805645" lon="14.097578">
-			<ele>590.39</ele>
-			<time>2015-12-31T10:57:31Z</time>
-			<extensions>
-				<gte:gps speed="3.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805443" lon="14.097246">
 			<ele>591.66</ele>
 			<time>2015-12-31T10:57:45Z</time>
 			<extensions>
 				<gte:gps speed="4.3"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805340" lon="14.097031">
-			<ele>592.23</ele>
-			<time>2015-12-31T10:57:57Z</time>
-			<extensions>
-				<gte:gps speed="4.6"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.805222" lon="14.096784">
@@ -2640,39 +1795,11 @@
 				<gte:gps speed="4.4"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.805195" lon="14.096689">
-			<ele>593.00</ele>
-			<time>2015-12-31T10:58:30Z</time>
-			<extensions>
-				<gte:gps speed="0.7"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805183" lon="14.096746">
-			<ele>593.00</ele>
-			<time>2015-12-31T10:58:46Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805176" lon="14.097023">
-			<ele>589.74</ele>
-			<time>2015-12-31T10:59:14Z</time>
-			<extensions>
-				<gte:gps speed="1.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805241" lon="14.097239">
 			<ele>587.44</ele>
 			<time>2015-12-31T10:59:28Z</time>
 			<extensions>
 				<gte:gps speed="5.1"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805332" lon="14.097296">
-			<ele>589.10</ele>
-			<time>2015-12-31T10:59:42Z</time>
-			<extensions>
-				<gte:gps speed="2.5"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.805450" lon="14.097507">
@@ -2682,32 +1809,11 @@
 				<gte:gps speed="5.2"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.805569" lon="14.097555">
-			<ele>590.01</ele>
-			<time>2015-12-31T11:00:10Z</time>
-			<extensions>
-				<gte:gps speed="2.4"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805653" lon="14.097668">
 			<ele>590.46</ele>
 			<time>2015-12-31T11:53:41Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805706" lon="14.097889">
-			<ele>589.38</ele>
-			<time>2015-12-31T11:54:09Z</time>
-			<extensions>
-				<gte:gps speed="0.5"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805603" lon="14.097481">
-			<ele>590.67</ele>
-			<time>2015-12-31T12:05:26Z</time>
-			<extensions>
-				<gte:gps speed="3.3"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.805638" lon="14.097271">
@@ -2717,13 +1823,6 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.805626" lon="14.097094">
-			<ele>591.00</ele>
-			<time>2015-12-31T12:05:53Z</time>
-			<extensions>
-				<gte:gps speed="6.3"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805710" lon="14.096772">
 			<ele>589.52</ele>
 			<time>2015-12-31T12:06:06Z</time>
@@ -2731,23 +1830,9 @@
 				<gte:gps speed="4.1"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.805676" lon="14.096580">
-			<ele>589.00</ele>
-			<time>2015-12-31T12:06:19Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805641" lon="14.096397">
 			<ele>589.00</ele>
 			<time>2015-12-31T12:06:32Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805611" lon="14.096222">
-			<ele>589.26</ele>
-			<time>2015-12-31T12:06:46Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -2759,13 +1844,6 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.805384" lon="14.095865">
-			<ele>592.03</ele>
-			<time>2015-12-31T12:07:15Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805290" lon="14.095716">
 			<ele>593.00</ele>
 			<time>2015-12-31T12:07:29Z</time>
@@ -2773,25 +1851,11 @@
 				<gte:gps speed="2.7"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.805281" lon="14.095462">
-			<ele>593.00</ele>
-			<time>2015-12-31T12:07:43Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805283" lon="14.095082">
 			<ele>593.00</ele>
 			<time>2015-12-31T12:07:57Z</time>
 			<extensions>
 				<gte:gps speed="3.7"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805351" lon="14.094879">
-			<ele>593.74</ele>
-			<time>2015-12-31T12:08:11Z</time>
-			<extensions>
-				<gte:gps speed="5.6"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.805244" lon="14.094530">
@@ -2808,20 +1872,6 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.805153" lon="14.094139">
-			<ele>594.47</ele>
-			<time>2015-12-31T12:08:53Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805046" lon="14.094137">
-			<ele>596.00</ele>
-			<time>2015-12-31T12:09:07Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.804813" lon="14.094147">
 			<ele>597.02</ele>
 			<time>2015-12-31T12:09:20Z</time>
@@ -2829,25 +1879,11 @@
 				<gte:gps speed="2.8"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.804661" lon="14.094054">
-			<ele>598.00</ele>
-			<time>2015-12-31T12:09:34Z</time>
-			<extensions>
-				<gte:gps speed="3.9"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.804577" lon="14.093817">
 			<ele>599.00</ele>
 			<time>2015-12-31T12:09:48Z</time>
 			<extensions>
 				<gte:gps speed="3.3"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.804646" lon="14.093560">
-			<ele>598.90</ele>
-			<time>2015-12-31T12:10:02Z</time>
-			<extensions>
-				<gte:gps speed="3.6"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.804649" lon="14.093385">
@@ -2864,13 +1900,6 @@
 				<gte:gps speed="4.8"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.804775" lon="14.092694">
-			<ele>599.00</ele>
-			<time>2015-12-31T12:10:46Z</time>
-			<extensions>
-				<gte:gps speed="3.6"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.804726" lon="14.092434">
 			<ele>600.00</ele>
 			<time>2015-12-31T12:11:01Z</time>
@@ -2878,30 +1907,9 @@
 				<gte:gps speed="3.6"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.804859" lon="14.092237">
-			<ele>598.23</ele>
-			<time>2015-12-31T12:11:15Z</time>
-			<extensions>
-				<gte:gps speed="3.6"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.804844" lon="14.092139">
-			<ele>598.49</ele>
-			<time>2015-12-31T12:11:29Z</time>
-			<extensions>
-				<gte:gps speed="1.9"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.804615" lon="14.091869">
 			<ele>600.16</ele>
 			<time>2015-12-31T12:11:45Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.804451" lon="14.091706">
-			<ele>601.00</ele>
-			<time>2015-12-31T12:12:00Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -2913,23 +1921,9 @@
 				<gte:gps speed="6.9"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.804382" lon="14.091269">
-			<ele>601.00</ele>
-			<time>2015-12-31T12:12:28Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.804550" lon="14.091024">
 			<ele>603.00</ele>
 			<time>2015-12-31T12:12:42Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.804694" lon="14.090914">
-			<ele>604.00</ele>
-			<time>2015-12-31T12:12:56Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -2941,25 +1935,11 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.804822" lon="14.090463">
-			<ele>607.38</ele>
-			<time>2015-12-31T12:13:24Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.804809" lon="14.090134">
 			<ele>609.82</ele>
 			<time>2015-12-31T12:13:39Z</time>
 			<extensions>
 				<gte:gps speed="4.3"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.804810" lon="14.089787">
-			<ele>612.74</ele>
-			<time>2015-12-31T12:13:57Z</time>
-			<extensions>
-				<gte:gps speed="5.1"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.804791" lon="14.089532">
@@ -2969,23 +1949,9 @@
 				<gte:gps speed="5.6"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.804787" lon="14.089323">
-			<ele>615.51</ele>
-			<time>2015-12-31T12:14:25Z</time>
-			<extensions>
-				<gte:gps speed="1.9"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.804703" lon="14.089102">
 			<ele>615.08</ele>
 			<time>2015-12-31T12:14:39Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.804625" lon="14.088813">
-			<ele>615.48</ele>
-			<time>2015-12-31T12:14:53Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -2995,13 +1961,6 @@
 			<time>2015-12-31T12:15:08Z</time>
 			<extensions>
 				<gte:gps speed="6.4"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.804401" lon="14.088321">
-			<ele>614.87</ele>
-			<time>2015-12-31T12:15:22Z</time>
-			<extensions>
-				<gte:gps speed="7.3"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.804371" lon="14.088060">
@@ -3025,23 +1984,9 @@
 				<gte:gps speed="5.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.804347" lon="14.087227">
-			<ele>617.00</ele>
-			<time>2015-12-31T12:16:19Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.804409" lon="14.087014">
 			<ele>618.69</ele>
 			<time>2015-12-31T12:16:32Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.804493" lon="14.086831">
-			<ele>620.46</ele>
-			<time>2015-12-31T12:16:46Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -3051,13 +1996,6 @@
 			<time>2015-12-31T12:17:00Z</time>
 			<extensions>
 				<gte:gps speed="7.3"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.804676" lon="14.086378">
-			<ele>626.38</ele>
-			<time>2015-12-31T12:17:19Z</time>
-			<extensions>
-				<gte:gps speed="2.6"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.804748" lon="14.086099">
@@ -3137,53 +2075,11 @@
 				<gte:gps speed="5.3"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.805099" lon="14.083006">
-			<ele>657.06</ele>
-			<time>2015-12-31T12:22:05Z</time>
-			<extensions>
-				<gte:gps speed="2.9"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805099" lon="14.083462">
 			<ele>659.23</ele>
 			<time>2015-12-31T12:22:33Z</time>
 			<extensions>
 				<gte:gps speed="1.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805054" lon="14.083531">
-			<ele>658.46</ele>
-			<time>2015-12-31T12:23:02Z</time>
-			<extensions>
-				<gte:gps speed="3.1"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805042" lon="14.083521">
-			<ele>658.54</ele>
-			<time>2015-12-31T12:25:52Z</time>
-			<extensions>
-				<gte:gps speed="0.7"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805042" lon="14.083381">
-			<ele>660.00</ele>
-			<time>2015-12-31T12:26:30Z</time>
-			<extensions>
-				<gte:gps speed="0.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805103" lon="14.083407">
-			<ele>659.84</ele>
-			<time>2015-12-31T12:27:08Z</time>
-			<extensions>
-				<gte:gps speed="0.1"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805309" lon="14.083510">
-			<ele>656.16</ele>
-			<time>2015-12-31T12:27:33Z</time>
-			<extensions>
-				<gte:gps speed="1.8"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.805328" lon="14.084027">
@@ -3193,25 +2089,11 @@
 				<gte:gps speed="3.7"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.805222" lon="14.084273">
-			<ele>642.40</ele>
-			<time>2015-12-31T12:28:33Z</time>
-			<extensions>
-				<gte:gps speed="3.6"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805099" lon="14.084531">
 			<ele>638.65</ele>
 			<time>2015-12-31T12:28:58Z</time>
 			<extensions>
 				<gte:gps speed="1.7"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805141" lon="14.084773">
-			<ele>637.00</ele>
-			<time>2015-12-31T12:29:26Z</time>
-			<extensions>
-				<gte:gps speed="2.3"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.804852" lon="14.085050">
@@ -3340,13 +2222,6 @@
 				<gte:gps speed="2.4"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.800724" lon="14.084268">
-			<ele>582.00</ele>
-			<time>2015-12-31T12:42:21Z</time>
-			<extensions>
-				<gte:gps speed="2.9"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.800152" lon="14.083928">
 			<ele>576.59</ele>
 			<time>2015-12-31T12:42:58Z</time>
@@ -3431,13 +2306,6 @@
 				<gte:gps speed="4.3"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.796066" lon="14.080575">
-			<ele>562.00</ele>
-			<time>2015-12-31T12:49:48Z</time>
-			<extensions>
-				<gte:gps speed="3.2"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.795700" lon="14.080524">
 			<ele>563.00</ele>
 			<time>2015-12-31T12:50:22Z</time>
@@ -3471,13 +2339,6 @@
 			<time>2015-12-31T12:52:51Z</time>
 			<extensions>
 				<gte:gps speed="4.5"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.793503" lon="14.079618">
-			<ele>566.00</ele>
-			<time>2015-12-31T12:53:29Z</time>
-			<extensions>
-				<gte:gps speed="0.3"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.793320" lon="14.079427">
@@ -3585,25 +2446,11 @@
 				<gte:gps speed="0.9"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.787681" lon="14.078251">
-			<ele>613.70</ele>
-			<time>2015-12-31T13:05:52Z</time>
-			<extensions>
-				<gte:gps speed="2.5"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.787492" lon="14.078156">
 			<ele>614.56</ele>
 			<time>2015-12-31T13:06:27Z</time>
 			<extensions>
 				<gte:gps speed="4.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.787412" lon="14.077869">
-			<ele>617.98</ele>
-			<time>2015-12-31T13:06:57Z</time>
-			<extensions>
-				<gte:gps speed="4.6"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.787289" lon="14.077398">
@@ -3625,13 +2472,6 @@
 			<time>2015-12-31T13:08:34Z</time>
 			<extensions>
 				<gte:gps speed="5.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.786652" lon="14.076532">
-			<ele>631.16</ele>
-			<time>2015-12-31T13:09:07Z</time>
-			<extensions>
-				<gte:gps speed="4.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.786559" lon="14.076014">
@@ -3837,39 +2677,11 @@
 				<gte:gps speed="3.9"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.779488" lon="14.058601">
-			<ele>610.73</ele>
-			<time>2015-12-31T13:29:21Z</time>
-			<extensions>
-				<gte:gps speed="6.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.779423" lon="14.058280">
 			<ele>608.91</ele>
 			<time>2015-12-31T13:29:36Z</time>
 			<extensions>
 				<gte:gps speed="5.8"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.779282" lon="14.058063">
-			<ele>609.00</ele>
-			<time>2015-12-31T13:29:50Z</time>
-			<extensions>
-				<gte:gps speed="6.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.779213" lon="14.058196">
-			<ele>609.74</ele>
-			<time>2015-12-31T13:30:21Z</time>
-			<extensions>
-				<gte:gps speed="6.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.779434" lon="14.058497">
-			<ele>609.95</ele>
-			<time>2015-12-31T13:30:45Z</time>
-			<extensions>
-				<gte:gps speed="6.3"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.779718" lon="14.058492">
@@ -3907,25 +2719,11 @@
 				<gte:gps speed="2.2"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.780724" lon="14.059052">
-			<ele>599.00</ele>
-			<time>2015-12-31T13:32:41Z</time>
-			<extensions>
-				<gte:gps speed="3.1"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.780777" lon="14.059375">
 			<ele>599.00</ele>
 			<time>2015-12-31T13:32:59Z</time>
 			<extensions>
 				<gte:gps speed="3.5"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.780884" lon="14.059544">
-			<ele>598.00</ele>
-			<time>2015-12-31T13:33:18Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.781017" lon="14.059639">
@@ -3935,13 +2733,6 @@
 				<gte:gps speed="5.9"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.781208" lon="14.059645">
-			<ele>596.00</ele>
-			<time>2015-12-31T13:34:09Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.781446" lon="14.059633">
 			<ele>592.97</ele>
 			<time>2015-12-31T13:34:25Z</time>
@@ -3949,25 +2740,11 @@
 				<gte:gps speed="6.1"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.781642" lon="14.059788">
-			<ele>590.69</ele>
-			<time>2015-12-31T13:34:42Z</time>
-			<extensions>
-				<gte:gps speed="9.1"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.781865" lon="14.059840">
 			<ele>588.74</ele>
 			<time>2015-12-31T13:35:01Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.782009" lon="14.059608">
-			<ele>587.00</ele>
-			<time>2015-12-31T13:35:36Z</time>
-			<extensions>
-				<gte:gps speed="5.1"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.782036" lon="14.059304">
@@ -3989,13 +2766,6 @@
 			<time>2015-12-31T13:36:27Z</time>
 			<extensions>
 				<gte:gps speed="6.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.782085" lon="14.058181">
-			<ele>586.95</ele>
-			<time>2015-12-31T13:36:44Z</time>
-			<extensions>
-				<gte:gps speed="5.9"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.782139" lon="14.057489">
@@ -4026,25 +2796,11 @@
 				<gte:gps speed="6.5"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.782131" lon="14.055840">
-			<ele>587.16</ele>
-			<time>2015-12-31T13:38:36Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.782261" lon="14.055487">
 			<ele>586.92</ele>
 			<time>2015-12-31T13:38:55Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.782249" lon="14.055319">
-			<ele>587.00</ele>
-			<time>2015-12-31T13:39:09Z</time>
-			<extensions>
-				<gte:gps speed="2.5"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.782204" lon="14.055099">
@@ -4054,25 +2810,11 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.782169" lon="14.054967">
-			<ele>587.50</ele>
-			<time>2015-12-31T13:39:40Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.782170" lon="14.054693">
 			<ele>587.49</ele>
 			<time>2015-12-31T13:39:54Z</time>
 			<extensions>
 				<gte:gps speed="4.6"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.782207" lon="14.054461">
-			<ele>587.86</ele>
-			<time>2015-12-31T13:40:09Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.782185" lon="14.054174">
@@ -4117,20 +2859,6 @@
 				<gte:gps speed="3.8"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.782242" lon="14.050775">
-			<ele>595.32</ele>
-			<time>2015-12-31T13:43:16Z</time>
-			<extensions>
-				<gte:gps speed="0.8"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.782330" lon="14.050707">
-			<ele>595.85</ele>
-			<time>2015-12-31T13:44:20Z</time>
-			<extensions>
-				<gte:gps speed="3.1"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.782845" lon="14.050713">
 			<ele>593.79</ele>
 			<time>2015-12-31T13:44:58Z</time>
@@ -4166,13 +2894,6 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.784096" lon="14.050791">
-			<ele>589.92</ele>
-			<time>2015-12-31T13:46:34Z</time>
-			<extensions>
-				<gte:gps speed="8.2"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.784283" lon="14.050806">
 			<ele>589.04</ele>
 			<time>2015-12-31T13:46:48Z</time>
@@ -4187,13 +2908,6 @@
 				<gte:gps speed="3.3"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.784732" lon="14.050764">
-			<ele>588.00</ele>
-			<time>2015-12-31T13:47:18Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.784958" lon="14.050722">
 			<ele>587.00</ele>
 			<time>2015-12-31T13:47:32Z</time>
@@ -4206,13 +2920,6 @@
 			<time>2015-12-31T13:47:47Z</time>
 			<extensions>
 				<gte:gps speed="4.6"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.785297" lon="14.050861">
-			<ele>585.00</ele>
-			<time>2015-12-31T13:48:01Z</time>
-			<extensions>
-				<gte:gps speed="5.7"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.785488" lon="14.050850">
@@ -4236,25 +2943,11 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.786145" lon="14.050503">
-			<ele>584.12</ele>
-			<time>2015-12-31T13:48:56Z</time>
-			<extensions>
-				<gte:gps speed="4.9"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.786291" lon="14.050408">
 			<ele>585.75</ele>
 			<time>2015-12-31T13:49:10Z</time>
 			<extensions>
 				<gte:gps speed="6.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.786419" lon="14.050254">
-			<ele>587.00</ele>
-			<time>2015-12-31T13:49:24Z</time>
-			<extensions>
-				<gte:gps speed="4.4"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.786552" lon="14.050322">
@@ -4285,23 +2978,9 @@
 				<gte:gps speed="5.9"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.787437" lon="14.050801">
-			<ele>582.26</ele>
-			<time>2015-12-31T13:50:50Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.787636" lon="14.050893">
 			<ele>582.95</ele>
 			<time>2015-12-31T13:51:04Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.787769" lon="14.050994">
-			<ele>582.71</ele>
-			<time>2015-12-31T13:51:18Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>
@@ -4311,13 +2990,6 @@
 			<time>2015-12-31T13:51:32Z</time>
 			<extensions>
 				<gte:gps speed="3.7"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.788216" lon="14.051180">
-			<ele>583.59</ele>
-			<time>2015-12-31T13:51:46Z</time>
-			<extensions>
-				<gte:gps speed="5.9"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.788471" lon="14.051220">
@@ -4341,25 +3013,11 @@
 				<gte:gps speed="8.5"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.789001" lon="14.051168">
-			<ele>583.00</ele>
-			<time>2015-12-31T13:52:44Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.789246" lon="14.050993">
 			<ele>584.00</ele>
 			<time>2015-12-31T13:53:00Z</time>
 			<extensions>
 				<gte:gps speed="6.8"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.789280" lon="14.050942">
-			<ele>584.00</ele>
-			<time>2015-12-31T13:53:14Z</time>
-			<extensions>
-				<gte:gps speed="1.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.789597" lon="14.050651">
@@ -4369,25 +3027,11 @@
 				<gte:gps speed="8.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.789715" lon="14.050466">
-			<ele>584.00</ele>
-			<time>2015-12-31T13:53:41Z</time>
-			<extensions>
-				<gte:gps speed="5.3"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.789955" lon="14.050199">
 			<ele>583.00</ele>
 			<time>2015-12-31T13:53:55Z</time>
 			<extensions>
 				<gte:gps speed="3.6"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.789982" lon="14.050174">
-			<ele>583.00</ele>
-			<time>2015-12-31T13:54:09Z</time>
-			<extensions>
-				<gte:gps speed="4.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.790203" lon="14.049928">
@@ -4404,20 +3048,6 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.790516" lon="14.049658">
-			<ele>580.28</ele>
-			<time>2015-12-31T13:54:53Z</time>
-			<extensions>
-				<gte:gps speed="0.6"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.790527" lon="14.049812">
-			<ele>581.00</ele>
-			<time>2015-12-31T13:56:48Z</time>
-			<extensions>
-				<gte:gps speed="2.7"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.790627" lon="14.049997">
 			<ele>581.24</ele>
 			<time>2015-12-31T13:57:04Z</time>
@@ -4430,13 +3060,6 @@
 			<time>2015-12-31T13:57:18Z</time>
 			<extensions>
 				<gte:gps speed="3.7"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.790764" lon="14.050545">
-			<ele>584.34</ele>
-			<time>2015-12-31T13:57:32Z</time>
-			<extensions>
-				<gte:gps speed="1.8"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.791081" lon="14.050621">
@@ -4453,13 +3076,6 @@
 				<gte:gps speed="3.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.791496" lon="14.050942">
-			<ele>592.76</ele>
-			<time>2015-12-31T13:58:32Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.791592" lon="14.051272">
 			<ele>595.42</ele>
 			<time>2015-12-31T13:58:46Z</time>
@@ -4467,25 +3083,11 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.791714" lon="14.051304">
-			<ele>595.79</ele>
-			<time>2015-12-31T13:59:00Z</time>
-			<extensions>
-				<gte:gps speed="2.1"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.791786" lon="14.051591">
 			<ele>597.99</ele>
 			<time>2015-12-31T13:59:14Z</time>
 			<extensions>
 				<gte:gps speed="2.9"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.791943" lon="14.051779">
-			<ele>599.14</ele>
-			<time>2015-12-31T13:59:32Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.792046" lon="14.052331">
@@ -4521,13 +3123,6 @@
 			<time>2015-12-31T14:02:43Z</time>
 			<extensions>
 				<gte:gps speed="139.9"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.793133" lon="14.054373">
-			<ele>604.44</ele>
-			<time>2015-12-31T14:03:31Z</time>
-			<extensions>
-				<gte:gps speed="3.3"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.793259" lon="14.054510">
@@ -4621,13 +3216,6 @@
 				<gte:gps speed="4.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.796509" lon="14.057180">
-			<ele>521.49</ele>
-			<time>2015-12-31T14:09:56Z</time>
-			<extensions>
-				<gte:gps speed="3.1"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.796478" lon="14.056862">
 			<ele>518.44</ele>
 			<time>2015-12-31T14:10:14Z</time>
@@ -4640,13 +3228,6 @@
 			<time>2015-12-31T14:10:34Z</time>
 			<extensions>
 				<gte:gps speed="6.1"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.796768" lon="14.056254">
-			<ele>511.69</ele>
-			<time>2015-12-31T14:10:53Z</time>
-			<extensions>
-				<gte:gps speed="2.1"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.796997" lon="14.055907">
@@ -4670,13 +3251,6 @@
 				<gte:gps speed="3.3"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.797497" lon="14.054970">
-			<ele>495.68</ele>
-			<time>2015-12-31T14:12:06Z</time>
-			<extensions>
-				<gte:gps speed="2.2"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.797646" lon="14.054704">
 			<ele>493.00</ele>
 			<time>2015-12-31T14:12:24Z</time>
@@ -4689,13 +3263,6 @@
 			<time>2015-12-31T14:12:43Z</time>
 			<extensions>
 				<gte:gps speed="2.8"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.797985" lon="14.054116">
-			<ele>487.79</ele>
-			<time>2015-12-31T14:13:04Z</time>
-			<extensions>
-				<gte:gps speed="0.5"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.798195" lon="14.053743">
@@ -4738,13 +3305,6 @@
 			<time>2015-12-31T14:15:22Z</time>
 			<extensions>
 				<gte:gps speed="1.5"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.799324" lon="14.051806">
-			<ele>464.26</ele>
-			<time>2015-12-31T14:15:41Z</time>
-			<extensions>
-				<gte:gps speed="2.2"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.799458" lon="14.051480">
@@ -4803,13 +3363,6 @@
 				<gte:gps speed="3.6"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.800808" lon="14.049154">
-			<ele>443.00</ele>
-			<time>2015-12-31T14:19:01Z</time>
-			<extensions>
-				<gte:gps speed="1.4"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.801029" lon="14.049008">
 			<ele>440.29</ele>
 			<time>2015-12-31T14:19:22Z</time>
@@ -4845,13 +3398,6 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.802780" lon="14.049070">
-			<ele>424.00</ele>
-			<time>2015-12-31T14:21:40Z</time>
-			<extensions>
-				<gte:gps speed="3.6"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.802956" lon="14.049046">
 			<ele>423.00</ele>
 			<time>2015-12-31T14:21:54Z</time>
@@ -4866,25 +3412,11 @@
 				<gte:gps speed="3.9"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.803413" lon="14.048996">
-			<ele>420.00</ele>
-			<time>2015-12-31T14:22:22Z</time>
-			<extensions>
-				<gte:gps speed="3.1"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.803638" lon="14.049016">
 			<ele>418.77</ele>
 			<time>2015-12-31T14:22:36Z</time>
 			<extensions>
 				<gte:gps speed="2.1"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.803776" lon="14.049143">
-			<ele>417.91</ele>
-			<time>2015-12-31T14:22:50Z</time>
-			<extensions>
-				<gte:gps speed="3.1"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.803993" lon="14.049074">
@@ -4901,13 +3433,6 @@
 				<gte:gps speed="4.6"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.804398" lon="14.049176">
-			<ele>414.00</ele>
-			<time>2015-12-31T14:23:31Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.804627" lon="14.049167">
 			<ele>413.00</ele>
 			<time>2015-12-31T14:23:45Z</time>
@@ -4915,25 +3440,11 @@
 				<gte:gps speed="3.7"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.804844" lon="14.049209">
-			<ele>412.00</ele>
-			<time>2015-12-31T14:24:00Z</time>
-			<extensions>
-				<gte:gps speed="4.4"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.805054" lon="14.049168">
 			<ele>411.00</ele>
 			<time>2015-12-31T14:24:14Z</time>
 			<extensions>
 				<gte:gps speed="3.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.805248" lon="14.049178">
-			<ele>410.52</ele>
-			<time>2015-12-31T14:24:28Z</time>
-			<extensions>
-				<gte:gps speed="3.7"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.805393" lon="14.049230">
@@ -4964,13 +3475,6 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.806366" lon="14.048984">
-			<ele>406.00</ele>
-			<time>2015-12-31T14:25:41Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.806629" lon="14.048873">
 			<ele>405.00</ele>
 			<time>2015-12-31T14:25:55Z</time>
@@ -4983,13 +3487,6 @@
 			<time>2015-12-31T14:26:09Z</time>
 			<extensions>
 				<gte:gps speed="5.4"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.807070" lon="14.048933">
-			<ele>403.00</ele>
-			<time>2015-12-31T14:26:37Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.807251" lon="14.048945">
@@ -5006,25 +3503,11 @@
 				<gte:gps speed="3.3"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.807659" lon="14.048679">
-			<ele>401.00</ele>
-			<time>2015-12-31T14:27:22Z</time>
-			<extensions>
-				<gte:gps speed="3.3"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.807899" lon="14.048556">
 			<ele>400.79</ele>
 			<time>2015-12-31T14:27:37Z</time>
 			<extensions>
 				<gte:gps speed="5.8"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.808064" lon="14.048488">
-			<ele>400.00</ele>
-			<time>2015-12-31T14:27:51Z</time>
-			<extensions>
-				<gte:gps speed="6.5"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.808284" lon="14.048392">
@@ -5034,25 +3517,11 @@
 				<gte:gps speed="4.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.808487" lon="14.048470">
-			<ele>398.65</ele>
-			<time>2015-12-31T14:28:21Z</time>
-			<extensions>
-				<gte:gps speed="3.6"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.808640" lon="14.048406">
 			<ele>398.00</ele>
 			<time>2015-12-31T14:28:36Z</time>
 			<extensions>
 				<gte:gps speed="5.7"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.808784" lon="14.048571">
-			<ele>397.00</ele>
-			<time>2015-12-31T14:28:50Z</time>
-			<extensions>
-				<gte:gps speed="5.4"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.809036" lon="14.048486">
@@ -5069,25 +3538,11 @@
 				<gte:gps speed="3.1"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.809425" lon="14.048495">
-			<ele>395.00</ele>
-			<time>2015-12-31T14:29:34Z</time>
-			<extensions>
-				<gte:gps speed="3.5"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.809654" lon="14.048502">
 			<ele>394.00</ele>
 			<time>2015-12-31T14:29:48Z</time>
 			<extensions>
 				<gte:gps speed="4.4"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.809834" lon="14.048568">
-			<ele>393.00</ele>
-			<time>2015-12-31T14:30:02Z</time>
-			<extensions>
-				<gte:gps speed="4.8"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.810062" lon="14.048592">
@@ -5111,25 +3566,11 @@
 				<gte:gps speed="5.2"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.810924" lon="14.048579">
-			<ele>389.00</ele>
-			<time>2015-12-31T14:31:24Z</time>
-			<extensions>
-				<gte:gps speed="4.1"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.811089" lon="14.048626">
 			<ele>389.00</ele>
 			<time>2015-12-31T14:31:38Z</time>
 			<extensions>
 				<gte:gps speed="3.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.811249" lon="14.048495">
-			<ele>388.52</ele>
-			<time>2015-12-31T14:31:52Z</time>
-			<extensions>
-				<gte:gps speed="2.9"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.811394" lon="14.048475">
@@ -5153,13 +3594,6 @@
 				<gte:gps speed="4.6"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.811951" lon="14.048305">
-			<ele>386.00</ele>
-			<time>2015-12-31T14:32:49Z</time>
-			<extensions>
-				<gte:gps speed="1.3"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.812251" lon="14.048203">
 			<ele>385.00</ele>
 			<time>2015-12-31T14:33:12Z</time>
@@ -5174,25 +3608,11 @@
 				<gte:gps speed="2.4"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.812687" lon="14.048150">
-			<ele>383.20</ele>
-			<time>2015-12-31T14:33:40Z</time>
-			<extensions>
-				<gte:gps speed="3.3"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.812901" lon="14.048055">
 			<ele>383.00</ele>
 			<time>2015-12-31T14:33:54Z</time>
 			<extensions>
 				<gte:gps speed="1.9"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.813091" lon="14.047882">
-			<ele>382.00</ele>
-			<time>2015-12-31T14:34:08Z</time>
-			<extensions>
-				<gte:gps speed="2.9"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.813271" lon="14.047850">
@@ -5202,25 +3622,11 @@
 				<gte:gps speed="1.9"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.813431" lon="14.047701">
-			<ele>381.00</ele>
-			<time>2015-12-31T14:34:36Z</time>
-			<extensions>
-				<gte:gps speed="4.9"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.813625" lon="14.047511">
 			<ele>380.02</ele>
 			<time>2015-12-31T14:34:50Z</time>
 			<extensions>
 				<gte:gps speed="5.6"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.813778" lon="14.047347">
-			<ele>379.38</ele>
-			<time>2015-12-31T14:35:05Z</time>
-			<extensions>
-				<gte:gps speed="4.4"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.813931" lon="14.047197">
@@ -5230,32 +3636,11 @@
 				<gte:gps speed="1.8"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.814041" lon="14.047131">
-			<ele>378.95</ele>
-			<time>2015-12-31T14:35:33Z</time>
-			<extensions>
-				<gte:gps speed="4.1"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.814144" lon="14.047109">
-			<ele>378.06</ele>
-			<time>2015-12-31T14:35:47Z</time>
-			<extensions>
-				<gte:gps speed="3.4"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.814316" lon="14.047019">
 			<ele>378.00</ele>
 			<time>2015-12-31T14:36:01Z</time>
 			<extensions>
 				<gte:gps speed="3.3"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.814458" lon="14.046955">
-			<ele>377.87</ele>
-			<time>2015-12-31T14:36:15Z</time>
-			<extensions>
-				<gte:gps speed="1.5"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.814681" lon="14.046858">
@@ -5265,25 +3650,11 @@
 				<gte:gps speed="1.4"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.814861" lon="14.046782">
-			<ele>376.38</ele>
-			<time>2015-12-31T14:36:43Z</time>
-			<extensions>
-				<gte:gps speed="4.3"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.815092" lon="14.046760">
 			<ele>375.94</ele>
 			<time>2015-12-31T14:36:57Z</time>
 			<extensions>
 				<gte:gps speed="3.5"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.815285" lon="14.046760">
-			<ele>375.00</ele>
-			<time>2015-12-31T14:37:11Z</time>
-			<extensions>
-				<gte:gps speed="2.6"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.815475" lon="14.046871">
@@ -5293,25 +3664,11 @@
 				<gte:gps speed="3.5"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.815678" lon="14.046955">
-			<ele>374.00</ele>
-			<time>2015-12-31T14:37:39Z</time>
-			<extensions>
-				<gte:gps speed="4.2"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.815907" lon="14.046928">
 			<ele>373.00</ele>
 			<time>2015-12-31T14:37:53Z</time>
 			<extensions>
 				<gte:gps speed="3.1"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.816075" lon="14.046990">
-			<ele>373.00</ele>
-			<time>2015-12-31T14:38:07Z</time>
-			<extensions>
-				<gte:gps speed="5.4"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.816254" lon="14.047036">
@@ -5321,13 +3678,6 @@
 				<gte:gps speed="3.8"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.816435" lon="14.047059">
-			<ele>372.00</ele>
-			<time>2015-12-31T14:38:35Z</time>
-			<extensions>
-				<gte:gps speed="2.1"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.816624" lon="14.047191">
 			<ele>371.00</ele>
 			<time>2015-12-31T14:38:49Z</time>
@@ -5335,25 +3685,11 @@
 				<gte:gps speed="4.7"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.816818" lon="14.047209">
-			<ele>371.00</ele>
-			<time>2015-12-31T14:39:03Z</time>
-			<extensions>
-				<gte:gps speed="3.9"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.817040" lon="14.047174">
 			<ele>370.10</ele>
 			<time>2015-12-31T14:39:17Z</time>
 			<extensions>
 				<gte:gps speed="3.2"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.817226" lon="14.047288">
-			<ele>370.00</ele>
-			<time>2015-12-31T14:39:31Z</time>
-			<extensions>
-				<gte:gps speed="4.5"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.817418" lon="14.047318">
@@ -5370,25 +3706,11 @@
 				<gte:gps speed="4.9"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.817837" lon="14.047283">
-			<ele>368.00</ele>
-			<time>2015-12-31T14:40:13Z</time>
-			<extensions>
-				<gte:gps speed="5.2"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.818008" lon="14.047391">
 			<ele>368.00</ele>
 			<time>2015-12-31T14:40:27Z</time>
 			<extensions>
 				<gte:gps speed="1.8"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.818138" lon="14.047195">
-			<ele>367.00</ele>
-			<time>2015-12-31T14:40:41Z</time>
-			<extensions>
-				<gte:gps speed="1.7"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.818316" lon="14.047191">
@@ -5398,13 +3720,6 @@
 				<gte:gps speed="4.7"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.818481" lon="14.047050">
-			<ele>366.00</ele>
-			<time>2015-12-31T14:41:08Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.818703" lon="14.046987">
 			<ele>366.00</ele>
 			<time>2015-12-31T14:41:21Z</time>
@@ -5412,25 +3727,11 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.818806" lon="14.046873">
-			<ele>365.00</ele>
-			<time>2015-12-31T14:41:35Z</time>
-			<extensions>
-				<gte:gps speed="4.3"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.818951" lon="14.046806">
 			<ele>365.00</ele>
 			<time>2015-12-31T14:41:49Z</time>
 			<extensions>
 				<gte:gps speed="5.4"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.819073" lon="14.046735">
-			<ele>365.00</ele>
-			<time>2015-12-31T14:42:03Z</time>
-			<extensions>
-				<gte:gps speed="0.9"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.819225" lon="14.046555">
@@ -5447,13 +3748,6 @@
 				<gte:gps speed="4.3"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.819633" lon="14.046236">
-			<ele>363.00</ele>
-			<time>2015-12-31T14:42:44Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.819786" lon="14.046002">
 			<ele>362.94</ele>
 			<time>2015-12-31T14:42:58Z</time>
@@ -5466,13 +3760,6 @@
 			<time>2015-12-31T14:43:12Z</time>
 			<extensions>
 				<gte:gps speed="5.1"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.820091" lon="14.045991">
-			<ele>362.00</ele>
-			<time>2015-12-31T14:43:26Z</time>
-			<extensions>
-				<gte:gps speed="3.9"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.820278" lon="14.045922">
@@ -5489,25 +3776,11 @@
 				<gte:gps speed="3.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.820671" lon="14.045669">
-			<ele>360.00</ele>
-			<time>2015-12-31T14:44:08Z</time>
-			<extensions>
-				<gte:gps speed="6.3"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.820919" lon="14.045609">
 			<ele>359.00</ele>
 			<time>2015-12-31T14:44:23Z</time>
 			<extensions>
 				<gte:gps speed="3.8"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.821026" lon="14.045524">
-			<ele>359.00</ele>
-			<time>2015-12-31T14:44:38Z</time>
-			<extensions>
-				<gte:gps speed="2.4"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.821217" lon="14.045374">
@@ -5517,25 +3790,11 @@
 				<gte:gps speed="4.4"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.821396" lon="14.045188">
-			<ele>358.00</ele>
-			<time>2015-12-31T14:45:06Z</time>
-			<extensions>
-				<gte:gps speed="6.3"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.821644" lon="14.044975">
 			<ele>357.00</ele>
 			<time>2015-12-31T14:45:35Z</time>
 			<extensions>
 				<gte:gps speed="4.7"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.821766" lon="14.044732">
-			<ele>357.00</ele>
-			<time>2015-12-31T14:45:50Z</time>
-			<extensions>
-				<gte:gps speed="2.2"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.822048" lon="14.044547">
@@ -5545,25 +3804,11 @@
 				<gte:gps speed="5.6"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.822132" lon="14.044605">
-			<ele>355.25</ele>
-			<time>2015-12-31T14:46:19Z</time>
-			<extensions>
-				<gte:gps speed="3.6"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.822407" lon="14.044408">
 			<ele>354.00</ele>
 			<time>2015-12-31T14:46:33Z</time>
 			<extensions>
 				<gte:gps speed="4.9"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.822587" lon="14.044362">
-			<ele>354.00</ele>
-			<time>2015-12-31T14:46:47Z</time>
-			<extensions>
-				<gte:gps speed="5.0"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.822803" lon="14.044290">
@@ -5573,25 +3818,11 @@
 				<gte:gps speed="7.1"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.822987" lon="14.044209">
-			<ele>353.00</ele>
-			<time>2015-12-31T14:47:29Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.823070" lon="14.044260">
 			<ele>353.00</ele>
 			<time>2015-12-31T14:47:43Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.823194" lon="14.044248">
-			<ele>354.00</ele>
-			<time>2015-12-31T14:48:26Z</time>
-			<extensions>
-				<gte:gps speed="6.3"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.823345" lon="14.044262">
@@ -5601,25 +3832,11 @@
 				<gte:gps speed="0.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.823486" lon="14.044269">
-			<ele>354.54</ele>
-			<time>2015-12-31T14:48:56Z</time>
-			<extensions>
-				<gte:gps speed="5.8"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.823593" lon="14.044315">
 			<ele>355.00</ele>
 			<time>2015-12-31T14:49:11Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.823696" lon="14.044334">
-			<ele>355.79</ele>
-			<time>2015-12-31T14:49:55Z</time>
-			<extensions>
-				<gte:gps speed="0.6"/>
 			</extensions>
 		</trkpt>
 		<trkpt lat="49.824032" lon="14.044507">
@@ -5657,30 +3874,9 @@
 				<gte:gps speed="6.0"/>
 			</extensions>
 		</trkpt>
-		<trkpt lat="49.825574" lon="14.045868">
-			<ele>364.00</ele>
-			<time>2015-12-31T15:23:37Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
 		<trkpt lat="49.825491" lon="14.046274">
 			<ele>365.00</ele>
 			<time>2015-12-31T15:29:10Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.825451" lon="14.046252">
-			<ele>365.00</ele>
-			<time>2015-12-31T15:30:03Z</time>
-			<extensions>
-				<gte:gps speed="0.0"/>
-			</extensions>
-		</trkpt>
-		<trkpt lat="49.825461" lon="14.046348">
-			<ele>365.00</ele>
-			<time>2015-12-31T15:30:17Z</time>
 			<extensions>
 				<gte:gps speed="0.0"/>
 			</extensions>

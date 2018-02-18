@@ -1,15 +1,15 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8" />
-        <script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
-        <script type="text/javascript">Loader.load();</script>
-        <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.js"></script>
-        <script src="vkbeautify.js"></script>
-    </head>
-    <body>
-        <script>
+	<head>
+	<meta charset="utf-8" />
+		<script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
+		<script type="text/javascript">Loader.load();</script>
+		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.js"></script>
+		<script src="vkbeautify.js"></script>
+	</head>
+	<body>
+		<script>
 			function processFile(xml, fileName, done) {
 				var xmlDoc = $.parseXML(xml);
 				var delka = 0;
@@ -82,10 +82,10 @@
 				var metadata = xmlDoc.getElementsByTagName('metadata');
 				metadata[0].appendChild(desc);
 			}
-        </script>
+		</script>
 		<form method="post">
 			<input id="file" type="file" multiple /><br><br>
 			<input type="button" value="Odeslat" onclick="sendData()">
 		</form>
-    </body>
+	</body>
 </html>

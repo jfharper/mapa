@@ -270,7 +270,7 @@
 				{url: "/20170927-1001%20-%20Krasna%20Lipa%20-%20Lvova.xml", barva: petBarev},
 				{url: "/20171006-08%20-%20Destna%20%28Kokorinsko%29.xml", barva: petBarev},
 				{url: "/20180213%20-%20Horni%20Briza%20-%20Plasy.xml"},
-				{url: "/20180311%20-%20Vsenice%20-%20Plzen.xml"}
+				{url: "/20180311%20-%20Vsenice%20-%20Plzen.xml", barva: [barvy.cervena]}
 			];
 
 
@@ -286,9 +286,9 @@
 					var k = '<tbody>';
 					for(i = 0;i < obj.length; i++){
 						if (table !== "lidiTab" || obj[i].trips > 2) {//nezobrazuju lidi pouze s jednim vyletem
-							k += '<tr onclick="hideTrips(this, [' + obj[i].ids + '])">';
+							k += '<tr onclick="showHideTrips(this)" id="' + obj[i].osoba + '">';
 						} else {
-							k += '<tr onclick="hideTrips(this, [' + obj[i].ids + '])" class="hideable hidden">';
+							k += '<tr onclick="showHideTrips(this)" id="' + obj[i].osoba + '" class="hideable hidden">';
 						}
 						k += '<td>' + obj[i].osoba + ':</td>';
 						k += '<td>' + obj[i].trips + '</td>';
@@ -321,18 +321,63 @@
 				}
 			}
 
-			function hideTrips(el, except) {
-				el.classList.add("grey");
+			function showHideTrips(el) {
+				el.classList.toggle("grey");
+				let greyIds = [];
+				let grey = document.getElementsByClassName("grey");
+				for(let z=0; z < grey.length; z++) {
+					greyIds.push(grey[z].id);
+				}
+				let tripIds = [];
+				let first = true;
+				for (let val of greyIds) {
+					let peoplePos = people.findIndex(a => a.osoba === val);
+					if (peoplePos === -1) {
+						let rokyPos = roky.findIndex(a => a.osoba === val);
+						if(tripIds.length === 0 && first === true) {
+							tripIds = roky[rokyPos].ids.slice(0);
+							first = false;
+						} else {
+							tripIds = tripIds.filter(function(n) {return roky[rokyPos].ids.indexOf(n) !== -1;});
+						}
+					} else {
+						if(tripIds.length === 0 && first === true) {
+							tripIds = people[peoplePos].ids.slice(0);
+							first = false;
+						} else {
+							tripIds = tripIds.filter(function(n) {return people[peoplePos].ids.indexOf(n) !== -1;});
+						}
+					}
+				}
 				var multiLayers = multi.getLayers();
-				except = except.toString().split(',');
 				for(i = 0; i < multiLayers.length; i++) {
-					if (!except.includes(multiLayers[i]._id) && multiLayers[i]._active === true) {
-						JAK.gel(multiLayers[i]._id).getElementsByClassName("zobrazeni")[0].checked = false;
-						JAK.gel(multiLayers[i]._id).getElementsByClassName("podrobnost")[0].disabled = true;
-						multiLayers[i].disable();
-						var marker = getMarkerWithId(multiLayers[i]._id, znacky);
-						znacky.removeMarker(marker);
-						znackyBackup.addMarker(marker);
+					if (greyIds.length === 0) {
+						if (multiLayers[i]._active === false) {
+							JAK.gel(multiLayers[i]._id).getElementsByClassName("zobrazeni")[0].checked = true;
+							JAK.gel(multiLayers[i]._id).getElementsByClassName("podrobnost")[0].disabled = false;
+							multiLayers[i].enable();
+							var marker = getMarkerWithId(multiLayers[i]._id, znackyBackup);
+							znackyBackup.removeMarker(marker);
+							znacky.addMarker(marker);
+						}
+					} else {
+						if (!tripIds.includes(multiLayers[i]._id) && multiLayers[i]._active === true) {
+							JAK.gel(multiLayers[i]._id).getElementsByClassName("zobrazeni")[0].checked = false;
+							JAK.gel(multiLayers[i]._id).getElementsByClassName("podrobnost")[0].disabled = true;
+							multiLayers[i].disable();
+							var marker = getMarkerWithId(multiLayers[i]._id, znacky);
+							znacky.removeMarker(marker);
+							znackyBackup.addMarker(marker);
+						} else if (tripIds.includes(multiLayers[i]._id) && multiLayers[i]._active === false) {
+							JAK.gel(multiLayers[i]._id).getElementsByClassName("zobrazeni")[0].checked = true;
+							JAK.gel(multiLayers[i]._id).getElementsByClassName("podrobnost")[0].disabled = false;
+							multiLayers[i].enable();
+							var marker = getMarkerWithId(multiLayers[i]._id, znackyBackup);
+							znackyBackup.removeMarker(marker);
+							znacky.addMarker(marker);
+						} else {
+							//console.log("nic nedelam, uz bylo nastaveno spravne");
+						}
 					}
 				}
 			}

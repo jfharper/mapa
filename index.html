@@ -271,7 +271,8 @@
 				{url: "/20171006-08%20-%20Destna%20%28Kokorinsko%29.xml", barva: petBarev},
 				{url: "/20180213%20-%20Horni%20Briza%20-%20Plasy.xml"},
 				{url: "/20180311%20-%20Vsenice%20-%20Plzen.xml", barva: [barvy.cervena]},
-				{url: "/20180325%20-%20Prestice%20-%20Luzany.xml"}
+				{url: "/20180325%20-%20Prestice%20-%20Luzany.xml"},
+				{url: "/20180330-0401%20-%20Dolanky%20-%20Jesenny.xml"}
 			];
 
 
@@ -479,6 +480,7 @@
 				}
 				return marker;
 			}
+
 			//nalezne vrstvu s danym id
 			function getLayerWithId(id) {
 				var layers = multi.getLayers();
@@ -580,7 +582,7 @@
 				xhr.setCallback(window, function(xmlDoc) {
 					response(xmlDoc, barva, done);
 				});
-				
+
 				var promise = new Promise(function(resolve) {
 					if (dir == smallDir) {
 						let url = path + dir + gpxSoubor;

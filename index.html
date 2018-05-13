@@ -99,7 +99,6 @@
 			MujCluster.prototype.click = function(e, elm) {
 				var max_zoom = 18;
 				var map = this.getMap();
-
 				if(map.getZoom() >= max_zoom){
 					var card = new SMap.Card();
 					var hlavicky = "";
@@ -159,9 +158,22 @@
 			dataProvider.setMapSet(SMap.MAPSET_TURIST);
 			dataProvider.enable();
 
-// 			m.getSignals().addListener(window, "zoom-stop", function(e) {
-// 				console.log(dataProvider);
-// 			}); //k ziskani titlu pro POI
+			//pro vypis titulku nad poi bodama, muj pokus
+			m.getSignals().addListener(window, "map-redraw", function(e) {
+				let markers = poiBody.getMarkers();
+				console.log(markers);
+				markers.forEach(function(marker){
+					let nadpis = marker._poi.title;
+					console.log(Object.values(marker.getContainer())[0]);
+					Object.values(marker.getContainer())[0].setAttribute('title',nadpis);
+					Object.values(marker.getContainer())[0].lastChild.setAttribute('alt',nadpis);
+					Object.values(marker.getContainer())[0].lastElementChild.setAttribute('alt',nadpis);
+					marker._options.title = nadpis;
+					poiBody.removeMarker(marker);
+					//poiBody.addMarker(marker);
+				});
+
+			}); //k ziskani titlu pro POI
 
 			/* pocet vykreslenych bodu v jednotlivych vyletech */
 			var podrobnostMalo = 50;
@@ -272,7 +284,9 @@
 				{url: "/20180213%20-%20Horni%20Briza%20-%20Plasy.xml"},
 				{url: "/20180311%20-%20Vsenice%20-%20Plzen.xml", barva: [barvy.cervena]},
 				{url: "/20180325%20-%20Prestice%20-%20Luzany.xml"},
-				{url: "/20180330-0401%20-%20Dolanky%20-%20Jesenny.xml"}
+				{url: "/20180330-0401%20-%20Dolanky%20-%20Jesenny.xml"},
+				{url: "/20180430-0501%20-%20Beroun%20-%20Beroun.xml"},
+				{url: "/20180508%20-%20Hvozd%20-%20Mladotice.xml"}
 			];
 
 

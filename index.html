@@ -120,14 +120,12 @@
 			var center = SMap.Coords.fromWGS84(15.41790, 49.82655);
 			var m = new SMap(JAK.gel("m"), center, 7);
 
-			m.addControl(new SMap.Control.Sync()); /* Aby mapa reagovala na změnu velikosti průhledu */
 			m.addDefaultLayer(SMap.DEF_SMART_BASE);
 			m.addDefaultLayer(SMap.DEF_SMART_TURIST).setBike(true).setTrail(true).enable(); /* Turistický podklad */
 			m.addDefaultControls();
-			var mouse = new SMap.Control.Mouse(SMap.MOUSE_PAN | SMap.MOUSE_WHEEL | SMap.MOUSE_ZOOM); /* Ovládání myší */
-			m.addControl(mouse);
 			var sync = new SMap.Control.Sync({bottomSpace:10});
-			m.addControl(sync);
+			m.addControl(sync); /* Aby mapa reagovala na změnu velikosti průhledu */
+			//TODO: zkusit vyresit zoom dvema prsty v tabletu
 
 			var layerSwitch = new SMap.Control.Layer({items: 2}); /* kvuli prepinani mezi turistickou a zakladni mapou*/
 			layerSwitch.addDefaultLayer(SMap.DEF_SMART_BASE);
@@ -297,7 +295,8 @@
 				{url: "/20180916%20-%20Dolni%20Bela%20-%20Plasy.xml"},
 				{url: "/20180920-23%20-%20Soumarsky%20Most%20-%20Lipno%20nad%20Vltavou.xml"},
 				{url: "/20181006%20-%20Noutonicky%20podzimnik%206.xml"},
-				{url: "/20181012-14%20-%20Loket%20-%20Krasne%20Udoli.xml"}
+				{url: "/20181012-14%20-%20Loket%20-%20Krasne%20Udoli.xml"},
+				{url: "/20181031%20-%20Jince%20-%20Hostomice.xml"}
 			];
 
 

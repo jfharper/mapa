@@ -97,9 +97,8 @@
 			m.addLayer(znackyBackup);
 			znacky.enable();
 
-			var poiBody = new SMap.Layer.Marker("poiBodyId"); /* Vrstva pro popisky v mapach */
-			m.addLayer(poiBody);
-			poiBody.enable();
+			var poiBody = new SMap.Layer.Marker("poiBodyId", {poiTooltip: true}); /* Vrstva pro popisky v mapach */
+			m.addLayer(poiBody).enable();
 
 			var multi = new SMap.Layer.Multi("multiId");
 			m.addLayer(multi);
@@ -112,23 +111,6 @@
 			dataProvider.setMapSet(SMap.MAPSET_BASE);
 			dataProvider.setMapSet(SMap.MAPSET_TURIST);
 			dataProvider.enable();
-
-			//pro vypis titulku nad poi bodama, muj pokus
-			m.getSignals().addListener(window, "map-redraw", function(e) {
-				let markers = poiBody.getMarkers();
-				console.log(markers);
-				markers.forEach(function(marker){
-					let nadpis = marker._poi.title;
-					console.log(Object.values(marker.getContainer())[0]);
-					Object.values(marker.getContainer())[0].setAttribute('title',nadpis);
-					Object.values(marker.getContainer())[0].lastChild.setAttribute('alt',nadpis);
-					Object.values(marker.getContainer())[0].lastElementChild.setAttribute('alt',nadpis);
-					marker._options.title = nadpis;
-					poiBody.removeMarker(marker);
-					//poiBody.addMarker(marker);
-				});
-
-			}); //k ziskani titlu pro POI
 
 			/* pocet vykreslenych bodu v jednotlivych vyletech */
 			var podrobnostMalo = 50;

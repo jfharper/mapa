@@ -1,0 +1,4344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+	<name>20190912 - Komarov - Zajecov.gpx</name>
+	<desc>23,755,-690
+        </desc>
+</metadata>
+<trk>
+	<name>20190912 - ctvrtek</name>
+	<desc>Color:004000ff</desc>
+	<trkseg>
+		<trkpt lat="49.805645" lon="13.857323">
+			<ele>397.81</ele>
+			<time>2019-09-12T07:32:05Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.805885" lon="13.857358">
+			<ele>397.00</ele>
+			<time>2019-09-12T07:32:33Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.806192" lon="13.857478">
+			<ele>397.00</ele>
+			<time>2019-09-12T07:33:01Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.806450" lon="13.857319">
+			<ele>396.00</ele>
+			<time>2019-09-12T07:33:43Z</time>
+			<extensions>
+				<gte:gps speed="0.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.806652" lon="13.856942">
+			<ele>395.00</ele>
+			<time>2019-09-12T07:34:38Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.806625" lon="13.857407">
+			<ele>396.00</ele>
+			<time>2019-09-12T07:35:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.806601" lon="13.857776">
+			<ele>397.00</ele>
+			<time>2019-09-12T07:36:57Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.806558" lon="13.858121">
+			<ele>398.00</ele>
+			<time>2019-09-12T07:38:06Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.806240" lon="13.858137">
+			<ele>398.00</ele>
+			<time>2019-09-12T07:39:02Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.805953" lon="13.858153">
+			<ele>399.00</ele>
+			<time>2019-09-12T07:39:31Z</time>
+			<extensions>
+				<gte:gps speed="0.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.805633" lon="13.858320">
+			<ele>400.00</ele>
+			<time>2019-09-12T07:40:27Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.805974" lon="13.858173">
+			<ele>399.00</ele>
+			<time>2019-09-12T07:41:37Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.805997" lon="13.858554">
+			<ele>400.00</ele>
+			<time>2019-09-12T07:42:05Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.806072" lon="13.859131">
+			<ele>399.68</ele>
+			<time>2019-09-12T07:42:36Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.806076" lon="13.859592">
+			<ele>398.49</ele>
+			<time>2019-09-12T07:43:06Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.805870" lon="13.860082">
+			<ele>398.79</ele>
+			<time>2019-09-12T07:43:33Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.805706" lon="13.860552">
+			<ele>398.62</ele>
+			<time>2019-09-12T07:44:02Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.805534" lon="13.860986">
+			<ele>399.00</ele>
+			<time>2019-09-12T07:44:30Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.805382" lon="13.861553">
+			<ele>399.61</ele>
+			<time>2019-09-12T07:44:59Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.805252" lon="13.862041">
+			<ele>400.00</ele>
+			<time>2019-09-12T07:45:29Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.805054" lon="13.862529">
+			<ele>400.95</ele>
+			<time>2019-09-12T07:45:58Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.804787" lon="13.862883">
+			<ele>402.00</ele>
+			<time>2019-09-12T07:46:26Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.804573" lon="13.863181">
+			<ele>403.00</ele>
+			<time>2019-09-12T07:46:55Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.804543" lon="13.863656">
+			<ele>402.68</ele>
+			<time>2019-09-12T07:47:36Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.804337" lon="13.864082">
+			<ele>404.00</ele>
+			<time>2019-09-12T07:48:04Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.804066" lon="13.864394">
+			<ele>404.00</ele>
+			<time>2019-09-12T07:48:33Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.803776" lon="13.864729">
+			<ele>404.92</ele>
+			<time>2019-09-12T07:49:05Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.803673" lon="13.865121">
+			<ele>406.75</ele>
+			<time>2019-09-12T07:49:51Z</time>
+			<extensions>
+				<gte:gps speed="1.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.803673" lon="13.865486">
+			<ele>408.59</ele>
+			<time>2019-09-12T07:51:10Z</time>
+			<extensions>
+				<gte:gps speed="0.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.803496" lon="13.865883">
+			<ele>410.65</ele>
+			<time>2019-09-12T07:51:55Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.803207" lon="13.866298">
+			<ele>412.68</ele>
+			<time>2019-09-12T07:52:30Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.803085" lon="13.866832">
+			<ele>412.56</ele>
+			<time>2019-09-12T07:53:04Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.802993" lon="13.867205">
+			<ele>415.00</ele>
+			<time>2019-09-12T07:53:35Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.802773" lon="13.867529">
+			<ele>418.04</ele>
+			<time>2019-09-12T07:54:02Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.802678" lon="13.868003">
+			<ele>424.29</ele>
+			<time>2019-09-12T07:54:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.802597" lon="13.868464">
+			<ele>429.43</ele>
+			<time>2019-09-12T07:55:18Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.802357" lon="13.868857">
+			<ele>432.42</ele>
+			<time>2019-09-12T07:55:44Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.801994" lon="13.869195">
+			<ele>430.76</ele>
+			<time>2019-09-12T07:56:19Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.801861" lon="13.869484">
+			<ele>431.84</ele>
+			<time>2019-09-12T07:56:32Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.801651" lon="13.869793">
+			<ele>432.66</ele>
+			<time>2019-09-12T07:56:58Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.801346" lon="13.870148">
+			<ele>430.21</ele>
+			<time>2019-09-12T07:57:32Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.800970" lon="13.870336">
+			<ele>423.96</ele>
+			<time>2019-09-12T07:58:03Z</time>
+			<extensions>
+				<gte:gps speed="2.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.800751" lon="13.870720">
+			<ele>427.08</ele>
+			<time>2019-09-12T07:58:30Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.800682" lon="13.871269">
+			<ele>432.47</ele>
+			<time>2019-09-12T07:58:58Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.800663" lon="13.871815">
+			<ele>435.29</ele>
+			<time>2019-09-12T07:59:24Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.800594" lon="13.872312">
+			<ele>437.21</ele>
+			<time>2019-09-12T07:59:54Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.800396" lon="13.872577">
+			<ele>436.21</ele>
+			<time>2019-09-12T08:00:35Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.800149" lon="13.872726">
+			<ele>435.87</ele>
+			<time>2019-09-12T08:01:36Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.800289" lon="13.873107">
+			<ele>438.95</ele>
+			<time>2019-09-12T08:02:50Z</time>
+			<extensions>
+				<gte:gps speed="2.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.800358" lon="13.872675">
+			<ele>437.04</ele>
+			<time>2019-09-12T08:04:03Z</time>
+			<extensions>
+				<gte:gps speed="0.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.800129" lon="13.872513">
+			<ele>434.09</ele>
+			<time>2019-09-12T08:04:35Z</time>
+			<extensions>
+				<gte:gps speed="3.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.799802" lon="13.872526">
+			<ele>427.74</ele>
+			<time>2019-09-12T08:05:19Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.799521" lon="13.872375">
+			<ele>420.00</ele>
+			<time>2019-09-12T08:05:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.799232" lon="13.872171">
+			<ele>418.78</ele>
+			<time>2019-09-12T08:06:21Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.798820" lon="13.872142">
+			<ele>419.00</ele>
+			<time>2019-09-12T08:06:51Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.798424" lon="13.871901">
+			<ele>419.00</ele>
+			<time>2019-09-12T08:07:25Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.798119" lon="13.871742">
+			<ele>421.00</ele>
+			<time>2019-09-12T08:07:58Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.797829" lon="13.871960">
+			<ele>421.00</ele>
+			<time>2019-09-12T08:08:25Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.797462" lon="13.872179">
+			<ele>422.00</ele>
+			<time>2019-09-12T08:08:53Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.797142" lon="13.872450">
+			<ele>423.00</ele>
+			<time>2019-09-12T08:09:22Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.796852" lon="13.872705">
+			<ele>424.00</ele>
+			<time>2019-09-12T08:09:50Z</time>
+			<extensions>
+				<gte:gps speed="5.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.796597" lon="13.872914">
+			<ele>425.00</ele>
+			<time>2019-09-12T08:10:17Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.796295" lon="13.873223">
+			<ele>426.00</ele>
+			<time>2019-09-12T08:10:45Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.795982" lon="13.873598">
+			<ele>427.00</ele>
+			<time>2019-09-12T08:11:13Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.795742" lon="13.873919">
+			<ele>428.15</ele>
+			<time>2019-09-12T08:11:41Z</time>
+			<extensions>
+				<gte:gps speed="4.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.795589" lon="13.874181">
+			<ele>428.89</ele>
+			<time>2019-09-12T08:11:56Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.795475" lon="13.874598">
+			<ele>428.98</ele>
+			<time>2019-09-12T08:12:30Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.795462" lon="13.875056">
+			<ele>433.38</ele>
+			<time>2019-09-12T08:13:00Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.795445" lon="13.875567">
+			<ele>435.53</ele>
+			<time>2019-09-12T08:13:33Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.795316" lon="13.876037">
+			<ele>434.19</ele>
+			<time>2019-09-12T08:14:21Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.795096" lon="13.876431">
+			<ele>436.16</ele>
+			<time>2019-09-12T08:14:54Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794861" lon="13.876785">
+			<ele>436.36</ele>
+			<time>2019-09-12T08:15:24Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794555" lon="13.877189">
+			<ele>437.13</ele>
+			<time>2019-09-12T08:16:00Z</time>
+			<extensions>
+				<gte:gps speed="4.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794319" lon="13.877487">
+			<ele>439.73</ele>
+			<time>2019-09-12T08:16:27Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794044" lon="13.877831">
+			<ele>443.70</ele>
+			<time>2019-09-12T08:16:59Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793771" lon="13.878033">
+			<ele>447.90</ele>
+			<time>2019-09-12T08:17:29Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793530" lon="13.877846">
+			<ele>447.56</ele>
+			<time>2019-09-12T08:20:25Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793331" lon="13.878202">
+			<ele>449.83</ele>
+			<time>2019-09-12T08:22:36Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793048" lon="13.878361">
+			<ele>449.63</ele>
+			<time>2019-09-12T08:23:03Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792709" lon="13.878588">
+			<ele>450.13</ele>
+			<time>2019-09-12T08:23:31Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792514" lon="13.878767">
+			<ele>450.00</ele>
+			<time>2019-09-12T08:23:49Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792210" lon="13.879075">
+			<ele>450.83</ele>
+			<time>2019-09-12T08:24:19Z</time>
+			<extensions>
+				<gte:gps speed="2.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791973" lon="13.879385">
+			<ele>452.00</ele>
+			<time>2019-09-12T08:24:53Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791630" lon="13.879831">
+			<ele>454.95</ele>
+			<time>2019-09-12T08:25:25Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791458" lon="13.880101">
+			<ele>455.99</ele>
+			<time>2019-09-12T08:25:39Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791328" lon="13.880390">
+			<ele>458.00</ele>
+			<time>2019-09-12T08:25:55Z</time>
+			<extensions>
+				<gte:gps speed="6.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791135" lon="13.880913">
+			<ele>461.09</ele>
+			<time>2019-09-12T08:26:27Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790970" lon="13.881400">
+			<ele>464.43</ele>
+			<time>2019-09-12T08:28:24Z</time>
+			<extensions>
+				<gte:gps speed="3.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790812" lon="13.881967">
+			<ele>469.26</ele>
+			<time>2019-09-12T08:29:00Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790659" lon="13.882488">
+			<ele>472.00</ele>
+			<time>2019-09-12T08:29:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790513" lon="13.882955">
+			<ele>474.74</ele>
+			<time>2019-09-12T08:30:07Z</time>
+			<extensions>
+				<gte:gps speed="0.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790819" lon="13.882665">
+			<ele>474.51</ele>
+			<time>2019-09-12T08:31:13Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791082" lon="13.882691">
+			<ele>476.97</ele>
+			<time>2019-09-12T08:32:09Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791388" lon="13.882721">
+			<ele>480.58</ele>
+			<time>2019-09-12T08:32:44Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791667" lon="13.882741">
+			<ele>482.36</ele>
+			<time>2019-09-12T08:33:16Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791953" lon="13.882646">
+			<ele>482.73</ele>
+			<time>2019-09-12T08:33:55Z</time>
+			<extensions>
+				<gte:gps speed="2.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791993" lon="13.882221">
+			<ele>477.45</ele>
+			<time>2019-09-12T08:34:31Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791910" lon="13.882679">
+			<ele>482.97</ele>
+			<time>2019-09-12T08:37:07Z</time>
+			<extensions>
+				<gte:gps speed="1.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792196" lon="13.882758">
+			<ele>487.93</ele>
+			<time>2019-09-12T08:37:44Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792468" lon="13.882686">
+			<ele>490.58</ele>
+			<time>2019-09-12T08:38:11Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792287" lon="13.883111">
+			<ele>493.45</ele>
+			<time>2019-09-12T08:38:38Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792081" lon="13.883526">
+			<ele>495.46</ele>
+			<time>2019-09-12T08:39:27Z</time>
+			<extensions>
+				<gte:gps speed="0.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791941" lon="13.884135">
+			<ele>498.86</ele>
+			<time>2019-09-12T08:39:54Z</time>
+			<extensions>
+				<gte:gps speed="4.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791607" lon="13.884567">
+			<ele>499.91</ele>
+			<time>2019-09-12T08:40:22Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791327" lon="13.884921">
+			<ele>501.02</ele>
+			<time>2019-09-12T08:40:49Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791321" lon="13.885452">
+			<ele>508.16</ele>
+			<time>2019-09-12T08:41:15Z</time>
+			<extensions>
+				<gte:gps speed="6.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791312" lon="13.885805">
+			<ele>512.61</ele>
+			<time>2019-09-12T08:41:54Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791222" lon="13.886138">
+			<ele>514.27</ele>
+			<time>2019-09-12T08:42:07Z</time>
+			<extensions>
+				<gte:gps speed="1.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791222" lon="13.886826">
+			<ele>518.59</ele>
+			<time>2019-09-12T08:42:51Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791199" lon="13.887419">
+			<ele>518.76</ele>
+			<time>2019-09-12T08:43:24Z</time>
+			<extensions>
+				<gte:gps speed="2.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791238" lon="13.887763">
+			<ele>518.86</ele>
+			<time>2019-09-12T08:43:38Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791556" lon="13.887654">
+			<ele>525.35</ele>
+			<time>2019-09-12T08:44:18Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791759" lon="13.887255">
+			<ele>529.85</ele>
+			<time>2019-09-12T08:46:06Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792022" lon="13.886857">
+			<ele>530.07</ele>
+			<time>2019-09-12T08:50:11Z</time>
+			<extensions>
+				<gte:gps speed="0.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791741" lon="13.887101">
+			<ele>528.54</ele>
+			<time>2019-09-12T08:51:13Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791584" lon="13.887694">
+			<ele>525.83</ele>
+			<time>2019-09-12T08:52:04Z</time>
+			<extensions>
+				<gte:gps speed="2.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791274" lon="13.887937">
+			<ele>519.28</ele>
+			<time>2019-09-12T08:52:32Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791105" lon="13.888457">
+			<ele>515.58</ele>
+			<time>2019-09-12T08:52:58Z</time>
+			<extensions>
+				<gte:gps speed="2.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791059" lon="13.889127">
+			<ele>511.78</ele>
+			<time>2019-09-12T08:55:24Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790672" lon="13.889028">
+			<ele>507.69</ele>
+			<time>2019-09-12T08:55:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790764" lon="13.889661">
+			<ele>507.00</ele>
+			<time>2019-09-12T08:56:41Z</time>
+			<extensions>
+				<gte:gps speed="1.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790844" lon="13.890361">
+			<ele>507.00</ele>
+			<time>2019-09-12T08:57:10Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790779" lon="13.890755">
+			<ele>506.00</ele>
+			<time>2019-09-12T08:57:24Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790723" lon="13.891148">
+			<ele>505.98</ele>
+			<time>2019-09-12T08:58:02Z</time>
+			<extensions>
+				<gte:gps speed="3.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790684" lon="13.891517">
+			<ele>505.31</ele>
+			<time>2019-09-12T08:58:16Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790667" lon="13.891998">
+			<ele>505.60</ele>
+			<time>2019-09-12T08:58:30Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790620" lon="13.892437">
+			<ele>504.21</ele>
+			<time>2019-09-12T08:58:43Z</time>
+			<extensions>
+				<gte:gps speed="2.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790466" lon="13.892901">
+			<ele>504.00</ele>
+			<time>2019-09-12T08:59:18Z</time>
+			<extensions>
+				<gte:gps speed="1.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790118" lon="13.893295">
+			<ele>504.00</ele>
+			<time>2019-09-12T08:59:54Z</time>
+			<extensions>
+				<gte:gps speed="0.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.789827" lon="13.893426">
+			<ele>505.14</ele>
+			<time>2019-09-12T09:00:08Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.789536" lon="13.893464">
+			<ele>506.73</ele>
+			<time>2019-09-12T09:00:44Z</time>
+			<extensions>
+				<gte:gps speed="2.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.789293" lon="13.893493">
+			<ele>508.00</ele>
+			<time>2019-09-12T09:00:58Z</time>
+			<extensions>
+				<gte:gps speed="8.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.789013" lon="13.893540">
+			<ele>508.00</ele>
+			<time>2019-09-12T09:01:11Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788746" lon="13.893583">
+			<ele>508.05</ele>
+			<time>2019-09-12T09:01:24Z</time>
+			<extensions>
+				<gte:gps speed="2.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788346" lon="13.893516">
+			<ele>510.00</ele>
+			<time>2019-09-12T09:02:34Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788111" lon="13.893522">
+			<ele>511.00</ele>
+			<time>2019-09-12T09:02:50Z</time>
+			<extensions>
+				<gte:gps speed="6.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787803" lon="13.893168">
+			<ele>511.00</ele>
+			<time>2019-09-12T09:03:21Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788172" lon="13.893415">
+			<ele>510.18</ele>
+			<time>2019-09-12T09:04:48Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788478" lon="13.892939">
+			<ele>505.88</ele>
+			<time>2019-09-12T09:05:20Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788465" lon="13.892512">
+			<ele>503.96</ele>
+			<time>2019-09-12T09:05:39Z</time>
+			<extensions>
+				<gte:gps speed="6.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788517" lon="13.891891">
+			<ele>501.00</ele>
+			<time>2019-09-12T09:06:17Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788643" lon="13.891243">
+			<ele>495.88</ele>
+			<time>2019-09-12T09:06:52Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788664" lon="13.890790">
+			<ele>493.50</ele>
+			<time>2019-09-12T09:07:30Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788771" lon="13.890142">
+			<ele>488.50</ele>
+			<time>2019-09-12T09:08:27Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788668" lon="13.889428">
+			<ele>483.36</ele>
+			<time>2019-09-12T09:09:09Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788725" lon="13.888795">
+			<ele>476.22</ele>
+			<time>2019-09-12T09:12:33Z</time>
+			<extensions>
+				<gte:gps speed="1.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788532" lon="13.888407">
+			<ele>475.34</ele>
+			<time>2019-09-12T09:13:02Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788256" lon="13.888139">
+			<ele>478.56</ele>
+			<time>2019-09-12T09:14:05Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787998" lon="13.887813">
+			<ele>479.00</ele>
+			<time>2019-09-12T09:14:50Z</time>
+			<extensions>
+				<gte:gps speed="9.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787793" lon="13.887214">
+			<ele>477.61</ele>
+			<time>2019-09-12T09:16:01Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787817" lon="13.886586">
+			<ele>475.00</ele>
+			<time>2019-09-12T09:16:44Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787437" lon="13.886308">
+			<ele>476.00</ele>
+			<time>2019-09-12T09:17:18Z</time>
+			<extensions>
+				<gte:gps speed="6.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787047" lon="13.886079">
+			<ele>475.00</ele>
+			<time>2019-09-12T09:17:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786754" lon="13.885744">
+			<ele>474.00</ele>
+			<time>2019-09-12T09:18:18Z</time>
+			<extensions>
+				<gte:gps speed="2.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786556" lon="13.885564">
+			<ele>473.00</ele>
+			<time>2019-09-12T09:18:32Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786218" lon="13.885353">
+			<ele>471.43</ele>
+			<time>2019-09-12T09:19:20Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786140" lon="13.884796">
+			<ele>467.26</ele>
+			<time>2019-09-12T09:19:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785867" lon="13.884730">
+			<ele>468.87</ele>
+			<time>2019-09-12T09:20:20Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785438" lon="13.884904">
+			<ele>471.00</ele>
+			<time>2019-09-12T09:20:52Z</time>
+			<extensions>
+				<gte:gps speed="8.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785023" lon="13.885067">
+			<ele>472.25</ele>
+			<time>2019-09-12T09:21:39Z</time>
+			<extensions>
+				<gte:gps speed="2.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784636" lon="13.885357">
+			<ele>473.48</ele>
+			<time>2019-09-12T09:22:08Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784439" lon="13.885568">
+			<ele>474.83</ele>
+			<time>2019-09-12T09:22:25Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784076" lon="13.886004">
+			<ele>477.00</ele>
+			<time>2019-09-12T09:23:11Z</time>
+			<extensions>
+				<gte:gps speed="3.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783908" lon="13.886259">
+			<ele>478.00</ele>
+			<time>2019-09-12T09:23:26Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783704" lon="13.886466">
+			<ele>479.00</ele>
+			<time>2019-09-12T09:23:39Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783513" lon="13.886713">
+			<ele>481.00</ele>
+			<time>2019-09-12T09:23:59Z</time>
+			<extensions>
+				<gte:gps speed="2.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783278" lon="13.886982">
+			<ele>483.00</ele>
+			<time>2019-09-12T09:24:13Z</time>
+			<extensions>
+				<gte:gps speed="7.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783038" lon="13.887171">
+			<ele>483.67</ele>
+			<time>2019-09-12T09:25:13Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782858" lon="13.887430">
+			<ele>484.72</ele>
+			<time>2019-09-12T09:25:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782516" lon="13.887844">
+			<ele>487.16</ele>
+			<time>2019-09-12T09:26:11Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782322" lon="13.888067">
+			<ele>488.65</ele>
+			<time>2019-09-12T09:26:24Z</time>
+			<extensions>
+				<gte:gps speed="15.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782124" lon="13.888312">
+			<ele>491.10</ele>
+			<time>2019-09-12T09:26:38Z</time>
+			<extensions>
+				<gte:gps speed="9.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781923" lon="13.888567">
+			<ele>493.21</ele>
+			<time>2019-09-12T09:26:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781590" lon="13.888968">
+			<ele>496.00</ele>
+			<time>2019-09-12T09:27:50Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781288" lon="13.889326">
+			<ele>498.66</ele>
+			<time>2019-09-12T09:28:59Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781022" lon="13.889677">
+			<ele>500.57</ele>
+			<time>2019-09-12T09:29:30Z</time>
+			<extensions>
+				<gte:gps speed="3.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780745" lon="13.890003">
+			<ele>503.20</ele>
+			<time>2019-09-12T09:29:59Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780399" lon="13.890477">
+			<ele>506.47</ele>
+			<time>2019-09-12T09:30:26Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780185" lon="13.890698">
+			<ele>508.00</ele>
+			<time>2019-09-12T09:30:41Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779875" lon="13.891097">
+			<ele>512.00</ele>
+			<time>2019-09-12T09:31:09Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779605" lon="13.891461">
+			<ele>515.30</ele>
+			<time>2019-09-12T09:31:38Z</time>
+			<extensions>
+				<gte:gps speed="2.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779372" lon="13.891790">
+			<ele>518.09</ele>
+			<time>2019-09-12T09:32:07Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779052" lon="13.892132">
+			<ele>521.00</ele>
+			<time>2019-09-12T09:32:35Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778860" lon="13.892335">
+			<ele>523.00</ele>
+			<time>2019-09-12T09:33:17Z</time>
+			<extensions>
+				<gte:gps speed="1.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778681" lon="13.892561">
+			<ele>524.67</ele>
+			<time>2019-09-12T09:33:31Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778483" lon="13.892797">
+			<ele>526.33</ele>
+			<time>2019-09-12T09:33:46Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778160" lon="13.893198">
+			<ele>529.76</ele>
+			<time>2019-09-12T09:34:19Z</time>
+			<extensions>
+				<gte:gps speed="1.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777794" lon="13.893656">
+			<ele>534.00</ele>
+			<time>2019-09-12T09:35:59Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777428" lon="13.894057">
+			<ele>538.00</ele>
+			<time>2019-09-12T09:36:26Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777246" lon="13.894335">
+			<ele>541.42</ele>
+			<time>2019-09-12T09:36:41Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777060" lon="13.894581">
+			<ele>544.09</ele>
+			<time>2019-09-12T09:36:56Z</time>
+			<extensions>
+				<gte:gps speed="1.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776877" lon="13.894784">
+			<ele>546.85</ele>
+			<time>2019-09-12T09:37:27Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776566" lon="13.895194">
+			<ele>551.08</ele>
+			<time>2019-09-12T09:37:58Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776225" lon="13.895572">
+			<ele>554.97</ele>
+			<time>2019-09-12T09:38:24Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775896" lon="13.895880">
+			<ele>555.00</ele>
+			<time>2019-09-12T09:38:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775704" lon="13.895451">
+			<ele>554.19</ele>
+			<time>2019-09-12T09:39:34Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775548" lon="13.895024">
+			<ele>555.94</ele>
+			<time>2019-09-12T09:40:19Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775401" lon="13.894705">
+			<ele>557.46</ele>
+			<time>2019-09-12T09:41:31Z</time>
+			<extensions>
+				<gte:gps speed="6.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775253" lon="13.894434">
+			<ele>560.10</ele>
+			<time>2019-09-12T09:42:01Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775251" lon="13.893986">
+			<ele>567.11</ele>
+			<time>2019-09-12T09:44:06Z</time>
+			<extensions>
+				<gte:gps speed="7.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775451" lon="13.893778">
+			<ele>567.32</ele>
+			<time>2019-09-12T09:44:49Z</time>
+			<extensions>
+				<gte:gps speed="3.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775711" lon="13.893802">
+			<ele>558.15</ele>
+			<time>2019-09-12T09:45:52Z</time>
+			<extensions>
+				<gte:gps speed="1.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775460" lon="13.893740">
+			<ele>567.16</ele>
+			<time>2019-09-12T09:46:50Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775483" lon="13.893316">
+			<ele>564.39</ele>
+			<time>2019-09-12T09:48:11Z</time>
+			<extensions>
+				<gte:gps speed="7.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775271" lon="13.893167">
+			<ele>567.42</ele>
+			<time>2019-09-12T09:51:31Z</time>
+			<extensions>
+				<gte:gps speed="1.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774988" lon="13.893054">
+			<ele>563.94</ele>
+			<time>2019-09-12T09:52:56Z</time>
+			<extensions>
+				<gte:gps speed="5.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774738" lon="13.893129">
+			<ele>556.78</ele>
+			<time>2019-09-12T09:54:34Z</time>
+			<extensions>
+				<gte:gps speed="1.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774740" lon="13.893615">
+			<ele>556.47</ele>
+			<time>2019-09-12T10:13:03Z</time>
+			<extensions>
+				<gte:gps speed="1.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774929" lon="13.893822">
+			<ele>561.64</ele>
+			<time>2019-09-12T10:13:31Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775155" lon="13.894009">
+			<ele>566.21</ele>
+			<time>2019-09-12T10:14:13Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775247" lon="13.894517">
+			<ele>558.65</ele>
+			<time>2019-09-12T10:16:17Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775467" lon="13.894837">
+			<ele>556.99</ele>
+			<time>2019-09-12T10:16:45Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775692" lon="13.895280">
+			<ele>555.00</ele>
+			<time>2019-09-12T10:17:11Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775829" lon="13.895747">
+			<ele>555.00</ele>
+			<time>2019-09-12T10:17:39Z</time>
+			<extensions>
+				<gte:gps speed="2.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775672" lon="13.896156">
+			<ele>554.00</ele>
+			<time>2019-09-12T10:18:08Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775417" lon="13.896486">
+			<ele>553.00</ele>
+			<time>2019-09-12T10:18:35Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775050" lon="13.896773">
+			<ele>551.00</ele>
+			<time>2019-09-12T10:19:03Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774729" lon="13.897093">
+			<ele>551.00</ele>
+			<time>2019-09-12T10:19:32Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774410" lon="13.897371">
+			<ele>550.16</ele>
+			<time>2019-09-12T10:20:00Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774122" lon="13.897657">
+			<ele>550.00</ele>
+			<time>2019-09-12T10:20:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.773746" lon="13.897999">
+			<ele>549.00</ele>
+			<time>2019-09-12T10:20:57Z</time>
+			<extensions>
+				<gte:gps speed="2.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.773552" lon="13.898189">
+			<ele>549.00</ele>
+			<time>2019-09-12T10:21:11Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.773280" lon="13.898448">
+			<ele>549.00</ele>
+			<time>2019-09-12T10:22:09Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.772996" lon="13.898709">
+			<ele>549.00</ele>
+			<time>2019-09-12T10:22:37Z</time>
+			<extensions>
+				<gte:gps speed="1.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.772615" lon="13.899048">
+			<ele>550.00</ele>
+			<time>2019-09-12T10:23:07Z</time>
+			<extensions>
+				<gte:gps speed="3.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.772311" lon="13.899371">
+			<ele>552.00</ele>
+			<time>2019-09-12T10:23:36Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.771980" lon="13.899749">
+			<ele>555.00</ele>
+			<time>2019-09-12T10:24:04Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.771715" lon="13.900024">
+			<ele>558.54</ele>
+			<time>2019-09-12T10:24:32Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.771387" lon="13.900305">
+			<ele>561.92</ele>
+			<time>2019-09-12T10:25:01Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.771074" lon="13.900501">
+			<ele>563.94</ele>
+			<time>2019-09-12T10:25:29Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.770845" lon="13.900656">
+			<ele>563.00</ele>
+			<time>2019-09-12T10:26:12Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.770683" lon="13.900309">
+			<ele>563.00</ele>
+			<time>2019-09-12T10:26:40Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.770608" lon="13.899911">
+			<ele>564.00</ele>
+			<time>2019-09-12T10:27:08Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.770496" lon="13.899580">
+			<ele>565.59</ele>
+			<time>2019-09-12T10:29:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.770637" lon="13.900072">
+			<ele>563.00</ele>
+			<time>2019-09-12T10:30:10Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.770688" lon="13.900423">
+			<ele>563.00</ele>
+			<time>2019-09-12T10:30:38Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.770573" lon="13.900785">
+			<ele>561.47</ele>
+			<time>2019-09-12T10:32:28Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.770208" lon="13.900884">
+			<ele>557.00</ele>
+			<time>2019-09-12T10:32:58Z</time>
+			<extensions>
+				<gte:gps speed="1.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.769885" lon="13.900949">
+			<ele>554.00</ele>
+			<time>2019-09-12T10:33:25Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.769528" lon="13.901061">
+			<ele>551.17</ele>
+			<time>2019-09-12T10:33:53Z</time>
+			<extensions>
+				<gte:gps speed="3.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.769195" lon="13.901103">
+			<ele>548.65</ele>
+			<time>2019-09-12T10:34:21Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.768923" lon="13.901089">
+			<ele>547.00</ele>
+			<time>2019-09-12T10:34:51Z</time>
+			<extensions>
+				<gte:gps speed="0.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.768617" lon="13.901257">
+			<ele>546.37</ele>
+			<time>2019-09-12T10:35:58Z</time>
+			<extensions>
+				<gte:gps speed="2.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.768291" lon="13.901319">
+			<ele>544.05</ele>
+			<time>2019-09-12T10:36:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767856" lon="13.901442">
+			<ele>541.54</ele>
+			<time>2019-09-12T10:36:57Z</time>
+			<extensions>
+				<gte:gps speed="2.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767448" lon="13.901552">
+			<ele>543.76</ele>
+			<time>2019-09-12T10:37:24Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767157" lon="13.901482">
+			<ele>541.96</ele>
+			<time>2019-09-12T10:37:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766805" lon="13.901369">
+			<ele>540.72</ele>
+			<time>2019-09-12T10:38:18Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766644" lon="13.900912">
+			<ele>536.31</ele>
+			<time>2019-09-12T10:38:46Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766748" lon="13.900342">
+			<ele>530.52</ele>
+			<time>2019-09-12T10:39:15Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766780" lon="13.899852">
+			<ele>528.00</ele>
+			<time>2019-09-12T10:39:43Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766617" lon="13.899544">
+			<ele>528.00</ele>
+			<time>2019-09-12T10:40:11Z</time>
+			<extensions>
+				<gte:gps speed="2.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766382" lon="13.899516">
+			<ele>528.00</ele>
+			<time>2019-09-12T10:40:58Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766624" lon="13.899583">
+			<ele>528.00</ele>
+			<time>2019-09-12T10:44:19Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766838" lon="13.899368">
+			<ele>527.00</ele>
+			<time>2019-09-12T10:44:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766778" lon="13.898950">
+			<ele>527.00</ele>
+			<time>2019-09-12T10:45:15Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766614" lon="13.898487">
+			<ele>527.00</ele>
+			<time>2019-09-12T10:45:43Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766452" lon="13.898049">
+			<ele>527.00</ele>
+			<time>2019-09-12T10:46:11Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766295" lon="13.897615">
+			<ele>527.00</ele>
+			<time>2019-09-12T10:46:39Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766166" lon="13.897242">
+			<ele>526.86</ele>
+			<time>2019-09-12T10:47:07Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766105" lon="13.896829">
+			<ele>527.33</ele>
+			<time>2019-09-12T10:47:35Z</time>
+			<extensions>
+				<gte:gps speed="2.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765901" lon="13.896593">
+			<ele>529.44</ele>
+			<time>2019-09-12T10:48:43Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765736" lon="13.896180">
+			<ele>535.08</ele>
+			<time>2019-09-12T10:49:24Z</time>
+			<extensions>
+				<gte:gps speed="0.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765515" lon="13.895992">
+			<ele>538.27</ele>
+			<time>2019-09-12T10:50:23Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765724" lon="13.895852">
+			<ele>541.38</ele>
+			<time>2019-09-12T10:51:33Z</time>
+			<extensions>
+				<gte:gps speed="0.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765911" lon="13.895473">
+			<ele>546.89</ele>
+			<time>2019-09-12T10:52:15Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765935" lon="13.895089">
+			<ele>553.71</ele>
+			<time>2019-09-12T10:53:01Z</time>
+			<extensions>
+				<gte:gps speed="1.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766145" lon="13.894953">
+			<ele>555.40</ele>
+			<time>2019-09-12T10:55:14Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766319" lon="13.895219">
+			<ele>548.69</ele>
+			<time>2019-09-12T10:56:23Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766571" lon="13.895110">
+			<ele>549.31</ele>
+			<time>2019-09-12T10:57:05Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766593" lon="13.894754">
+			<ele>551.98</ele>
+			<time>2019-09-12T10:58:41Z</time>
+			<extensions>
+				<gte:gps speed="1.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766557" lon="13.894319">
+			<ele>553.23</ele>
+			<time>2019-09-12T10:59:22Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766367" lon="13.894044">
+			<ele>561.85</ele>
+			<time>2019-09-12T11:00:05Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766098" lon="13.894154">
+			<ele>575.84</ele>
+			<time>2019-09-12T11:01:01Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765887" lon="13.894007">
+			<ele>581.27</ele>
+			<time>2019-09-12T11:01:59Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765641" lon="13.893803">
+			<ele>588.10</ele>
+			<time>2019-09-12T11:03:08Z</time>
+			<extensions>
+				<gte:gps speed="2.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765529" lon="13.893412">
+			<ele>591.81</ele>
+			<time>2019-09-12T11:03:51Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765440" lon="13.892985">
+			<ele>590.12</ele>
+			<time>2019-09-12T11:04:33Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765259" lon="13.892611">
+			<ele>594.97</ele>
+			<time>2019-09-12T11:05:15Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764999" lon="13.892499">
+			<ele>603.93</ele>
+			<time>2019-09-12T11:05:57Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764743" lon="13.892583">
+			<ele>609.88</ele>
+			<time>2019-09-12T11:06:39Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764461" lon="13.892502">
+			<ele>612.00</ele>
+			<time>2019-09-12T11:08:59Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764238" lon="13.892220">
+			<ele>612.54</ele>
+			<time>2019-09-12T11:09:41Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764106" lon="13.891796">
+			<ele>612.28</ele>
+			<time>2019-09-12T11:10:23Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763921" lon="13.891498">
+			<ele>609.84</ele>
+			<time>2019-09-12T11:11:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763725" lon="13.891137">
+			<ele>604.75</ele>
+			<time>2019-09-12T11:12:57Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763626" lon="13.890739">
+			<ele>599.39</ele>
+			<time>2019-09-12T11:14:21Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763512" lon="13.890266">
+			<ele>595.13</ele>
+			<time>2019-09-12T11:15:19Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763361" lon="13.889844">
+			<ele>594.69</ele>
+			<time>2019-09-12T11:16:58Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763229" lon="13.889488">
+			<ele>595.00</ele>
+			<time>2019-09-12T11:17:28Z</time>
+			<extensions>
+				<gte:gps speed="2.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763161" lon="13.888930">
+			<ele>596.00</ele>
+			<time>2019-09-12T11:17:57Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763119" lon="13.888538">
+			<ele>595.87</ele>
+			<time>2019-09-12T11:18:25Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763000" lon="13.888237">
+			<ele>595.54</ele>
+			<time>2019-09-12T11:18:53Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762814" lon="13.887912">
+			<ele>594.92</ele>
+			<time>2019-09-12T11:19:23Z</time>
+			<extensions>
+				<gte:gps speed="2.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763050" lon="13.887724">
+			<ele>589.67</ele>
+			<time>2019-09-12T11:20:19Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763008" lon="13.887278">
+			<ele>585.67</ele>
+			<time>2019-09-12T11:21:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762939" lon="13.886869">
+			<ele>584.30</ele>
+			<time>2019-09-12T11:22:13Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762705" lon="13.886724">
+			<ele>586.70</ele>
+			<time>2019-09-12T11:22:41Z</time>
+			<extensions>
+				<gte:gps speed="1.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762484" lon="13.886630">
+			<ele>588.53</ele>
+			<time>2019-09-12T11:23:10Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762271" lon="13.886385">
+			<ele>589.40</ele>
+			<time>2019-09-12T11:26:00Z</time>
+			<extensions>
+				<gte:gps speed="1.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762409" lon="13.886100">
+			<ele>586.00</ele>
+			<time>2019-09-12T11:27:28Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762737" lon="13.886019">
+			<ele>583.38</ele>
+			<time>2019-09-12T11:27:56Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763054" lon="13.885875">
+			<ele>578.97</ele>
+			<time>2019-09-12T11:28:24Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763367" lon="13.885671">
+			<ele>568.59</ele>
+			<time>2019-09-12T11:29:33Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763683" lon="13.885551">
+			<ele>562.20</ele>
+			<time>2019-09-12T11:30:13Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763943" lon="13.885459">
+			<ele>559.66</ele>
+			<time>2019-09-12T11:30:41Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764168" lon="13.885414">
+			<ele>557.79</ele>
+			<time>2019-09-12T11:30:55Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764280" lon="13.885026">
+			<ele>557.89</ele>
+			<time>2019-09-12T11:31:23Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764162" lon="13.884508">
+			<ele>559.89</ele>
+			<time>2019-09-12T11:32:05Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764030" lon="13.884001">
+			<ele>562.17</ele>
+			<time>2019-09-12T11:32:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764008" lon="13.883459">
+			<ele>562.54</ele>
+			<time>2019-09-12T11:33:15Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763897" lon="13.882842">
+			<ele>563.00</ele>
+			<time>2019-09-12T11:33:45Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763832" lon="13.882491">
+			<ele>563.00</ele>
+			<time>2019-09-12T11:34:27Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763707" lon="13.881954">
+			<ele>564.00</ele>
+			<time>2019-09-12T11:34:56Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763628" lon="13.881422">
+			<ele>566.03</ele>
+			<time>2019-09-12T11:35:24Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763548" lon="13.880978">
+			<ele>568.27</ele>
+			<time>2019-09-12T11:35:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763456" lon="13.880498">
+			<ele>571.00</ele>
+			<time>2019-09-12T11:36:21Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763325" lon="13.879940">
+			<ele>574.82</ele>
+			<time>2019-09-12T11:36:48Z</time>
+			<extensions>
+				<gte:gps speed="4.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763226" lon="13.879505">
+			<ele>577.00</ele>
+			<time>2019-09-12T11:37:16Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763159" lon="13.878928">
+			<ele>580.09</ele>
+			<time>2019-09-12T11:37:44Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763077" lon="13.878411">
+			<ele>582.00</ele>
+			<time>2019-09-12T11:38:12Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762974" lon="13.877872">
+			<ele>584.84</ele>
+			<time>2019-09-12T11:38:40Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762887" lon="13.877438">
+			<ele>587.00</ele>
+			<time>2019-09-12T11:39:22Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762824" lon="13.877090">
+			<ele>588.55</ele>
+			<time>2019-09-12T11:40:06Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762740" lon="13.876762">
+			<ele>591.20</ele>
+			<time>2019-09-12T11:40:48Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762680" lon="13.876372">
+			<ele>593.00</ele>
+			<time>2019-09-12T11:41:16Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762589" lon="13.875874">
+			<ele>596.00</ele>
+			<time>2019-09-12T11:41:44Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762505" lon="13.875441">
+			<ele>597.96</ele>
+			<time>2019-09-12T11:42:11Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762505" lon="13.875020">
+			<ele>599.82</ele>
+			<time>2019-09-12T11:42:39Z</time>
+			<extensions>
+				<gte:gps speed="3.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762813" lon="13.874903">
+			<ele>600.00</ele>
+			<time>2019-09-12T11:43:09Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763210" lon="13.874901">
+			<ele>600.00</ele>
+			<time>2019-09-12T11:43:38Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763588" lon="13.875073">
+			<ele>600.00</ele>
+			<time>2019-09-12T11:44:06Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764005" lon="13.875171">
+			<ele>600.00</ele>
+			<time>2019-09-12T11:44:35Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764244" lon="13.875184">
+			<ele>600.89</ele>
+			<time>2019-09-12T11:44:49Z</time>
+			<extensions>
+				<gte:gps speed="3.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764631" lon="13.875254">
+			<ele>601.99</ele>
+			<time>2019-09-12T11:45:20Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764996" lon="13.875389">
+			<ele>602.48</ele>
+			<time>2019-09-12T11:45:48Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765301" lon="13.875546">
+			<ele>602.93</ele>
+			<time>2019-09-12T11:46:16Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765668" lon="13.875651">
+			<ele>603.00</ele>
+			<time>2019-09-12T11:46:44Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766060" lon="13.875744">
+			<ele>601.62</ele>
+			<time>2019-09-12T11:47:13Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766428" lon="13.875828">
+			<ele>600.00</ele>
+			<time>2019-09-12T11:47:41Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766865" lon="13.875880">
+			<ele>599.00</ele>
+			<time>2019-09-12T11:48:09Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767204" lon="13.876033">
+			<ele>597.32</ele>
+			<time>2019-09-12T11:48:37Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767564" lon="13.876061">
+			<ele>596.00</ele>
+			<time>2019-09-12T11:49:05Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767982" lon="13.876122">
+			<ele>594.00</ele>
+			<time>2019-09-12T11:49:33Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.768352" lon="13.876208">
+			<ele>591.25</ele>
+			<time>2019-09-12T11:50:01Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.768726" lon="13.876319">
+			<ele>589.03</ele>
+			<time>2019-09-12T11:50:29Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.768923" lon="13.876601">
+			<ele>587.00</ele>
+			<time>2019-09-12T11:50:57Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.769070" lon="13.877078">
+			<ele>583.78</ele>
+			<time>2019-09-12T11:51:23Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.769115" lon="13.877589">
+			<ele>581.00</ele>
+			<time>2019-09-12T11:51:51Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.768986" lon="13.877999">
+			<ele>580.32</ele>
+			<time>2019-09-12T11:52:17Z</time>
+			<extensions>
+				<gte:gps speed="0.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.768723" lon="13.878320">
+			<ele>580.86</ele>
+			<time>2019-09-12T11:52:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.768421" lon="13.878506">
+			<ele>581.79</ele>
+			<time>2019-09-12T11:53:17Z</time>
+			<extensions>
+				<gte:gps speed="1.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.768047" lon="13.878732">
+			<ele>582.95</ele>
+			<time>2019-09-12T11:53:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767762" lon="13.879070">
+			<ele>584.00</ele>
+			<time>2019-09-12T11:54:14Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767592" lon="13.879510">
+			<ele>585.00</ele>
+			<time>2019-09-12T11:54:41Z</time>
+			<extensions>
+				<gte:gps speed="2.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767428" lon="13.880054">
+			<ele>586.00</ele>
+			<time>2019-09-12T11:55:09Z</time>
+			<extensions>
+				<gte:gps speed="2.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767488" lon="13.880597">
+			<ele>586.57</ele>
+			<time>2019-09-12T11:55:38Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767700" lon="13.880943">
+			<ele>585.94</ele>
+			<time>2019-09-12T11:56:06Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767868" lon="13.881359">
+			<ele>586.02</ele>
+			<time>2019-09-12T11:56:34Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767998" lon="13.881787">
+			<ele>573.35</ele>
+			<time>2019-09-12T11:57:57Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767879" lon="13.881330">
+			<ele>585.83</ele>
+			<time>2019-09-12T12:10:59Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767676" lon="13.880898">
+			<ele>586.17</ele>
+			<time>2019-09-12T12:11:29Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767361" lon="13.880451">
+			<ele>587.76</ele>
+			<time>2019-09-12T12:12:01Z</time>
+			<extensions>
+				<gte:gps speed="0.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767132" lon="13.880262">
+			<ele>590.17</ele>
+			<time>2019-09-12T12:12:19Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766956" lon="13.879960">
+			<ele>592.00</ele>
+			<time>2019-09-12T12:12:43Z</time>
+			<extensions>
+				<gte:gps speed="3.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766717" lon="13.879233">
+			<ele>593.86</ele>
+			<time>2019-09-12T12:13:40Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766590" lon="13.878836">
+			<ele>594.89</ele>
+			<time>2019-09-12T12:14:05Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766945" lon="13.878509">
+			<ele>591.00</ele>
+			<time>2019-09-12T12:15:08Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767243" lon="13.878346">
+			<ele>589.91</ele>
+			<time>2019-09-12T12:15:41Z</time>
+			<extensions>
+				<gte:gps speed="3.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767368" lon="13.877650">
+			<ele>592.00</ele>
+			<time>2019-09-12T12:16:40Z</time>
+			<extensions>
+				<gte:gps speed="2.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767413" lon="13.877092">
+			<ele>594.00</ele>
+			<time>2019-09-12T12:17:54Z</time>
+			<extensions>
+				<gte:gps speed="1.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767480" lon="13.876608">
+			<ele>594.98</ele>
+			<time>2019-09-12T12:19:42Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767372" lon="13.876188">
+			<ele>596.82</ele>
+			<time>2019-09-12T12:20:12Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767200" lon="13.875928">
+			<ele>598.00</ele>
+			<time>2019-09-12T12:20:38Z</time>
+			<extensions>
+				<gte:gps speed="6.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766859" lon="13.875838">
+			<ele>599.00</ele>
+			<time>2019-09-12T12:21:27Z</time>
+			<extensions>
+				<gte:gps speed="2.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766605" lon="13.875798">
+			<ele>600.00</ele>
+			<time>2019-09-12T12:21:48Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766273" lon="13.875668">
+			<ele>601.00</ele>
+			<time>2019-09-12T12:22:21Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766008" lon="13.875661">
+			<ele>602.00</ele>
+			<time>2019-09-12T12:22:44Z</time>
+			<extensions>
+				<gte:gps speed="0.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765765" lon="13.875581">
+			<ele>603.00</ele>
+			<time>2019-09-12T12:23:09Z</time>
+			<extensions>
+				<gte:gps speed="6.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765403" lon="13.875487">
+			<ele>603.00</ele>
+			<time>2019-09-12T12:23:36Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765085" lon="13.875365">
+			<ele>602.76</ele>
+			<time>2019-09-12T12:23:59Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764778" lon="13.875251">
+			<ele>602.73</ele>
+			<time>2019-09-12T12:24:23Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764287" lon="13.875174">
+			<ele>601.00</ele>
+			<time>2019-09-12T12:24:54Z</time>
+			<extensions>
+				<gte:gps speed="3.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763866" lon="13.875104">
+			<ele>600.66</ele>
+			<time>2019-09-12T12:25:24Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763607" lon="13.875025">
+			<ele>600.54</ele>
+			<time>2019-09-12T12:25:49Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763283" lon="13.874839">
+			<ele>600.61</ele>
+			<time>2019-09-12T12:26:12Z</time>
+			<extensions>
+				<gte:gps speed="6.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762863" lon="13.874778">
+			<ele>601.29</ele>
+			<time>2019-09-12T12:26:40Z</time>
+			<extensions>
+				<gte:gps speed="6.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762558" lon="13.874679">
+			<ele>602.00</ele>
+			<time>2019-09-12T12:27:06Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762245" lon="13.874610">
+			<ele>602.16</ele>
+			<time>2019-09-12T12:27:30Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761845" lon="13.874425">
+			<ele>604.22</ele>
+			<time>2019-09-12T12:28:01Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761456" lon="13.874318">
+			<ele>604.41</ele>
+			<time>2019-09-12T12:28:30Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761101" lon="13.874281">
+			<ele>604.00</ele>
+			<time>2019-09-12T12:28:54Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.760818" lon="13.874238">
+			<ele>605.30</ele>
+			<time>2019-09-12T12:29:16Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.760395" lon="13.874180">
+			<ele>605.94</ele>
+			<time>2019-09-12T12:29:51Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.759936" lon="13.874247">
+			<ele>606.20</ele>
+			<time>2019-09-12T12:30:28Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.759631" lon="13.874370">
+			<ele>606.83</ele>
+			<time>2019-09-12T12:30:51Z</time>
+			<extensions>
+				<gte:gps speed="6.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.759285" lon="13.874499">
+			<ele>608.00</ele>
+			<time>2019-09-12T12:31:11Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.758995" lon="13.874570">
+			<ele>609.60</ele>
+			<time>2019-09-12T12:31:35Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.758709" lon="13.874611">
+			<ele>611.15</ele>
+			<time>2019-09-12T12:31:57Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.758373" lon="13.874649">
+			<ele>611.72</ele>
+			<time>2019-09-12T12:32:21Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.758102" lon="13.874582">
+			<ele>611.47</ele>
+			<time>2019-09-12T12:32:43Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.757831" lon="13.874507">
+			<ele>612.00</ele>
+			<time>2019-09-12T12:33:04Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.757545" lon="13.874352">
+			<ele>612.03</ele>
+			<time>2019-09-12T12:33:24Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.757290" lon="13.874169">
+			<ele>613.00</ele>
+			<time>2019-09-12T12:33:45Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.757046" lon="13.874108">
+			<ele>613.00</ele>
+			<time>2019-09-12T12:34:06Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.756786" lon="13.873944">
+			<ele>613.00</ele>
+			<time>2019-09-12T12:34:26Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.756524" lon="13.873794">
+			<ele>613.00</ele>
+			<time>2019-09-12T12:34:54Z</time>
+			<extensions>
+				<gte:gps speed="1.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.756252" lon="13.873517">
+			<ele>613.00</ele>
+			<time>2019-09-12T12:35:25Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.755914" lon="13.873403">
+			<ele>613.00</ele>
+			<time>2019-09-12T12:35:56Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.755508" lon="13.873284">
+			<ele>612.00</ele>
+			<time>2019-09-12T12:36:23Z</time>
+			<extensions>
+				<gte:gps speed="6.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.755161" lon="13.873191">
+			<ele>613.00</ele>
+			<time>2019-09-12T12:36:47Z</time>
+			<extensions>
+				<gte:gps speed="5.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.754913" lon="13.873013">
+			<ele>613.00</ele>
+			<time>2019-09-12T12:37:11Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.754532" lon="13.872774">
+			<ele>612.84</ele>
+			<time>2019-09-12T12:37:40Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.754204" lon="13.872637">
+			<ele>612.94</ele>
+			<time>2019-09-12T12:38:07Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.753849" lon="13.872362">
+			<ele>612.93</ele>
+			<time>2019-09-12T12:38:35Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.753548" lon="13.872253">
+			<ele>613.48</ele>
+			<time>2019-09-12T12:39:01Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.753204" lon="13.872128">
+			<ele>614.21</ele>
+			<time>2019-09-12T12:39:27Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.752846" lon="13.871901">
+			<ele>614.61</ele>
+			<time>2019-09-12T12:39:55Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.752499" lon="13.871716">
+			<ele>615.00</ele>
+			<time>2019-09-12T12:40:22Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.752144" lon="13.871693">
+			<ele>616.99</ele>
+			<time>2019-09-12T12:40:49Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.751797" lon="13.871959">
+			<ele>619.32</ele>
+			<time>2019-09-12T12:41:18Z</time>
+			<extensions>
+				<gte:gps speed="3.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.751698" lon="13.872283">
+			<ele>621.94</ele>
+			<time>2019-09-12T12:41:52Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.751472" lon="13.872894">
+			<ele>625.00</ele>
+			<time>2019-09-12T12:42:25Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.751329" lon="13.873346">
+			<ele>628.02</ele>
+			<time>2019-09-12T12:42:53Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.751122" lon="13.874001">
+			<ele>632.04</ele>
+			<time>2019-09-12T12:43:23Z</time>
+			<extensions>
+				<gte:gps speed="5.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750946" lon="13.874594">
+			<ele>635.87</ele>
+			<time>2019-09-12T12:43:50Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750690" lon="13.875003">
+			<ele>640.01</ele>
+			<time>2019-09-12T12:44:20Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750533" lon="13.875454">
+			<ele>646.98</ele>
+			<time>2019-09-12T12:44:48Z</time>
+			<extensions>
+				<gte:gps speed="6.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750326" lon="13.875921">
+			<ele>651.83</ele>
+			<time>2019-09-12T12:45:17Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750126" lon="13.876461">
+			<ele>653.00</ele>
+			<time>2019-09-12T12:45:46Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749918" lon="13.876827">
+			<ele>655.17</ele>
+			<time>2019-09-12T12:46:13Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749706" lon="13.877297">
+			<ele>657.99</ele>
+			<time>2019-09-12T12:46:40Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749477" lon="13.877800">
+			<ele>660.35</ele>
+			<time>2019-09-12T12:47:09Z</time>
+			<extensions>
+				<gte:gps speed="6.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749256" lon="13.878286">
+			<ele>662.00</ele>
+			<time>2019-09-12T12:47:37Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749081" lon="13.878700">
+			<ele>662.00</ele>
+			<time>2019-09-12T12:48:05Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.748914" lon="13.879086">
+			<ele>661.33</ele>
+			<time>2019-09-12T12:48:33Z</time>
+			<extensions>
+				<gte:gps speed="6.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749322" lon="13.878971">
+			<ele>662.00</ele>
+			<time>2019-09-12T12:49:16Z</time>
+			<extensions>
+				<gte:gps speed="4.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749599" lon="13.878910">
+			<ele>664.00</ele>
+			<time>2019-09-12T12:49:41Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749920" lon="13.879084">
+			<ele>666.70</ele>
+			<time>2019-09-12T12:50:03Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750210" lon="13.879098">
+			<ele>669.70</ele>
+			<time>2019-09-12T12:50:28Z</time>
+			<extensions>
+				<gte:gps speed="1.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750497" lon="13.879074">
+			<ele>672.81</ele>
+			<time>2019-09-12T12:50:51Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750722" lon="13.879316">
+			<ele>674.00</ele>
+			<time>2019-09-12T12:51:22Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750887" lon="13.878879">
+			<ele>684.04</ele>
+			<time>2019-09-12T12:52:12Z</time>
+			<extensions>
+				<gte:gps speed="3.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.751143" lon="13.878877">
+			<ele>682.08</ele>
+			<time>2019-09-12T13:02:02Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.751179" lon="13.879304">
+			<ele>679.51</ele>
+			<time>2019-09-12T13:02:30Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750968" lon="13.879653">
+			<ele>674.00</ele>
+			<time>2019-09-12T13:03:25Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750721" lon="13.879400">
+			<ele>673.83</ele>
+			<time>2019-09-12T13:03:53Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750462" lon="13.879041">
+			<ele>672.84</ele>
+			<time>2019-09-12T13:04:21Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750069" lon="13.879090">
+			<ele>668.27</ele>
+			<time>2019-09-12T13:04:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749754" lon="13.878967">
+			<ele>665.00</ele>
+			<time>2019-09-12T13:05:17Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749413" lon="13.879034">
+			<ele>662.97</ele>
+			<time>2019-09-12T13:05:45Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749053" lon="13.879302">
+			<ele>661.00</ele>
+			<time>2019-09-12T13:06:14Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749027" lon="13.878870">
+			<ele>662.00</ele>
+			<time>2019-09-12T13:06:56Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749233" lon="13.878296">
+			<ele>661.98</ele>
+			<time>2019-09-12T13:07:24Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749409" lon="13.877847">
+			<ele>660.88</ele>
+			<time>2019-09-12T13:07:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749638" lon="13.877390">
+			<ele>658.00</ele>
+			<time>2019-09-12T13:08:21Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749809" lon="13.876933">
+			<ele>656.00</ele>
+			<time>2019-09-12T13:08:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749977" lon="13.876549">
+			<ele>653.43</ele>
+			<time>2019-09-12T13:09:17Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750192" lon="13.876081">
+			<ele>652.00</ele>
+			<time>2019-09-12T13:09:45Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750385" lon="13.875675">
+			<ele>650.00</ele>
+			<time>2019-09-12T13:10:13Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750423" lon="13.875223">
+			<ele>645.30</ele>
+			<time>2019-09-12T13:10:42Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750137" lon="13.874901">
+			<ele>644.08</ele>
+			<time>2019-09-12T13:11:10Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749786" lon="13.874819">
+			<ele>645.00</ele>
+			<time>2019-09-12T13:11:38Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749578" lon="13.874549">
+			<ele>643.03</ele>
+			<time>2019-09-12T13:12:06Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749417" lon="13.874303">
+			<ele>642.00</ele>
+			<time>2019-09-12T13:15:36Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749302" lon="13.873843">
+			<ele>640.95</ele>
+			<time>2019-09-12T13:16:32Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749195" lon="13.873281">
+			<ele>638.80</ele>
+			<time>2019-09-12T13:17:00Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749096" lon="13.872797">
+			<ele>637.33</ele>
+			<time>2019-09-12T13:17:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749012" lon="13.872338">
+			<ele>636.94</ele>
+			<time>2019-09-12T13:17:56Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.748966" lon="13.871832">
+			<ele>635.74</ele>
+			<time>2019-09-12T13:18:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.748965" lon="13.871263">
+			<ele>635.00</ele>
+			<time>2019-09-12T13:19:20Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749280" lon="13.871076">
+			<ele>633.00</ele>
+			<time>2019-09-12T13:20:01Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749630" lon="13.871152">
+			<ele>631.00</ele>
+			<time>2019-09-12T13:20:30Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.749999" lon="13.871275">
+			<ele>628.94</ele>
+			<time>2019-09-12T13:20:58Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750347" lon="13.871402">
+			<ele>626.00</ele>
+			<time>2019-09-12T13:21:25Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.750698" lon="13.871455">
+			<ele>624.00</ele>
+			<time>2019-09-12T13:21:53Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.751037" lon="13.871561">
+			<ele>622.05</ele>
+			<time>2019-09-12T13:22:21Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.751361" lon="13.871656">
+			<ele>620.98</ele>
+			<time>2019-09-12T13:22:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.751680" lon="13.871732">
+			<ele>619.00</ele>
+			<time>2019-09-12T13:35:27Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.751945" lon="13.871708">
+			<ele>617.73</ele>
+			<time>2019-09-12T13:36:23Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.752220" lon="13.871396">
+			<ele>615.04</ele>
+			<time>2019-09-12T13:36:51Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.752501" lon="13.871144">
+			<ele>613.00</ele>
+			<time>2019-09-12T13:37:19Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.752802" lon="13.870810">
+			<ele>610.35</ele>
+			<time>2019-09-12T13:37:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.753094" lon="13.870392">
+			<ele>607.00</ele>
+			<time>2019-09-12T13:38:29Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.753395" lon="13.870155">
+			<ele>604.57</ele>
+			<time>2019-09-12T13:38:57Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.753669" lon="13.870039">
+			<ele>602.96</ele>
+			<time>2019-09-12T13:39:26Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.754025" lon="13.870249">
+			<ele>604.00</ele>
+			<time>2019-09-12T13:40:21Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.754055" lon="13.870710">
+			<ele>606.00</ele>
+			<time>2019-09-12T13:41:02Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.754107" lon="13.871081">
+			<ele>607.00</ele>
+			<time>2019-09-12T13:41:30Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.754272" lon="13.871492">
+			<ele>608.00</ele>
+			<time>2019-09-12T13:41:58Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.754463" lon="13.871814">
+			<ele>609.00</ele>
+			<time>2019-09-12T13:42:26Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.754663" lon="13.872147">
+			<ele>610.43</ele>
+			<time>2019-09-12T13:43:07Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.754850" lon="13.872503">
+			<ele>611.00</ele>
+			<time>2019-09-12T13:43:35Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.755161" lon="13.872599">
+			<ele>611.00</ele>
+			<time>2019-09-12T13:44:03Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.755432" lon="13.872555">
+			<ele>611.00</ele>
+			<time>2019-09-12T13:45:13Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.755691" lon="13.872406">
+			<ele>612.00</ele>
+			<time>2019-09-12T13:45:42Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.756012" lon="13.872331">
+			<ele>613.67</ele>
+			<time>2019-09-12T13:46:10Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.756264" lon="13.872156">
+			<ele>615.00</ele>
+			<time>2019-09-12T13:46:38Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.756564" lon="13.872109">
+			<ele>618.18</ele>
+			<time>2019-09-12T13:47:06Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.756824" lon="13.872108">
+			<ele>622.66</ele>
+			<time>2019-09-12T13:48:01Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.756994" lon="13.871840">
+			<ele>627.00</ele>
+			<time>2019-09-12T13:49:39Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.757248" lon="13.871781">
+			<ele>629.61</ele>
+			<time>2019-09-12T13:50:07Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.757519" lon="13.871688">
+			<ele>634.20</ele>
+			<time>2019-09-12T13:50:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.757702" lon="13.871427">
+			<ele>639.91</ele>
+			<time>2019-09-12T13:51:31Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.757980" lon="13.871204">
+			<ele>644.00</ele>
+			<time>2019-09-12T13:52:13Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.758133" lon="13.870840">
+			<ele>646.00</ele>
+			<time>2019-09-12T13:52:41Z</time>
+			<extensions>
+				<gte:gps speed="33.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.758356" lon="13.870689">
+			<ele>649.82</ele>
+			<time>2019-09-12T13:53:08Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.758633" lon="13.870654">
+			<ele>654.99</ele>
+			<time>2019-09-12T13:53:50Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.758857" lon="13.870621">
+			<ele>660.25</ele>
+			<time>2019-09-12T13:54:18Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.759064" lon="13.870421">
+			<ele>663.20</ele>
+			<time>2019-09-12T13:54:45Z</time>
+			<extensions>
+				<gte:gps speed="3.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.759183" lon="13.870123">
+			<ele>666.31</ele>
+			<time>2019-09-12T13:55:13Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.759171" lon="13.869773">
+			<ele>666.10</ele>
+			<time>2019-09-12T13:57:33Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.759445" lon="13.869810">
+			<ele>668.00</ele>
+			<time>2019-09-12T13:58:39Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.759510" lon="13.869470">
+			<ele>668.00</ele>
+			<time>2019-09-12T13:59:06Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.759737" lon="13.869338">
+			<ele>668.98</ele>
+			<time>2019-09-12T13:59:34Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.759999" lon="13.869220">
+			<ele>670.00</ele>
+			<time>2019-09-12T14:00:02Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.760277" lon="13.868824">
+			<ele>670.00</ele>
+			<time>2019-09-12T14:00:30Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.760380" lon="13.868371">
+			<ele>671.04</ele>
+			<time>2019-09-12T14:00:58Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.760452" lon="13.867821">
+			<ele>672.83</ele>
+			<time>2019-09-12T14:01:26Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.760468" lon="13.867428">
+			<ele>675.76</ele>
+			<time>2019-09-12T14:01:54Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.760423" lon="13.867072">
+			<ele>680.61</ele>
+			<time>2019-09-12T14:05:48Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.760616" lon="13.866837">
+			<ele>679.00</ele>
+			<time>2019-09-12T14:08:05Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.760712" lon="13.866505">
+			<ele>678.79</ele>
+			<time>2019-09-12T14:08:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.760841" lon="13.866903">
+			<ele>676.07</ele>
+			<time>2019-09-12T14:10:22Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761005" lon="13.867312">
+			<ele>668.40</ele>
+			<time>2019-09-12T14:11:02Z</time>
+			<extensions>
+				<gte:gps speed="3.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761250" lon="13.867368">
+			<ele>665.77</ele>
+			<time>2019-09-12T14:11:30Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761440" lon="13.866930">
+			<ele>670.45</ele>
+			<time>2019-09-12T14:12:11Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761695" lon="13.866922">
+			<ele>666.30</ele>
+			<time>2019-09-12T14:12:39Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761987" lon="13.866824">
+			<ele>662.37</ele>
+			<time>2019-09-12T14:13:07Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762264" lon="13.866799">
+			<ele>658.00</ele>
+			<time>2019-09-12T14:13:36Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762506" lon="13.866618">
+			<ele>656.88</ele>
+			<time>2019-09-12T14:14:02Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762717" lon="13.866356">
+			<ele>654.76</ele>
+			<time>2019-09-12T14:14:28Z</time>
+			<extensions>
+				<gte:gps speed="2.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762773" lon="13.866014">
+			<ele>652.13</ele>
+			<time>2019-09-12T14:14:56Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762714" lon="13.866470">
+			<ele>654.88</ele>
+			<time>2019-09-12T14:22:14Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762882" lon="13.866768">
+			<ele>651.90</ele>
+			<time>2019-09-12T14:22:56Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763157" lon="13.866823">
+			<ele>644.42</ele>
+			<time>2019-09-12T14:23:24Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763437" lon="13.866689">
+			<ele>637.39</ele>
+			<time>2019-09-12T14:23:53Z</time>
+			<extensions>
+				<gte:gps speed="1.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763741" lon="13.866446">
+			<ele>630.15</ele>
+			<time>2019-09-12T14:24:22Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763992" lon="13.866124">
+			<ele>625.38</ele>
+			<time>2019-09-12T14:24:50Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764301" lon="13.866052">
+			<ele>622.50</ele>
+			<time>2019-09-12T14:25:34Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764637" lon="13.865979">
+			<ele>619.54</ele>
+			<time>2019-09-12T14:26:04Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764973" lon="13.865789">
+			<ele>616.65</ele>
+			<time>2019-09-12T14:26:33Z</time>
+			<extensions>
+				<gte:gps speed="2.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765198" lon="13.865612">
+			<ele>614.69</ele>
+			<time>2019-09-12T14:26:50Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765466" lon="13.865305">
+			<ele>611.11</ele>
+			<time>2019-09-12T14:27:18Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765705" lon="13.864951">
+			<ele>609.00</ele>
+			<time>2019-09-12T14:27:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765763" lon="13.864418">
+			<ele>606.00</ele>
+			<time>2019-09-12T14:28:15Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765707" lon="13.863788">
+			<ele>603.00</ele>
+			<time>2019-09-12T14:28:56Z</time>
+			<extensions>
+				<gte:gps speed="1.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765559" lon="13.863194">
+			<ele>599.76</ele>
+			<time>2019-09-12T14:29:25Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765354" lon="13.862715">
+			<ele>596.43</ele>
+			<time>2019-09-12T14:29:54Z</time>
+			<extensions>
+				<gte:gps speed="1.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765188" lon="13.862333">
+			<ele>593.18</ele>
+			<time>2019-09-12T14:30:23Z</time>
+			<extensions>
+				<gte:gps speed="0.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765024" lon="13.861956">
+			<ele>591.98</ele>
+			<time>2019-09-12T14:30:49Z</time>
+			<extensions>
+				<gte:gps speed="3.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764938" lon="13.861513">
+			<ele>589.00</ele>
+			<time>2019-09-12T14:31:19Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764889" lon="13.860967">
+			<ele>586.97</ele>
+			<time>2019-09-12T14:31:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764932" lon="13.860538">
+			<ele>583.19</ele>
+			<time>2019-09-12T14:32:18Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764945" lon="13.860061">
+			<ele>581.00</ele>
+			<time>2019-09-12T14:32:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764938" lon="13.859555">
+			<ele>578.13</ele>
+			<time>2019-09-12T14:33:31Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764951" lon="13.859037">
+			<ele>574.49</ele>
+			<time>2019-09-12T14:34:00Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764915" lon="13.858476">
+			<ele>572.00</ele>
+			<time>2019-09-12T14:34:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764699" lon="13.858149">
+			<ele>569.60</ele>
+			<time>2019-09-12T14:34:57Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764574" lon="13.857826">
+			<ele>568.00</ele>
+			<time>2019-09-12T14:36:51Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764654" lon="13.857496">
+			<ele>566.00</ele>
+			<time>2019-09-12T14:37:19Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764536" lon="13.857135">
+			<ele>564.00</ele>
+			<time>2019-09-12T14:37:46Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764380" lon="13.856849">
+			<ele>562.00</ele>
+			<time>2019-09-12T14:38:14Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764193" lon="13.856518">
+			<ele>559.44</ele>
+			<time>2019-09-12T14:38:42Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764091" lon="13.856185">
+			<ele>557.00</ele>
+			<time>2019-09-12T14:39:10Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764174" lon="13.855698">
+			<ele>555.10</ele>
+			<time>2019-09-12T14:39:38Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764290" lon="13.855124">
+			<ele>552.00</ele>
+			<time>2019-09-12T14:40:06Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764328" lon="13.854505">
+			<ele>550.00</ele>
+			<time>2019-09-12T14:40:34Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764286" lon="13.853971">
+			<ele>547.09</ele>
+			<time>2019-09-12T14:41:02Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764210" lon="13.853442">
+			<ele>545.00</ele>
+			<time>2019-09-12T14:41:30Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764217" lon="13.852880">
+			<ele>542.00</ele>
+			<time>2019-09-12T14:41:58Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764397" lon="13.852592">
+			<ele>543.16</ele>
+			<time>2019-09-12T14:42:26Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764080" lon="13.852512">
+			<ele>539.55</ele>
+			<time>2019-09-12T14:43:08Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763767" lon="13.852350">
+			<ele>535.35</ele>
+			<time>2019-09-12T14:43:36Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763382" lon="13.852181">
+			<ele>532.17</ele>
+			<time>2019-09-12T14:44:04Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763066" lon="13.851956">
+			<ele>529.88</ele>
+			<time>2019-09-12T14:44:32Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762722" lon="13.851666">
+			<ele>526.13</ele>
+			<time>2019-09-12T14:45:00Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762433" lon="13.851385">
+			<ele>523.30</ele>
+			<time>2019-09-12T14:45:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762154" lon="13.851098">
+			<ele>521.11</ele>
+			<time>2019-09-12T14:45:56Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761942" lon="13.850662">
+			<ele>517.89</ele>
+			<time>2019-09-12T14:46:24Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761808" lon="13.850115">
+			<ele>514.00</ele>
+			<time>2019-09-12T14:46:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761741" lon="13.849544">
+			<ele>510.81</ele>
+			<time>2019-09-12T14:47:20Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761639" lon="13.848985">
+			<ele>506.59</ele>
+			<time>2019-09-12T14:47:48Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761646" lon="13.848427">
+			<ele>505.00</ele>
+			<time>2019-09-12T14:48:17Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761821" lon="13.847920">
+			<ele>502.00</ele>
+			<time>2019-09-12T14:48:45Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.761993" lon="13.847420">
+			<ele>498.17</ele>
+			<time>2019-09-12T14:49:14Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762157" lon="13.846985">
+			<ele>495.00</ele>
+			<time>2019-09-12T14:49:43Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762321" lon="13.846446">
+			<ele>490.94</ele>
+			<time>2019-09-12T14:50:11Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762519" lon="13.845906">
+			<ele>486.06</ele>
+			<time>2019-09-12T14:50:41Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762760" lon="13.845512">
+			<ele>482.05</ele>
+			<time>2019-09-12T14:51:09Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763058" lon="13.845199">
+			<ele>479.44</ele>
+			<time>2019-09-12T14:51:39Z</time>
+			<extensions>
+				<gte:gps speed="6.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.762959" lon="13.844613">
+			<ele>477.00</ele>
+			<time>2019-09-12T14:52:08Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763031" lon="13.844074">
+			<ele>476.00</ele>
+			<time>2019-09-12T14:52:36Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763325" lon="13.843714">
+			<ele>475.00</ele>
+			<time>2019-09-12T14:53:05Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763660" lon="13.843492">
+			<ele>475.00</ele>
+			<time>2019-09-12T14:53:34Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.763932" lon="13.843064">
+			<ele>475.00</ele>
+			<time>2019-09-12T14:54:02Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764158" lon="13.842720">
+			<ele>475.00</ele>
+			<time>2019-09-12T14:54:29Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764423" lon="13.842478">
+			<ele>474.85</ele>
+			<time>2019-09-12T14:54:57Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.764738" lon="13.842227">
+			<ele>474.99</ele>
+			<time>2019-09-12T14:55:26Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765009" lon="13.841950">
+			<ele>475.00</ele>
+			<time>2019-09-12T14:55:55Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765257" lon="13.841680">
+			<ele>475.00</ele>
+			<time>2019-09-12T14:56:25Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765501" lon="13.841470">
+			<ele>473.83</ele>
+			<time>2019-09-12T14:57:26Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765522" lon="13.840993">
+			<ele>473.00</ele>
+			<time>2019-09-12T14:57:55Z</time>
+			<extensions>
+				<gte:gps speed="1.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765285" lon="13.840601">
+			<ele>473.66</ele>
+			<time>2019-09-12T14:59:19Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765541" lon="13.840662">
+			<ele>471.06</ele>
+			<time>2019-09-12T15:00:25Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.765766" lon="13.840861">
+			<ele>469.36</ele>
+			<time>2019-09-12T15:00:57Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766097" lon="13.840936">
+			<ele>466.54</ele>
+			<time>2019-09-12T15:01:58Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766397" lon="13.841076">
+			<ele>465.20</ele>
+			<time>2019-09-12T15:02:27Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.766742" lon="13.841130">
+			<ele>464.43</ele>
+			<time>2019-09-12T15:02:59Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767074" lon="13.841068">
+			<ele>463.00</ele>
+			<time>2019-09-12T15:03:27Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767336" lon="13.841024">
+			<ele>463.00</ele>
+			<time>2019-09-12T15:04:19Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767584" lon="13.840899">
+			<ele>463.00</ele>
+			<time>2019-09-12T15:05:04Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767677" lon="13.840417">
+			<ele>462.00</ele>
+			<time>2019-09-12T15:05:32Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767776" lon="13.839928">
+			<ele>461.46</ele>
+			<time>2019-09-12T15:06:00Z</time>
+			<extensions>
+				<gte:gps speed="4.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767784" lon="13.839454">
+			<ele>461.00</ele>
+			<time>2019-09-12T15:06:27Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767702" lon="13.840068">
+			<ele>462.00</ele>
+			<time>2019-09-12T16:01:47Z</time>
+			<extensions>
+				<gte:gps speed="1.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767594" lon="13.840613">
+			<ele>462.39</ele>
+			<time>2019-09-12T16:03:51Z</time>
+			<extensions>
+				<gte:gps speed="0.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.767516" lon="13.841173">
+			<ele>463.57</ele>
+			<time>2019-09-12T16:11:44Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#00ce00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+</gpx>

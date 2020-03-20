@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<script>
-			function processFile(xml, fileName, done) {
+			async function processFile(xml, fileName, done) {
 				var xmlDoc = $.parseXML(xml);
 				var delka = 0;
 				var tracks = xmlDoc.getElementsByTagName("trk"); //pocet dni
@@ -29,7 +29,16 @@
 						var lon = nodes[j].getAttribute("lon");
 						var node = SMap.Coords.fromWGS84(lon, lat);
 						body.push(node);
-						vysky.push(node.getAltitude());
+						//vysky.push(node.getAltitude());
+						const result = await new Promise((resolve, reject) => {
+							node.getAltitude().then(result => {
+								setTimeout(() => resolve(result), 100)
+							}).catch(err => {
+								console.error(err)
+								reject(err)
+							})
+						})
+						vysky.push(result);
 					}
 					for(var k = 1; k < amountOfNodes; k++) {
 						delka += body[k-1].distance(body[k]);
@@ -37,7 +46,6 @@
 					
 				}
 				delka = Math.round(delka/1000);
-				
 				Promise.all(vysky).then(function (values) {
 					prevyseni(xmlDoc, values, delka);
 					var allNodes = xmlDoc.getElementsByTagName('trkpt');
@@ -55,8 +63,8 @@
 			function processList(files, i) {
 				if (i < files.length) {
 					var reader = new FileReader();
-					reader.onload = function (e) {
-						processFile(e.target.result, files[i].name, function () {
+					reader.onload = async function (e) {
+						await processFile(e.target.result, files[i].name, function () {
 							processList(files, i + 1);
 						});
 					};

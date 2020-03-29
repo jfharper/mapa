@@ -36,5 +36,9 @@ tr:hover {background-color: #A9A9A9;}
 .clearfix:after {content: " "; display: table;}
 .clearfix:after {clear: both;}
 .wrapper {display: flex; flex-direction: column; position: relative;}
-.card {opacity: 0.8}
+.card {opacity: 0.8; z-index: 5;}
 .card:hover {opacity: 1;}
+.cluster {z-index: 3;}
+.smap [id|="znackyId"] img {z-index: 2;}
+.smap .type-poi {z-index: 1;}
+.smap .type-paid {z-index: 1;}

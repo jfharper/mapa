@@ -16,8 +16,13 @@
 					<thead><tr><td>Vylet</td><td>km</td><td>P</td><td>Z/S</td></tr></thead>
 					<tbody></tbody>
 				</table>
-				<div class="spani">Mista na spani:
-					<input type="checkbox" id="spani">
+				<div class="firepit">
+					<img src="firepit.png">
+					<input type="checkbox" id="firepit">
+				</div>
+				<div class="shelter">
+				<img src="shelter.png">
+					<input type="checkbox" id="shelter">
 				</div>
 				<div class="veta">Mame za sebou uz <span id="vylety">0</span> vyletu a celkem jsme usli <span id="km">0</span> kilometru</div>
 			</div>
@@ -663,41 +668,69 @@
 				znacky.addMarker(marker);
 			}
 
-			//zapina a vypina mista na spani
-			var mista = new SMap.Layer.Marker("spaniVrstva");
-			m.addLayer(mista);
-			mista.enable();
-			var checkboxSpani = document.getElementById("spani");
-			JAK.Events.addListener(checkboxSpani, "click", window, function() {
-				if (checkboxSpani.checked) {
+			//zapina a vypina ohniste
+			var firepits = new SMap.Layer.Marker("firepitsLayer");
+			m.addLayer(firepits);
+			firepits.enable();
+			var checkboxFirepit = document.getElementById("firepit");
+			JAK.Events.addListener(checkboxFirepit, "click", window, function() {
+				if (checkboxFirepit.checked) {
 					var xhr = new JAK.Request(JAK.Request.XML);
-					xhr.setCallback(window, "kempy");
+					xhr.setCallback(window, "kempy1");
 					xhr.send(path + "/spani.xml");
 				} else {
-					m.getLayer("spaniVrstva").removeAll();
+					m.getLayer("firepitsLayer").removeAll();
 				}
 			});
 
-			var kempy = function(xmlDoc) {
+			//zapina a vypina pristresky
+			var shelters = new SMap.Layer.Marker("sheltersLayer");
+			m.addLayer(shelters);
+			shelters.enable();
+			var checkboxShelter = document.getElementById("shelter");
+			JAK.Events.addListener(checkboxShelter, "click", window, function() {
+				if (checkboxShelter.checked) {
+					var xhr = new JAK.Request(JAK.Request.XML);
+					xhr.setCallback(window, "kempy2");
+					xhr.send(path + "/spani.xml");
+				} else {
+					m.getLayer("sheltersLayer").removeAll();
+				}
+			});
+
+			var kempy1 = function(xmlDoc) {
 				var pocet = xmlDoc.getElementsByTagName("wpt").length;
 				var body = new Array();
 				for (var i = 0; i < pocet; i++) {
-					var div = document.createElement("div");
+					let type = xmlDoc.getElementsByTagName("sym")[i].textContent;
+					if (type !== "strecha") {
+						var image = "firepit.png";
+						var lat = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lat");
+						var lon = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lon");
+						var bod = SMap.Coords.fromWGS84(lon, lat);
+						var bod = new SMap.Marker(bod, null, {url: image});
+						body.push(bod);
+					}
+				}
+				firepits.addMarker(body);
+			}
+
+			var kempy2 = function(xmlDoc) {
+				var pocet = xmlDoc.getElementsByTagName("wpt").length;
+				var body = new Array();
+				for (var i = 0; i < pocet; i++) {
 					let type = xmlDoc.getElementsByTagName("sym")[i].textContent;
 					if (type === "strecha") {
-						let name = xmlDoc.getElementsByTagName("name")[i].textContent;
-						div.innerHTML = '<div style="font-size: 35px; color: red; float: bottom">&#94</div>';
-						div.setAttribute('title', name);
-					} else {
-						div.innerHTML = '<div style="font-size: 35px; float: bottom">&#94</div>';
+						var name = xmlDoc.getElementsByTagName("name")[i].textContent;
+						var image = "shelter.png";
+						var lat = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lat");
+						var lon = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lon");
+						var bod = SMap.Coords.fromWGS84(lon, lat);
+						var bod = new SMap.Marker(bod, null, {url: image, title: name});
+						body.push(bod);
 					}
-					var lat = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lat");
-					var lon = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lon");
-					var bod = SMap.Coords.fromWGS84(lon, lat);
-					var bod = new SMap.Marker(bod, null, {url: div, anchor: {left: 5, top: 15}});
-					body.push(bod);
 				}
-				mista.addMarker(body);
+				shelters.addMarker(body);
 			}
 
 //nahledova minimapka

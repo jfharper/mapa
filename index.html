@@ -683,7 +683,14 @@
 				var body = new Array();
 				for (var i = 0; i < pocet; i++) {
 					var div = document.createElement("div");
-					div.innerHTML = '<div style="font-size: 35px; float: bottom">&#94</div>';
+					let type = xmlDoc.getElementsByTagName("sym")[i].textContent;
+					if (type === "strecha") {
+						let name = xmlDoc.getElementsByTagName("name")[i].textContent;
+						div.innerHTML = '<div style="font-size: 35px; color: red; float: bottom">&#94</div>';
+						div.setAttribute('title', name);
+					} else {
+						div.innerHTML = '<div style="font-size: 35px; float: bottom">&#94</div>';
+					}
 					var lat = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lat");
 					var lon = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lon");
 					var bod = SMap.Coords.fromWGS84(lon, lat);

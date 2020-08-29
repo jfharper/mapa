@@ -676,7 +676,7 @@
 			JAK.Events.addListener(checkboxFirepit, "click", window, function() {
 				if (checkboxFirepit.checked) {
 					var xhr = new JAK.Request(JAK.Request.XML);
-					xhr.setCallback(window, "kempy1");
+					xhr.setCallback(window, function(xmlDoc) {kempy(xmlDoc,"firepit");});
 					xhr.send(path + "/spani.xml");
 				} else {
 					m.getLayer("firepitsLayer").removeAll();
@@ -691,47 +691,42 @@
 			JAK.Events.addListener(checkboxShelter, "click", window, function() {
 				if (checkboxShelter.checked) {
 					var xhr = new JAK.Request(JAK.Request.XML);
-					xhr.setCallback(window, "kempy2");
+					xhr.setCallback(window, function(xmlDoc) {kempy(xmlDoc,"shelter");});
 					xhr.send(path + "/spani.xml");
 				} else {
 					m.getLayer("sheltersLayer").removeAll();
 				}
 			});
 
-			var kempy1 = function(xmlDoc) {
+			var kempy = function(xmlDoc, druh) {
 				var pocet = xmlDoc.getElementsByTagName("wpt").length;
 				var body = new Array();
 				for (var i = 0; i < pocet; i++) {
-					let type = xmlDoc.getElementsByTagName("sym")[i].textContent;
-					if (type !== "strecha") {
-						var image = "firepit.png";
-						var lat = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lat");
-						var lon = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lon");
-						var bod = SMap.Coords.fromWGS84(lon, lat);
-						var bod = new SMap.Marker(bod, null, {url: image});
-						body.push(bod);
+					var type = xmlDoc.getElementsByTagName("sym")[i].textContent;
+					if (type !== "strecha" && druh === "firepit") {
+						let lat = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lat");
+						let lon = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lon");
+						let bod = SMap.Coords.fromWGS84(lon, lat);
+						let image = "firepit.png";
+						let marker = new SMap.Marker(bod, null, {url: image});
+						body.push(marker);
+					} else if (type=== "strecha" && druh === "shelter"){
+						let name = xmlDoc.getElementsByTagName("name")[i].textContent;
+						let lat = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lat");
+						let lon = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lon");
+						let bod = SMap.Coords.fromWGS84(lon, lat);
+						let image = "shelter.png";
+						let marker = new SMap.Marker(bod, null, {url: image, title: name});
+						body.push(marker);
 					}
 				}
-				firepits.addMarker(body);
+				if (druh === "firepit") {
+					firepits.addMarker(body);
+				} else {
+					shelters.addMarker(body);
+				}
 			}
 
-			var kempy2 = function(xmlDoc) {
-				var pocet = xmlDoc.getElementsByTagName("wpt").length;
-				var body = new Array();
-				for (var i = 0; i < pocet; i++) {
-					let type = xmlDoc.getElementsByTagName("sym")[i].textContent;
-					if (type === "strecha") {
-						var name = xmlDoc.getElementsByTagName("name")[i].textContent;
-						var image = "shelter.png";
-						var lat = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lat");
-						var lon = xmlDoc.getElementsByTagName("wpt")[i].getAttribute("lon");
-						var bod = SMap.Coords.fromWGS84(lon, lat);
-						var bod = new SMap.Marker(bod, null, {url: image, title: name});
-						body.push(bod);
-					}
-				}
-				shelters.addMarker(body);
-			}
 
 //nahledova minimapka
 //       var mini = new SMap.Control.Overview();

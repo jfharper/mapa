@@ -288,7 +288,7 @@
 				if (tableCreated.length === 1) {
 					var k = '<tbody>';
 					for(i = 0;i < obj.length; i++){
-						if (table !== "lidiTab" || obj[i].trips > 2) {//nezobrazuju lidi pouze s jednim vyletem
+						if (table !== "lidiTab" || obj[i].trips > 3) {//nezobrazuju lidi s mene nez 3 vylety
 							k += '<tr onclick="showHideTrips(this)" id="' + obj[i].osoba + '">';
 						} else {
 							k += '<tr onclick="showHideTrips(this)" id="' + obj[i].osoba + '" class="hideable hidden">';
@@ -320,7 +320,7 @@
 				if (hiddenRows.length > 0) {
 					showMoreButton.innerHTML = "Zobraz vsechny";
 				} else {
-					showMoreButton.innerHTML = "Skryj lidi se 2 vylety";
+					showMoreButton.innerHTML = "Skryj lidi s mene nez 3 vylety";
 				}
 			}
 
@@ -578,7 +578,6 @@
 			vykresleni();
 
 			function trasa(gpxSoubor, barva, done = null) {
-				//var xmlDoc = JAK.XML.createDocument(value); ale nejdriv to musim dostat ze souboru
 				var xhr = new JAK.Request(JAK.Request.XML);
 				xhr.setCallback(window, function(xmlDoc) {
 					response(xmlDoc, barva, done);

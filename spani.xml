@@ -1162,13 +1162,6 @@
 <desc></desc>
 <sym>Waypoint</sym>
 </wpt>
-<wpt lat="50.723067" lon="14.955236">
-<ele>545.019989</ele>
-<time></time>
-<name></name>
-<desc></desc>
-<sym>Waypoint</sym>
-</wpt>
 <wpt lat="49.911519" lon="13.528542">
 <ele>285</ele>
 <time>2018-04-21T11:42:58Z</time>
@@ -2129,8 +2122,6 @@
 <desc></desc>
 <sym>Waypoint</sym>
 </wpt>
-
-
 <wpt lat="50.674370" lon="14.766025">
 <ele>692.619995</ele>
 <time>2019-12-14T07:37:08Z</time>
@@ -2158,6 +2149,13 @@
 <name></name>
 <desc></desc>
 <sym>Waypoint</sym>
+</wpt>
+<wpt lat="50.723067" lon="14.955236">
+<ele>545.019989</ele>
+<time>2019-12-14T21:02:59Z</time>
+<name>Jermanska skala, previs</name>
+<desc></desc>
+<sym>strecha</sym>
 </wpt>
 <wpt lat="49.906944" lon="14.268221">
 <ele>483.639984</ele>
@@ -2312,5 +2310,110 @@
 <name></name>
 <desc></desc>
 <sym>Waypoint</sym>
+</wpt>
+<wpt lat="50.081539" lon="13.419961">
+<ele>481.529999</ele>
+<time>2020-09-05T10:25:15Z</time>
+<name></name>
+<desc></desc>
+<sym>Waypoint</sym>
+</wpt>
+<wpt lat="50.081188" lon="13.423505">
+<ele>482.199982</ele>
+<time>2020-09-05T10:36:41Z</time>
+<name>Vanocka</name>
+<desc></desc>
+<sym>strecha</sym>
+</wpt>
+<wpt lat="50.083580" lon="13.434163">
+<ele>517.339966</ele>
+<time>2020-09-05T11:21:24Z</time>
+<name></name>
+<desc></desc>
+<sym>Waypoint</sym>
+</wpt>
+<wpt lat="50.182186" lon="12.250690">
+<ele>591.739990</ele>
+<time>2020-09-15T10:36:57Z</time>
+<name></name>
+<desc></desc>
+<sym>Waypoint</sym>
+</wpt>
+<wpt lat="49.688768" lon="13.458329">
+<ele>591.739990</ele>
+<time>2020-09-02T14:36:57Z</time>
+<name></name>
+<desc></desc>
+<sym>Waypoint</sym>
+</wpt>
+<wpt lat="50.087193" lon="12.981024">
+<ele>576.570007</ele>
+<time>2020-09-21T11:31:17Z</time>
+<name></name>
+<desc></desc>
+<sym>Waypoint</sym>
+</wpt>
+<wpt lat="50.092216" lon="13.024865">
+<ele>551.959961</ele>
+<time>2020-09-21T12:57:22Z</time>
+<name></name>
+<desc></desc>
+<sym>Waypoint</sym>
+</wpt>
+<wpt lat="50.094303" lon="13.032304">
+<ele>551.070007</ele>
+<time>2020-09-21T13:20:45Z</time>
+<name></name>
+<desc></desc>
+<sym>Waypoint</sym>
+</wpt>
+<wpt lat="50.087978" lon="13.051894">
+<ele>519.929993</ele>
+<time>2020-09-21T14:22:05Z</time>
+<name></name>
+<desc></desc>
+<sym>Waypoint</sym>
+</wpt>
+<wpt lat="50.088650" lon="13.061134">
+<ele>524.119995</ele>
+<time>2020-09-21T14:40:45Z</time>
+<name>TO Udoli Stinu</name>
+<desc></desc>
+<sym>strecha</sym>
+</wpt>
+<wpt lat="50.088169" lon="13.067902">
+<ele>547.789978</ele>
+<time>2020-09-21T14:58:37Z</time>
+<name></name>
+<desc></desc>
+<sym>Waypoint</sym>
+</wpt>
+<wpt lat="50.078522" lon="13.077130">
+<ele>577.279968</ele>
+<time>2020-09-21T16:36:24Z</time>
+<name>pristresek u rybnika</name>
+<desc></desc>
+<sym>strecha</sym>
+</wpt>
+<wpt lat="50.076000" lon="13.136749">
+<ele>542.609985</ele>
+<time>2020-09-22T08:39:28Z</time>
+<name></name>
+<desc></desc>
+<sym>Waypoint</sym>
+</wpt>
+<wpt lat="50.076946" lon="13.138800">
+<ele>498.339996</ele>
+<time>2020-09-22T08:46:44Z</time>
+<name></name>
+<desc></desc>
+<sym>Waypoint</sym>
+</wpt>
+<wpt lat="50.077839" lon="13.139734">
+<ele>516.820007</ele>
+<time>2020-09-22T08:52:19Z</time>
+<name>Detroit Camp</name>
+<desc></desc>
+<sym>strecha</sym>
 </wpt>
 </gpx>

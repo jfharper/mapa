@@ -1,0 +1,386 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+	<name>20200921-22 - Touzim - Zlutice.gpx</name>
+	<desc>36,1079,-1209
+        </desc>
+	<keywords>ja</keywords>
+</metadata>
+<trk>
+	<name>20200921 - pondeli</name>
+	<desc>Color:004000ff</desc>
+	<trkseg>
+		<trkpt lat="50.059607" lon="12.984648">
+			<ele>609.00</ele>
+			<time>2020-09-21T08:14:46Z</time>
+			<extensions>
+				<gte:gps speed="2.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.063084" lon="12.979772">
+			<ele>597.76</ele>
+			<time>2020-09-21T10:28:41Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.067619" lon="12.979924">
+			<ele>594.36</ele>
+			<time>2020-09-21T10:38:16Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.072219" lon="12.980689">
+			<ele>582.76</ele>
+			<time>2020-09-21T10:49:15Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.076747" lon="12.979138">
+			<ele>576.00</ele>
+			<time>2020-09-21T11:02:29Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.081178" lon="12.980665">
+			<ele>575.73</ele>
+			<time>2020-09-21T11:13:16Z</time>
+			<extensions>
+				<gte:gps speed="6.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.084465" lon="12.985729">
+			<ele>577.49</ele>
+			<time>2020-09-21T11:20:52Z</time>
+			<extensions>
+				<gte:gps speed="2.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.088259" lon="12.981944">
+			<ele>575.13</ele>
+			<time>2020-09-21T11:34:35Z</time>
+			<extensions>
+				<gte:gps speed="3.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.091777" lon="12.986708">
+			<ele>567.63</ele>
+			<time>2020-09-21T11:42:18Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.094569" lon="12.992312">
+			<ele>561.00</ele>
+			<time>2020-09-21T11:53:39Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.094230" lon="12.999384">
+			<ele>562.19</ele>
+			<time>2020-09-21T12:05:46Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.091583" lon="13.005198">
+			<ele>562.40</ele>
+			<time>2020-09-21T12:17:21Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.091574" lon="13.012365">
+			<ele>556.78</ele>
+			<time>2020-09-21T12:26:21Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.092505" lon="13.019393">
+			<ele>556.00</ele>
+			<time>2020-09-21T12:45:50Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.092027" lon="13.026415">
+			<ele>548.23</ele>
+			<time>2020-09-21T13:00:56Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.094252" lon="13.032655">
+			<ele>544.00</ele>
+			<time>2020-09-21T13:21:26Z</time>
+			<extensions>
+				<gte:gps speed="1.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.093094" lon="13.039535">
+			<ele>540.00</ele>
+			<time>2020-09-21T13:29:01Z</time>
+			<extensions>
+				<gte:gps speed="6.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.096974" lon="13.043799">
+			<ele>540.05</ele>
+			<time>2020-09-21T13:38:33Z</time>
+			<extensions>
+				<gte:gps speed="2.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.094801" lon="13.050020">
+			<ele>545.60</ele>
+			<time>2020-09-21T13:48:12Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.090437" lon="13.048251">
+			<ele>534.55</ele>
+			<time>2020-09-21T14:09:12Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.088886" lon="13.054984">
+			<ele>528.63</ele>
+			<time>2020-09-21T14:26:45Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.088520" lon="13.062071">
+			<ele>517.00</ele>
+			<time>2020-09-21T14:49:00Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.091084" lon="13.067914">
+			<ele>518.00</ele>
+			<time>2020-09-21T15:05:06Z</time>
+			<extensions>
+				<gte:gps speed="2.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.094818" lon="13.071932">
+			<ele>523.87</ele>
+			<time>2020-09-21T15:15:45Z</time>
+			<extensions>
+				<gte:gps speed="2.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.094650" lon="13.079179">
+			<ele>510.78</ele>
+			<time>2020-09-21T15:28:46Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.089929" lon="13.077951">
+			<ele>518.46</ele>
+			<time>2020-09-21T15:52:08Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.086662" lon="13.083003">
+			<ele>534.95</ele>
+			<time>2020-09-21T16:00:50Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.082237" lon="13.081156">
+			<ele>581.85</ele>
+			<time>2020-09-21T16:21:23Z</time>
+			<extensions>
+				<gte:gps speed="2.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.078766" lon="13.076629">
+			<ele>571.28</ele>
+			<time>2020-09-21T16:34:07Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.077773" lon="13.083640">
+			<ele>592.81</ele>
+			<time>2020-09-21T16:57:16Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.073896" lon="13.087590">
+			<ele>572.22</ele>
+			<time>2020-09-21T17:08:34Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.069269" lon="13.088870">
+			<ele>598.08</ele>
+			<time>2020-09-21T17:14:55Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.064748" lon="13.090001">
+			<ele>633.13</ele>
+			<time>2020-09-21T17:22:14Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.063129" lon="13.096680">
+			<ele>632.01</ele>
+			<time>2020-09-21T17:37:22Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.060780" lon="13.102948">
+			<ele>594.44</ele>
+			<time>2020-09-21T17:45:12Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.058982" lon="13.109745">
+			<ele>585.53</ele>
+			<time>2020-09-21T17:51:03Z</time>
+			<extensions>
+				<gte:gps speed="3.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.059097" lon="13.116838">
+			<ele>594.69</ele>
+			<time>2020-09-21T19:18:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.059657" lon="13.123872">
+			<ele>581.33</ele>
+			<time>2020-09-21T19:29:05Z</time>
+			<extensions>
+				<gte:gps speed="3.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.059593" lon="13.130906">
+			<ele>536.15</ele>
+			<time>2020-09-21T19:36:00Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#fbaf00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+<trk>
+	<name>20200922 - utery</name>
+	<desc>Color:004000ff</desc>
+	<trkseg>
+		<trkpt lat="50.062481" lon="13.133621">
+			<ele>543.19</ele>
+			<time>2020-09-22T07:40:54Z</time>
+			<extensions>
+				<gte:gps speed="0.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.066946" lon="13.132633">
+			<ele>508.81</ele>
+			<time>2020-09-22T08:08:54Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.071392" lon="13.131436">
+			<ele>502.10</ele>
+			<time>2020-09-22T08:25:03Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.074356" lon="13.136722">
+			<ele>496.00</ele>
+			<time>2020-09-22T08:31:48Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.078589" lon="13.139177">
+			<ele>493.02</ele>
+			<time>2020-09-22T08:54:10Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.081787" lon="13.144331">
+			<ele>485.95</ele>
+			<time>2020-09-22T09:04:03Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.081017" lon="13.151267">
+			<ele>528.74</ele>
+			<time>2020-09-22T09:33:53Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.078621" lon="13.157454">
+			<ele>578.94</ele>
+			<time>2020-09-22T09:47:48Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.079414" lon="13.164643">
+			<ele>576.00</ele>
+			<time>2020-09-22T09:55:28Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.081902" lon="13.170544">
+			<ele>580.82</ele>
+			<time>2020-09-22T10:27:24Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.086360" lon="13.172190">
+			<ele>512.62</ele>
+			<time>2020-09-22T10:42:12Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.089612" lon="13.167218">
+			<ele>476.81</ele>
+			<time>2020-09-22T10:49:16Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#2</gte:name>
+			<gte:color>#00ce00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+</gpx>

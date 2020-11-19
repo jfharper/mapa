@@ -1,0 +1,3354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+	<name>20201107 - Plzen - Plzen.gpx</name>
+	<desc>20,427,-425
+        </desc>
+	<keywords>Monca, Kata, ja</keywords>
+</metadata>
+<trk>
+	<name>20201107 - sobota</name>
+	<desc>Color:004000ff</desc>
+	<trkseg>
+		<trkpt lat="49.778114" lon="13.375038">
+			<ele>361.00</ele>
+			<time>2020-11-07T08:54:34Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777832" lon="13.375549">
+			<ele>358.82</ele>
+			<time>2020-11-07T08:57:17Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777718" lon="13.376317">
+			<ele>357.79</ele>
+			<time>2020-11-07T08:58:02Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778241" lon="13.376878">
+			<ele>357.00</ele>
+			<time>2020-11-07T08:58:47Z</time>
+			<extensions>
+				<gte:gps speed="3.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778702" lon="13.377351">
+			<ele>356.45</ele>
+			<time>2020-11-07T08:59:23Z</time>
+			<extensions>
+				<gte:gps speed="7.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778618" lon="13.378190">
+			<ele>353.00</ele>
+			<time>2020-11-07T08:59:55Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778679" lon="13.378996">
+			<ele>349.00</ele>
+			<time>2020-11-07T09:00:31Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778896" lon="13.379699">
+			<ele>344.48</ele>
+			<time>2020-11-07T09:01:08Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779243" lon="13.380605">
+			<ele>341.39</ele>
+			<time>2020-11-07T09:01:50Z</time>
+			<extensions>
+				<gte:gps speed="6.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779633" lon="13.380987">
+			<ele>339.14</ele>
+			<time>2020-11-07T09:02:28Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779842" lon="13.381563">
+			<ele>337.38</ele>
+			<time>2020-11-07T09:03:04Z</time>
+			<extensions>
+				<gte:gps speed="5.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779705" lon="13.382270">
+			<ele>337.00</ele>
+			<time>2020-11-07T09:05:10Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779514" lon="13.382727">
+			<ele>334.77</ele>
+			<time>2020-11-07T09:05:37Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779358" lon="13.383261">
+			<ele>331.83</ele>
+			<time>2020-11-07T09:06:02Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779228" lon="13.383825">
+			<ele>329.00</ele>
+			<time>2020-11-07T09:06:26Z</time>
+			<extensions>
+				<gte:gps speed="6.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779292" lon="13.384378">
+			<ele>329.90</ele>
+			<time>2020-11-07T09:06:49Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779449" lon="13.384834">
+			<ele>330.87</ele>
+			<time>2020-11-07T09:07:17Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779593" lon="13.385340">
+			<ele>332.06</ele>
+			<time>2020-11-07T09:07:45Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779707" lon="13.385802">
+			<ele>332.03</ele>
+			<time>2020-11-07T09:08:13Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779839" lon="13.386460">
+			<ele>331.33</ele>
+			<time>2020-11-07T09:08:44Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779987" lon="13.387100">
+			<ele>333.00</ele>
+			<time>2020-11-07T09:09:20Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780235" lon="13.387833">
+			<ele>334.00</ele>
+			<time>2020-11-07T09:09:57Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780407" lon="13.388299">
+			<ele>335.00</ele>
+			<time>2020-11-07T09:10:36Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780516" lon="13.388714">
+			<ele>335.00</ele>
+			<time>2020-11-07T09:11:02Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780550" lon="13.389228">
+			<ele>332.81</ele>
+			<time>2020-11-07T09:11:30Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780543" lon="13.389648">
+			<ele>333.27</ele>
+			<time>2020-11-07T09:12:03Z</time>
+			<extensions>
+				<gte:gps speed="0.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780804" lon="13.389711">
+			<ele>333.95</ele>
+			<time>2020-11-07T09:12:43Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781123" lon="13.389675">
+			<ele>332.14</ele>
+			<time>2020-11-07T09:13:19Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781406" lon="13.389875">
+			<ele>333.00</ele>
+			<time>2020-11-07T09:13:46Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781715" lon="13.390303">
+			<ele>331.00</ele>
+			<time>2020-11-07T09:14:14Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781963" lon="13.390760">
+			<ele>330.00</ele>
+			<time>2020-11-07T09:14:43Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782177" lon="13.391176">
+			<ele>329.00</ele>
+			<time>2020-11-07T09:15:11Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782463" lon="13.391605">
+			<ele>328.00</ele>
+			<time>2020-11-07T09:15:35Z</time>
+			<extensions>
+				<gte:gps speed="6.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782784" lon="13.392006">
+			<ele>327.00</ele>
+			<time>2020-11-07T09:16:09Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783092" lon="13.392367">
+			<ele>326.00</ele>
+			<time>2020-11-07T09:16:36Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783442" lon="13.392715">
+			<ele>325.00</ele>
+			<time>2020-11-07T09:17:09Z</time>
+			<extensions>
+				<gte:gps speed="6.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783764" lon="13.392946">
+			<ele>325.00</ele>
+			<time>2020-11-07T09:17:41Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784042" lon="13.393135">
+			<ele>325.00</ele>
+			<time>2020-11-07T09:18:10Z</time>
+			<extensions>
+				<gte:gps speed="0.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784320" lon="13.393297">
+			<ele>325.00</ele>
+			<time>2020-11-07T09:18:41Z</time>
+			<extensions>
+				<gte:gps speed="2.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784567" lon="13.393450">
+			<ele>325.00</ele>
+			<time>2020-11-07T09:19:17Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784847" lon="13.393722">
+			<ele>326.87</ele>
+			<time>2020-11-07T09:19:55Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784943" lon="13.394371">
+			<ele>329.00</ele>
+			<time>2020-11-07T09:20:33Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785053" lon="13.394860">
+			<ele>330.00</ele>
+			<time>2020-11-07T09:21:12Z</time>
+			<extensions>
+				<gte:gps speed="1.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785595" lon="13.394988">
+			<ele>333.00</ele>
+			<time>2020-11-07T09:21:51Z</time>
+			<extensions>
+				<gte:gps speed="1.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785969" lon="13.395235">
+			<ele>334.47</ele>
+			<time>2020-11-07T09:22:31Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786297" lon="13.395399">
+			<ele>337.00</ele>
+			<time>2020-11-07T09:23:10Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786598" lon="13.395768">
+			<ele>339.34</ele>
+			<time>2020-11-07T09:23:51Z</time>
+			<extensions>
+				<gte:gps speed="2.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786801" lon="13.396243">
+			<ele>342.00</ele>
+			<time>2020-11-07T09:24:31Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786560" lon="13.396780">
+			<ele>345.73</ele>
+			<time>2020-11-07T09:25:11Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786602" lon="13.397242">
+			<ele>347.75</ele>
+			<time>2020-11-07T09:25:46Z</time>
+			<extensions>
+				<gte:gps speed="4.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786743" lon="13.397803">
+			<ele>349.00</ele>
+			<time>2020-11-07T09:26:27Z</time>
+			<extensions>
+				<gte:gps speed="6.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787003" lon="13.398418">
+			<ele>352.75</ele>
+			<time>2020-11-07T09:27:02Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787083" lon="13.399104">
+			<ele>355.12</ele>
+			<time>2020-11-07T09:27:42Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787098" lon="13.399849">
+			<ele>357.40</ele>
+			<time>2020-11-07T09:28:20Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787205" lon="13.400623">
+			<ele>360.14</ele>
+			<time>2020-11-07T09:29:00Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787315" lon="13.401386">
+			<ele>363.95</ele>
+			<time>2020-11-07T09:29:40Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787437" lon="13.402168">
+			<ele>366.76</ele>
+			<time>2020-11-07T09:30:21Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787617" lon="13.402892">
+			<ele>369.00</ele>
+			<time>2020-11-07T09:31:01Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787918" lon="13.403494">
+			<ele>372.25</ele>
+			<time>2020-11-07T09:31:40Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788185" lon="13.404024">
+			<ele>376.00</ele>
+			<time>2020-11-07T09:32:18Z</time>
+			<extensions>
+				<gte:gps speed="2.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788395" lon="13.404429">
+			<ele>377.84</ele>
+			<time>2020-11-07T09:33:00Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788582" lon="13.404790">
+			<ele>379.07</ele>
+			<time>2020-11-07T09:33:41Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788883" lon="13.405337">
+			<ele>381.26</ele>
+			<time>2020-11-07T09:34:16Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.789137" lon="13.405763">
+			<ele>382.00</ele>
+			<time>2020-11-07T09:34:41Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.789303" lon="13.406135">
+			<ele>382.00</ele>
+			<time>2020-11-07T09:35:04Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.789478" lon="13.406574">
+			<ele>382.00</ele>
+			<time>2020-11-07T09:35:29Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.789700" lon="13.406981">
+			<ele>381.85</ele>
+			<time>2020-11-07T09:35:52Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.789951" lon="13.407445">
+			<ele>381.61</ele>
+			<time>2020-11-07T09:36:27Z</time>
+			<extensions>
+				<gte:gps speed="3.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790268" lon="13.407946">
+			<ele>380.14</ele>
+			<time>2020-11-07T09:37:01Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790547" lon="13.408493">
+			<ele>380.00</ele>
+			<time>2020-11-07T09:37:38Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790781" lon="13.409134">
+			<ele>380.80</ele>
+			<time>2020-11-07T09:38:16Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791019" lon="13.409712">
+			<ele>380.09</ele>
+			<time>2020-11-07T09:38:46Z</time>
+			<extensions>
+				<gte:gps speed="5.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791309" lon="13.410323">
+			<ele>381.00</ele>
+			<time>2020-11-07T09:39:19Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791660" lon="13.410721">
+			<ele>381.00</ele>
+			<time>2020-11-07T09:39:55Z</time>
+			<extensions>
+				<gte:gps speed="2.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791951" lon="13.410730">
+			<ele>382.00</ele>
+			<time>2020-11-07T09:40:23Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792160" lon="13.411017">
+			<ele>381.00</ele>
+			<time>2020-11-07T09:40:48Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792038" lon="13.411427">
+			<ele>381.00</ele>
+			<time>2020-11-07T09:41:11Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792023" lon="13.411922">
+			<ele>381.00</ele>
+			<time>2020-11-07T09:41:34Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791973" lon="13.412359">
+			<ele>380.00</ele>
+			<time>2020-11-07T09:41:57Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791958" lon="13.412840">
+			<ele>379.72</ele>
+			<time>2020-11-07T09:42:20Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791954" lon="13.413325">
+			<ele>379.00</ele>
+			<time>2020-11-07T09:42:43Z</time>
+			<extensions>
+				<gte:gps speed="5.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791900" lon="13.413834">
+			<ele>378.35</ele>
+			<time>2020-11-07T09:43:06Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791885" lon="13.414284">
+			<ele>377.47</ele>
+			<time>2020-11-07T09:43:29Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791870" lon="13.414763">
+			<ele>377.00</ele>
+			<time>2020-11-07T09:43:52Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791907" lon="13.415225">
+			<ele>375.60</ele>
+			<time>2020-11-07T09:44:15Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791971" lon="13.415656">
+			<ele>375.00</ele>
+			<time>2020-11-07T09:44:46Z</time>
+			<extensions>
+				<gte:gps speed="0.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792005" lon="13.416092">
+			<ele>373.94</ele>
+			<time>2020-11-07T09:45:09Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792029" lon="13.416496">
+			<ele>373.43</ele>
+			<time>2020-11-07T09:45:32Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792091" lon="13.416975">
+			<ele>372.00</ele>
+			<time>2020-11-07T09:45:55Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792103" lon="13.417530">
+			<ele>371.00</ele>
+			<time>2020-11-07T09:46:18Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792133" lon="13.418062">
+			<ele>369.83</ele>
+			<time>2020-11-07T09:46:45Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792202" lon="13.418603">
+			<ele>369.00</ele>
+			<time>2020-11-07T09:47:12Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792232" lon="13.419148">
+			<ele>368.00</ele>
+			<time>2020-11-07T09:47:39Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792274" lon="13.419663">
+			<ele>367.00</ele>
+			<time>2020-11-07T09:48:03Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792309" lon="13.420132">
+			<ele>366.00</ele>
+			<time>2020-11-07T09:48:27Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792397" lon="13.420658">
+			<ele>364.60</ele>
+			<time>2020-11-07T09:48:53Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792595" lon="13.421227">
+			<ele>362.14</ele>
+			<time>2020-11-07T09:49:23Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792710" lon="13.421716">
+			<ele>361.57</ele>
+			<time>2020-11-07T09:49:46Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792791" lon="13.422173">
+			<ele>360.00</ele>
+			<time>2020-11-07T09:50:12Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792843" lon="13.422606">
+			<ele>359.46</ele>
+			<time>2020-11-07T09:50:35Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792885" lon="13.423182">
+			<ele>358.74</ele>
+			<time>2020-11-07T09:51:01Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792854" lon="13.423682">
+			<ele>359.00</ele>
+			<time>2020-11-07T09:51:27Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792816" lon="13.424270">
+			<ele>358.29</ele>
+			<time>2020-11-07T09:51:54Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792801" lon="13.424807">
+			<ele>358.06</ele>
+			<time>2020-11-07T09:52:20Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792822" lon="13.425428">
+			<ele>356.35</ele>
+			<time>2020-11-07T09:52:47Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792912" lon="13.425983">
+			<ele>354.45</ele>
+			<time>2020-11-07T09:53:14Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792973" lon="13.426589">
+			<ele>353.00</ele>
+			<time>2020-11-07T09:53:41Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793008" lon="13.427161">
+			<ele>351.00</ele>
+			<time>2020-11-07T09:54:08Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793144" lon="13.427577">
+			<ele>349.00</ele>
+			<time>2020-11-07T09:54:44Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793308" lon="13.428219">
+			<ele>346.00</ele>
+			<time>2020-11-07T09:55:20Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793602" lon="13.428716">
+			<ele>343.48</ele>
+			<time>2020-11-07T09:55:47Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793896" lon="13.428996">
+			<ele>343.70</ele>
+			<time>2020-11-07T09:56:24Z</time>
+			<extensions>
+				<gte:gps speed="3.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794197" lon="13.429404">
+			<ele>346.89</ele>
+			<time>2020-11-07T09:56:51Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794303" lon="13.430034">
+			<ele>349.72</ele>
+			<time>2020-11-07T09:57:27Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794239" lon="13.430678">
+			<ele>347.63</ele>
+			<time>2020-11-07T09:57:59Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794198" lon="13.431268">
+			<ele>348.91</ele>
+			<time>2020-11-07T09:58:30Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794216" lon="13.431827">
+			<ele>352.22</ele>
+			<time>2020-11-07T09:58:59Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794258" lon="13.432361">
+			<ele>354.71</ele>
+			<time>2020-11-07T09:59:25Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794350" lon="13.432918">
+			<ele>357.95</ele>
+			<time>2020-11-07T09:59:51Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794464" lon="13.433482">
+			<ele>360.00</ele>
+			<time>2020-11-07T10:00:23Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794522" lon="13.433917">
+			<ele>361.04</ele>
+			<time>2020-11-07T10:01:37Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794453" lon="13.434446">
+			<ele>362.96</ele>
+			<time>2020-11-07T10:02:15Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794231" lon="13.435093">
+			<ele>364.00</ele>
+			<time>2020-11-07T10:02:53Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794186" lon="13.435819">
+			<ele>364.00</ele>
+			<time>2020-11-07T10:03:32Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794487" lon="13.436663">
+			<ele>360.11</ele>
+			<time>2020-11-07T10:04:12Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794640" lon="13.437418">
+			<ele>358.98</ele>
+			<time>2020-11-07T10:04:53Z</time>
+			<extensions>
+				<gte:gps speed="0.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794563" lon="13.438195">
+			<ele>358.00</ele>
+			<time>2020-11-07T10:05:31Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794441" lon="13.438941">
+			<ele>357.90</ele>
+			<time>2020-11-07T10:06:11Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794514" lon="13.439667">
+			<ele>355.65</ele>
+			<time>2020-11-07T10:06:51Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794743" lon="13.440460">
+			<ele>353.00</ele>
+			<time>2020-11-07T10:07:31Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794682" lon="13.441292">
+			<ele>352.62</ele>
+			<time>2020-11-07T10:08:12Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794834" lon="13.442074">
+			<ele>351.00</ele>
+			<time>2020-11-07T10:08:55Z</time>
+			<extensions>
+				<gte:gps speed="1.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.795257" lon="13.442483">
+			<ele>349.00</ele>
+			<time>2020-11-07T10:09:36Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.795162" lon="13.442911">
+			<ele>349.00</ele>
+			<time>2020-11-07T10:10:19Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794712" lon="13.442708">
+			<ele>350.00</ele>
+			<time>2020-11-07T10:11:01Z</time>
+			<extensions>
+				<gte:gps speed="2.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794274" lon="13.442580">
+			<ele>352.00</ele>
+			<time>2020-11-07T10:11:43Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793839" lon="13.442565">
+			<ele>353.00</ele>
+			<time>2020-11-07T10:13:52Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793775" lon="13.442921">
+			<ele>352.00</ele>
+			<time>2020-11-07T10:14:30Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793869" lon="13.443560">
+			<ele>350.00</ele>
+			<time>2020-11-07T10:15:02Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793888" lon="13.444160">
+			<ele>349.00</ele>
+			<time>2020-11-07T10:15:29Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793930" lon="13.444626">
+			<ele>348.00</ele>
+			<time>2020-11-07T10:15:55Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794029" lon="13.445179">
+			<ele>347.56</ele>
+			<time>2020-11-07T10:16:21Z</time>
+			<extensions>
+				<gte:gps speed="5.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794125" lon="13.445643">
+			<ele>347.00</ele>
+			<time>2020-11-07T10:16:47Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794189" lon="13.446241">
+			<ele>346.00</ele>
+			<time>2020-11-07T10:17:14Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.794026" lon="13.446541">
+			<ele>346.00</ele>
+			<time>2020-11-07T10:28:08Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793768" lon="13.446660">
+			<ele>346.00</ele>
+			<time>2020-11-07T10:28:36Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793476" lon="13.446736">
+			<ele>345.58</ele>
+			<time>2020-11-07T10:29:04Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.793106" lon="13.446847">
+			<ele>345.00</ele>
+			<time>2020-11-07T10:29:31Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792725" lon="13.446954">
+			<ele>345.00</ele>
+			<time>2020-11-07T10:30:00Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.792346" lon="13.446966">
+			<ele>345.00</ele>
+			<time>2020-11-07T10:30:30Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791963" lon="13.446919">
+			<ele>344.00</ele>
+			<time>2020-11-07T10:30:57Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791603" lon="13.446881">
+			<ele>344.00</ele>
+			<time>2020-11-07T10:31:25Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.791250" lon="13.446772">
+			<ele>344.00</ele>
+			<time>2020-11-07T10:31:51Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790877" lon="13.446666">
+			<ele>343.00</ele>
+			<time>2020-11-07T10:32:19Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790524" lon="13.446491">
+			<ele>343.00</ele>
+			<time>2020-11-07T10:32:48Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.790178" lon="13.446269">
+			<ele>343.00</ele>
+			<time>2020-11-07T10:33:16Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.789902" lon="13.445870">
+			<ele>342.83</ele>
+			<time>2020-11-07T10:33:45Z</time>
+			<extensions>
+				<gte:gps speed="4.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.789707" lon="13.445676">
+			<ele>342.00</ele>
+			<time>2020-11-07T10:34:00Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.789303" lon="13.445520">
+			<ele>341.76</ele>
+			<time>2020-11-07T10:34:26Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788934" lon="13.445745">
+			<ele>341.00</ele>
+			<time>2020-11-07T10:34:53Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788644" lon="13.446017">
+			<ele>341.00</ele>
+			<time>2020-11-07T10:35:20Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788381" lon="13.446416">
+			<ele>341.00</ele>
+			<time>2020-11-07T10:35:50Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788116" lon="13.446686">
+			<ele>341.00</ele>
+			<time>2020-11-07T10:36:18Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787795" lon="13.446869">
+			<ele>341.00</ele>
+			<time>2020-11-07T10:36:46Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787561" lon="13.447134">
+			<ele>341.00</ele>
+			<time>2020-11-07T10:37:45Z</time>
+			<extensions>
+				<gte:gps speed="3.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787541" lon="13.447534">
+			<ele>340.00</ele>
+			<time>2020-11-07T10:38:16Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787501" lon="13.447899">
+			<ele>340.00</ele>
+			<time>2020-11-07T10:39:28Z</time>
+			<extensions>
+				<gte:gps speed="2.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787403" lon="13.448333">
+			<ele>339.00</ele>
+			<time>2020-11-07T10:39:57Z</time>
+			<extensions>
+				<gte:gps speed="2.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787378" lon="13.448830">
+			<ele>338.00</ele>
+			<time>2020-11-07T10:40:25Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787304" lon="13.449465">
+			<ele>337.00</ele>
+			<time>2020-11-07T10:40:55Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787224" lon="13.450047">
+			<ele>335.37</ele>
+			<time>2020-11-07T10:41:26Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787224" lon="13.450513">
+			<ele>334.18</ele>
+			<time>2020-11-07T10:41:54Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787329" lon="13.450915">
+			<ele>333.00</ele>
+			<time>2020-11-07T10:42:23Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787089" lon="13.451153">
+			<ele>332.00</ele>
+			<time>2020-11-07T10:42:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786728" lon="13.451259">
+			<ele>330.88</ele>
+			<time>2020-11-07T10:43:19Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786427" lon="13.451431">
+			<ele>327.87</ele>
+			<time>2020-11-07T10:43:48Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786076" lon="13.451496">
+			<ele>324.21</ele>
+			<time>2020-11-07T10:44:18Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785999" lon="13.451161">
+			<ele>325.99</ele>
+			<time>2020-11-07T10:44:50Z</time>
+			<extensions>
+				<gte:gps speed="2.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785764" lon="13.450875">
+			<ele>324.56</ele>
+			<time>2020-11-07T10:45:20Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785748" lon="13.450421">
+			<ele>328.24</ele>
+			<time>2020-11-07T10:46:02Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785664" lon="13.450075">
+			<ele>329.04</ele>
+			<time>2020-11-07T10:46:31Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785610" lon="13.449643">
+			<ele>331.00</ele>
+			<time>2020-11-07T10:47:00Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785713" lon="13.449286">
+			<ele>332.60</ele>
+			<time>2020-11-07T10:47:28Z</time>
+			<extensions>
+				<gte:gps speed="3.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785756" lon="13.448839">
+			<ele>334.00</ele>
+			<time>2020-11-07T10:47:57Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785754" lon="13.448349">
+			<ele>334.00</ele>
+			<time>2020-11-07T10:48:26Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785900" lon="13.447928">
+			<ele>334.82</ele>
+			<time>2020-11-07T10:48:54Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786038" lon="13.447378">
+			<ele>336.20</ele>
+			<time>2020-11-07T10:49:22Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786109" lon="13.446960">
+			<ele>338.00</ele>
+			<time>2020-11-07T10:49:51Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785725" lon="13.446733">
+			<ele>337.26</ele>
+			<time>2020-11-07T10:50:20Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785343" lon="13.446725">
+			<ele>337.86</ele>
+			<time>2020-11-07T10:50:48Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785027" lon="13.446840">
+			<ele>337.07</ele>
+			<time>2020-11-07T10:51:17Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785014" lon="13.447322">
+			<ele>335.70</ele>
+			<time>2020-11-07T10:51:44Z</time>
+			<extensions>
+				<gte:gps speed="3.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784853" lon="13.447706">
+			<ele>334.10</ele>
+			<time>2020-11-07T10:52:13Z</time>
+			<extensions>
+				<gte:gps speed="2.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784708" lon="13.448065">
+			<ele>334.73</ele>
+			<time>2020-11-07T10:52:41Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784677" lon="13.448477">
+			<ele>334.00</ele>
+			<time>2020-11-07T10:53:09Z</time>
+			<extensions>
+				<gte:gps speed="21.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784569" lon="13.448802">
+			<ele>332.90</ele>
+			<time>2020-11-07T10:53:38Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784393" lon="13.448544">
+			<ele>332.70</ele>
+			<time>2020-11-07T10:58:23Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784352" lon="13.448119">
+			<ele>334.11</ele>
+			<time>2020-11-07T10:59:52Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784477" lon="13.447726">
+			<ele>336.00</ele>
+			<time>2020-11-07T11:00:20Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784585" lon="13.447342">
+			<ele>336.41</ele>
+			<time>2020-11-07T11:00:52Z</time>
+			<extensions>
+				<gte:gps speed="2.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784433" lon="13.447045">
+			<ele>337.00</ele>
+			<time>2020-11-07T11:01:35Z</time>
+			<extensions>
+				<gte:gps speed="2.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784134" lon="13.447105">
+			<ele>337.00</ele>
+			<time>2020-11-07T11:02:04Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783894" lon="13.446948">
+			<ele>337.87</ele>
+			<time>2020-11-07T11:02:32Z</time>
+			<extensions>
+				<gte:gps speed="8.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783581" lon="13.446680">
+			<ele>337.98</ele>
+			<time>2020-11-07T11:03:00Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783297" lon="13.446508">
+			<ele>337.77</ele>
+			<time>2020-11-07T11:03:29Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782987" lon="13.446377">
+			<ele>337.13</ele>
+			<time>2020-11-07T11:03:59Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782882" lon="13.445980">
+			<ele>338.00</ele>
+			<time>2020-11-07T11:05:27Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782680" lon="13.445618">
+			<ele>338.00</ele>
+			<time>2020-11-07T11:05:54Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782438" lon="13.445256">
+			<ele>339.00</ele>
+			<time>2020-11-07T11:06:24Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782142" lon="13.444919">
+			<ele>338.47</ele>
+			<time>2020-11-07T11:06:52Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781841" lon="13.444878">
+			<ele>338.00</ele>
+			<time>2020-11-07T11:07:19Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781609" lon="13.444930">
+			<ele>336.89</ele>
+			<time>2020-11-07T11:09:54Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781420" lon="13.444557">
+			<ele>337.00</ele>
+			<time>2020-11-07T11:10:26Z</time>
+			<extensions>
+				<gte:gps speed="7.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781219" lon="13.444132">
+			<ele>337.31</ele>
+			<time>2020-11-07T11:10:56Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780991" lon="13.443854">
+			<ele>337.06</ele>
+			<time>2020-11-07T11:11:25Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780737" lon="13.443614">
+			<ele>337.00</ele>
+			<time>2020-11-07T11:11:53Z</time>
+			<extensions>
+				<gte:gps speed="6.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780596" lon="13.443221">
+			<ele>337.00</ele>
+			<time>2020-11-07T11:12:25Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780446" lon="13.442772">
+			<ele>337.87</ele>
+			<time>2020-11-07T11:12:56Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780129" lon="13.442630">
+			<ele>338.00</ele>
+			<time>2020-11-07T11:13:36Z</time>
+			<extensions>
+				<gte:gps speed="2.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779743" lon="13.442612">
+			<ele>338.42</ele>
+			<time>2020-11-07T11:14:58Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779340" lon="13.442571">
+			<ele>339.00</ele>
+			<time>2020-11-07T11:15:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778959" lon="13.442489">
+			<ele>338.08</ele>
+			<time>2020-11-07T11:16:18Z</time>
+			<extensions>
+				<gte:gps speed="1.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778578" lon="13.442374">
+			<ele>337.79</ele>
+			<time>2020-11-07T11:17:13Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778233" lon="13.442344">
+			<ele>337.00</ele>
+			<time>2020-11-07T11:18:05Z</time>
+			<extensions>
+				<gte:gps speed="6.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777842" lon="13.442341">
+			<ele>334.07</ele>
+			<time>2020-11-07T11:18:38Z</time>
+			<extensions>
+				<gte:gps speed="7.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777498" lon="13.442159">
+			<ele>334.15</ele>
+			<time>2020-11-07T11:19:10Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777206" lon="13.441977">
+			<ele>333.95</ele>
+			<time>2020-11-07T11:19:45Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776890" lon="13.442126">
+			<ele>332.55</ele>
+			<time>2020-11-07T11:20:22Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776573" lon="13.442360">
+			<ele>329.82</ele>
+			<time>2020-11-07T11:20:58Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776220" lon="13.442427">
+			<ele>333.00</ele>
+			<time>2020-11-07T11:21:34Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775768" lon="13.442411">
+			<ele>332.00</ele>
+			<time>2020-11-07T11:22:12Z</time>
+			<extensions>
+				<gte:gps speed="2.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775423" lon="13.442040">
+			<ele>332.10</ele>
+			<time>2020-11-07T11:22:50Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775088" lon="13.441698">
+			<ele>326.03</ele>
+			<time>2020-11-07T11:23:29Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774668" lon="13.441320">
+			<ele>320.19</ele>
+			<time>2020-11-07T11:24:56Z</time>
+			<extensions>
+				<gte:gps speed="3.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774561" lon="13.440745">
+			<ele>317.37</ele>
+			<time>2020-11-07T11:25:39Z</time>
+			<extensions>
+				<gte:gps speed="0.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774546" lon="13.440174">
+			<ele>313.17</ele>
+			<time>2020-11-07T11:26:20Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774638" lon="13.439587">
+			<ele>312.99</ele>
+			<time>2020-11-07T11:27:05Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774733" lon="13.439105">
+			<ele>309.44</ele>
+			<time>2020-11-07T11:27:46Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774853" lon="13.438682">
+			<ele>309.42</ele>
+			<time>2020-11-07T11:28:26Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775016" lon="13.438258">
+			<ele>309.37</ele>
+			<time>2020-11-07T11:28:57Z</time>
+			<extensions>
+				<gte:gps speed="11.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775213" lon="13.437746">
+			<ele>310.86</ele>
+			<time>2020-11-07T11:29:22Z</time>
+			<extensions>
+				<gte:gps speed="8.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775333" lon="13.437338">
+			<ele>312.40</ele>
+			<time>2020-11-07T11:29:41Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775371" lon="13.436907">
+			<ele>313.22</ele>
+			<time>2020-11-07T11:29:59Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775352" lon="13.436477">
+			<ele>310.93</ele>
+			<time>2020-11-07T11:30:18Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775376" lon="13.436061">
+			<ele>308.11</ele>
+			<time>2020-11-07T11:30:35Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775477" lon="13.435667">
+			<ele>306.95</ele>
+			<time>2020-11-07T11:30:51Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775572" lon="13.435333">
+			<ele>305.79</ele>
+			<time>2020-11-07T11:31:30Z</time>
+			<extensions>
+				<gte:gps speed="2.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775727" lon="13.435077">
+			<ele>310.73</ele>
+			<time>2020-11-07T11:31:45Z</time>
+			<extensions>
+				<gte:gps speed="8.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775832" lon="13.434724">
+			<ele>307.87</ele>
+			<time>2020-11-07T11:32:05Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776119" lon="13.433955">
+			<ele>301.38</ele>
+			<time>2020-11-07T11:33:22Z</time>
+			<extensions>
+				<gte:gps speed="6.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776284" lon="13.433566">
+			<ele>300.62</ele>
+			<time>2020-11-07T11:34:02Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776421" lon="13.433028">
+			<ele>297.99</ele>
+			<time>2020-11-07T11:35:23Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776598" lon="13.432489">
+			<ele>298.09</ele>
+			<time>2020-11-07T11:37:29Z</time>
+			<extensions>
+				<gte:gps speed="7.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776802" lon="13.432006">
+			<ele>301.95</ele>
+			<time>2020-11-07T11:38:12Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777164" lon="13.431506">
+			<ele>306.50</ele>
+			<time>2020-11-07T11:38:54Z</time>
+			<extensions>
+				<gte:gps speed="3.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777528" lon="13.431144">
+			<ele>308.69</ele>
+			<time>2020-11-07T11:39:22.14Z</time>
+		</trkpt>
+		<trkpt lat="49.777822" lon="13.430898">
+			<ele>308.02</ele>
+			<time>2020-11-07T11:39:40Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778348" lon="13.430829">
+			<ele>309.89</ele>
+			<time>2020-11-07T11:40:27.78Z</time>
+		</trkpt>
+		<trkpt lat="49.778889" lon="13.431023">
+			<ele>312.71</ele>
+			<time>2020-11-07T11:41:12.89Z</time>
+		</trkpt>
+		<trkpt lat="49.779448" lon="13.431429">
+			<ele>316.95</ele>
+			<time>2020-11-07T11:42:03.42Z</time>
+		</trkpt>
+		<trkpt lat="49.779750" lon="13.432171">
+			<ele>322.44</ele>
+			<time>2020-11-07T11:43:02.91Z</time>
+		</trkpt>
+		<trkpt lat="49.780062" lon="13.432804">
+			<ele>318.50</ele>
+			<time>2020-11-07T11:44:03Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780720" lon="13.433730">
+			<ele>314.41</ele>
+			<time>2020-11-07T11:45:24Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781303" lon="13.434463">
+			<ele>314.53</ele>
+			<time>2020-11-07T11:46:33Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781514" lon="13.434862">
+			<ele>320.75</ele>
+			<time>2020-11-07T11:47:14Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781761" lon="13.435172">
+			<ele>325.22</ele>
+			<time>2020-11-07T11:47:33Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782051" lon="13.435389">
+			<ele>326.45</ele>
+			<time>2020-11-07T11:48:10Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782406" lon="13.435657">
+			<ele>320.48</ele>
+			<time>2020-11-07T11:48:45Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782684" lon="13.435635">
+			<ele>326.65</ele>
+			<time>2020-11-07T11:49:05Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782928" lon="13.435843">
+			<ele>328.06</ele>
+			<time>2020-11-07T11:49:23Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783192" lon="13.436023">
+			<ele>327.16</ele>
+			<time>2020-11-07T11:50:13Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783371" lon="13.435665">
+			<ele>326.09</ele>
+			<time>2020-11-07T11:50:33Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783619" lon="13.435192">
+			<ele>325.28</ele>
+			<time>2020-11-07T11:51:12Z</time>
+			<extensions>
+				<gte:gps speed="2.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783849" lon="13.435087">
+			<ele>326.34</ele>
+			<time>2020-11-07T11:52:14Z</time>
+			<extensions>
+				<gte:gps speed="1.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784198" lon="13.435250">
+			<ele>320.82</ele>
+			<time>2020-11-07T11:52:51Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784501" lon="13.435591">
+			<ele>322.83</ele>
+			<time>2020-11-07T11:54:30Z</time>
+			<extensions>
+				<gte:gps speed="1.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784736" lon="13.435704">
+			<ele>321.31</ele>
+			<time>2020-11-07T12:08:34Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784995" lon="13.435920">
+			<ele>318.45</ele>
+			<time>2020-11-07T12:11:05Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785210" lon="13.435697">
+			<ele>306.66</ele>
+			<time>2020-11-07T12:12:33Z</time>
+			<extensions>
+				<gte:gps speed="2.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785394" lon="13.435445">
+			<ele>299.24</ele>
+			<time>2020-11-07T12:13:26Z</time>
+			<extensions>
+				<gte:gps speed="1.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785418" lon="13.435090">
+			<ele>294.13</ele>
+			<time>2020-11-07T12:15:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785651" lon="13.434901">
+			<ele>295.01</ele>
+			<time>2020-11-07T12:16:24Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785929" lon="13.434956">
+			<ele>305.12</ele>
+			<time>2020-11-07T12:17:19Z</time>
+			<extensions>
+				<gte:gps speed="1.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786145" lon="13.434759">
+			<ele>316.16</ele>
+			<time>2020-11-07T12:18:16Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786358" lon="13.434572">
+			<ele>319.72</ele>
+			<time>2020-11-07T12:18:46Z</time>
+			<extensions>
+				<gte:gps speed="2.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786615" lon="13.434199">
+			<ele>321.00</ele>
+			<time>2020-11-07T12:19:15Z</time>
+			<extensions>
+				<gte:gps speed="2.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786795" lon="13.433884">
+			<ele>321.03</ele>
+			<time>2020-11-07T12:19:45Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786991" lon="13.433508">
+			<ele>321.61</ele>
+			<time>2020-11-07T12:20:16Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787165" lon="13.433141">
+			<ele>323.49</ele>
+			<time>2020-11-07T12:20:59Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787266" lon="13.432754">
+			<ele>324.75</ele>
+			<time>2020-11-07T12:21:27Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787346" lon="13.432316">
+			<ele>322.33</ele>
+			<time>2020-11-07T12:22:09Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787551" lon="13.432005">
+			<ele>328.37</ele>
+			<time>2020-11-07T12:22:37Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787743" lon="13.431564">
+			<ele>330.60</ele>
+			<time>2020-11-07T12:23:05Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787903" lon="13.431071">
+			<ele>332.36</ele>
+			<time>2020-11-07T12:23:32Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788029" lon="13.430598">
+			<ele>334.53</ele>
+			<time>2020-11-07T12:23:59Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788177" lon="13.430123">
+			<ele>337.07</ele>
+			<time>2020-11-07T12:24:26Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788319" lon="13.429692">
+			<ele>338.53</ele>
+			<time>2020-11-07T12:24:54Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788479" lon="13.429293">
+			<ele>339.71</ele>
+			<time>2020-11-07T12:25:22Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788418" lon="13.428877">
+			<ele>336.48</ele>
+			<time>2020-11-07T12:25:50Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788324" lon="13.428455">
+			<ele>331.85</ele>
+			<time>2020-11-07T12:26:18Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788361" lon="13.428088">
+			<ele>334.86</ele>
+			<time>2020-11-07T12:26:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788315" lon="13.427714">
+			<ele>333.47</ele>
+			<time>2020-11-07T12:27:30Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788082" lon="13.427415">
+			<ele>327.44</ele>
+			<time>2020-11-07T12:28:13Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787841" lon="13.427113">
+			<ele>316.99</ele>
+			<time>2020-11-07T12:28:54Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787647" lon="13.427328">
+			<ele>308.39</ele>
+			<time>2020-11-07T12:29:24Z</time>
+			<extensions>
+				<gte:gps speed="1.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787766" lon="13.427755">
+			<ele>307.03</ele>
+			<time>2020-11-07T12:29:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787712" lon="13.428123">
+			<ele>299.12</ele>
+			<time>2020-11-07T12:30:22Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787737" lon="13.428513">
+			<ele>299.50</ele>
+			<time>2020-11-07T12:30:52Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787721" lon="13.428922">
+			<ele>298.86</ele>
+			<time>2020-11-07T12:31:21Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787686" lon="13.429364">
+			<ele>299.24</ele>
+			<time>2020-11-07T12:31:49Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787496" lon="13.429064">
+			<ele>295.34</ele>
+			<time>2020-11-07T13:59:11Z</time>
+			<extensions>
+				<gte:gps speed="1.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787509" lon="13.428596">
+			<ele>296.56</ele>
+			<time>2020-11-07T13:59:37Z</time>
+			<extensions>
+				<gte:gps speed="1.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787493" lon="13.428206">
+			<ele>296.29</ele>
+			<time>2020-11-07T14:00:32.23Z</time>
+		</trkpt>
+		<trkpt lat="49.787431" lon="13.427759">
+			<ele>296.22</ele>
+			<time>2020-11-07T14:01:36.26Z</time>
+		</trkpt>
+		<trkpt lat="49.787378" lon="13.427335">
+			<ele>297.37</ele>
+			<time>2020-11-07T14:02:41.41Z</time>
+		</trkpt>
+		<trkpt lat="49.787267" lon="13.426782">
+			<ele>299.75</ele>
+			<time>2020-11-07T14:03:59Z</time>
+			<extensions>
+				<gte:gps speed="1.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787467" lon="13.426606">
+			<ele>307.47</ele>
+			<time>2020-11-07T14:05:07.37Z</time>
+		</trkpt>
+		<trkpt lat="49.787831" lon="13.426285">
+			<ele>317.78</ele>
+			<time>2020-11-07T14:07:11.83Z</time>
+		</trkpt>
+		<trkpt lat="49.788042" lon="13.426099">
+			<ele>321.96</ele>
+			<time>2020-11-07T14:08:24Z</time>
+			<extensions>
+				<gte:gps speed="2.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788238" lon="13.425815">
+			<ele>323.99</ele>
+			<time>2020-11-07T14:09:05.92Z</time>
+		</trkpt>
+		<trkpt lat="49.788490" lon="13.425106">
+			<ele>332.02</ele>
+			<time>2020-11-07T14:10:24.16Z</time>
+		</trkpt>
+		<trkpt lat="49.788506" lon="13.424588">
+			<ele>340.72</ele>
+			<time>2020-11-07T14:10:54.05Z</time>
+		</trkpt>
+		<trkpt lat="49.788486" lon="13.423976">
+			<ele>348.35</ele>
+			<time>2020-11-07T14:11:16Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.788106" lon="13.423421">
+			<ele>349.77</ele>
+			<time>2020-11-07T14:12:22Z</time>
+			<extensions>
+				<gte:gps speed="3.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787574" lon="13.423259">
+			<ele>349.89</ele>
+			<time>2020-11-07T14:13:23Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.787122" lon="13.423696">
+			<ele>345.60</ele>
+			<time>2020-11-07T14:14:18Z</time>
+			<extensions>
+				<gte:gps speed="1.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786719" lon="13.423846">
+			<ele>336.02</ele>
+			<time>2020-11-07T14:15:14Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786462" lon="13.423432">
+			<ele>339.49</ele>
+			<time>2020-11-07T14:16:14Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786240" lon="13.423127">
+			<ele>339.38</ele>
+			<time>2020-11-07T14:17:04Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.786114" lon="13.422653">
+			<ele>339.51</ele>
+			<time>2020-11-07T14:17:48Z</time>
+			<extensions>
+				<gte:gps speed="0.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785704" lon="13.422831">
+			<ele>332.07</ele>
+			<time>2020-11-07T14:19:15Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785493" lon="13.422660">
+			<ele>331.05</ele>
+			<time>2020-11-07T14:20:39Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.785225" lon="13.422534">
+			<ele>330.29</ele>
+			<time>2020-11-07T14:21:19Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784928" lon="13.422281">
+			<ele>332.49</ele>
+			<time>2020-11-07T14:21:59Z</time>
+			<extensions>
+				<gte:gps speed="6.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784688" lon="13.421754">
+			<ele>333.93</ele>
+			<time>2020-11-07T14:22:41Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784405" lon="13.421272">
+			<ele>332.05</ele>
+			<time>2020-11-07T14:23:21Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.784172" lon="13.420519">
+			<ele>331.03</ele>
+			<time>2020-11-07T14:24:01Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783878" lon="13.419942">
+			<ele>326.92</ele>
+			<time>2020-11-07T14:24:43Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783512" lon="13.419772">
+			<ele>315.69</ele>
+			<time>2020-11-07T14:25:26Z</time>
+			<extensions>
+				<gte:gps speed="3.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783230" lon="13.420240">
+			<ele>308.79</ele>
+			<time>2020-11-07T14:26:11Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.783058" lon="13.420611">
+			<ele>304.05</ele>
+			<time>2020-11-07T14:26:55Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782688" lon="13.420346">
+			<ele>304.00</ele>
+			<time>2020-11-07T14:27:37Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.782368" lon="13.420091">
+			<ele>303.78</ele>
+			<time>2020-11-07T14:28:19Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781936" lon="13.419616">
+			<ele>303.00</ele>
+			<time>2020-11-07T14:29:02Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781799" lon="13.418788">
+			<ele>307.23</ele>
+			<time>2020-11-07T14:29:42Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781466" lon="13.418153">
+			<ele>314.16</ele>
+			<time>2020-11-07T14:30:24Z</time>
+			<extensions>
+				<gte:gps speed="4.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.781087" lon="13.417670">
+			<ele>314.63</ele>
+			<time>2020-11-07T14:31:08Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780680" lon="13.417440">
+			<ele>313.89</ele>
+			<time>2020-11-07T14:31:51Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780330" lon="13.417062">
+			<ele>313.91</ele>
+			<time>2020-11-07T14:32:32Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780162" lon="13.416453">
+			<ele>314.30</ele>
+			<time>2020-11-07T14:33:14Z</time>
+			<extensions>
+				<gte:gps speed="3.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780133" lon="13.415784">
+			<ele>318.31</ele>
+			<time>2020-11-07T14:33:54Z</time>
+			<extensions>
+				<gte:gps speed="2.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779982" lon="13.415354">
+			<ele>319.45</ele>
+			<time>2020-11-07T14:34:30Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779847" lon="13.414992">
+			<ele>320.00</ele>
+			<time>2020-11-07T14:34:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779742" lon="13.414661">
+			<ele>322.00</ele>
+			<time>2020-11-07T14:35:02Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779708" lon="13.414283">
+			<ele>323.00</ele>
+			<time>2020-11-07T14:35:17Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779800" lon="13.413926">
+			<ele>323.66</ele>
+			<time>2020-11-07T14:35:32Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779911" lon="13.413388">
+			<ele>324.57</ele>
+			<time>2020-11-07T14:36:00Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779911" lon="13.412801">
+			<ele>327.57</ele>
+			<time>2020-11-07T14:36:27Z</time>
+			<extensions>
+				<gte:gps speed="6.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779893" lon="13.412325">
+			<ele>331.07</ele>
+			<time>2020-11-07T14:37:15Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779925" lon="13.411821">
+			<ele>333.81</ele>
+			<time>2020-11-07T14:38:02Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779708" lon="13.411653">
+			<ele>333.05</ele>
+			<time>2020-11-07T14:38:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779411" lon="13.411446">
+			<ele>333.00</ele>
+			<time>2020-11-07T14:38:56Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779073" lon="13.411254">
+			<ele>332.03</ele>
+			<time>2020-11-07T14:39:22Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778726" lon="13.410997">
+			<ele>331.01</ele>
+			<time>2020-11-07T14:39:53Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778362" lon="13.410771">
+			<ele>331.51</ele>
+			<time>2020-11-07T14:40:22Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777981" lon="13.410553">
+			<ele>331.00</ele>
+			<time>2020-11-07T14:40:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777625" lon="13.410348">
+			<ele>332.00</ele>
+			<time>2020-11-07T14:41:23Z</time>
+			<extensions>
+				<gte:gps speed="5.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777314" lon="13.410255">
+			<ele>331.67</ele>
+			<time>2020-11-07T14:41:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777119" lon="13.409981">
+			<ele>330.62</ele>
+			<time>2020-11-07T14:42:16Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777153" lon="13.409497">
+			<ele>326.23</ele>
+			<time>2020-11-07T14:42:45Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777367" lon="13.409034">
+			<ele>325.05</ele>
+			<time>2020-11-07T14:43:13Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777618" lon="13.408514">
+			<ele>324.29</ele>
+			<time>2020-11-07T14:43:45Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777912" lon="13.407945">
+			<ele>323.00</ele>
+			<time>2020-11-07T14:44:17Z</time>
+			<extensions>
+				<gte:gps speed="6.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778122" lon="13.407475">
+			<ele>323.00</ele>
+			<time>2020-11-07T14:44:48Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778233" lon="13.406982">
+			<ele>322.73</ele>
+			<time>2020-11-07T14:45:17Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778186" lon="13.406451">
+			<ele>321.89</ele>
+			<time>2020-11-07T14:45:44Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778076" lon="13.405860">
+			<ele>320.94</ele>
+			<time>2020-11-07T14:46:13Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777985" lon="13.405328">
+			<ele>320.37</ele>
+			<time>2020-11-07T14:46:41Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777973" lon="13.404698">
+			<ele>319.16</ele>
+			<time>2020-11-07T14:47:11Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777688" lon="13.404825">
+			<ele>317.00</ele>
+			<time>2020-11-07T14:47:38Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777378" lon="13.405137">
+			<ele>315.63</ele>
+			<time>2020-11-07T14:48:08Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777035" lon="13.405334">
+			<ele>314.00</ele>
+			<time>2020-11-07T14:48:37Z</time>
+			<extensions>
+				<gte:gps speed="1.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776630" lon="13.405604">
+			<ele>313.01</ele>
+			<time>2020-11-07T14:49:05Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776287" lon="13.405774">
+			<ele>313.08</ele>
+			<time>2020-11-07T14:49:31Z</time>
+			<extensions>
+				<gte:gps speed="0.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775990" lon="13.405899">
+			<ele>313.18</ele>
+			<time>2020-11-07T14:49:56Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775660" lon="13.405983">
+			<ele>314.19</ele>
+			<time>2020-11-07T14:50:22Z</time>
+			<extensions>
+				<gte:gps speed="3.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775238" lon="13.405979">
+			<ele>314.07</ele>
+			<time>2020-11-07T14:50:48Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774864" lon="13.405775">
+			<ele>313.80</ele>
+			<time>2020-11-07T14:51:16Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774550" lon="13.405537">
+			<ele>312.15</ele>
+			<time>2020-11-07T14:51:47Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774227" lon="13.405484">
+			<ele>312.56</ele>
+			<time>2020-11-07T14:52:19Z</time>
+			<extensions>
+				<gte:gps speed="0.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774204" lon="13.405043">
+			<ele>312.00</ele>
+			<time>2020-11-07T14:53:16Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774292" lon="13.404512">
+			<ele>311.00</ele>
+			<time>2020-11-07T14:53:45Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774384" lon="13.403951">
+			<ele>311.65</ele>
+			<time>2020-11-07T14:54:16Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774359" lon="13.403403">
+			<ele>312.00</ele>
+			<time>2020-11-07T14:54:45Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774364" lon="13.403048">
+			<ele>312.00</ele>
+			<time>2020-11-07T14:54:59Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774460" lon="13.402716">
+			<ele>312.00</ele>
+			<time>2020-11-07T14:55:16Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774601" lon="13.402418">
+			<ele>312.01</ele>
+			<time>2020-11-07T14:55:32Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774830" lon="13.401896">
+			<ele>313.00</ele>
+			<time>2020-11-07T14:56:01Z</time>
+			<extensions>
+				<gte:gps speed="7.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775043" lon="13.401190">
+			<ele>313.00</ele>
+			<time>2020-11-07T14:56:43Z</time>
+			<extensions>
+				<gte:gps speed="9.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775024" lon="13.400816">
+			<ele>313.00</ele>
+			<time>2020-11-07T14:57:12Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775005" lon="13.401290">
+			<ele>313.00</ele>
+			<time>2020-11-07T14:58:21Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774888" lon="13.401693">
+			<ele>313.00</ele>
+			<time>2020-11-07T14:58:47Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774685" lon="13.402235">
+			<ele>312.00</ele>
+			<time>2020-11-07T14:59:17Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774479" lon="13.402736">
+			<ele>312.00</ele>
+			<time>2020-11-07T14:59:44Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774349" lon="13.403290">
+			<ele>312.00</ele>
+			<time>2020-11-07T15:00:12Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774367" lon="13.403804">
+			<ele>312.00</ele>
+			<time>2020-11-07T15:00:40Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774361" lon="13.404394">
+			<ele>311.90</ele>
+			<time>2020-11-07T15:01:09Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774254" lon="13.404902">
+			<ele>312.00</ele>
+			<time>2020-11-07T15:01:43Z</time>
+			<extensions>
+				<gte:gps speed="3.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774153" lon="13.405228">
+			<ele>312.00</ele>
+			<time>2020-11-07T15:04:31Z</time>
+			<extensions>
+				<gte:gps speed="1.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774235" lon="13.404880">
+			<ele>311.95</ele>
+			<time>2020-11-07T15:13:35Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774348" lon="13.404244">
+			<ele>311.00</ele>
+			<time>2020-11-07T15:14:08Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774372" lon="13.403857">
+			<ele>312.00</ele>
+			<time>2020-11-07T15:14:37Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774380" lon="13.403300">
+			<ele>312.00</ele>
+			<time>2020-11-07T15:15:04Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774479" lon="13.402640">
+			<ele>312.00</ele>
+			<time>2020-11-07T15:15:33Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774673" lon="13.402241">
+			<ele>312.00</ele>
+			<time>2020-11-07T15:16:00Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.774872" lon="13.401715">
+			<ele>313.00</ele>
+			<time>2020-11-07T15:16:33Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775036" lon="13.401192">
+			<ele>313.00</ele>
+			<time>2020-11-07T15:17:05Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775226" lon="13.400736">
+			<ele>315.00</ele>
+			<time>2020-11-07T15:17:40Z</time>
+			<extensions>
+				<gte:gps speed="0.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775388" lon="13.400314">
+			<ele>315.00</ele>
+			<time>2020-11-07T15:18:12Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775555" lon="13.399819">
+			<ele>313.24</ele>
+			<time>2020-11-07T15:18:43Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775753" lon="13.399344">
+			<ele>313.00</ele>
+			<time>2020-11-07T15:19:16Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.775928" lon="13.398748">
+			<ele>312.00</ele>
+			<time>2020-11-07T15:19:54Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776131" lon="13.398208">
+			<ele>311.00</ele>
+			<time>2020-11-07T15:20:52Z</time>
+			<extensions>
+				<gte:gps speed="6.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776249" lon="13.397904">
+			<ele>312.00</ele>
+			<time>2020-11-07T15:21:11Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776344" lon="13.397530">
+			<ele>312.09</ele>
+			<time>2020-11-07T15:21:29Z</time>
+			<extensions>
+				<gte:gps speed="6.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776455" lon="13.397131">
+			<ele>312.57</ele>
+			<time>2020-11-07T15:21:48Z</time>
+			<extensions>
+				<gte:gps speed="6.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776569" lon="13.396789">
+			<ele>312.96</ele>
+			<time>2020-11-07T15:22:07Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776684" lon="13.396467">
+			<ele>312.17</ele>
+			<time>2020-11-07T15:22:24Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777027" lon="13.396037">
+			<ele>313.39</ele>
+			<time>2020-11-07T15:22:59Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777199" lon="13.395778">
+			<ele>313.42</ele>
+			<time>2020-11-07T15:23:17Z</time>
+			<extensions>
+				<gte:gps speed="6.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777435" lon="13.395582">
+			<ele>314.00</ele>
+			<time>2020-11-07T15:23:34Z</time>
+			<extensions>
+				<gte:gps speed="9.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777851" lon="13.395310">
+			<ele>314.30</ele>
+			<time>2020-11-07T15:24:10Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778179" lon="13.394938">
+			<ele>312.76</ele>
+			<time>2020-11-07T15:24:43Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778416" lon="13.394379">
+			<ele>315.00</ele>
+			<time>2020-11-07T15:25:19Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778694" lon="13.393801">
+			<ele>316.00</ele>
+			<time>2020-11-07T15:25:54Z</time>
+			<extensions>
+				<gte:gps speed="5.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778677" lon="13.393277">
+			<ele>316.30</ele>
+			<time>2020-11-07T15:26:31Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778689" lon="13.392644">
+			<ele>318.00</ele>
+			<time>2020-11-07T15:27:06Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778992" lon="13.392327">
+			<ele>321.00</ele>
+			<time>2020-11-07T15:27:40Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779175" lon="13.391773">
+			<ele>322.06</ele>
+			<time>2020-11-07T15:28:15Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779356" lon="13.391389">
+			<ele>324.00</ele>
+			<time>2020-11-07T15:28:52Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779667" lon="13.390905">
+			<ele>326.00</ele>
+			<time>2020-11-07T15:29:30Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779865" lon="13.390431">
+			<ele>326.00</ele>
+			<time>2020-11-07T15:30:08Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779919" lon="13.389803">
+			<ele>325.00</ele>
+			<time>2020-11-07T15:30:45Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779877" lon="13.389454">
+			<ele>324.98</ele>
+			<time>2020-11-07T15:31:06Z</time>
+			<extensions>
+				<gte:gps speed="4.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779888" lon="13.388915">
+			<ele>327.17</ele>
+			<time>2020-11-07T15:31:44Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779976" lon="13.388412">
+			<ele>326.20</ele>
+			<time>2020-11-07T15:32:23Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.780025" lon="13.387759">
+			<ele>331.53</ele>
+			<time>2020-11-07T15:33:02Z</time>
+			<extensions>
+				<gte:gps speed="2.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779972" lon="13.387195">
+			<ele>332.63</ele>
+			<time>2020-11-07T15:33:37Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779818" lon="13.386560">
+			<ele>331.00</ele>
+			<time>2020-11-07T15:34:13Z</time>
+			<extensions>
+				<gte:gps speed="6.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779764" lon="13.386198">
+			<ele>332.00</ele>
+			<time>2020-11-07T15:34:31Z</time>
+			<extensions>
+				<gte:gps speed="10.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779602" lon="13.385585">
+			<ele>332.00</ele>
+			<time>2020-11-07T15:35:04Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779476" lon="13.385143">
+			<ele>331.18</ele>
+			<time>2020-11-07T15:35:39Z</time>
+			<extensions>
+				<gte:gps speed="1.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779345" lon="13.384612">
+			<ele>330.00</ele>
+			<time>2020-11-07T15:36:14Z</time>
+			<extensions>
+				<gte:gps speed="6.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.779228" lon="13.384013">
+			<ele>329.00</ele>
+			<time>2020-11-07T15:36:48Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778885" lon="13.383707">
+			<ele>328.00</ele>
+			<time>2020-11-07T15:37:24Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778511" lon="13.383426">
+			<ele>328.00</ele>
+			<time>2020-11-07T15:37:59Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.778103" lon="13.383236">
+			<ele>327.46</ele>
+			<time>2020-11-07T15:38:34Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777668" lon="13.382965">
+			<ele>328.00</ele>
+			<time>2020-11-07T15:39:10Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777321" lon="13.382554">
+			<ele>329.00</ele>
+			<time>2020-11-07T15:39:46Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777470" lon="13.381902">
+			<ele>332.00</ele>
+			<time>2020-11-07T15:40:21Z</time>
+			<extensions>
+				<gte:gps speed="5.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777545" lon="13.381488">
+			<ele>335.00</ele>
+			<time>2020-11-07T15:40:38Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777357" lon="13.381068">
+			<ele>335.00</ele>
+			<time>2020-11-07T15:41:11Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777079" lon="13.380962">
+			<ele>334.00</ele>
+			<time>2020-11-07T15:41:39Z</time>
+			<extensions>
+				<gte:gps speed="5.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776779" lon="13.380837">
+			<ele>333.47</ele>
+			<time>2020-11-07T15:41:59Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776485" lon="13.380437">
+			<ele>334.00</ele>
+			<time>2020-11-07T15:42:39Z</time>
+			<extensions>
+				<gte:gps speed="6.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776363" lon="13.379900">
+			<ele>334.10</ele>
+			<time>2020-11-07T15:43:14Z</time>
+			<extensions>
+				<gte:gps speed="5.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776169" lon="13.379614">
+			<ele>334.00</ele>
+			<time>2020-11-07T15:43:33Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776070" lon="13.379050">
+			<ele>334.00</ele>
+			<time>2020-11-07T15:44:10Z</time>
+			<extensions>
+				<gte:gps speed="2.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776222" lon="13.378440">
+			<ele>336.48</ele>
+			<time>2020-11-07T15:44:50Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776291" lon="13.377836">
+			<ele>337.16</ele>
+			<time>2020-11-07T15:45:26Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776394" lon="13.377242">
+			<ele>339.94</ele>
+			<time>2020-11-07T15:46:23Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776657" lon="13.376691">
+			<ele>343.47</ele>
+			<time>2020-11-07T15:47:02Z</time>
+			<extensions>
+				<gte:gps speed="6.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.776868" lon="13.376107">
+			<ele>346.11</ele>
+			<time>2020-11-07T15:47:40Z</time>
+			<extensions>
+				<gte:gps speed="5.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777000" lon="13.375763">
+			<ele>348.11</ele>
+			<time>2020-11-07T15:47:59Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777247" lon="13.375145">
+			<ele>352.64</ele>
+			<time>2020-11-07T15:49:00Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777633" lon="13.374982">
+			<ele>357.00</ele>
+			<time>2020-11-07T15:49:27Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777938" lon="13.374729">
+			<ele>360.56</ele>
+			<time>2020-11-07T15:49:54Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777809" lon="13.374284">
+			<ele>360.00</ele>
+			<time>2020-11-07T15:50:21Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777660" lon="13.373896">
+			<ele>360.06</ele>
+			<time>2020-11-07T15:50:48Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777403" lon="13.373553">
+			<ele>360.00</ele>
+			<time>2020-11-07T15:51:14Z</time>
+			<extensions>
+				<gte:gps speed="5.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777451" lon="13.373187">
+			<ele>361.98</ele>
+			<time>2020-11-07T15:51:41Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="49.777789" lon="13.373341">
+			<ele>362.00</ele>
+			<time>2020-11-07T15:53:16Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#fbaf00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+</gpx>

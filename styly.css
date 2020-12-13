@@ -25,9 +25,9 @@ body {position: relative;}
 .hidden {display: none;}
 #showMoreButton {background-color: grey;}
 #rokyTab {width: 77px;}
-.firepit {position: absolute; top: 2px; left: 60px; padding: 5px;}
-.shelter {position: absolute; top: 2px; left: 120px; padding: 5px;}
-.veta {position: absolute; top: 5px; left: 200px; padding: 5px;}
+.firepit {position: absolute; top: 2px; left: 840px; padding: 5px;}
+.shelter {position: absolute; top: 2px; left: 900px; padding: 5px;}
+.veta {position: absolute; top: 5px; left: 70px; padding: 5px;}
 #firepit,#shelter {vertical-align: super;}
 .selected {background-color: #4CAF50;}
 .grey {background-color: #A9A9A9;}

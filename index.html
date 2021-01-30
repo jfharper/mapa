@@ -4,8 +4,8 @@
 		<title>Denicek cest</title>
 		<meta charset="utf-8" />
 		<script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
-		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/async/2.1.5/async.min.js"></script>
-		<script type="text/javascript">Loader.load(null, {poi: true});</script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/async/3.1.1/async.min.js"></script>
+		<script type="text/javascript">Loader.load(null, {suggest: true, poi: true});</script>
 		<link rel="stylesheet" type="text/css" href="styly.css">
 	</head>
 	<body>
@@ -17,6 +17,8 @@
 					<tbody></tbody>
 				</table>
 				<div class="veta">Mame za sebou uz <span id="vylety">0</span> vyletu a celkem jsme usli <span id="km">0</span> kilometru</div>
+			</div>
+			<div class="right">
 				<div id="private" class="hidden">
 					<div class="firepit">
 						<img src="firepit.png">
@@ -27,8 +29,9 @@
 						<input type="checkbox" id="shelter">
 					</div>
 				</div>
-			</div>
-			<div class="right">
+				<div>
+					<input type="text" id="search" value="" placeholder="search">
+				</div>
 				<input type="button" onclick="resetTrips()" class="tabulkabtn" value="Zobrazit vse(reset)">
 				<div class="wrapper">
 					<input type="button" onclick="createTable('lidiTab', people)" class="tabulkabtn tabulkaLidi disableable" value="Vyletnici" disabled>
@@ -80,6 +83,30 @@
 					this.$super(e, elm);
 				}
 			}
+
+			// naseptavac
+			let inputSearch = document.getElementById("search");
+			let suggest = new SMap.Suggest(inputSearch, {
+				provider: new SMap.SuggestProvider({
+					updateParams: params => {//tato fce se vola pred kazdym zavolanim naseptavace,
+						params.zoom = m.getZoom();
+						//params.bounds = "48.5370786,12.0921668|51.0746358,18.8927040";// omezeni pro celou CR
+						params.enableCategories = 1;
+						params.type = "municipality|poi";
+						params.category = "area_cz,area_osm,municipality_cz,municipality_sk,municipality_osm,region_cz,region_sk,region_osm,place_osm";//poi_cz,poi_sk,poi_osm,
+						params.locality = "cz|sk";
+						params.lang = "cs,en";// priorita jazyku, oddelene carkou
+						params.langFilter = "native,cs,en";// povolene jazyky
+					},
+					delay: 10
+				})
+			});
+
+			suggest.addListener("suggest", suggestData => {
+				// vyber polozky z naseptavace
+				let newCenter = SMap.Coords.fromWGS84(suggestData.data.longitude, suggestData.data.latitude);
+				m.setCenterZoom(newCenter, 13);
+			});
 
 			var center = SMap.Coords.fromWGS84(15.41790, 49.82655);
 			var m = new SMap(JAK.gel("m"), center, 7);
@@ -285,7 +312,7 @@
 				{url: "/20201025%20-%20Zinkovy%20-%20Nepomuk.xml"},
 				{url: "/20201101%20-%20Brezina%20-%20Brezina.xml", barva: [barvy.fialova2]},
 				{url: "/20201107%20-%20Plzen%20-%20Plzen.xml"},
-				{url: "/20201204-06%20-%20Nectiny%20-%20Konst.%20Lazne.xml"}
+				{url: "/20201204-06%20-%20Nectiny%20-%20Konst.%20Lazne.xml", barva: triBarvy}
 			];
 
 			function createTable(table, obj) {

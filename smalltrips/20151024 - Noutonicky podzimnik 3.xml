@@ -2,20 +2,52 @@
 <gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata>
 	<name>20151024 - Noutonicky podzimnik 3.xml</name>
-	<desc>11,329,-400
+	<desc>18,441,-576
         </desc>
 	<keywords>Monca, Mike, Rob a Janca, Kata, Monci bracha, Peto, Dan, Sarka, ja</keywords>
 </metadata>
 <trk>
 	<name>20151024 - sobota</name>
-	<desc>Color:004000ff</desc>
 	<trkseg>
-		<trkpt lat="50.149769" lon="14.335975">
-			<ele>254.00</ele>
-			<time>2015-10-24T09:47:50Z</time>
-			<extensions>
-				<gte:gps speed="4.8"/>
-			</extensions>
+		<trkpt lat="50.165023" lon="14.290319">
+			<ele>318.63</ele>
+			<time>2015-10-24T08:00:00Z</time>
+		</trkpt>
+		<trkpt lat="50.161407" lon="14.295224">
+			<ele>307.00</ele>
+			<time>2015-10-24T08:12:37.56Z</time>
+		</trkpt>
+		<trkpt lat="50.159849" lon="14.301888">
+			<ele>294.25</ele>
+			<time>2015-10-24T08:20:29.77Z</time>
+		</trkpt>
+		<trkpt lat="50.161241" lon="14.308788">
+			<ele>284.00</ele>
+			<time>2015-10-24T08:29:36.03Z</time>
+		</trkpt>
+		<trkpt lat="50.161046" lon="14.315876">
+			<ele>270.15</ele>
+			<time>2015-10-24T08:39:01.71Z</time>
+		</trkpt>
+		<trkpt lat="50.161656" lon="14.322928">
+			<ele>264.88</ele>
+			<time>2015-10-24T08:46:43.79Z</time>
+		</trkpt>
+		<trkpt lat="50.161679" lon="14.329997">
+			<ele>257.30</ele>
+			<time>2015-10-24T08:54:18.60Z</time>
+		</trkpt>
+		<trkpt lat="50.161593" lon="14.337121">
+			<ele>246.00</ele>
+			<time>2015-10-24T09:02:27.46Z</time>
+		</trkpt>
+		<trkpt lat="50.156975" lon="14.337326">
+			<ele>302.23</ele>
+			<time>2015-10-24T09:32:16.37Z</time>
+		</trkpt>
+		<trkpt lat="50.152269" lon="14.337373">
+			<ele>285.76</ele>
+			<time>2015-10-24T09:40:12.22Z</time>
 		</trkpt>
 		<trkpt lat="50.149403" lon="14.343247">
 			<ele>238.41</ele>

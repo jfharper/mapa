@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata>
-	<name>20230318-19 - Beroun - Zdice.gpx</name>
-	<desc>51,1643,-1607
-        </desc>
+	<name>20230318-19 - Beroun - Zdice.xml</name>
+	<desc>51,1643,-1607</desc>
 	<keywords>Monca, Jana T., Lubos, Katka Kaderova, Hana Kadlecova, Bara Zykova, Misa Rybkova, Frantiska Kundratova, Katka Peroutkova, Tomas Zitka, ja</keywords>
 </metadata>
 <trk>
@@ -4674,7 +4673,7 @@
 	</trkseg>
 </trk>
 <trk>
-	<name>20230319 - nedele</name>
+	<name>20230319 - nedele dop</name>
 	<desc>Color:004000ff</desc>
 	<trkseg>
 		<trkpt lat="49.907654" lon="14.011856">
@@ -5214,6 +5213,10 @@
 			<gte:color>#00ce00</gte:color>
 		</extensions>
 	</trkseg>
+</trk>
+<trk>
+	<name>20230319 - nedele odp</name>
+	<desc>Color:004000ff</desc>
 	<trkseg>
 		<trkpt lat="49.868720" lon="13.929362">
 			<ele>318.00</ele>

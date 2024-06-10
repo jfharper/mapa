@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+	<name>20240329-0401 - Semily - Liberec.gpx</name>
+	<desc>81,3544,-3500
+        </desc>
+	<keywords>Peta V., Jana T., Monca, ja</keywords>
+</metadata>
+<trk>
+	<name>20240329 - patek</name>
+	<trkseg>
+		<trkpt lat="50.603381" lon="15.324207">
+			<ele>331.53</ele>
+			<time>2024-03-29T10:59:00Z</time>
+		</trkpt>
+		<trkpt lat="50.602252" lon="15.331251">
+			<ele>317.73</ele>
+			<time>2024-03-29T11:09:05.93Z</time>
+		</trkpt>
+		<trkpt lat="50.606699" lon="15.330155">
+			<ele>316.05</ele>
+			<time>2024-03-29T11:26:39.39Z</time>
+		</trkpt>
+		<trkpt lat="50.611105" lon="15.328448">
+			<ele>314.15</ele>
+			<time>2024-03-29T11:34:48.49Z</time>
+		</trkpt>
+		<trkpt lat="50.614070" lon="15.322966">
+			<ele>318.90</ele>
+			<time>2024-03-29T12:40:53Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.615500" lon="15.316088">
+			<ele>335.03</ele>
+			<time>2024-03-29T12:48:48Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.617706" lon="15.309804">
+			<ele>386.81</ele>
+			<time>2024-03-29T13:14:46Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.621933" lon="15.306926">
+			<ele>446.77</ele>
+			<time>2024-03-29T13:43:13Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.626041" lon="15.309893">
+			<ele>492.77</ele>
+			<time>2024-03-29T14:02:37Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.629925" lon="15.313669">
+			<ele>514.97</ele>
+			<time>2024-03-29T14:32:45Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.627968" lon="15.320234">
+			<ele>498.58</ele>
+			<time>2024-03-29T14:52:44Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.625755" lon="15.326439">
+			<ele>473.02</ele>
+			<time>2024-03-29T14:58:53Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.627361" lon="15.333082">
+			<ele>430.24</ele>
+			<time>2024-03-29T15:04:54Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.628568" lon="15.340044">
+			<ele>356.86</ele>
+			<time>2024-03-29T15:14:20Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.631340" lon="15.345715">
+			<ele>382.40</ele>
+			<time>2024-03-29T15:21:24Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.634078" lon="15.351754">
+			<ele>371.99</ele>
+			<time>2024-03-29T15:52:03Z</time>
+			<extensions>
+				<gte:gps speed="7.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.638465" lon="15.354106">
+			<ele>379.84</ele>
+			<time>2024-03-29T15:59:55Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.641873" lon="15.358918">
+			<ele>392.63</ele>
+			<time>2024-03-29T16:11:33Z</time>
+			<extensions>
+				<gte:gps speed="3.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.644305" lon="15.364927">
+			<ele>411.60</ele>
+			<time>2024-03-29T16:25:10Z</time>
+			<extensions>
+				<gte:gps speed="3.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.647697" lon="15.369621">
+			<ele>425.03</ele>
+			<time>2024-03-29T16:56:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.650242" lon="15.375575">
+			<ele>436.38</ele>
+			<time>2024-03-29T17:03:22Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.654551" lon="15.377793">
+			<ele>460.93</ele>
+			<time>2024-03-29T17:10:14Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.658527" lon="15.381388">
+			<ele>483.49</ele>
+			<time>2024-03-29T17:20:45Z</time>
+			<extensions>
+				<gte:gps speed="2.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.663106" lon="15.382715">
+			<ele>504.17</ele>
+			<time>2024-03-29T17:28:35Z</time>
+			<extensions>
+				<gte:gps speed="3.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.667706" lon="15.383728">
+			<ele>511.36</ele>
+			<time>2024-03-29T17:40:23Z</time>
+			<extensions>
+				<gte:gps speed="4.7"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.671894" lon="15.386595">
+			<ele>546.93</ele>
+			<time>2024-03-29T17:56:06Z</time>
+			<extensions>
+				<gte:gps speed="4.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.676159" lon="15.383877">
+			<ele>596.61</ele>
+			<time>2024-03-29T18:10:55Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.675480" lon="15.376806">
+			<ele>645.61</ele>
+			<time>2024-03-29T18:22:14Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#1cff1c</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+<trk>
+	<name>20240330 - sobota</name>
+	<desc>Color:004000ff</desc>
+	<trkseg>
+		<trkpt lat="50.677972" lon="15.373278">
+			<ele>624.43</ele>
+			<time>2024-03-30T07:11:18Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.679157" lon="15.366360">
+			<ele>549.71</ele>
+			<time>2024-03-30T07:25:01Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.675691" lon="15.361791">
+			<ele>517.48</ele>
+			<time>2024-03-30T07:33:23.80Z</time>
+		</trkpt>
+		<trkpt lat="50.671157" lon="15.361004">
+			<ele>506.44</ele>
+			<time>2024-03-30T07:40:15Z</time>
+			<extensions>
+				<gte:gps speed="1.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.666446" lon="15.361525">
+			<ele>488.44</ele>
+			<time>2024-03-30T07:47:41Z</time>
+			<extensions>
+				<gte:gps speed="3.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.661903" lon="15.361312">
+			<ele>471.71</ele>
+			<time>2024-03-30T08:05:46Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.657327" lon="15.361217">
+			<ele>459.59</ele>
+			<time>2024-03-30T08:16:15Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.653439" lon="15.357488">
+			<ele>441.90</ele>
+			<time>2024-03-30T08:25:51Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.648899" lon="15.358497">
+			<ele>425.39</ele>
+			<time>2024-03-30T08:52:19Z</time>
+			<extensions>
+				<gte:gps speed="2.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.644373" lon="15.359079">
+			<ele>438.07</ele>
+			<time>2024-03-30T09:02:49Z</time>
+			<extensions>
+				<gte:gps speed="1.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.643983" lon="15.351581">
+			<ele>509.58</ele>
+			<time>2024-03-30T09:41:45.75Z</time>
+		</trkpt>
+		<trkpt lat="50.643848" lon="15.344413">
+			<ele>506.49</ele>
+			<time>2024-03-30T09:48:59Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.647012" lon="15.339260">
+			<ele>449.66</ele>
+			<time>2024-03-30T09:59:02Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.651132" lon="15.335934">
+			<ele>374.30</ele>
+			<time>2024-03-30T12:28:02Z</time>
+			<extensions>
+				<gte:gps speed="1.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.652984" lon="15.329133">
+			<ele>307.93</ele>
+			<time>2024-03-30T12:37:38Z</time>
+			<extensions>
+				<gte:gps speed="6.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.657372" lon="15.326651">
+			<ele>308.15</ele>
+			<time>2024-03-30T12:48:48Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.661718" lon="15.324185">
+			<ele>323.33</ele>
+			<time>2024-03-30T12:58:09Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.665954" lon="15.326972">
+			<ele>320.75</ele>
+			<time>2024-03-30T13:06:00Z</time>
+			<extensions>
+				<gte:gps speed="1.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.671130" lon="15.325020">
+			<ele>332.63</ele>
+			<time>2024-03-30T13:30:30.08Z</time>
+		</trkpt>
+		<trkpt lat="50.675202" lon="15.321790">
+			<ele>344.35</ele>
+			<time>2024-03-30T13:43:44.22Z</time>
+		</trkpt>
+		<trkpt lat="50.678596" lon="15.316897">
+			<ele>350.09</ele>
+			<time>2024-03-30T13:52:45Z</time>
+			<extensions>
+				<gte:gps speed="0.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.681841" lon="15.322030">
+			<ele>414.97</ele>
+			<time>2024-03-30T15:24:13Z</time>
+			<extensions>
+				<gte:gps speed="0.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.686424" lon="15.322757">
+			<ele>373.69</ele>
+			<time>2024-03-30T15:59:10Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.690830" lon="15.320713">
+			<ele>385.82</ele>
+			<time>2024-03-30T16:10:14Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.692595" lon="15.327263">
+			<ele>393.88</ele>
+			<time>2024-03-30T16:31:39Z</time>
+			<extensions>
+				<gte:gps speed="1.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.697136" lon="15.326554">
+			<ele>393.72</ele>
+			<time>2024-03-30T17:00:14Z</time>
+			<extensions>
+				<gte:gps speed="3.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.701427" lon="15.324057">
+			<ele>400.31</ele>
+			<time>2024-03-30T17:11:38Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.705596" lon="15.321253">
+			<ele>420.68</ele>
+			<time>2024-03-30T17:19:16Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.710052" lon="15.319204">
+			<ele>397.26</ele>
+			<time>2024-03-30T17:25:44Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.714735" lon="15.318076">
+			<ele>402.33</ele>
+			<time>2024-03-30T17:33:06Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.719400" lon="15.317539">
+			<ele>410.07</ele>
+			<time>2024-03-30T18:57:45.54Z</time>
+		</trkpt>
+		<trkpt lat="50.722539" lon="15.322703">
+			<ele>440.18</ele>
+			<time>2024-03-30T19:06:05Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#2</gte:name>
+			<gte:color>#00ce00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+<trk>
+	<name>20240331 - nedele dop</name>
+	<desc>Color:004000ff</desc>
+	<trkseg>
+		<trkpt lat="50.724226" lon="15.324432">
+			<ele>497.72</ele>
+			<time>2024-03-31T05:34:44Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.722958" lon="15.317551">
+			<ele>429.44</ele>
+			<time>2024-03-31T05:46:49Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#3</gte:name>
+			<gte:color>#ffb0ff</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+<trk>
+	<name>20240331 - nedele odp</name>
+	<desc>Color:004000ff</desc>
+	<trkseg>
+		<trkpt lat="50.743813" lon="15.352262">
+			<ele>827.82</ele>
+			<time>2024-03-31T07:10:27Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.747505" lon="15.356513">
+			<ele>832.81</ele>
+			<time>2024-03-31T07:17:13Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.750702" lon="15.361665">
+			<ele>838.23</ele>
+			<time>2024-03-31T07:29:42Z</time>
+			<extensions>
+				<gte:gps speed="5.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.746197" lon="15.362375">
+			<ele>886.92</ele>
+			<time>2024-03-31T08:28:31Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.743640" lon="15.356311">
+			<ele>852.36</ele>
+			<time>2024-03-31T09:50:38Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.741653" lon="15.349710">
+			<ele>806.30</ele>
+			<time>2024-03-31T10:09:30Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.739746" lon="15.343148">
+			<ele>781.86</ele>
+			<time>2024-03-31T10:40:19Z</time>
+			<extensions>
+				<gte:gps speed="3.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.742156" lon="15.336985">
+			<ele>732.79</ele>
+			<time>2024-03-31T10:52:04Z</time>
+			<extensions>
+				<gte:gps speed="3.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.743907" lon="15.330406">
+			<ele>678.99</ele>
+			<time>2024-03-31T11:02:14Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.743077" lon="15.323169">
+			<ele>627.18</ele>
+			<time>2024-03-31T11:09:33Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.742371" lon="15.315955">
+			<ele>520.47</ele>
+			<time>2024-03-31T11:26:40Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.739637" lon="15.310079">
+			<ele>464.13</ele>
+			<time>2024-03-31T11:34:19Z</time>
+			<extensions>
+				<gte:gps speed="5.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.735434" lon="15.307497">
+			<ele>459.50</ele>
+			<time>2024-03-31T12:37:52Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.730917" lon="15.306555">
+			<ele>581.45</ele>
+			<time>2024-03-31T12:52:30Z</time>
+			<extensions>
+				<gte:gps speed="0.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.728163" lon="15.300719">
+			<ele>678.28</ele>
+			<time>2024-03-31T13:10:25Z</time>
+			<extensions>
+				<gte:gps speed="2.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.725503" lon="15.294952">
+			<ele>749.16</ele>
+			<time>2024-03-31T13:26:55Z</time>
+			<extensions>
+				<gte:gps speed="2.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.723222" lon="15.288700">
+			<ele>769.74</ele>
+			<time>2024-03-31T13:48:08Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.721138" lon="15.282329">
+			<ele>769.40</ele>
+			<time>2024-03-31T13:55:09Z</time>
+			<extensions>
+				<gte:gps speed="3.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.719210" lon="15.275698">
+			<ele>753.80</ele>
+			<time>2024-03-31T14:07:32Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.717405" lon="15.269008">
+			<ele>785.57</ele>
+			<time>2024-03-31T14:15:49Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.715488" lon="15.262407">
+			<ele>819.60</ele>
+			<time>2024-03-31T14:23:26Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.714780" lon="15.255257">
+			<ele>805.19</ele>
+			<time>2024-03-31T14:30:26Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.712777" lon="15.248776">
+			<ele>820.32</ele>
+			<time>2024-03-31T14:37:21Z</time>
+			<extensions>
+				<gte:gps speed="3.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.712108" lon="15.241635">
+			<ele>846.72</ele>
+			<time>2024-03-31T14:44:17Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.711597" lon="15.234529">
+			<ele>867.45</ele>
+			<time>2024-03-31T14:50:19Z</time>
+			<extensions>
+				<gte:gps speed="1.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.715199" lon="15.230104">
+			<ele>783.18</ele>
+			<time>2024-03-31T16:12:01Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.719053" lon="15.226242">
+			<ele>721.41</ele>
+			<time>2024-03-31T16:24:44Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.721162" lon="15.219903">
+			<ele>642.86</ele>
+			<time>2024-03-31T16:35:44Z</time>
+			<extensions>
+				<gte:gps speed="4.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.724824" lon="15.215565">
+			<ele>620.12</ele>
+			<time>2024-03-31T16:44:44Z</time>
+			<extensions>
+				<gte:gps speed="2.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.728985" lon="15.212815">
+			<ele>645.70</ele>
+			<time>2024-03-31T16:53:42Z</time>
+			<extensions>
+				<gte:gps speed="5.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.733352" lon="15.210914">
+			<ele>630.60</ele>
+			<time>2024-03-31T17:05:08Z</time>
+			<extensions>
+				<gte:gps speed="3.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.737846" lon="15.212545">
+			<ele>571.03</ele>
+			<time>2024-03-31T17:17:39Z</time>
+			<extensions>
+				<gte:gps speed="3.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.741718" lon="15.216294">
+			<ele>613.22</ele>
+			<time>2024-03-31T17:26:52Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.745926" lon="15.213751">
+			<ele>645.52</ele>
+			<time>2024-03-31T17:35:07Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.749811" lon="15.210100">
+			<ele>679.87</ele>
+			<time>2024-03-31T17:49:25Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.753394" lon="15.205740">
+			<ele>715.78</ele>
+			<time>2024-03-31T17:57:08Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.757957" lon="15.204952">
+			<ele>784.45</ele>
+			<time>2024-03-31T18:14:52Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#3</gte:name>
+			<gte:color>#b69c36</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+<trk>
+	<name>20240401 - pondeli</name>
+	<trkseg>
+		<trkpt lat="50.759621" lon="15.200294">
+			<ele>773.40</ele>
+			<time>2024-04-01T06:44:00Z</time>
+		</trkpt>
+		<trkpt lat="50.764103" lon="15.201489">
+			<ele>727.84</ele>
+			<time>2024-04-01T06:51:58.98Z</time>
+		</trkpt>
+		<trkpt lat="50.767126" lon="15.195884">
+			<ele>705.19</ele>
+			<time>2024-04-01T07:00:05.42Z</time>
+		</trkpt>
+		<trkpt lat="50.771666" lon="15.195740">
+			<ele>767.01</ele>
+			<time>2024-04-01T07:11:18.69Z</time>
+		</trkpt>
+		<trkpt lat="50.774319" lon="15.189964">
+			<ele>797.37</ele>
+			<time>2024-04-01T07:22:10.80Z</time>
+		</trkpt>
+		<trkpt lat="50.775262" lon="15.182864">
+			<ele>753.43</ele>
+			<time>2024-04-01T07:30:12.76Z</time>
+		</trkpt>
+		<trkpt lat="50.774471" lon="15.175785">
+			<ele>686.09</ele>
+			<time>2024-04-01T07:38:32.59Z</time>
+		</trkpt>
+		<trkpt lat="50.775210" lon="15.168718">
+			<ele>600.44</ele>
+			<time>2024-04-01T07:57:48Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.773468" lon="15.162140">
+			<ele>619.62</ele>
+			<time>2024-04-01T08:34:02Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.775102" lon="15.155341">
+			<ele>711.45</ele>
+			<time>2024-04-01T09:11:54Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.778553" lon="15.150440">
+			<ele>777.58</ele>
+			<time>2024-04-01T09:36:27Z</time>
+			<extensions>
+				<gte:gps speed="2.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.781982" lon="15.145719">
+			<ele>810.72</ele>
+			<time>2024-04-01T10:30:04Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.785305" lon="15.140843">
+			<ele>800.78</ele>
+			<time>2024-04-01T10:40:15Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.787751" lon="15.134675">
+			<ele>805.55</ele>
+			<time>2024-04-01T10:47:38Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.791384" lon="15.130291">
+			<ele>773.70</ele>
+			<time>2024-04-01T11:18:17Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.788650" lon="15.124554">
+			<ele>734.74</ele>
+			<time>2024-04-01T11:24:36Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.786659" lon="15.118089">
+			<ele>679.91</ele>
+			<time>2024-04-01T11:31:17Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.786690" lon="15.110929">
+			<ele>659.68</ele>
+			<time>2024-04-01T11:39:32Z</time>
+			<extensions>
+				<gte:gps speed="4.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.784407" lon="15.104726">
+			<ele>631.27</ele>
+			<time>2024-04-01T11:47:58Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.783522" lon="15.097626">
+			<ele>572.29</ele>
+			<time>2024-04-01T11:56:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.779770" lon="15.093609">
+			<ele>545.79</ele>
+			<time>2024-04-01T12:10:22Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.780274" lon="15.086522">
+			<ele>479.04</ele>
+			<time>2024-04-01T12:32:13Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.777631" lon="15.080723">
+			<ele>412.15</ele>
+			<time>2024-04-01T12:43:03Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.775851" lon="15.073973">
+			<ele>384.41</ele>
+			<time>2024-04-01T12:54:02Z</time>
+			<extensions>
+				<gte:gps speed="4.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.775590" lon="15.066852">
+			<ele>378.04</ele>
+			<time>2024-04-01T13:05:25Z</time>
+			<extensions>
+				<gte:gps speed="0.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.771687" lon="15.063147">
+			<ele>383.75</ele>
+			<time>2024-04-01T13:13:22Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.767662" lon="15.059655">
+			<ele>365.32</ele>
+			<time>2024-04-01T13:24:39Z</time>
+			<extensions>
+				<gte:gps speed="4.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.765963" lon="15.052868">
+			<ele>350.44</ele>
+			<time>2024-04-01T13:35:28Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="50.762615" lon="15.048024">
+			<ele>369.14</ele>
+			<time>2024-04-01T13:41:33Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#00ffff</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+</gpx>

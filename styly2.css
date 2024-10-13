@@ -1,0 +1,48 @@
+body {position: relative;}
+#map { height: 90vh ; z-index: 0; touch-action: none;}
+.left {float: left;}
+.right {float: right; display: flex;}
+.right > * {margin-left: 6px;}
+.right .dropdown-content {right: 0; top: 38px;}
+.dropdown-content {
+		display: none; position: absolute; overflow-y: auto; background-color: #f9f9f9; z-index: 3;
+		clear: left; float: left;
+		border: 0; border-collapse: collapse;
+		max-height: 573px;
+}
+.dropdown-content td {white-space: nowrap;}
+.tabulkabtn {
+		position: relative;
+		background-color: #4CAF50;
+		color: white; padding: 10px;
+		font-size: 16px;
+		border: none;
+		cursor: pointer;
+}
+.tabulkaLidi {width: 137px;}
+.tabulkabtn:disabled {background-color: grey; cursor: wait;}
+.show {display:block;}
+.hidden {display: none;}
+#showMoreButton {background-color: grey;}
+#rokyTab {width: 77px;}
+.firepit {position: absolute; top: 2px; right: 620px; padding: 5px;}
+.shelter {position: absolute; top: 2px; right: 560px; padding: 5px;}
+.veta {position: absolute; top: 5px; left: 70px; padding: 5px;}
+#firepit,#shelter {vertical-align: super;}
+#search {height: 30px;}
+.smap-suggest {width: auto;}
+.selected {background-color: #4CAF50;}
+.grey {background-color: #A9A9A9;}
+.red {background-color: #bb6060;}
+thead {font-weight: bold; background-color: #A9A9A9;}
+tr:hover {background-color: #A9A9A9;}
+.clearfix:before,
+.clearfix:after {content: " "; display: table;}
+.clearfix:after {clear: both;}
+.wrapper {display: flex; flex-direction: column; position: relative;}
+.card {opacity: 0.8; z-index: 5;}
+.card:hover {opacity: 1;}
+.cluster {z-index: 3;}
+.smap [id|="znackyId"] img {z-index: 2;}
+.smap .type-poi {z-index: 1;}
+.smap .type-paid {z-index: 1;}

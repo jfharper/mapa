@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+	<name>20241109 - Noutonicky podzimnik 12.gpx</name>
+	<desc>13,228,-228
+        </desc>
+	<keywords>Rob a Janca, Dan, Sarka, Mike, Monca, Kata, ja</keywords>
+</metadata>
+<trk>
+	<name>20241109 - sobota dop</name>
+	<trkseg>
+		<trkpt lat="50.165057" lon="14.289872">
+			<ele>319.19</ele>
+			<time>2024-11-09T08:29:26Z</time>
+		</trkpt>
+		<trkpt lat="50.164467" lon="14.282747">
+			<ele>304.65</ele>
+			<time>2024-11-09T08:37:22Z</time>
+		</trkpt>
+		<trkpt lat="50.161471" lon="14.277499">
+			<ele>309.66</ele>
+			<time>2024-11-09T08:46:21Z</time>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#fbaf00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+<trk>
+	<name>20241109 - sobota odp</name>
+	<trkseg>
+		<trkpt lat="50.136358" lon="14.268333">
+			<ele>344.10</ele>
+			<time>2024-11-09T08:55:44Z</time>
+		</trkpt>
+		<trkpt lat="50.139294" lon="14.273944">
+			<ele>338.85</ele>
+			<time>2024-11-09T09:06:06Z</time>
+		</trkpt>
+		<trkpt lat="50.143668" lon="14.272139">
+			<ele>321.18</ele>
+			<time>2024-11-09T09:18:59Z</time>
+		</trkpt>
+		<trkpt lat="50.146432" lon="14.266542">
+			<ele>308.01</ele>
+			<time>2024-11-09T09:31:10Z</time>
+		</trkpt>
+		<trkpt lat="50.150693" lon="14.264238">
+			<ele>312.94</ele>
+			<time>2024-11-09T09:53:14Z</time>
+		</trkpt>
+		<trkpt lat="50.154142" lon="14.259613">
+			<ele>303.31</ele>
+			<time>2024-11-09T10:03:45Z</time>
+		</trkpt>
+		<trkpt lat="50.158652" lon="14.258523">
+			<ele>276.24</ele>
+			<time>2024-11-09T10:24:18Z</time>
+		</trkpt>
+		<trkpt lat="50.163061" lon="14.257093">
+			<ele>267.31</ele>
+			<time>2024-11-09T12:11:08Z</time>
+		</trkpt>
+		<trkpt lat="50.167611" lon="14.257353">
+			<ele>262.37</ele>
+			<time>2024-11-09T13:12:50Z</time>
+		</trkpt>
+		<trkpt lat="50.168025" lon="14.264405">
+			<ele>261.87</ele>
+			<time>2024-11-09T13:21:48.26Z</time>
+		</trkpt>
+		<trkpt lat="50.172512" lon="14.265314">
+			<ele>250.78</ele>
+			<time>2024-11-09T13:46:17Z</time>
+		</trkpt>
+		<trkpt lat="50.173940" lon="14.272063">
+			<ele>263.17</ele>
+			<time>2024-11-09T13:58:33Z</time>
+		</trkpt>
+		<trkpt lat="50.173482" lon="14.279192">
+			<ele>276.54</ele>
+			<time>2024-11-09T14:11:45Z</time>
+		</trkpt>
+		<trkpt lat="50.169469" lon="14.282629">
+			<ele>294.03</ele>
+			<time>2024-11-09T14:22:28Z</time>
+		</trkpt>
+		<trkpt lat="50.164968" lon="14.281588">
+			<ele>302.36</ele>
+			<time>2024-11-09T15:13:46Z</time>
+		</trkpt>
+		<trkpt lat="50.163959" lon="14.288566">
+			<ele>315.30</ele>
+			<time>2024-11-09T15:20:41Z</time>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#00ce00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+</gpx>

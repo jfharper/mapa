@@ -2,12 +2,12 @@
 const seznamTras = [
         {
           url: "/20090801-04%20-%20Sumava%20%28Antygl%20-%20Zaton%29.xml",
-          barva: petBarev,
+          barva: this.petBarev,
         },
         { url: "/20120616-18%20-%20Sazava%20%28Sobesin%20-%20Pikovice%29.xml" },
         {
           url: "/20120812-14%20-%20Beskydy%20%28Frenstat%20-%20Bila%29.xml",
-          barva: triBarvy,
+          barva: this.triBarvy,
         },
         { url: "/20130523-26%20-%20Nova%20Pec%2C%20Plechy%2C%20Vltava.xml" },
       ];

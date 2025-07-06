@@ -1,6 +1,6 @@
 // JavaScript Document
       //type="text/javascript"
-import {seznamTras, barvyDefault, petBarev, triBarvy} from "./constants.js"
+import {seznamTras, barvyDefault} from "./constants.js"
 const API_KEY = "H3kT2-i1u8kukLpZRkZGP-ANDGjqvp_TmVPVvZo9g3M";
       
       function getOtherLineOptions() {

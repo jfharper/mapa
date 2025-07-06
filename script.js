@@ -1,6 +1,6 @@
 // JavaScript Document
       //type="text/javascript"
-import {seznamTras, barvy} from "./constants.js"
+import {seznamTras, barvyDefault, petBarev, triBarvy} from "./constants.js"
 const API_KEY = "H3kT2-i1u8kukLpZRkZGP-ANDGjqvp_TmVPVvZo9g3M";
       
       function getOtherLineOptions() {
@@ -17,27 +17,7 @@ const API_KEY = "H3kT2-i1u8kukLpZRkZGP-ANDGjqvp_TmVPVvZo9g3M";
       }
       var polylineOptions = [];
 
-      var barvyDefault = [
-        barvy.modra,
-        barvy.zluta,
-        barvy.cervena,
-        barvy.svetlemodra,
-        barvy.fialova,
-        barvy.oranzova,
-        barvy.fialova2,
-        barvy.cervena2,
-        barvy.svetlemodra2,
-        barvy.seda,
-        barvy.ruzova,
-      ];
-      var petBarev = [
-        barvy.fialova,
-        barvy.zelena,
-        barvy.seda,
-        barvy.cervena2,
-        barvy.ruzova,
-      ];
-      var triBarvy = [barvy.oranzova, barvy.svetlemodra2, barvy.fialova2];
+
       const path = "https://jfharper.github.io/mapa/";
       const smallDir = "smalltrips/";
       const bigDir = "trips/";

@@ -24,5 +24,27 @@ const seznamTras = [
         seda: "#303030",
         ruzova: "#bb6060",
         zelena: "#44f144",
-      };     
-export {seznamTras, barvy}
+      };
+			
+ const barvyDefault = [
+        barvy.modra,
+        barvy.zluta,
+        barvy.cervena,
+        barvy.svetlemodra,
+        barvy.fialova,
+        barvy.oranzova,
+        barvy.fialova2,
+        barvy.cervena2,
+        barvy.svetlemodra2,
+        barvy.seda,
+        barvy.ruzova,
+      ];
+      const petBarev = [
+        barvy.fialova,
+        barvy.zelena,
+        barvy.seda,
+        barvy.cervena2,
+        barvy.ruzova,
+      ];
+      const triBarvy = [barvy.oranzova, barvy.svetlemodra2, barvy.fialova2];     
+export {seznamTras, barvyDefault, petBarev, triBarvy}

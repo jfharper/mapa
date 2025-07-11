@@ -24,13 +24,12 @@
   <body>
     <div class="clearfix multiView">
       <div class="left">
-        <input
+        <input id="tripsTableBtn"
           type="button"
-          onclick="zobrazMenu('tabulka')"
-          class="tabulkabtn"
+          class="tableBtn"
           value="Trasy"
         />
-        <table id="tabulka" class="dropdown-content">
+        <table id="tripsTable" class="dropdown-content">
           <thead>
             <tr>
               <th>Vylet</td>
@@ -56,22 +55,22 @@
         <input
           type="button"
           onclick="resetTrips()"
-          class="tabulkabtn"
+          class="tableBtn"
           value="Zobrazit vse(reset)"
         />
         <div class="wrapper">
           <input
             type="button"
             onclick="createTable('lidiTab')"
-            class="tabulkabtn tabulkaLidi disableable"
+            class="tableBtn tabulkaLidi disableable"
             value="Vyletnici"
             disabled
           />
           <table id="lidiTab" class="dropdown-content">
             <thead>
               <tr>
-                <th>clovek</td>
-                <th>vyletu</td>
+                <th>Clovek</td>
+                <th>Vylety</td>
               </tr>
             </thead>
           </table>
@@ -80,7 +79,7 @@
           <input
             type="button"
             onclick="createTable('rokyTab')"
-            class="tabulkabtn disableable"
+            class="tableBtn disableable"
             value="Rocniky"
             disabled
           />
@@ -99,7 +98,7 @@
       <input
         type="button"
         onclick="singleViewReset()"
-        class="tabulkabtn red"
+        class="tableBtn red"
         value="Zobrazit vsechny trasy"
       />
     </div>

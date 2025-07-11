@@ -1,7 +1,15 @@
 // JavaScript Document
 //type="text/javascript"
-import { seznamTras, barvyDefault } from "./constants.js";
+import { seznamTras, barvyDefault, waypointOptions } from "./constants.js";
 const API_KEY = "H3kT2-i1u8kukLpZRkZGP-ANDGjqvp_TmVPVvZo9g3M";
+let polylineOptions = [];
+const path = "https://jfharper.github.io/mapa/";
+// const smallDir = "smalltrips/";
+const bigDir = "trips/";
+var roky = [];
+var people = [];
+var gpxLayers = [];
+const markers = [];
 
 function getOtherLineOptions() {
   return { opacity: 1.0, weight: 4, lineCap: "round" };
@@ -15,24 +23,15 @@ function getLineOptions(colorsArray = barvyDefault) {
     })
   );
 }
-var polylineOptions = [];
 
-const path = "https://jfharper.github.io/mapa/";
-const smallDir = "smalltrips/";
-const bigDir = "trips/";
-var roky = [];
-var people = [];
-//var tripsCounter = 0;
-var metadataObj = {};
-var gpxLayers = [];
-const markers = [];
-var otevreneId = null;
-
+//pocet vyletu
 document.getElementById("vylety").innerHTML = seznamTras.length;
-var tabulka = document.getElementById("tabulka");
-window.zobrazMenu = function (el) {
-  document.getElementById(el).classList.toggle("show");
-};
+//otevira menu
+const tripsTable = document.getElementById("tripsTable");
+const tripsTableBtn = document.getElementById("tripsTableBtn");
+tripsTableBtn.addEventListener("click", function () {
+  document.getElementById("tripsTable").classList.toggle("show");
+});
 
 const map = L.map("map").setView([49.8729317, 14.8981184], 9);
 L.tileLayer(
@@ -52,7 +51,7 @@ const LogoControl = L.Control.extend({
     position: "bottomleft",
   },
 
-  onAdd: function (map) {
+  onAdd: function () {
     const container = L.DomUtil.create("div");
     const link = L.DomUtil.create("a", "", container);
 
@@ -67,7 +66,7 @@ const LogoControl = L.Control.extend({
 
 new LogoControl().addTo(map);
 
-setGranularity("small");
+//setGranularity("small");
 
 //zobrazi checkbox na ohniste
 document.addEventListener("keydown", function (event) {
@@ -76,20 +75,6 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
-const waypointOptions = {
-  async: true,
-  parseElements: ["waypoint"],
-  marker_options: {
-    iconSize: [20, 20],
-    iconAnchor: [1, 1],
-  },
-  markers: {
-    wptIcons: {
-      Waypoint: "firepit.png",
-      strecha: "shelter.png",
-    },
-  },
-};
 const spani = new L.GPX(path + "spani.xml", waypointOptions);
 
 const checkboxFirepit = document.getElementById("firepit");
@@ -101,17 +86,17 @@ checkboxFirepit.addEventListener("click", function () {
   }
 });
 
-function setGranularity(granularity = "small") {
-  let dir;
-  if (granularity === "small") {
-    // pocetBodu = podrobnostMalo;
-    dir = smallDir;
-  } else {
-    // pocetBodu = podrobnostHodne;
-    dir = bigDir;
-  }
-  return dir;
-}
+// function setGranularity(granularity = "small") {
+//   let dir;
+//   if (granularity === "small") {
+//     // pocetBodu = podrobnostMalo;
+//     dir = smallDir;
+//   } else {
+//     // pocetBodu = podrobnostHodne;
+//     dir = bigDir;
+//   }
+//   return dir;
+// }
 
 async function loadGPXData(url) {
   try {
@@ -153,15 +138,7 @@ async function loadGPXData(url) {
       roky[rokyIndex].value += Number(desc[0]);
       roky[rokyIndex].ids.push(id);
     }
-    metadataObj[id] = {
-      id: id,
-      name: name,
-      lide: lide,
-      desc: desc,
-      start: start,
-      rok: rocnik,
-    };
-    radekTabulky(name, id, desc[0]);
+     radekTabulky(name, id, desc[0]);
 
     const marker = L.marker([start[0], start[1]], {
       title: name,
@@ -179,7 +156,7 @@ async function loadGPXData(url) {
       " m</b> a klesani <b>" +
       desc[2] +
       " m</b>";
-    marker.bindPopup(content); //.openPopup();
+    marker.bindPopup(content, { id: id }); //.openPopup();
     document.getElementById("km").innerHTML =
       Number(document.getElementById("km").textContent) + Number(desc[0]);
     return gpxData;
@@ -207,11 +184,12 @@ async function addGPXTracksToMap(tracks) {
         markers: { startIcon: null, endIcon: null },
       })
         .on("loaded", (e) => {
-          //console.log(e.target);
+          if (tracks.length === 1) {
+            move(e.target.id);
+          }
         })
         .addTo(map);
       gpxLayers[i].id = tracks[i].url.slice(1, 9);
-      //console.log(gpxLayers)
     } catch (error) {
       console.error("Error loading GPX data:", error);
     }
@@ -220,15 +198,17 @@ async function addGPXTracksToMap(tracks) {
 }
 
 function radekTabulky(jmeno, id, delka) {
-  const pocetRadku = tabulka.tBodies[0].rows.length;
-  const row = tabulka.tBodies[0].insertRow(pocetRadku);
+  const pocetRadku = tripsTable.tBodies[0].rows.length;
+  const row = tripsTable.tBodies[0].insertRow(pocetRadku);
   row.id = id;
   const cell1 = row.insertCell(0);
   const cell2 = row.insertCell(1);
   const cell3 = row.insertCell(2);
   const cell4 = row.insertCell(3);
-  cell1.setAttribute("onclick", "posun(parentNode.id)");
   cell1.innerHTML = jmeno;
+  cell1.addEventListener("click", function () {
+    move(this.parentNode.id);
+  });
   cell2.innerHTML = delka;
   cell3.innerHTML = '<input type="checkbox" class="podrobnost">';
   cell4.innerHTML = '<input type="checkbox" class="zobrazeni" checked>';
@@ -400,22 +380,20 @@ window.resetTrips = function () {
   }
 };
 
-window.posun = function (id) {
-  console.log(id);
+//centruje mapu na zadanou trasau
+function move(id) {
   const layer = getLayerWithId(id);
-  //console.log(layer)
   map.fitBounds(layer.getBounds());
-  const green = tabulka.getElementsByClassName("selected");
+  const green = tripsTable.getElementsByClassName("selected");
   while (green.length) {
     green[0].classList.remove("selected");
   }
   document.getElementById(id).classList.add("selected");
   document.location.hash = "id=" + id;
-  otevreneId = id;
   if (map.hasLayer(layer)) {
     getMarkerWithId(id).openPopup();
   }
-};
+}
 
 function getLayerWithId(id) {
   const layerIndex = gpxLayers.findIndex((layer) => layer.id === id);
@@ -427,8 +405,32 @@ function getMarkerWithId(id) {
   return markers[layerIndex];
 }
 
+//obarvi zelene radek tabulky a zvyrazni caru
 map.addEventListener("popupopen", function (e) {
-  console.log(e);
+  const id = e.popup.options.id;
+  let layer = getLayerWithId(id);
+  let options = layer.options.polyline_options;
+  for (const option of options) {
+    option.weight = 8;
+  }
+  layer.reload();
+  const el = document.getElementById(id);
+  if (el !== null) {
+    el.classList.add("selected");
+  }
+});
+
+//rusi zvyrazneni po zavreni vizitky
+map.addEventListener("popupclose", function (e) {
+  let id = e.popup.options.id;
+  let layer = getLayerWithId(id);
+  let options = layer.options.polyline_options;
+  for (const option of options) {
+    option.weight = getOtherLineOptions().weight;
+  }
+  layer.reload();
+  let el = document.getElementById(id);
+  el.classList.remove("selected");
 });
 
 window.singleViewReset = function () {
@@ -439,7 +441,7 @@ window.singleViewReset = function () {
 };
 
 async function render(seznamTras) {
-  const id = document.location.hash.slice(4);;
+  const id = document.location.hash.slice(4);
   let routes = [];
   if (id !== "") {
     routes = [
@@ -451,14 +453,7 @@ async function render(seznamTras) {
   } else {
     routes = seznamTras.reverse();
   }
-  console.log(routes);
   const loaded = await addGPXTracksToMap(routes);
-  console.log(id);
-   if (id !== "" && loaded) {
-     window.posun(id);
-   }
-  
-
   return loaded;
 }
 

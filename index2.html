@@ -66,19 +66,19 @@
         </div>
         <input
           type="button"
-          onclick="resetTrips()"
+          id="resetTrips"
           class="tableBtn"
           value="Zobrazit vse(reset)"
         />
         <div class="wrapper">
           <input
             type="button"
-            onclick="createTable('lidiTab')"
+            onclick="createTable('peopleTable')"
             class="tableBtn tabulkaLidi disableable"
             value="Vyletnici"
             disabled
           />
-          <table id="lidiTab" class="dropdown-content">
+          <table id="peopleTable" class="dropdown-content">
             <thead>
               <tr>
                 <th>Clovek</td>
@@ -90,12 +90,12 @@
         <div class="wrapper">
           <input
             type="button"
-            onclick="createTable('rokyTab')"
+            onclick="createTable('yearsTable')"
             class="tableBtn disableable"
             value="Rocniky"
             disabled
           />
-          <table id="rokyTab" class="dropdown-content">
+          <table id="yearsTable" class="dropdown-content">
             <thead>
               <tr>
                 <th style="width: 50%">Rok:</td>
@@ -109,7 +109,7 @@
     <div class="singleView hidden">
       <input
         type="button"
-        onclick="singleViewReset()"
+        id="singleViewReset"
         class="tableBtn red"
         value="Zobrazit vsechny trasy"
       />

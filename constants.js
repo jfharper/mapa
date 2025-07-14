@@ -14,7 +14,7 @@ const barvy = {
   zelena: "#44f144",
 };
 
-const barvyDefault = [
+const colorsDefault = [
   barvy.modra,
   barvy.zluta,
   barvy.cervena,
@@ -49,7 +49,7 @@ const waypointOptions = {
     },
   },
 };
-const seznamTras = [
+const routeList = [
   { url: "/20070813-18%20-%20Slovensky%20raj.gpx" },
   {
     url: "/20090801-04%20-%20Sumava%20%28Antygl%20-%20Zaton%29.gpx",
@@ -340,4 +340,4 @@ const seznamTras = [
   {url: "/20250620-22%20-%20Ostrovec%20-%20Skryje.gpx", barva: [barvy.seda, barvy.fialova2, barvy.zelena]},
 ];
 
-export { seznamTras, barvyDefault, waypointOptions };
+export { routeList, colorsDefault, waypointOptions };

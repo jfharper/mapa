@@ -77,7 +77,7 @@ document.addEventListener("keydown", function (event) {
   }
 });
 
-const spani = new L.GPX("spani.xml", waypointOptions).on(
+const spani = new L.GPX("spani.gpx", waypointOptions).on(
   "addpoint",
   function (e) {
     if (e.point_type === "waypoint") {

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+	<name>20150509 - Svycarsko.xml</name>
+	<desc>12,1275,-1274
+        </desc>
+	<keywords>Monca, Rob a Janca, Dan, Sarka, Peto, ja</keywords>
+</metadata>
+<trk>
+	<name>20150509 - sobota</name>
+	<desc>Color:004000ff</desc>
+	<trkseg>
+		<trkpt lat="47.149208" lon="9.141647">
+			<ele>903.64</ele>
+			<time>2015-05-09T08:07:57Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.148808" lon="9.148265">
+			<ele>933.61</ele>
+			<time>2015-05-09T08:15:07Z</time>
+			<extensions>
+				<gte:gps speed="5.4"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.146500" lon="9.154014">
+			<ele>980.14</ele>
+			<time>2015-05-09T08:23:33Z</time>
+			<extensions>
+				<gte:gps speed="4.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.142056" lon="9.152792">
+			<ele>968.84</ele>
+			<time>2015-05-09T08:44:14Z</time>
+			<extensions>
+				<gte:gps speed="3.2"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.145519" lon="9.148508">
+			<ele>898.69</ele>
+			<time>2015-05-09T09:08:41Z</time>
+			<extensions>
+				<gte:gps speed="4.8"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.142551" lon="9.143524">
+			<ele>807.99</ele>
+			<time>2015-05-09T09:16:21Z</time>
+			<extensions>
+				<gte:gps speed="5.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.138603" lon="9.146713">
+			<ele>570.50</ele>
+			<time>2015-05-09T09:54:24Z</time>
+			<extensions>
+				<gte:gps speed="1.9"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.136353" lon="9.152449">
+			<ele>459.73</ele>
+			<time>2015-05-09T10:49:48Z</time>
+			<extensions>
+				<gte:gps speed="2.3"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.136311" lon="9.159076">
+			<ele>513.76</ele>
+			<time>2015-05-09T10:59:18Z</time>
+			<extensions>
+				<gte:gps speed="4.1"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.137650" lon="9.152320">
+			<ele>513.25</ele>
+			<time>2015-05-09T13:47:34Z</time>
+			<extensions>
+				<gte:gps speed="0.0"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.138794" lon="9.145614">
+			<ele>593.90</ele>
+			<time>2015-05-09T14:08:59Z</time>
+			<extensions>
+				<gte:gps speed="2.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.141602" lon="9.140432">
+			<ele>750.72</ele>
+			<time>2015-05-09T14:30:41Z</time>
+			<extensions>
+				<gte:gps speed="4.6"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.144176" lon="9.145930">
+			<ele>857.89</ele>
+			<time>2015-05-09T14:59:07Z</time>
+			<extensions>
+				<gte:gps speed="3.5"/>
+			</extensions>
+		</trkpt>
+		<trkpt lat="47.148434" lon="9.143736">
+			<ele>875.23</ele>
+			<time>2015-05-09T15:12:52Z</time>
+			<extensions>
+				<gte:gps speed="1.9"/>
+			</extensions>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#ff99cc</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+</gpx>

@@ -1,4 +1,3 @@
-//zkusit relativni cesty k souborum a neprejmenovavat na xml
 //neotevre se popup, kdyz po kliknuti na radku v tabulce je vylet porad jeste v clusteru
 
 import { seznamTras, barvyDefault, waypointOptions } from "./constants.js";

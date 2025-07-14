@@ -50,9 +50,9 @@ const waypointOptions = {
   },
 };
 const seznamTras = [
-  { url: "/20070813-18%20-%20Slovensky%20raj.xml" },
+  { url: "/20070813-18%20-%20Slovensky%20raj.gpx" },
   {
-    url: "/20090801-04%20-%20Sumava%20%28Antygl%20-%20Zaton%29.xml",
+    url: "/20090801-04%20-%20Sumava%20%28Antygl%20-%20Zaton%29.gpx",
     barva: petBarev,
   },
   { url: "/20110719-26%20-%20Rumunsko%2C%20Fagaras.xml" },
@@ -337,7 +337,7 @@ const seznamTras = [
   {url: "/20250406%20-%20Zihle%20-%20Mladotice.xml"},
   {url: "/20250411-13%20-%20Chudolazy%20-%20Mseno.xml", barva: [barvy.cervena, barvy.zelena, barvy.seda]},
   {url: "/20250418-21%20-%20Borova%20-%20Bystrice%20nad%20Pernstejnem.xml"},
-  {url: "/20250620-22%20-%20Ostrovec%20-%20Skryje.xml", barva: [barvy.seda, barvy.fialova2, barvy.zelena]},
+  {url: "/20250620-22%20-%20Ostrovec%20-%20Skryje.gpx", barva: [barvy.seda, barvy.fialova2, barvy.zelena]},
 ];
 
 export { seznamTras, barvyDefault, waypointOptions };

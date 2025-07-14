@@ -73,7 +73,7 @@ new LogoControl().addTo(map);
 
 //zobrazi checkbox na ohniste
 document.addEventListener("keydown", function (event) {
-  if (event.ctrlKey && event.altKey && event.key === "u") {
+  if ((event.ctrlKey || event.metaKey) && event.altKey && event.key === "u") {
     document.getElementById("private").classList.toggle("hidden");
   }
 });
@@ -121,12 +121,15 @@ async function loadGPXData(url) {
       .querySelector("metadata");
     const name = metadata.querySelector("name").textContent.slice(0, -4);
     const id = name.slice(0, 8);
-    const lide = metadata.querySelector("keywords").textContent.split(",");
+    const lide = metadata
+      .querySelector("keywords")
+      .textContent.split(",")
+      .map((a) => a.trim());
     if (lide === undefined) {
       console.log("Doplnit lidi: " + name);
     }
     for (const val of lide) {
-      let peopleIndex = people.findIndex((person) => person.item === val);
+      const peopleIndex = people.findIndex((person) => person.item === val);
       if (peopleIndex === -1) {
         people.push({ item: val, value: 1, ids: [id] });
       } else {

@@ -6,11 +6,11 @@ import { createTableRow } from "./tables.js";
 const API_KEY = "H3kT2-i1u8kukLpZRkZGP-ANDGjqvp_TmVPVvZo9g3M";
 let polylineOptions = [];
 // const path = "https://jfharper.github.io/mapa/";
-// const smallDir = "smalltrips/";
+const smallDir = "smalltrips/";
 const bigDir = "trips/";
 const years = [];
 const people = [];
-const gpxLayers = [];
+let gpxLayers = [];
 const markers = [];
 //const markersCluster = L.markerClusterGroup(); //cluster
 
@@ -50,6 +50,7 @@ L.tileLayer(
 
 L.control.scale({ imperial: false }).addTo(map);
 
+//logo mapy.cz
 const LogoControl = L.Control.extend({
   options: {
     position: "bottomleft",
@@ -69,8 +70,6 @@ const LogoControl = L.Control.extend({
 });
 
 new LogoControl().addTo(map);
-
-//setGranularity("small");
 
 //zobrazi checkbox na ohniste
 document.addEventListener("keydown", function (event) {
@@ -97,25 +96,15 @@ checkboxFirepit.addEventListener("click", function () {
   }
 });
 
-// function setGranularity(granularity = "small") {
-//   let dir;
-//   if (granularity === "small") {
-//     // pocetBodu = podrobnostMalo;
-//     dir = smallDir;
-//   } else {
-//     // pocetBodu = podrobnostHodne;
-//     dir = bigDir;
-//   }
-//   return dir;
-// }
-
-async function loadGPXData(url) {
+// zpracovani jednoho gpx souboru
+async function loadGPXData(url, first) {
   try {
     const response = await fetch(url);
     if (!response.ok) {
       throw new Error("Failed to fetch GPX data");
     }
     const gpxData = await response.text();
+    if(first) {
     let parser = new DOMParser();
     const metadata = parser
       .parseFromString(gpxData, "application/xml")
@@ -174,6 +163,7 @@ async function loadGPXData(url) {
     marker.bindPopup(content, { id: id });
     document.getElementById("km").innerHTML =
       Number(document.getElementById("km").textContent) + Number(desc[0]);
+  }
     return gpxData;
   } catch (error) {
     console.error("Error loading GPX data:", error);
@@ -181,24 +171,26 @@ async function loadGPXData(url) {
   }
 }
 
-async function addGPXTracksToMap(tracks) {
+// zpracovani souboru
+async function addGPXTracksToMap(tracks, dir, first = true) {
   for (let i = 0; i <= tracks.length - 1; i++) {
     polylineOptions = [];
     try {
-      const gpxData = await loadGPXData(bigDir + tracks[i].url);
+      const gpxData = await loadGPXData(dir + tracks[i].url, first);
       if (tracks[i].barva) {
         getLineOptions(tracks[i].barva);
       } else {
         getLineOptions();
       }
-      gpxLayers[i] = new L.GPX(gpxData, {
+      const gpxLayer = new L.GPX(gpxData, {
         async: true,
         parseElements: ["track"],
         gpx_options: { joinTrackSegments: false },
         polyline_options: polylineOptions,
         markers: { startIcon: null, endIcon: null },
       }).addTo(map);
-      gpxLayers[i].id = tracks[i].url.slice(1, 9);
+      gpxLayer.id = tracks[i].url.slice(1, 9);
+      gpxLayers.push(gpxLayer)
     } catch (error) {
       console.error("Error loading GPX data:", error);
     }
@@ -233,10 +225,10 @@ function resetTrips() {
     if (!map.hasLayer(layer)) {
       document
         .getElementById(layer.id)
-        .getElementsByClassName("zobrazeni")[0].checked = true;
+        .getElementsByClassName("showHide")[0].checked = true;
       document
         .getElementById(layer.id)
-        .getElementsByClassName("podrobnost")[0].disabled = false;
+        .getElementsByClassName("granularity")[0].disabled = false;
       addRoute(layer);
     }
   }
@@ -260,6 +252,11 @@ function move(id) {
 function getLayerWithId(id) {
   const layer = gpxLayers.find((layer) => layer.id === id);
   return layer;
+}
+
+function removeLayerWithId(id) {
+  const filteredLayers = gpxLayers.filter((layer) => layer.id !== id);
+  gpxLayers = filteredLayers
 }
 
 function getMarkerWithId(id) {
@@ -307,18 +304,19 @@ singleViewResetButton.addEventListener("click", function () {
 async function render(routeList) {
   const id = document.location.hash.slice(4);
   let routes = [];
+  let dir = smallDir
   if (id !== "") {
     routes = [
       routeList.find((singleRoute) => singleRoute.url.indexOf(id) !== -1),
     ];
-    // setGranularity("big");
     document.getElementsByClassName("singleView")[0].classList.toggle("hidden");
     document.getElementsByClassName("multiView")[0].classList.toggle("hidden");
+    dir = bigDir
   } else {
     routes = routeList.reverse();
   }
   //map.addLayer(markersCluster);//cluster
-  const loaded = await addGPXTracksToMap(routes);
+  const loaded = await addGPXTracksToMap(routes, dir);
   if (id !== "" && loaded) {
     setTimeout(() => {
       move(id);
@@ -341,8 +339,12 @@ export {
   addRoute,
   move,
   getLayerWithId,
+  addGPXTracksToMap,
+  removeLayerWithId,
   map,
   years,
   people,
   gpxLayers,
+  bigDir,
+  smallDir,
 };

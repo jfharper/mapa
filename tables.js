@@ -1,4 +1,18 @@
-import {move, removeRoute, addRoute, getLayerWithId, years, people, gpxLayers, map} from "./script.js"
+import { routeList } from "./constants.js";
+import {
+  move,
+  removeRoute,
+  addRoute,
+  getLayerWithId,
+  years,
+  people,
+  gpxLayers,
+  map,
+  addGPXTracksToMap,
+  bigDir,
+  smallDir,
+  removeLayerWithId,
+} from "./script.js";
 
 function createTableRow(jmeno, id, delka) {
   const pocetRadku = tripsTable.tBodies[0].rows.length;
@@ -13,23 +27,37 @@ function createTableRow(jmeno, id, delka) {
     move(this.parentNode.id);
   });
   cell2.innerHTML = delka;
-  cell3.innerHTML = '<input type="checkbox" class="podrobnost">';
-  cell4.innerHTML = '<input type="checkbox" class="zobrazeni" checked>';
-  const zobrazeni = document
+  cell3.innerHTML = '<input type="checkbox" class="granularity">';
+  cell4.innerHTML = '<input type="checkbox" class="showHide" checked>';
+  const showHide = document
     .getElementById(id)
-    .getElementsByClassName("zobrazeni")[0];
-  const podrobnost = document
+    .getElementsByClassName("showHide")[0];
+  const granularity = document
     .getElementById(id)
-    .getElementsByClassName("podrobnost")[0];
+    .getElementsByClassName("granularity")[0];
   //zobrazeni/skryti
-  zobrazeni.addEventListener("click", function () {
+  showHide.addEventListener("click", function () {
     const layer = getLayerWithId(id);
-    if (zobrazeni.checked) {
+    if (showHide.checked) {
       addRoute(layer);
-      podrobnost.disabled = false;
+      granularity.disabled = false;
     } else {
       removeRoute(layer);
-      podrobnost.disabled = true;
+      granularity.disabled = true;
+    }
+  });
+  //podrobnost
+  granularity.addEventListener("click", async function () {
+    const layerToRemove = getLayerWithId(id);
+    map.removeLayer(layerToRemove);
+    removeLayerWithId(id);
+    const tripToAdd = [
+      routeList.find((singleRoute) => singleRoute.url.indexOf(id) !== -1),
+    ];
+    if (granularity.checked) {
+      await addGPXTracksToMap(tripToAdd, bigDir, false);
+    } else {
+      await addGPXTracksToMap(tripToAdd, smallDir, false);
     }
   });
 }
@@ -64,7 +92,7 @@ window.createTable = function (type) {
     }
     if (type === "peopleTable") {
       k += '<tr onclick="loadMore()">';
-      k += '<td colspan=2 id = "showMoreButton">Zobraz vsechny</td>';
+      k += '<td colspan=2 id="showMoreButton">Zobraz vsechny</td>';
       k += "</tr>";
     }
     k += "</tbody>";
@@ -80,12 +108,7 @@ window.loadMore = function () {
     row.classList.toggle("hidden");
   }
   let hiddenRows = tableLidi.getElementsByClassName("hidden");
-  let showMoreButton = document.getElementById("showMoreButton");
-  if (hiddenRows.length > 0) {
-    showMoreButton.innerHTML = "Zobraz vsechny";
-  } else {
-    showMoreButton.innerHTML = "Skryj lidi s mene nez 3 vylety";
-  }
+  document.getElementById("showMoreButton").innerHTML = hiddenRows.length > 0 ? "Zobraz vsechny" : "Skryj lidi s mene nez 3 vylety"
 };
 
 window.showHideTrips = function (el) {
@@ -126,28 +149,28 @@ window.showHideTrips = function (el) {
       addRoute(layer);
       document
         .getElementById(layer.id)
-        .getElementsByClassName("zobrazeni")[0].checked = true;
+        .getElementsByClassName("showHide")[0].checked = true;
       document
         .getElementById(layer.id)
-        .getElementsByClassName("podrobnost")[0].disabled = false;
+        .getElementsByClassName("granularity")[0].disabled = false;
     } else {
       if (tripIds.includes(layer.id) && !map.hasLayer(layer)) {
         addRoute(layer);
         document
           .getElementById(layer.id)
-          .getElementsByClassName("zobrazeni")[0].checked = true;
+          .getElementsByClassName("showHide")[0].checked = true;
         document
           .getElementById(layer.id)
-          .getElementsByClassName("podrobnost")[0].disabled = false;
+          .getElementsByClassName("granularity")[0].disabled = false;
       }
       if (!tripIds.includes(layer.id) && map.hasLayer(layer)) {
         removeRoute(layer);
         document
           .getElementById(layer.id)
-          .getElementsByClassName("zobrazeni")[0].checked = false;
+          .getElementsByClassName("showHide")[0].checked = false;
         document
           .getElementById(layer.id)
-          .getElementsByClassName("podrobnost")[0].disabled = true;
+          .getElementsByClassName("granularity")[0].disabled = true;
       }
     }
   }

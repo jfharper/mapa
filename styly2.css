@@ -44,12 +44,12 @@ body {
   border: none;
   cursor: pointer;
 }
-.tabulkaLidi {
-  width: 137px;
-}
 .tableBtn:disabled {
   background-color: grey;
   cursor: wait;
+}
+.peopleTableBtn {
+  width: 137px;
 }
 .show {
   display: block;
@@ -60,7 +60,7 @@ body {
 #showMoreButton {
   background-color: grey;
 }
-#rokyTab {
+#yearsTable {
   width: 77px;
 }
 .firepit {
@@ -69,27 +69,14 @@ body {
   right: 400px;
   padding: 5px;
 }
-.shelter {
-  position: absolute;
-  top: 2px;
-  right: 560px;
-  padding: 5px;
-}
 .veta {
   position: absolute;
   top: 5px;
   left: 70px;
   padding: 5px;
 }
-#firepit,
-#shelter {
+#firepit {
   vertical-align: super;
-}
-#search {
-  height: 30px;
-}
-.smap-suggest {
-  width: auto;
 }
 .selected {
   background-color: #4caf50;
@@ -119,23 +106,4 @@ tr:hover {
   display: flex;
   flex-direction: column;
   position: relative;
-}
-.card {
-  opacity: 0.8;
-  z-index: 5;
-}
-.card:hover {
-  opacity: 1;
-}
-.cluster {
-  z-index: 3;
-}
-.smap [id|="znackyId"] img {
-  z-index: 2;
-}
-.smap .type-poi {
-  z-index: 1;
-}
-.smap .type-paid {
-  z-index: 1;
 }

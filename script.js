@@ -73,7 +73,7 @@ new LogoControl().addTo(map);
 
 //zobrazi checkbox na ohniste
 document.addEventListener("keydown", function (event) {
-  if ((event.ctrlKey || event.metaKey) && event.altKey && event.key === "u") {
+  if (event.ctrlKey && (event.altKey || event.metaKey) && event.key === "u") {
     document.getElementById("private").classList.toggle("hidden");
   }
 });

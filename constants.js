@@ -338,6 +338,8 @@ const routeList = [
   {url: "/20250411-13%20-%20Chudolazy%20-%20Mseno.gpx", barva: [barvy.cervena, barvy.zelena, barvy.seda]},
   {url: "/20250418-21%20-%20Borova%20-%20Bystrice%20nad%20Pernstejnem.gpx"},
   {url: "/20250620-22%20-%20Ostrovec%20-%20Skryje.gpx", barva: [barvy.seda, barvy.fialova2, barvy.zelena]},
+  {url: "/20250713%20-%20Bezverov%20-%20Bezdruzice.gpx", barva: [barvy.cervena]},
+	{url: "/20250719-20%20-%20Marianske%20Lazne%20-%20Becov%20n.%20Teplou.gpx"},
 ];
 
 export { routeList, colorsDefault, waypointOptions };

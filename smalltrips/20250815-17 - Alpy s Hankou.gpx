@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
+<metadata>
+	<name>20250815-17 - Alpy s Hankou.gpx</name>
+	<desc>19,2031,-2054
+        </desc>
+	<keywords>Hana Kadlecova, ja</keywords>
+</metadata>
+<trk>
+	<name>20250815 - patek</name>
+	<trkseg>
+		<trkpt lat="47.762101" lon="13.365087">
+			<ele>562.40</ele>
+			<time>2025-08-15T09:52:05Z</time>
+			<sat>7</sat>
+			<hdop>15.0</hdop>
+		</trkpt>
+		<trkpt lat="47.759789" lon="13.359303">
+			<ele>737.82</ele>
+			<time>2025-08-15T10:16:30Z</time>
+			<sat>5</sat>
+			<hdop>22.7</hdop>
+		</trkpt>
+		<trkpt lat="47.756211" lon="13.355211">
+			<ele>918.39</ele>
+			<time>2025-08-15T10:41:58Z</time>
+			<sat>5</sat>
+			<hdop>35.0</hdop>
+		</trkpt>
+		<trkpt lat="47.752561" lon="13.359166">
+			<ele>1026.11</ele>
+			<time>2025-08-15T10:57:04Z</time>
+			<sat>6</sat>
+			<hdop>28.3</hdop>
+		</trkpt>
+		<trkpt lat="47.748080" lon="13.360010">
+			<ele>1251.10</ele>
+			<time>2025-08-15T11:50:27Z</time>
+			<sat>5</sat>
+			<hdop>28.2</hdop>
+		</trkpt>
+		<trkpt lat="47.743904" lon="13.357446">
+			<ele>1393.26</ele>
+			<time>2025-08-15T12:19:29Z</time>
+			<sat>5</sat>
+			<hdop>18.6</hdop>
+		</trkpt>
+		<trkpt lat="47.742359" lon="13.351135">
+			<ele>1512.64</ele>
+			<time>2025-08-15T13:02:07Z</time>
+			<sat>5</sat>
+			<hdop>30.2</hdop>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#fbaf00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+<trk>
+	<name>20250816 - sobota dop</name>
+	<trkseg>
+		<trkpt lat="47.816071" lon="13.302526">
+			<ele>899.67</ele>
+			<time>2025-08-16T07:27:21Z</time>
+			<sat>7</sat>
+			<hdop>12.2</hdop>
+		</trkpt>
+		<trkpt lat="47.814555" lon="13.308873">
+			<ele>1111.32</ele>
+			<time>2025-08-16T08:00:00Z</time>
+			<sat>5</sat>
+			<hdop>39.5</hdop>
+		</trkpt>
+		<trkpt lat="47.810184" lon="13.310602">
+			<ele>1228.30</ele>
+			<time>2025-08-16T09:20:12Z</time>
+			<sat>5</sat>
+			<hdop>48.5</hdop>
+		</trkpt>
+		<trkpt lat="47.813319" lon="13.305655">
+			<ele>965.52</ele>
+			<time>2025-08-16T09:49:45Z</time>
+			<sat>4</sat>
+			<hdop>32.8</hdop>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#fbaf00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+<trk>
+	<name>20250816 - sobota odp</name>
+	<trkseg>
+		<trkpt lat="47.805515" lon="13.289174">
+			<ele>714.44</ele>
+			<time>2025-08-16T11:07:22Z</time>
+			<sat>5</sat>
+			<hdop>31.0</hdop>
+		</trkpt>
+		<trkpt lat="47.801622" lon="13.292577">
+			<ele>679.66</ele>
+			<time>2025-08-16T14:07:54.20Z</time>
+		</trkpt>
+		<trkpt lat="47.800144" lon="13.299064">
+			<ele>665.39</ele>
+			<time>2025-08-16T14:16:28.69Z</time>
+		</trkpt>
+		<trkpt lat="47.795605" lon="13.299261">
+			<ele>664.88</ele>
+			<time>2025-08-16T14:25:12.95Z</time>
+		</trkpt>
+		<trkpt lat="47.800144" lon="13.299064">
+			<ele>665.39</ele>
+			<time>2025-08-16T14:44:26.04Z</time>
+		</trkpt>
+		<trkpt lat="47.801622" lon="13.292577">
+			<ele>679.66</ele>
+			<time>2025-08-16T14:53:00.54Z</time>
+		</trkpt>
+		<trkpt lat="47.804223" lon="13.287080">
+			<ele>672.68</ele>
+			<time>2025-08-16T15:00:59.91Z</time>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#00ce00</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+<trk>
+	<name>20250817 - nedele</name>
+	<trkseg>
+		<trkpt lat="47.765308" lon="13.391776">
+			<ele>539.33</ele>
+			<time>2025-08-17T07:37:00Z</time>
+		</trkpt>
+		<trkpt lat="47.761618" lon="13.395677">
+			<ele>652.37</ele>
+			<time>2025-08-17T07:47:10.83Z</time>
+		</trkpt>
+		<trkpt lat="47.757850" lon="13.399495">
+			<ele>731.55</ele>
+			<time>2025-08-17T07:56:01.25Z</time>
+		</trkpt>
+		<trkpt lat="47.761650" lon="13.395831">
+			<ele>653.33</ele>
+			<time>2025-08-17T08:22:21.19Z</time>
+		</trkpt>
+		<trkpt lat="47.765475" lon="13.392178">
+			<ele>543.17</ele>
+			<time>2025-08-17T08:31:58.79Z</time>
+		</trkpt>
+		<trkpt lat="47.762097" lon="13.387710">
+			<ele>557.19</ele>
+			<time>2025-08-17T08:42:40.71Z</time>
+		</trkpt>
+		<extensions>
+			<gte:name>#1</gte:name>
+			<gte:color>#4eb4ce</gte:color>
+		</extensions>
+	</trkseg>
+</trk>
+</gpx>

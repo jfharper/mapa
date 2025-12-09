@@ -345,9 +345,9 @@ const routeList = [
   {url: "/20250822%20-%20Zvikovec%20-%20Svinarov.gpx"},
   {url: "/20250913-14%20-%20Lestkov%20-%20Turnov.gpx", barva: triBarvy},
   {url: "/20250927-28%20-%20Voznice%20-%20Hostomice.gpx"},
-  {url: "/20251018%20-%20Noutonicky%20podzimnik%2013.gpx"},
-  {url: "/20251019%20-%20Ryzovna%20-%20Ryzovna.gpx"},
-  {url: "/20251027-28%20-%20Horni%20Slavkov%20-%20Becov%20n.%20Teplou.gpx"},
+  {url: "/20251018%20-%20Noutonicky%20podzimnik%2013.gpx", barva: [barvy.ruzova]},
+  {url: "/20251019%20-%20Ryzovna%20-%20Ryzovna.gpx", barva: [barvy.zluta]},
+  {url: "/20251027-28%20-%20Horni%20Slavkov%20-%20Becov%20n.%20Teplou.gpx", barva: petBarev},
 ];
 
 export { routeList, colorsDefault, waypointOptions };

@@ -2,24 +2,14 @@
 <html>
 	<head>
 	<meta charset="utf-8" />
-		<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
-     integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY="
-     crossorigin=""/>
-     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
-     integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo="
-     crossorigin=""></script>
+		<script type="text/javascript" src="https://api.mapy.cz/loader.js"></script>
+		<script type="text/javascript">Loader.load();</script>
 		<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/FileSaver.js/2014-11-29/FileSaver.js"></script>
 		<script src="vkbeautify.js"></script>
 	</head>
 	<body>
-		<form method="post">
-			<input id="file" type="file" multiple /><br><br>
-			<input type="button" value="Odeslat" onclick="sendData()">
-			<div id="logo">
-		</form>
 		<script>
-			const API_KEY = "Z3aYE3YRqctbniISOKaFl6o8jlHCFxUoBwDD9h1xKkA";
 			async function processFile(xml, fileName, done) {
 				var xmlDoc = $.parseXML(xml);
 				var delka = 0;
@@ -37,25 +27,21 @@
 						}
 						var lat = nodes[j].getAttribute("lat");
 						var lon = nodes[j].getAttribute("lon");
-						var node = L.latLng(lat, lon);
+						var node = SMap.Coords.fromWGS84(lon, lat);
 						body.push(node);
-						const vyska = await new Promise((resolve, reject) => {
-							fetch("https://api.mapy.cz/v1/elevation?lang=cs&positions=" + lon + "%2C" + lat + "&apikey=" + API_KEY)
-							.then(response => response.json())
-							.then(data => {
-							// Získání výšky z odpovědi API
-								let result = data.items[0].elevation;
-								resolve(result);
-							})
-							.catch(error => {
-								console.error('Chyba při volání API: ', error)
-								reject(error)
+						//vysky.push(node.getAltitude());
+						const result = await new Promise((resolve, reject) => {
+							node.getAltitude().then(result => {
+								setTimeout(() => resolve(result), 100)
+							}).catch(err => {
+								console.error(err)
+								reject(err)
 							})
 						})
-						vysky.push(vyska);
+						vysky.push(result);
 					}
 					for(var k = 1; k < amountOfNodes; k++) {
-						delka += body[k-1].distanceTo(body[k]);
+						delka += body[k-1].distance(body[k]);
 					}
 					
 				}
@@ -104,17 +90,10 @@
 				var metadata = xmlDoc.getElementsByTagName('metadata');
 				metadata[0].appendChild(desc);
 			}
-			
-			const logoHolder = document.getElementById("logo");
-        const text = document.createElement("span");
-        const img = new Image();
-        
-        logoHolder.style = "padding: 5px; display: flex; align-items: center; justify-content: start; gap: 5px; font-size: 12px;";
-        text.textContent = "Powered by";
-        img.src = "https://api.mapy.cz/img/api/logo-small.svg";
-        img.style = "width: 60px";
-        logoHolder.append(text, img);
 		</script>
-
+		<form method="post">
+			<input id="file" type="file" multiple /><br><br>
+			<input type="button" value="Odeslat" onclick="sendData()">
+		</form>
 	</body>
 </html>

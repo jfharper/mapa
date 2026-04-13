@@ -350,7 +350,9 @@ const routeList = [
   {url: "/20251027-28%20-%20Horni%20Slavkov%20-%20Becov%20n.%20Teplou.gpx", barva: petBarev},
   {url: "/20251115-16%20-%20Hyskov%20-%20Nizbor.gpx", barva: [barvy.seda, barvy.fialova]},
   {url: "/20260201%20-%20Radnice%20-%20Karez.gpx", barva: [barvy.cervena]},
-  {url: "/20260221-22%20-%20Hostomice%20-%20Revnice.gpx"}
+  {url: "/20260221-22%20-%20Hostomice%20-%20Revnice.gpx", barva: [barvy.fialova, barvy.zluta]},
+  {url: "/20260314-15%20-%20Rozmital%20pod%20Tremsinem%20-%20Hradek.gpx"},
+  {url: "/20260329%20-%20Perstejn%20-%20Perstejn.gpx"}
 ];
 
 export { routeList, colorsDefault, waypointOptions };

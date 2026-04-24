@@ -12,7 +12,8 @@ const years = [];
 const people = [];
 let gpxLayers = [];
 const markers = [];
-//const markersCluster = L.markerClusterGroup(); //cluster
+const markersCluster = L.markerClusterGroup(); //cluster
+const markersRemovedFromCluster = [];
 
 function getOtherLineOptions() {
   return { opacity: 1.0, weight: 4, lineCap: "round" };
@@ -104,66 +105,70 @@ async function loadGPXData(url, first) {
       throw new Error("Failed to fetch GPX data");
     }
     const gpxData = await response.text();
-    if(first) {
-    let parser = new DOMParser();
-    const metadata = parser
-      .parseFromString(gpxData, "application/xml")
-      .querySelector("metadata");
-    const name = metadata.querySelector("name").textContent.slice(0, -4);
-    const id = name.slice(0, 8);
-    const lide = metadata
-      .querySelector("keywords")
-      .textContent.split(",")
-      .map((a) => a.trim());
-    if (lide === undefined) {
-      console.log("Doplnit lidi: " + name);
-    }
-    for (const val of lide) {
-      const peopleIndex = people.findIndex((person) => person.item === val);
-      if (peopleIndex === -1) {
-        people.push({ item: val, value: 1, ids: [id] });
-      } else {
-        people[peopleIndex].value += 1;
-        people[peopleIndex].ids.push(id);
+    if (first) {
+      let parser = new DOMParser();
+      const metadata = parser
+        .parseFromString(gpxData, "application/xml")
+        .querySelector("metadata");
+      const name = metadata.querySelector("name").textContent.slice(0, -4);
+      const id = name.slice(0, 8);
+      const lide = metadata
+        .querySelector("keywords")
+        .textContent.split(",")
+        .map((a) => a.trim());
+      if (lide === undefined) {
+        console.log("Doplnit lidi: " + name);
       }
-    }
-    const desc = metadata.querySelector("desc").textContent.trim().split(",");
-    const startTmp = parser
-      .parseFromString(gpxData, "application/xml")
-      .querySelector("trkpt");
-    const start = [startTmp.getAttribute("lat"), startTmp.getAttribute("lon")];
-    //souhrny za jednotlive roky
-    let rocnik = id.slice(0, 4);
-    const yearsIndex = years.findIndex((a) => a.item === rocnik);
-    if (yearsIndex === -1) {
-      years.push({ item: rocnik, value: Number(desc[0]), ids: [id] });
-    } else {
-      years[yearsIndex].value += Number(desc[0]);
-      years[yearsIndex].ids.push(id);
-    }
-    createTableRow(name, id, desc[0]);
+      for (const val of lide) {
+        const peopleIndex = people.findIndex((person) => person.item === val);
+        if (peopleIndex === -1) {
+          people.push({ item: val, value: 1, ids: [id] });
+        } else {
+          people[peopleIndex].value += 1;
+          people[peopleIndex].ids.push(id);
+        }
+      }
+      const desc = metadata.querySelector("desc").textContent.trim().split(",");
+      const startTmp = parser
+        .parseFromString(gpxData, "application/xml")
+        .querySelector("trkpt");
+      const start = [
+        startTmp.getAttribute("lat"),
+        startTmp.getAttribute("lon"),
+      ];
+      //souhrny za jednotlive roky
+      let rocnik = id.slice(0, 4);
+      const yearsIndex = years.findIndex((a) => a.item === rocnik);
+      if (yearsIndex === -1) {
+        years.push({ item: rocnik, value: Number(desc[0]), ids: [id] });
+      } else {
+        years[yearsIndex].value += Number(desc[0]);
+        years[yearsIndex].ids.push(id);
+      }
+      createTableRow(name, id, desc[0]);
 
-    const marker = L.marker([start[0], start[1]], {
-      title: name,
-      id: id,
-    }).addTo(map); //cluster
-    markers.push(marker);
-    //markersCluster.addLayer(marker);//cluster
-    let content =
-      name +
-      "<br>Vyprava: <b>" +
-      lide +
-      "</b><br>Usli jsme: <b>" +
-      desc[0] +
-      " km</b><br>Stoupani: <b>" +
-      desc[1] +
-      " m</b> a klesani <b>" +
-      desc[2] +
-      " m</b>";
-    marker.bindPopup(content, { id: id });
-    document.getElementById("km").innerHTML =
-      Number(document.getElementById("km").textContent) + Number(desc[0]);
-  }
+      const marker = L.marker([start[0], start[1]], {
+        title: name,
+        id: id,
+      })//.addTo(map); //cluster
+      markers.push(marker);
+      markersCluster.addLayer(marker);//cluster
+      let content =
+        name +
+        "<hr>" +
+        "Vyprava: <b>" +
+        lide +
+        "</b><br>Usli jsme: <b>" +
+        desc[0] +
+        " km</b><br>Stoupani: <b>" +
+        desc[1] +
+        " m</b> a klesani <b>" +
+        desc[2] +
+        " m</b>";
+      marker.bindPopup(content, { id: id });
+      document.getElementById("km").innerHTML =
+        Number(document.getElementById("km").textContent) + Number(desc[0]);
+    }
     return gpxData;
   } catch (error) {
     console.error("Error loading GPX data:", error);
@@ -173,6 +178,7 @@ async function loadGPXData(url, first) {
 
 // zpracovani souboru
 async function addGPXTracksToMap(tracks, dir, first = true) {
+  const start = Date.now()
   for (let i = 0; i <= tracks.length - 1; i++) {
     polylineOptions = [];
     try {
@@ -190,24 +196,33 @@ async function addGPXTracksToMap(tracks, dir, first = true) {
         markers: { startIcon: null, endIcon: null },
       }).addTo(map);
       gpxLayer.id = tracks[i].url.slice(1, 9);
-      gpxLayers.push(gpxLayer)
+      gpxLayers.push(gpxLayer);
     } catch (error) {
       console.error("Error loading GPX data:", error);
     }
   }
+  const end = Date.now()
+  console.log(`Loaded in: ${(end - start)/1000} seconds`)
   return true;
 }
 
 function addRoute(layer) {
-  map.addLayer(layer);
-  map.addLayer(getMarkerWithId(layer.id));
-  //markersCluster.addLayer(getMarkerWithId(layer.id));//cluster
+  map.addLayer(layer)
+  //pridat podminku jestli je marker v markersRemovedFromCluster, stejne i dole
+  if (markersRemovedFromCluster.find(e => e.options.id === layer.id)) {
+    map.addLayer(getMarkerWithId(layer.id));
+    return
+  }
+  markersCluster.addLayer(getMarkerWithId(layer.id));//cluster
 }
 
 function removeRoute(layer) {
   map.removeLayer(layer);
-  map.removeLayer(getMarkerWithId(layer.id));
-  //markersCluster.removeLayer(getMarkerWithId(layer.id));//cluster
+  if (markersRemovedFromCluster.find(e => e.options.id === layer.id)) {
+    map.removeLayer(getMarkerWithId(layer.id));
+    return
+  }
+  markersCluster.removeLayer(getMarkerWithId(layer.id));//cluster
 }
 
 // zobrazi vsechny trasy
@@ -234,9 +249,14 @@ function resetTrips() {
   }
 }
 
-//centruje mapu na zadanou trasau
+//centruje mapu na zadanou trasu a otevre popup
 function move(id) {
   const layer = getLayerWithId(id);
+  const markerToOpen = getMarkerWithId(id);
+  
+  markersCluster.removeLayer(markerToOpen);
+  markerToOpen.addTo(map)
+  markersRemovedFromCluster.push(markerToOpen)
   map.fitBounds(layer.getBounds());
   const green = tripsTable.getElementsByClassName("selected");
   while (green.length) {
@@ -245,7 +265,7 @@ function move(id) {
   document.getElementById(id).classList.add("selected");
   document.location.hash = "id=" + id;
   if (map.hasLayer(layer)) {
-    getMarkerWithId(id).openPopup();
+    markerToOpen.openPopup();
   }
 }
 
@@ -256,7 +276,7 @@ function getLayerWithId(id) {
 
 function removeLayerWithId(id) {
   const filteredLayers = gpxLayers.filter((layer) => layer.id !== id);
-  gpxLayers = filteredLayers
+  gpxLayers = filteredLayers;
 }
 
 function getMarkerWithId(id) {
@@ -290,6 +310,19 @@ map.addEventListener("popupclose", function (e) {
   layer.reload();
   let el = document.getElementById(id);
   el.classList.remove("selected");
+  console.log(markersRemovedFromCluster)
+  // console.log(markersCluster)
+  console.log(markers)
+  for(const marker of markersRemovedFromCluster) {
+    map.removeLayer(marker)
+    console.log("first ", map.hasLayer(marker))
+    setTimeout(() => {
+      console.log("a")
+    }, 100);
+    markersCluster.addLayer(marker)
+    console.log("second ", markersCluster.hasLayer(marker))
+    markersRemovedFromCluster.pop()
+  }
 });
 
 //rusi single view
@@ -304,18 +337,18 @@ singleViewResetButton.addEventListener("click", function () {
 async function render(routeList) {
   const id = document.location.hash.slice(4);
   let routes = [];
-  let dir = smallDir
+  let dir = smallDir;
   if (id !== "") {
     routes = [
       routeList.find((singleRoute) => singleRoute.url.indexOf(id) !== -1),
     ];
     document.getElementsByClassName("singleView")[0].classList.toggle("hidden");
     document.getElementsByClassName("multiView")[0].classList.toggle("hidden");
-    dir = bigDir
+    dir = bigDir;
   } else {
     routes = routeList.reverse();
   }
-  //map.addLayer(markersCluster);//cluster
+  map.addLayer(markersCluster);//cluster
   const loaded = await addGPXTracksToMap(routes, dir);
   if (id !== "" && loaded) {
     setTimeout(() => {

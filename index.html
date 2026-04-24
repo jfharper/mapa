@@ -18,36 +18,32 @@
       src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/2.1.2/gpx.min.js"
       defer
     ></script>
-<link
+    <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"
     />
-<link
+    <link
       rel="stylesheet"
       href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"
     />
-        <script
+    <script
       src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"
       defer
     ></script>
-    <script type="module" src="./script.js"></script>
+    <script type="module" src="./js/main.js"></script>
     <link rel="stylesheet" type="text/css" href="./styly.css" />
   </head>
   <body>
     <div class="clearfix multiView">
       <div class="left">
-        <input id="tripsTableBtn"
-          type="button"
-          class="tableBtn"
-          value="Trasy"
-        />
+        <input id="tripsTableBtn" type="button" class="tableBtn" value="Trasy" />
         <table id="tripsTable" class="dropdown-content">
           <thead>
             <tr>
-              <th>Vylet</td>
-              <th>km</td>
-              <th>P</td>
-              <th>Z/S</td>
+              <th>Vylet</th>
+              <th>km</th>
+              <th>P</th>
+              <th>Z/S</th>
             </tr>
           </thead>
           <tbody></tbody>
@@ -72,8 +68,8 @@
         />
         <div class="wrapper">
           <input
+            id="peopleTableBtn"
             type="button"
-            onclick="createTable('peopleTable')"
             class="tableBtn peopleTableBtn disableable"
             value="Vyletnici"
             disabled
@@ -81,16 +77,16 @@
           <table id="peopleTable" class="dropdown-content">
             <thead>
               <tr>
-                <th>Clovek</td>
-                <th>Vylety</td>
+                <th>Clovek</th>
+                <th>Vylety</th>
               </tr>
             </thead>
           </table>
         </div>
         <div class="wrapper">
           <input
+            id="yearsTableBtn"
             type="button"
-            onclick="createTable('yearsTable')"
             class="tableBtn disableable"
             value="Rocniky"
             disabled
@@ -98,8 +94,8 @@
           <table id="yearsTable" class="dropdown-content">
             <thead>
               <tr>
-                <th style="width: 50%">Rok:</td>
-                <th style="width: 50%">km</td>
+                <th style="width: 50%">Rok:</th>
+                <th style="width: 50%">km</th>
               </tr>
             </thead>
           </table>

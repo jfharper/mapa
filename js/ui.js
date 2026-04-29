@@ -59,11 +59,31 @@ export function initEventListeners() {
     const id = e.popup.options.id;
     const layer = getLayerById(id);
     if (layer) {
-      layer.options.polyline_options.forEach(opt => opt.weight = 4);
+      layer.options.polyline_options.forEach((opt) => (opt.weight = 4));
       layer.reload();
       const row = $(id);
       if (row) row.classList.remove("selected");
     }
+
+    // Return marker to cluster if it was removed
+    // Defer this to avoid Leaflet internal errors during event propagation
+    setTimeout(() => {
+      if (state.isSingleView) return; // No clustering in single view
+
+      const markerIdx = state.markersRemovedFromCluster.findIndex(
+        (m) => m.options.id === id
+      );
+      if (markerIdx !== -1) {
+        const marker = state.markersRemovedFromCluster[markerIdx];
+        map.removeLayer(marker);
+        state.markersRemovedFromCluster.splice(markerIdx, 1);
+
+        // Only add back to cluster if the route is still visible
+        if (layer && map.hasLayer(layer)) {
+          state.markersCluster.addLayer(marker);
+        }
+      }
+    }, 0);
   });
 }
 
@@ -129,9 +149,9 @@ export function move(id) {
   if (!layer) return;
 
   map.fitBounds(layer.getBounds());
-  
+
   // Update table selection
-  $$("#tripsTable tr.selected").forEach(el => el.classList.remove("selected"));
+  $$("#tripsTable tr.selected").forEach((el) => el.classList.remove("selected"));
   const row = $(id);
   if (row) row.classList.add("selected");
 
@@ -140,8 +160,20 @@ export function move(id) {
 
   // Open popup if layer is on map
   const marker = getMarkerById(id);
-  if (marker && map.hasLayer(layer)) {
-    marker.openPopup();
+  if (marker && (map.hasLayer(layer) || state.isSingleView)) {
+    if (state.isSingleView) {
+      if (!map.hasLayer(marker)) marker.addTo(map);
+      marker.openPopup();
+    } else {
+      // If marker is in cluster, temporarily remove it so it can be opened
+      // (Leaflet popup won't open if marker is clustered)
+      if (!state.markersRemovedFromCluster.find((m) => m.options.id === id)) {
+        state.markersCluster.removeLayer(marker);
+        marker.addTo(map);
+        state.markersRemovedFromCluster.push(marker);
+      }
+      marker.openPopup();
+    }
   }
 }
 

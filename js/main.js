@@ -1,4 +1,4 @@
-import { initMap, addRoute, removeRoute } from "./map.js";
+import { initMap, addRoute, removeRoute, map } from "./map.js";
 import { state } from "./state.js";
 import {
   initEventListeners,
@@ -107,12 +107,30 @@ async function handleGranularityChange(id, isBig) {
   const oldLayer = state.gpxLayers[layerIdx];
   const marker = state.markers.find((m) => m.options.id === id);
 
+  // Check if popup is currently open
+  const wasPopupOpen = marker && marker.isPopupOpen && marker.isPopupOpen();
+
   removeRoute(oldLayer, marker);
   state.gpxLayers.splice(layerIdx, 1);
 
   const track = state.routeList.find((r) => r.url.includes(id));
   if (track) {
     await addGPXTracks([track], isBig ? BIG_DIR : SMALL_DIR, false);
+
+    // Reopen popup if it was open before the switch
+    if (wasPopupOpen && marker) {
+      setTimeout(() => {
+        if (!state.isSingleView) {
+          // If marker is in cluster, temporarily remove it so it can be opened
+          if (!state.markersRemovedFromCluster.find((m) => m.options.id === id)) {
+            state.markersCluster.removeLayer(marker);
+            marker.addTo(map);
+            state.markersRemovedFromCluster.push(marker);
+          }
+        }
+        marker.openPopup();
+      }, 50);
+    }
   }
 }
 
@@ -136,6 +154,7 @@ async function init() {
     let dir = SMALL_DIR;
 
     if (hashId) {
+      state.isSingleView = true;
       const singleRoute = state.routeList.find((r) => r.url.includes(hashId));
       if (singleRoute) {
         routesToLoad = [singleRoute];
@@ -144,6 +163,7 @@ async function init() {
         document.querySelector(".multiView").classList.add("hidden");
       }
     } else {
+      state.isSingleView = false;
       routesToLoad = [...state.routeList].reverse();
     }
 

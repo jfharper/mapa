@@ -1,4 +1,5 @@
 import { API_KEY, WAYPOINT_OPTIONS } from "./config.js";
+import { state } from "./state.js";
 
 export let map;
 export let campsLayer;
@@ -17,6 +18,10 @@ export function initMap() {
   ).addTo(map);
 
   L.control.scale({ imperial: false }).addTo(map);
+
+  // Initialize marker cluster group
+  state.markersCluster = L.markerClusterGroup();
+  map.addLayer(state.markersCluster);
 
   // Logo mapy.cz
   const LogoControl = L.Control.extend({
@@ -51,10 +56,36 @@ export function initMap() {
 
 export function addRoute(layer, marker) {
   if (layer) map.addLayer(layer);
-  if (marker) map.addLayer(marker);
+  if (marker) {
+    if (state.isSingleView) {
+      map.addLayer(marker);
+    } else {
+      const isRemoved = state.markersRemovedFromCluster.find(
+        (m) => m.options.id === marker.options.id
+      );
+      if (isRemoved) {
+        map.addLayer(marker);
+      } else {
+        state.markersCluster.addLayer(marker);
+      }
+    }
+  }
 }
 
 export function removeRoute(layer, marker) {
   if (layer) map.removeLayer(layer);
-  if (marker) map.removeLayer(marker);
+  if (marker) {
+    if (state.isSingleView) {
+      map.removeLayer(marker);
+    } else {
+      const isRemoved = state.markersRemovedFromCluster.find(
+        (m) => m.options.id === marker.options.id
+      );
+      if (isRemoved) {
+        map.removeLayer(marker);
+      } else {
+        state.markersCluster.removeLayer(marker);
+      }
+    }
+  }
 }

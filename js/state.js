@@ -9,6 +9,7 @@ export const state = {
   totalKm: 0,
   currentHashId: null,
   isSingleView: false,
+  isMovingMarker: false,
 };
 
 export function updateState(newState) {

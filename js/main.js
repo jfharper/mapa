@@ -6,6 +6,7 @@ import {
   updateSummary,
   toggleFilterTable,
   move,
+  openTripPopup,
 } from "./ui.js";
 import { parseGPXMetadata, buildPolylineOptions, $ } from "./utils.js";
 import { ROUTES_DATA_PATH, BIG_DIR, SMALL_DIR, WAYPOINT_OPTIONS } from "./config.js";
@@ -62,6 +63,8 @@ async function loadGPX(url, dir, isFirstLoad = false) {
           }).bindPopup(content, { id: meta.id });
           state.markers.push(marker);
         }
+
+        updateSummary();
       }
     }
     return gpxData;
@@ -120,15 +123,7 @@ async function handleGranularityChange(id, isBig) {
     // Reopen popup if it was open before the switch
     if (wasPopupOpen && marker) {
       setTimeout(() => {
-        if (!state.isSingleView) {
-          // If marker is in cluster, temporarily remove it so it can be opened
-          if (!state.markersRemovedFromCluster.find((m) => m.options.id === id)) {
-            state.markersCluster.removeLayer(marker);
-            marker.addTo(map);
-            state.markersRemovedFromCluster.push(marker);
-          }
-        }
-        marker.openPopup();
+        openTripPopup(id, false, false);
       }, 50);
     }
   }
@@ -168,7 +163,6 @@ async function init() {
     }
 
     await addGPXTracks(routesToLoad, dir, true);
-    updateSummary();
 
     if (hashId) {
       setTimeout(() => move(hashId), 100);

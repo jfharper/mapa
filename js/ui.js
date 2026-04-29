@@ -43,12 +43,39 @@ export function initEventListeners() {
     }
   });
 
+  // Handle marker clicks to remove from cluster before popup opens
+  state.markersCluster.on("click", (a) => {
+    const marker = a.layer;
+    const id = marker.options.id;
+    if (
+      !state.isSingleView &&
+      !state.markersRemovedFromCluster.find((m) => m.options.id === id)
+    ) {
+      state.isMovingMarker = true;
+      state.markersCluster.removeLayer(marker);
+      marker.addTo(map);
+      state.markersRemovedFromCluster.push(marker);
+
+      // Open popup on the marker now that it's directly on the map
+      setTimeout(() => {
+        marker.openPopup();
+        state.isMovingMarker = false;
+      }, 50);
+
+      // Stop standard click handling to prevent conflicting popup toggle
+      if (a.originalEvent) {
+        L.DomEvent.stop(a.originalEvent);
+      }
+    }
+  });
+
   // Map popup events for highlighting tracks
   map.on("popupopen", (e) => {
     const id = e.popup.options.id;
     const layer = getLayerById(id);
+
     if (layer) {
-      layer.options.polyline_options.forEach(opt => opt.weight = 8);
+      layer.options.polyline_options.forEach((opt) => (opt.weight = 8));
       layer.reload();
       const row = $(id);
       if (row) row.classList.add("selected");
@@ -58,6 +85,7 @@ export function initEventListeners() {
   map.on("popupclose", (e) => {
     const id = e.popup.options.id;
     const layer = getLayerById(id);
+
     if (layer) {
       layer.options.polyline_options.forEach((opt) => (opt.weight = 4));
       layer.reload();
@@ -66,7 +94,9 @@ export function initEventListeners() {
     }
 
     // Return marker to cluster if it was removed
-    // Defer this to avoid Leaflet internal errors during event propagation
+    // But ONLY if we are not currently moving it
+    if (state.isMovingMarker) return;
+
     setTimeout(() => {
       if (state.isSingleView) return; // No clustering in single view
 
@@ -92,7 +122,7 @@ export function initEventListeners() {
 
  */
 export function updateSummary() {
-  $("vylety").textContent = state.routeList.length;
+  $("vylety").textContent = state.markers.length;
   $("km").textContent = Math.round(state.totalKm);
 }
 
@@ -142,39 +172,51 @@ export function createTripsTableRow(name, id, km, onGranularityChange) {
 }
 
 /**
- * Centers map on a specific trip and highlights it.
+ * Opens a trip popup and handles unclustering if necessary.
  */
-export function move(id) {
+export function openTripPopup(id, shouldCenter = false, updateHash = true) {
   const layer = getLayerById(id);
-  if (!layer) return;
+  const marker = getMarkerById(id);
+  if (!layer || !marker) return;
 
-  map.fitBounds(layer.getBounds());
+  if (shouldCenter) {
+    map.fitBounds(layer.getBounds());
+  }
 
   // Update table selection
   $$("#tripsTable tr.selected").forEach((el) => el.classList.remove("selected"));
   const row = $(id);
   if (row) row.classList.add("selected");
 
-  // Update hash
-  window.location.hash = "id=" + id;
+  // Update hash if requested
+  if (updateHash) {
+    window.location.hash = "id=" + id;
+  }
 
-  // Open popup if layer is on map
-  const marker = getMarkerById(id);
-  if (marker && (map.hasLayer(layer) || state.isSingleView)) {
-    if (state.isSingleView) {
-      if (!map.hasLayer(marker)) marker.addTo(map);
-      marker.openPopup();
-    } else {
-      // If marker is in cluster, temporarily remove it so it can be opened
-      // (Leaflet popup won't open if marker is clustered)
+  if (map.hasLayer(layer) || state.isSingleView) {
+    if (!state.isSingleView) {
       if (!state.markersRemovedFromCluster.find((m) => m.options.id === id)) {
+        state.isMovingMarker = true;
         state.markersCluster.removeLayer(marker);
         marker.addTo(map);
         state.markersRemovedFromCluster.push(marker);
+        setTimeout(() => {
+          state.isMovingMarker = false;
+        }, 100);
       }
-      marker.openPopup();
+    } else {
+      if (!map.hasLayer(marker)) marker.addTo(map);
     }
+    // Small delay to ensure marker is ready on map before opening popup
+    setTimeout(() => marker.openPopup(), 10);
   }
+}
+
+/**
+ * Centers map on a specific trip and highlights it.
+ */
+export function move(id) {
+  openTripPopup(id, true, true);
 }
 
 /**

@@ -2,8 +2,8 @@
 <gpx version="1.1" creator="GPS Track Editor" xmlns="http://www.topografix.com/GPX/1/1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1" xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1" xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3" targetNamespace="http://www.topografix.com/GPX/1/1" elementFormDefault="qualified" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd">
 <metadata>
 	<name>20260724-26 - Humpolec - Okrouhlice.gpx</name>
-	<desc>39,1052,-1167
-        </desc>
+	<desc>39,1052,-1167</desc>
+	<keywords>Alca, iff, Daniel Spaniel, Adam, Kaja od Adama, Monca, ja</keywords>
 </metadata>
 <trk>
 	<name>20260724 - patek</name>
@@ -11,20 +11,14 @@
 		<trkpt lat="49.538040" lon="15.357875">
 			<ele>523.91</ele>
 			<time>2026-07-24T18:01:48Z</time>
-			<sat>8</sat>
-			<hdop>87.4</hdop>
 		</trkpt>
 		<trkpt lat="49.541694" lon="15.362607">
 			<ele>531.20</ele>
 			<time>2026-07-24T19:14:28Z</time>
-			<sat>5</sat>
-			<hdop>27.2</hdop>
 		</trkpt>
 		<trkpt lat="49.542441" lon="15.369556">
 			<ele>529.12</ele>
 			<time>2026-07-24T19:22:07Z</time>
-			<sat>6</sat>
-			<hdop>26.4</hdop>
 		</trkpt>
 		<extensions>
 			<gte:name>#1</gte:name>
@@ -167,8 +161,6 @@
 		<trkpt lat="49.630786" lon="15.414468">
 			<ele>518.64</ele>
 			<time>2026-07-26T07:17:22Z</time>
-			<sat>4</sat>
-			<hdop>19.2</hdop>
 		</trkpt>
 		<trkpt lat="49.628901" lon="15.408014">
 			<ele>515.22</ele>

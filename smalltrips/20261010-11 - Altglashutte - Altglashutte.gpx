@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<gpx
+  version="1.1"
+  creator="GPS Track Editor"
+  xmlns="http://www.topografix.com/GPX/1/1"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:gte="http://www.gpstrackeditor.com/xmlschemas/General/1"
+  xmlns:gpxtpx="http://www.garmin.com/xmlschemas/TrackPointExtension/v1"
+  xmlns:gpxx="http://www.garmin.com/xmlschemas/GpxExtensions/v3"
+  targetNamespace="http://www.topografix.com/GPX/1/1"
+  elementFormDefault="qualified"
+  xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd"
+>
+  <metadata>
+    <name>20261010-11 - Altglashutte - Altglashutte.gpx</name>
+    <desc>11,307,-307</desc>
+    <keywords>Adam, Prazis, ja</keywords>
+  </metadata>
+  <trk>
+    <name>20261010 - sobota</name>
+    <trkseg>
+      <trkpt lat="49.772466" lon="12.388922">
+        <ele>733.43</ele>
+        <time>2026-10-10T11:02:15Z</time>
+        <sat>6</sat>
+        <hdop>23.4</hdop>
+      </trkpt>
+      <trkpt lat="49.768719" lon="12.392804">
+        <ele>787.25</ele>
+        <time>2026-10-10T11:11:58Z</time>
+        <sat>6</sat>
+        <hdop>19.7</hdop>
+      </trkpt>
+      <trkpt lat="49.771038" lon="12.399239">
+        <ele>808.81</ele>
+        <time>2026-10-10T11:21:29Z</time>
+        <sat>6</sat>
+        <hdop>22.7</hdop>
+      </trkpt>
+      <trkpt lat="49.767429" lon="12.403662">
+        <ele>851.78</ele>
+        <time>2026-10-10T11:39:24Z</time>
+        <sat>6</sat>
+        <hdop>52.3</hdop>
+      </trkpt>
+      <trkpt lat="49.765548" lon="12.410356">
+        <ele>809.31</ele>
+        <time>2026-10-10T11:47:14Z</time>
+        <sat>6</sat>
+        <hdop>46.6</hdop>
+      </trkpt>
+      <extensions>
+        <gte:name>#1</gte:name>
+        <gte:color>#fbaf00</gte:color>
+      </extensions>
+    </trkseg>
+  </trk>
+  <trk>
+    <name>20261011 - nedele</name>
+    <trkseg>
+      <trkpt lat="49.765266" lon="12.411066">
+        <ele>802.24</ele>
+        <time>2026-10-11T08:32:17Z</time>
+        <sat>6</sat>
+        <hdop>21.3</hdop>
+      </trkpt>
+      <trkpt lat="49.764608" lon="12.404091">
+        <ele>843.75</ele>
+        <time>2026-10-11T08:43:08Z</time>
+        <sat>5</sat>
+        <hdop>37.3</hdop>
+      </trkpt>
+      <trkpt lat="49.760075" lon="12.402206">
+        <ele>872.33</ele>
+        <time>2026-10-11T08:52:15Z</time>
+        <sat>5</sat>
+        <hdop>58.7</hdop>
+      </trkpt>
+      <trkpt lat="49.755608" lon="12.400503">
+        <ele>861.59</ele>
+        <time>2026-10-11T08:59:01Z</time>
+        <sat>4</sat>
+        <hdop>57.0</hdop>
+      </trkpt>
+      <trkpt lat="49.751320" lon="12.402981">
+        <ele>857.44</ele>
+        <time>2026-10-11T09:06:22Z</time>
+        <sat>5</sat>
+        <hdop>59.7</hdop>
+      </trkpt>
+      <trkpt lat="49.747140" lon="12.406114">
+        <ele>859.53</ele>
+        <time>2026-10-11T09:12:35Z</time>
+        <sat>5</sat>
+        <hdop>62.1</hdop>
+      </trkpt>
+      <trkpt lat="49.742976" lon="12.409166">
+        <ele>892.80</ele>
+        <time>2026-10-11T09:53:35Z</time>
+        <sat>3</sat>
+        <hdop>29.3</hdop>
+      </trkpt>
+      <trkpt lat="49.746758" lon="12.405009">
+        <ele>861.72</ele>
+        <time>2026-10-11T10:11:53Z</time>
+        <sat>5</sat>
+        <hdop>37.0</hdop>
+      </trkpt>
+      <trkpt lat="49.751148" lon="12.403296">
+        <ele>857.79</ele>
+        <time>2026-10-11T10:18:32Z</time>
+        <sat>4</sat>
+        <hdop>33.4</hdop>
+      </trkpt>
+      <trkpt lat="49.754829" lon="12.399138">
+        <ele>852.24</ele>
+        <time>2026-10-11T10:24:36Z</time>
+        <sat>5</sat>
+        <hdop>29.0</hdop>
+      </trkpt>
+      <trkpt lat="49.757553" lon="12.393396">
+        <ele>858.42</ele>
+        <time>2026-10-11T10:30:40Z</time>
+        <sat>4</sat>
+        <hdop>44.0</hdop>
+      </trkpt>
+      <trkpt lat="49.761475" lon="12.389938">
+        <ele>841.65</ele>
+        <time>2026-10-11T10:36:53Z</time>
+        <sat>6</sat>
+        <hdop>37.4</hdop>
+      </trkpt>
+      <trkpt lat="49.766258" lon="12.388395">
+        <ele>789.36</ele>
+        <time>2026-10-11T10:46:09.73Z</time>
+      </trkpt>
+      <trkpt lat="49.771082" lon="12.388390">
+        <ele>750.52</ele>
+        <time>2026-10-11T10:53:08Z</time>
+        <sat>7</sat>
+        <hdop>17.1</hdop>
+      </trkpt>
+      <extensions>
+        <gte:name>#1</gte:name>
+        <gte:color>#4eb4ce</gte:color>
+      </extensions>
+    </trkseg>
+  </trk>
+</gpx>
